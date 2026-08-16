@@ -3,8 +3,12 @@
  *
  *   node server/index.js     →  http://localhost:8371
  *
- * Zweck: liefert web/index.html aus und holt Feeds serverseitig (löst das CORS-Problem).
- * Bewusst klein gehalten — das ist der Startpunkt für die App, kein fertiges Backend.
+ * Zweck: liefert web/ aus und stellt data/ bereit, damit das Board lokal genauso
+ * läuft wie auf GitHub Pages. Der /proxy bleibt für Experimente mit rohen Feeds.
+ *
+ * In Produktion ist dieser Server NICHT beteiligt: Dort holt der Actions-Workflow
+ * die Daten und Pages liefert die statischen Dateien aus. Das hier ist der
+ * Entwicklungsserver — erst `npm run build`, dann `npm start`.
  */
 
 import { createServer } from "node:http";
@@ -13,7 +17,9 @@ import { join, extname, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const PORT = process.env.PORT || 8371;
-const ROOT = join(fileURLToPath(new URL("..", import.meta.url)), "web");
+const PROJECT = fileURLToPath(new URL("..", import.meta.url));
+const ROOT = join(PROJECT, "web");
+const DATA = join(PROJECT, "data");
 
 // Nur diese Hosts darf der Proxy abrufen
 const ALLOWED = new Set([
@@ -89,10 +95,12 @@ createServer(async (req, res) => {
   if (pathname === "/proxy") return proxy(searchParams.get("url") || "", res);
   if (pathname === "/health") return res.writeHead(200).end("ok");
 
-  // statische Dateien
-  const rel = pathname === "/" ? "index.html" : pathname.slice(1);
-  const path = normalize(join(ROOT, rel));
-  if (!path.startsWith(ROOT)) return res.writeHead(403).end();
+  // data/ liegt neben web/, nicht darin — auf Pages stellt der Workflow das zusammen.
+  const fromData = pathname.startsWith("/data/");
+  const base = fromData ? DATA : ROOT;
+  const rel = fromData ? pathname.slice("/data/".length) : pathname === "/" ? "index.html" : pathname.slice(1);
+  const path = normalize(join(base, rel));
+  if (!path.startsWith(base)) return res.writeHead(403).end();
   try {
     const buf = await readFile(path);
     res.writeHead(200, { "content-type": MIME[extname(path)] || "application/octet-stream" }).end(buf);

@@ -58,18 +58,37 @@
   .imp-med{color:var(--yellow);}
   .past{opacity:.55;}
   .evwarn{background:#3a2b10; border:1px solid #6b5416; border-radius:6px; padding:5px 8px; font-size:12px; color:#ffd966; margin-top:6px;}
+
+  /* --- Divergenz-Panel --- */
+  .divrow{display:grid; grid-template-columns:104px 1fr 1fr 132px; gap:12px; align-items:center;
+          padding:11px 0; border-bottom:1px solid var(--border);}
+  .divrow:last-child{border-bottom:none;}
+  .divrow.fires{background:linear-gradient(90deg, rgba(79,140,255,.09), transparent); border-radius:6px; padding-left:8px;}
+  .side{font-size:11.5px;}
+  .side .lbl{color:var(--muted); display:flex; justify-content:space-between; margin-bottom:3px;}
+  .dbar{height:9px; border-radius:5px; background:var(--panel2); position:relative; overflow:hidden;}
+  .dbar span{position:absolute; top:0; bottom:0;}
+  .dbar .mid{left:50%; width:1px; background:var(--muted); opacity:.5;}
+  .verdict{text-align:right; font-size:12px;}
+  .verdict b{display:block; font-size:14px;}
+  .badge{display:inline-block; font-size:10px; padding:2px 7px; border-radius:10px; background:var(--panel2); color:var(--muted);}
+  .badge.stark{background:#14532d; color:#7CFC9E;}
+  .badge.moderat{background:#4d3d10; color:#ffd966;}
+  .srcline{display:flex; flex-wrap:wrap; gap:6px; font-size:10.5px; margin-top:8px;}
+  .src{padding:2px 7px; border-radius:10px; background:var(--panel2); color:var(--muted);}
+  .src.bad{background:#5c1a1a; color:#ff9f9f;}
 </style>
 </head>
 <body>
 
 <div class="topbar">
   <div>
-    <h1>Macro FX Decision Board <span class="tag">vollautomatisch · v3</span></h1>
-    <div class="sub">USD · EUR · JPY · AUD · CAD → 6E · 6J · 6A · 6C — Scoring rein aus offiziellen Daten &amp; Marktdaten (BIS, IMF, EZB-Kurse, CFTC, Wirtschaftskalender). Keine manuelle Eingabe.</div>
+    <h1>Macro FX Decision Board <span class="tag">vollautomatisch · v4</span></h1>
+    <div class="sub">USD · EUR · JPY · AUD · CAD → 6E · 6J · 6A · 6C — Scoring rein aus offiziellen Daten &amp; Marktdaten (BIS, IMF, EZB-Kurse, CFTC, Myfxbook, Wirtschaftskalender). Keine manuelle Eingabe.</div>
   </div>
   <div style="text-align:right">
-    <button onclick="loadAll(true)">Neu laden</button>
-    <div class="meta" id="loadMeta"></div>
+    <button onclick="load()">Neu laden</button>
+    <div class="meta" id="loadMeta">Lade…</div>
   </div>
 </div>
 
@@ -82,556 +101,292 @@
 </div>
 <div class="grid fut-grid" id="futGrid"><span class="spinner">Lade Daten…</span></div>
 
-<h2>2 · Events diese Woche <span class="tag">ForexFactory-Kalender</span></h2>
-<div class="sub">High- und Medium-Impact-Termine der laufenden Woche für unsere 5 Währungen. Anstehende High-Impact-Events erscheinen zusätzlich als Warnung an den Future-Karten (±48 h). Bereits gelaufene Events: Ergebnis vs. Forecast kurz manuell prüfen — eine große Überraschung ist oft genau der Intraday-Trigger.</div>
+<h2>2 · Divergenz: Große Player gegen die Crowd <span class="tag">CFTC vs. Myfxbook</span></h2>
+<div class="sub">
+  Das Kernsignal: <b>Large Specs</b> (Hedgefonds, große Adressen — meldepflichtig bei der CFTC) gegen die
+  <b>Retail-Crowd</b> (offene Positionen bei Myfxbook). Stehen beide Seiten gegeneinander und ist die Crowd
+  deutlich einseitig (ab 70/30), entsteht ein Signal: <b>Richtung von den großen Playern, Stärke aus dem
+  Ausmaß der Gegenposition</b>. Stehen beide auf derselben Seite, schweigt es bewusst.
+  <span class="status-warn">Wird derzeit nur angezeigt und fließt noch nicht in den Gesamtscore</span> —
+  erst nach genügend echten Fällen lässt sich die Gewichtung begründen statt raten.
+</div>
+<div class="card" id="divCard"><span class="spinner">Lade…</span></div>
+
+<h2>3 · Events diese Woche <span class="tag">ForexFactory-Kalender</span></h2>
+<div class="sub">High- und Medium-Impact-Termine der laufenden Woche für unsere 5 Währungen. Anstehende High-Impact-Events erscheinen zusätzlich als Warnung an den Future-Karten (±48 h).</div>
 <div class="card" id="evCard"><span class="spinner">Lade…</span></div>
 
-<h2>2b · Gerade veröffentlicht <span class="tag">Myfxbook, letzte Stunden</span></h2>
-<div class="sub">Rollierender News-Feed mit <b>Actual vs. Consensus</b> — die frischesten harten Zahlen, die es frei gibt. Große Abweichung vom Consensus bei High/Medium-Impact = möglicher Intraday-Trigger in der betroffenen Währung.</div>
+<h2>3b · Gerade veröffentlicht <span class="tag">Myfxbook, letzte Stunden</span></h2>
+<div class="sub">Rollierender News-Feed mit <b>Actual vs. Consensus</b> — die frischesten harten Zahlen, die es frei gibt. Große Abweichung vom Consensus bei High/Medium-Impact = möglicher Intraday-Trigger.</div>
 <div class="card" id="recCard"><span class="spinner">Lade…</span></div>
 
-<h2>3 · Makro- &amp; Marktdaten</h2>
+<h2>4 · Makro- &amp; Marktdaten</h2>
 <div class="card" style="overflow-x:auto">
   <table id="macroTable"><tbody><tr><td class="spinner">Lade…</td></tr></tbody></table>
   <div class="small" id="macroNotes" style="margin-top:8px"></div>
 </div>
 
-<h2>4 · COT-Positionierung <span class="tag">CFTC</span></h2>
+<h2>5 · COT-Positionierung <span class="tag">CFTC</span></h2>
 <div class="sub">Alle drei Gruppen des Legacy-Reports (Futures only): Large Specs (Trendfolger), Commercials (Hedger/Smart Money — kontrár gewertet) und Small Traders (Crowd — kontrár gewertet). Index = Lage der Netto-Position im 3-Jahres-Band (0–100).</div>
 <div class="card" id="cotCard"><span class="spinner">Lade…</span></div>
 
-<h2>5 · Methodik</h2>
+<h2>6 · Methodik</h2>
 <div class="card detail">
-  <b>Preis-Momentum (30 %):</b> Veränderung des Wechselkurses über ~30 Tage (EZB-Referenzkurse, täglich). Der frischeste Faktor — der Kurs preist Zins- und Wachstumserwartungen ein, bevor sie in offiziellen Statistiken stehen. ±3 % = Maximalscore.<br>
-  <b>Zins-Momentum (25 %):</b> Δ Leitzins 12 Monate, Basiswährung minus USD (BIS). Relativ hebende Notenbank = stärkere Währung. ±1 pp = Maximalscore.<br>
+  <b>Preis-Momentum (30 %):</b> Veränderung des Wechselkurses über ~30 Tage (EZB-Referenzkurse, täglich). Der frischeste Faktor. ±3 % = Maximalscore.<br>
+  <b>Zins-Momentum (25 %):</b> Δ Leitzins 12 Monate, Basiswährung minus USD (BIS). ±1 pp = Maximalscore.<br>
   <b>Zinsniveau / Carry (20 %):</b> Aktuelle Leitzins-Differenz. ±3 pp = Maximalscore.<br>
-  <b>Inflationsdruck (15 %):</b> CPI-Differenz YoY (IMF). Höhere Inflation = Druck Richtung restriktiverer Politik. ±2 pp = Maximalscore.<br>
+  <b>Inflationsdruck (15 %):</b> CPI-Differenz YoY (IMF). ±2 pp = Maximalscore.<br>
   <b>Arbeitsmarkt (10 %):</b> Trend der Arbeitslosenquote 6M relativ zu USA. ±0,5 pp = Maximalscore.<br>
-  <b>COT 3-Gruppen (30 % vom Gesamtscore):</b> Kombination aller drei Händlergruppen des Legacy-Reports:
-  <u>Large Specs</u> (50 %) als Trendkomponente — bei Extremen (≤10 / ≥90) halbiert, und wenn das 30-Tage-Preis-Momentum bereits gegen die extreme Positionierung läuft (&gt; ±0,5 %), kontrár gewertet (Squeeze-Logik: gefangene Positionen müssen eindecken — das verlässlichste COT-Setup).
-  <u>Commercials</u> (30 %) kontrár-bestätigend als Smart Money: ungewöhnlich long im 3-Jahres-Band = bullisch, denn die Profis/Hedger akkumulieren typischerweise gegen den Trend am Wendepunkt.
-  <u>Small Traders</u> (20 %) als Crowd-Indikator, strikt kontrár: Die breite Masse extrem long = bearisch.<br>
-  <b>Events:</b> High-Impact-Termine in den nächsten 48 h erzeugen eine Warnung an der Karte (Volatilität, Stop-Runs, Signalwechsel möglich).<br>
-  Datenqualität: Jeder Wert zeigt seinen Stand. Serien älter als 8 Monate zählen mit halbem Gewicht (⚠ alt), nicht ladbare Faktoren fliegen raus; Gewichte werden renormalisiert. Schwellen: |Score| ≥ 1,2 → Signal · 0,6–1,2 → Tendenz · &lt; 0,6 → kein Trade.
+  <b>COT 3-Gruppen (30 % vom Gesamtscore):</b> <u>Large Specs</u> (50 %) als Trendkomponente — bei Extremen (≤10 / ≥90) halbiert, und wenn das 30-Tage-Preis-Momentum bereits gegen die extreme Positionierung läuft (&gt; ±0,5 %), kontrár gewertet (Squeeze-Logik).
+  <u>Commercials</u> (30 %) kontrár-bestätigend als Smart Money. <u>Small Traders</u> (20 %) strikt kontrár.<br>
+  <b>Divergenz Specs vs. Retail:</b> Richtung von den Large Specs, Stärke aus dem Retail-Extrem — bewusst multiplikativ, damit sich zwei entgegengesetzte Extreme verstärken statt aufzuheben. Vorerst nur Anzeige.<br>
+  <b>Vorzeichen:</b> Myfxbook quotet USD/JPY und USD/CAD; für 6J und 6C werden die Quoten gedreht, damit alles aus Sicht der Basiswährung gegen USD zeigt.<br>
+  Datenqualität: Jeder Wert zeigt seinen Stand. Serien älter als 8 Monate zählen halb (⚠ alt), nicht ladbare Faktoren fliegen raus; Gewichte renormalisieren. Schwellen: |Score| ≥ 1,2 → Signal · 0,6–1,2 → Tendenz · &lt; 0,6 → kein Trade.
 </div>
 
 <div class="footer">
   Quellen: <a href="https://data.bis.org/topics/CBPOL" target="_blank">BIS Leitzinsen</a> &amp; <a href="https://db.nomics.world/IMF/IFS" target="_blank">IMF IFS</a> via <a href="https://db.nomics.world" target="_blank">DBnomics</a> ·
   <a href="https://frankfurter.dev" target="_blank">Frankfurter</a> (EZB-Referenzkurse) ·
   <a href="https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm" target="_blank">CFTC COT</a> ·
+  <a href="https://www.myfxbook.com/community/outlook" target="_blank">Myfxbook Community Outlook</a> ·
   <a href="https://www.forexfactory.com/calendar" target="_blank">ForexFactory-Kalender</a>.
-  Eigenes Analyse-Tool, keine Anlageberatung. Cache 12 h, „Neu laden" holt alles frisch.
+  Daten werden serverseitig per GitHub Actions geholt und als <code>board.json</code> eingefroren.
+  Eigenes Analyse-Tool, keine Anlageberatung.
 </div>
 
 <script>
-// ================= Konfiguration =================
-const CUR = {
-  USD:{name:"US-Dollar", bis:"US", imf:"US"},
-  EUR:{name:"Euro",      bis:"XM", imf:"U2"},
-  JPY:{name:"Yen",       bis:"JP", imf:"JP"},
-  AUD:{name:"Aussie",    bis:"AU", imf:"AU"},
-  CAD:{name:"CAD",       bis:"CA", imf:"CA"}
-};
-const FUTURES = [
-  {sym:"6E", base:"EUR", label:"Euro FX", cot:"099741"},
-  {sym:"6J", base:"JPY", label:"Japanese Yen", cot:"097741"},
-  {sym:"6A", base:"AUD", label:"Australian Dollar", cot:"232741"},
-  {sym:"6C", base:"CAD", label:"Canadian Dollar", cot:"090741"}
-];
-const DBN = "https://api.db.nomics.world/v22/series/";
-const SERIES = {
-  policy: cc => [`BIS/WS_CBPOL/M.${cc}`, `BIS/WS_CBPOL_M/M.${cc}`, `BIS/CBPOL/M.${cc}`],
-  cpi:    cc => [`IMF/IFS/M.${cc}.PCPI_PC_CP_A_PT`, `IMF/CPI/M.${cc}.PCPI_PC_CP_A_PT`],
-  unemp:  cc => [`IMF/IFS/M.${cc}.LUR_PT`, `IMF/IFS/Q.${cc}.LUR_PT`]
-};
-const W = {px:.30, mom:.25, carry:.20, infl:.15, lab:.10};
-const W_FUND=.7, W_COT=.3, TH_SIGNAL=1.2, TH_WEAK=0.6;
-const STALE_DAYS = 240;      // ⚠ alt → halbes Gewicht
-const DEAD_DAYS  = 900;      // komplett raus
-const EV_WARN_HOURS = 48;
+// Das Frontend rechnet nichts mehr. Es zeigt an, was server/build.js im Actions-Runner
+// berechnet und als data/board.json abgelegt hat — dort existiert das CORS-Problem nicht.
+let B = null;
 
-// ================= State =================
-let macro = {}, cotData = null, fxMom = null, events = null, recent = null;
-let evDiag = [], recDiag = [];
-const SLUG2CCY = {"united-states":"USD","japan":"JPY","australia":"AUD","canada":"CAD",
-  "euro-area":"EUR","european-union":"EUR","germany":"EUR","france":"EUR","italy":"EUR","spain":"EUR"};
+const fmt  = n => n==null ? "n/a" : (n>0?"+":"") + n.toFixed(2).replace(".",",");
+const fmt1 = n => n==null ? "n/a" : n.toFixed(1).replace(".",",");
+const cls  = n => n==null ? "neu" : (n>0.05 ? "pos" : (n<-0.05 ? "neg" : "neu"));
+const clamp = (v,a,b) => Math.max(a, Math.min(b, v));
+const nf = n => n==null ? "n/a" : n.toLocaleString("de-DE");
+const dt = (d,o) => new Date(d).toLocaleString("de-DE", o);
+const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-// ================= Helpers =================
-const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
-const fmt=n=>n==null?"n/a":(n>0?"+":"")+n.toFixed(2).replace(".",",");
-const fmt1=n=>n==null?"n/a":n.toFixed(1).replace(".",",");
-const cls=n=>n==null?"neu":(n>0.05?"pos":(n<-0.05?"neg":"neu"));
-
-// Lokaler Proxy (board-server.ps1): serverseitiger Abruf, kein CORS.
-// Läuft die Seite über den Mini-Server, ist es derselbe Host; sonst localhost-Versuch.
-function localProxy(target){
-  const q = "/proxy?url=" + encodeURIComponent(target);
-  return (location.protocol.startsWith("http")) ? q : "http://localhost:8371" + q;
-}
-async function fetchJson(url){
-  const r = await fetch(url);
-  if(!r.ok) throw new Error("HTTP "+r.status);
-  return r.json();
-}
-async function fetchSeries(candidates){
-  for (const key of candidates){
-    try{
-      const j = await fetchJson(DBN + key + "?observations=1");
-      const doc = j.series && j.series.docs && j.series.docs[0];
-      if(!doc || !doc.period || !doc.value) continue;
-      const obs = [];
-      for(let i=0;i<doc.period.length;i++){
-        const v = doc.value[i];
-        if(v!=null && v!=="NA" && !isNaN(+v)) obs.push({p:doc.period[i], v:+v});
-      }
-      if(obs.length < 8) continue;
-      return {key, obs};
-    }catch(e){}
-  }
-  return null;
-}
-function last(o){ return o.obs[o.obs.length-1]; }
-function back(o,n){ const i=o.obs.length-1-n; return o.obs[Math.max(0,i)]; }
-function periodDate(p){
-  if(/^\d{4}-\d{2}$/.test(p)) return new Date(p+"-15");
-  const q = p.match(/^(\d{4})-Q(\d)$/); if(q) return new Date(+q[1], (+q[2])*3-2, 15);
-  return new Date(p+"-06-15");
-}
-function ageDays(p){ return (Date.now()-periodDate(p).getTime())/864e5; }
-
-// ================= Laden =================
-async function loadAll(force){
-  // Events & News werden NIE gecacht — immer frisch. Cache nur für Makro/COT/FX.
-  let usedCache = false;
-  const cached = localStorage.getItem("mfxb5_cache");
-  if(!force && cached){
-    try{
-      const c = JSON.parse(cached);
-      if(Date.now()-c.ts < 12*3600e3){ macro=c.macro; cotData=c.cot; fxMom=c.fx; usedCache=true; }
-    }catch(e){}
-  }
-  document.getElementById("loadMeta").textContent = "Lade Daten…";
-  const jobs = [];
-  if(!usedCache){
-    for(const ccy in CUR){
-      const c = CUR[ccy];
-      jobs.push((async()=>{
-        const [pol,cpi,une] = await Promise.all([
-          fetchSeries(SERIES.policy(c.bis)),
-          fetchSeries(SERIES.cpi(c.imf)),
-          fetchSeries(SERIES.unemp(c.imf))
-        ]);
-        macro[ccy] = {policy:pol, cpi:cpi, unemp:une};
-      })());
-    }
-    jobs.push(loadCot(), loadFxMom());
-  }
-  jobs.push(loadEvents(), loadRecent());
-  await Promise.all(jobs);
-  if(!usedCache){
-    try{ localStorage.setItem("mfxb5_cache", JSON.stringify({ts:Date.now(), macro, cot:cotData, fx:fxMom})); }catch(e){}
-  }
-  renderAll(Date.now());
-}
-
-async function loadCot(){
-  const since = new Date(); since.setFullYear(since.getFullYear()-3);
-  const sinceStr = since.toISOString().slice(0,10);
-  const result = {};
+async function load(){
+  document.getElementById("loadMeta").textContent = "Lade…";
   try{
-    for (const f of FUTURES){
-      const url = "https://publicreporting.cftc.gov/resource/6dca-aqww.json"
-        + "?cftc_contract_market_code=" + f.cot
-        + "&$where=" + encodeURIComponent(`report_date_as_yyyy_mm_dd > '${sinceStr}'`)
-        + "&$order=" + encodeURIComponent("report_date_as_yyyy_mm_dd ASC")
-        + "&$select=" + encodeURIComponent("report_date_as_yyyy_mm_dd,noncomm_positions_long_all,noncomm_positions_short_all,comm_positions_long_all,comm_positions_short_all,nonrept_positions_long_all,nonrept_positions_short_all,open_interest_all")
-        + "&$limit=200";
-      const rows = await fetchJson(url);
-      if(!rows.length) continue;
-      const idxOf = nets => {
-        const cur = nets[nets.length-1];
-        const min = Math.min(...nets), max = Math.max(...nets);
-        return max===min ? 50 : Math.round(100*(cur-min)/(max-min));
-      };
-      const specN  = rows.map(x => (+x.noncomm_positions_long_all) - (+x.noncomm_positions_short_all));
-      const commN  = rows.map(x => (+x.comm_positions_long_all)    - (+x.comm_positions_short_all));
-      const smallN = rows.map(x => (+x.nonrept_positions_long_all) - (+x.nonrept_positions_short_all));
-      const cur = specN[specN.length-1];
-      const oi = +rows[rows.length-1].open_interest_all;
-      result[f.cot] = {
-        index: idxOf(specN), net:cur, netPct: oi?100*cur/oi:0,
-        chg6w: cur - (specN.length>6?specN[specN.length-7]:specN[0]),
-        commIdx: idxOf(commN),  commNet: commN[commN.length-1],
-        smallIdx: idxOf(smallN), smallNet: smallN[smallN.length-1],
-        date: rows[rows.length-1].report_date_as_yyyy_mm_dd.slice(0,10)
-      };
-    }
-    cotData = result;
-  }catch(e){ cotData = {error:e.message}; }
-}
-
-async function loadFxMom(){
-  // ~30 Kalendertage Preis-Momentum aus EZB-Referenzkursen (Basis USD)
-  const end = new Date(), start = new Date(Date.now()-32*864e5);
-  const s = start.toISOString().slice(0,10), e = end.toISOString().slice(0,10);
-  const urls = [
-    `https://api.frankfurter.dev/v1/${s}..${e}?base=USD&symbols=EUR,JPY,AUD,CAD`,
-    `https://api.frankfurter.app/${s}..${e}?from=USD&to=EUR,JPY,AUD,CAD`
-  ];
-  for(const u of urls){
-    try{
-      const j = await fetchJson(u);
-      const days = Object.keys(j.rates||{}).sort();
-      if(days.length < 10) continue;
-      const first = j.rates[days[0]], lastR = j.rates[days[days.length-1]];
-      const out = {date: days[days.length-1], from: days[0]};
-      ["EUR","JPY","AUD","CAD"].forEach(c=>{
-        if(first[c] && lastR[c]){
-          // rate = c pro USD; steigt der Wert, wird c SCHWÄCHER vs USD
-          out[c] = -100*(lastR[c]/first[c]-1);   // % Stärke der Basiswährung vs USD
-        }
-      });
-      fxMom = out; return;
-    }catch(e){}
-  }
-  fxMom = {error:"nicht ladbar"};
-}
-
-async function loadEvents(){
-  const base = "https://nfs.faireconomy.media/ff_calendar_thisweek.json";
-  const attempts = [
-    ["lokal", localProxy(base), j=>j],
-    ["direkt", base, j=>j],
-    ["cdn", "https://cdn-nfs.faireconomy.media/ff_calendar_thisweek.json", j=>j],
-    ["codetabs", "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(base), j=>j],
-    ["allorigins", "https://api.allorigins.win/get?url=" + encodeURIComponent(base), j=>JSON.parse(j.contents)],
-    ["corsproxy", "https://corsproxy.io/?url=" + encodeURIComponent(base), j=>j]
-  ];
-  evDiag = [];
-  for(const [label, u, unwrap] of attempts){
-    try{
-      const raw = await fetchJson(u);
-      const rows = unwrap(raw);
-      if(!Array.isArray(rows) || !rows.length){ evDiag.push(label+": leer"); continue; }
-      events = rows.filter(r => ["USD","EUR","JPY","AUD","CAD"].includes(r.country)
-        && (r.impact==="High" || r.impact==="Medium"))
-        .map(r => ({title:r.title, c:r.country, date:r.date, impact:r.impact, fc:r.forecast, prev:r.previous}));
-      evDiag.push(label+": OK ✓");
-      return;
-    }catch(e){ evDiag.push(label+": "+(e.message||"Fehler")); }
-  }
-  events = {error:"alle Quellen fehlgeschlagen"};
-}
-
-// Myfxbook RSS: rollierender Feed der letzten Stunden — inkl. Actual/Consensus/Previous
-async function loadRecent(){
-  const base = "https://www.myfxbook.com/rss/forex-economic-calendar-events";
-  const attempts = [
-    ["lokal", localProxy(base), t=>t],
-    ["direkt", base, t=>t],
-    ["codetabs", "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(base), t=>t],
-    ["allorigins", "https://api.allorigins.win/get?url=" + encodeURIComponent(base), t=>JSON.parse(t).contents]
-  ];
-  recDiag = [];
-  for(const [label, u, unwrap] of attempts){
-    try{
-      const r = await fetch(u);
-      if(!r.ok){ recDiag.push(label+": HTTP "+r.status); continue; }
-      const xmlText = unwrap(await r.text());
-      const xml = new DOMParser().parseFromString(xmlText, "text/xml");
-      const items = [...xml.querySelectorAll("item")];
-      if(!items.length){ recDiag.push(label+": leer"); continue; }
-      const out = [];
-      items.forEach(it=>{
-        const link = (it.querySelector("link")||{}).textContent || "";
-        const m = link.match(/forex-economic-calendar\/([a-z-]+)\//);
-        const ccy = m ? SLUG2CCY[m[1]] : null;
-        if(!ccy) return;
-        const title = (it.querySelector("title")||{}).textContent || "";
-        const pub = (it.querySelector("pubDate")||{}).textContent || "";
-        const desc = (it.querySelector("description")||{}).textContent || "";
-        const dd = new DOMParser().parseFromString(desc, "text/html");
-        const impM = desc.match(/sprite-(high|medium|low|no)-impact/);
-        const rows2 = dd.querySelectorAll("tr");
-        let prev="", cons="", act="";
-        if(rows2.length>1){
-          const tds = [...rows2[1].querySelectorAll("td")].map(td=>td.textContent.trim());
-          prev=tds[2]||""; cons=tds[3]||""; act=tds[4]||"";
-        }
-        out.push({ccy, title, date:pub, impact: impM?impM[1]:"no", prev, cons, act});
-      });
-      recent = out;
-      recDiag.push(label+": OK ✓ ("+out.length+" relevant)");
-      return;
-    }catch(e){ recDiag.push(label+": "+(e.message||"Fehler")); }
-  }
-  recent = {error:"alle Quellen fehlgeschlagen"};
-}
-
-// ================= Scoring =================
-function curFactors(ccy){
-  const m = macro[ccy] || {};
-  const f = {};
-  if(m.policy){
-    f.level = last(m.policy).v;
-    f.mom = f.level - back(m.policy,12).v;
-    f.polPeriod = last(m.policy).p; f.polAge = ageDays(f.polPeriod);
-  }
-  if(m.cpi){
-    f.cpi = last(m.cpi).v;
-    f.cpiPeriod = last(m.cpi).p; f.cpiAge = ageDays(f.cpiPeriod);
-  }
-  if(m.unemp){
-    const isQ = /Q/.test(last(m.unemp).p);
-    f.unemp = last(m.unemp).v;
-    f.unempTrend = f.unemp - back(m.unemp, isQ?2:6).v;
-    f.unePeriod = last(m.unemp).p; f.uneAge = ageDays(f.unePeriod);
-  }
-  return f;
-}
-// Gewichtsfaktor je Datenalter: frisch=1, alt=0.5, tot=0
-function ageW(age){ return age==null?0 : (age>DEAD_DAYS?0 : (age>STALE_DAYS?0.5:1)); }
-
-function pairScore(fut){
-  const b = curFactors(fut.base), u = curFactors("USD");
-  const parts = [];
-  // Preis-Momentum (immer frisch)
-  if(fxMom && fxMom[fut.base]!=null)
-    parts.push({name:"Preis-Momentum 30T", w:W.px, s:clamp(fxMom[fut.base]*(2/3), -2, 2),
-      note:`${fmt(fxMom[fut.base])} % vs USD`, stale:false});
-  // Zins-Momentum
-  if(b.mom!=null && u.mom!=null){
-    const aw = Math.min(ageW(b.polAge), ageW(u.polAge));
-    if(aw>0) parts.push({name:"Zins-Momentum Δ12M", w:W.mom*aw, s:clamp((b.mom-u.mom)*2, -2, 2),
-      note:`${fmt(b.mom)} vs ${fmt(u.mom)} pp`, stale:aw<1});
-  }
-  // Carry
-  if(b.level!=null && u.level!=null){
-    const aw = Math.min(ageW(b.polAge), ageW(u.polAge));
-    if(aw>0) parts.push({name:"Zinsniveau / Carry", w:W.carry*aw, s:clamp((b.level-u.level)/1.5, -2, 2),
-      note:`${fmt1(b.level)} % vs ${fmt1(u.level)} %`, stale:aw<1});
-  }
-  // Inflation
-  if(b.cpi!=null && u.cpi!=null){
-    const aw = Math.min(ageW(b.cpiAge), ageW(u.cpiAge));
-    if(aw>0) parts.push({name:"Inflationsdruck", w:W.infl*aw, s:clamp((b.cpi-u.cpi), -2, 2),
-      note:`CPI ${fmt1(b.cpi)} vs ${fmt1(u.cpi)} %`, stale:aw<1});
-  }
-  // Arbeitsmarkt
-  if(b.unempTrend!=null && u.unempTrend!=null){
-    const aw = Math.min(ageW(b.uneAge), ageW(u.uneAge));
-    if(aw>0) parts.push({name:"Arbeitsmarkt-Trend", w:W.lab*aw, s:clamp(-(b.unempTrend-u.unempTrend)*4, -2, 2),
-      note:`Δ6M ${fmt(b.unempTrend)} vs ${fmt(u.unempTrend)} pp`, stale:aw<1});
-  }
-  const wSum = parts.reduce((a,p)=>a+p.w,0);
-  const fund = wSum>0 ? parts.reduce((a,p)=>a+p.w*p.s,0)/wSum : null;
-
-  let cot=null, cotExtreme=false, cotSqueeze=false, cotParts=null;
-  if(cotData && cotData[fut.cot]){
-    const d = cotData[fut.cot];
-    // 1) Large Specs = Trendkomponente (mit Squeeze-Logik an Extremen)
-    const idx = d.index;
-    cotExtreme = idx>=90 || idx<=10;
-    let sSpec = clamp((idx-50)/25, -2, 2);
-    const px = fxMom ? fxMom[fut.base] : null;
-    if(cotExtreme){
-      if(px!=null && idx<=10 && px>0.5){ sSpec = 1.0; cotSqueeze=true; }
-      else if(px!=null && idx>=90 && px<-0.5){ sSpec = -1.0; cotSqueeze=true; }
-      else sSpec *= 0.5;
-    }
-    // 2) Commercials = Smart Money, kontrár-bestätigend: ungewöhnlich long = bullisch
-    const sComm = d.commIdx!=null ? clamp((d.commIdx-50)/25, -2, 2) : null;
-    // 3) Small Traders = Crowd, kontrár: Masse extrem long = bearisch
-    const sSmall = d.smallIdx!=null ? clamp(-(d.smallIdx-50)/25, -2, 2) : null;
-    let wSpec=.5, wComm = sComm!=null?.3:0, wSmall = sSmall!=null?.2:0;
-    const wTot = wSpec+wComm+wSmall;
-    cot = (wSpec*sSpec + (sComm||0)*wComm + (sSmall||0)*wSmall) / wTot;
-    cotParts = {sSpec, sComm, sSmall};
-  }
-  let total=null;
-  if(fund!=null && cot!=null) total = W_FUND*fund + W_COT*cot;
-  else if(fund!=null) total = fund;
-  else if(cot!=null) total = cot;
-
-  // Event-Warnungen (±48h, High Impact, Basis- oder US-Währung)
-  let evWarns = [];
-  if(Array.isArray(events)){
-    const now = Date.now();
-    evWarns = events.filter(ev => ev.impact==="High"
-      && (ev.c===fut.base || ev.c==="USD")
-      && Math.abs(new Date(ev.date).getTime()-now) < EV_WARN_HOURS*3600e3)
-      .map(ev => `${ev.c}: ${ev.title} (${new Date(ev.date).toLocaleString("de-DE",{weekday:"short",hour:"2-digit",minute:"2-digit"})})`);
-  }
-  return {parts, fund, cot, cotExtreme, cotSqueeze, cotParts, total, evWarns};
-}
-
-// ================= Rendering =================
-function renderAll(ts){
-  document.getElementById("loadMeta").textContent = "Stand: " + new Date(ts).toLocaleString("de-DE");
-  renderMacroTable(); renderCot(); renderEvents(); renderRecent(); renderFutures();
-}
-
-function renderRecent(){
-  const el = document.getElementById("recCard");
-  const diag = `<div class="small" style="margin-top:6px">Quellen-Status: ${recDiag.join(" · ")||"–"}</div>`;
-  if(!Array.isArray(recent)){
-    el.innerHTML = `<span class="err">News-Feed nicht ladbar.</span>` + diag;
+    // Cache-Buster: Pages liefert sonst gern die vorige Version aus.
+    const r = await fetch("data/board.json?t=" + Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    B = await r.json();
+  }catch(e){
+    document.getElementById("loadMeta").innerHTML = `<span class="err">board.json nicht ladbar (${esc(e.message)})</span>`;
     return;
   }
-  const impDots = i => i==="high"?'<span class="imp-high">●●●</span>':(i==="medium"?'<span class="imp-med">●●</span>':'<span class="small">●</span>');
-  const num = s => { const m = String(s).replace(",",".").match(/-?\d+(\.\d+)?/); return m?+m[0]:null; };
-  let html = "";
-  recent.filter(r=>r.impact==="high"||r.impact==="medium").forEach(r=>{
-    const a=num(r.act), c=num(r.cons);
-    let surp = "";
-    if(a!=null && c!=null && r.act && r.cons){
-      const diff = a-c;
-      if(Math.abs(diff) > 1e-9) surp = ` <b class="${diff>0?'pos':'neg'}">Überraschung: ${diff>0?"+":""}${(+diff.toFixed(2)).toString().replace(".",",")}</b>`;
-      else surp = ' <span class="small">wie erwartet</span>';
-    }
-    html += `<div class="ev">
-      <span class="t">${new Date(r.date).toLocaleString("de-DE",{weekday:"short",hour:"2-digit",minute:"2-digit"})}</span>
-      <span class="c">${r.ccy}</span>
-      ${impDots(r.impact)}
-      <span>${r.title}</span>
-      <span class="small">Act: <b>${r.act||"–"}</b> · Cons: ${r.cons||"–"} · Prev: ${r.prev||"–"}${surp}</span>
-    </div>`;
-  });
-  el.innerHTML = (html || '<span class="spinner">Aktuell keine High/Medium-Impact-Veröffentlichungen unserer Währungen im Feed.</span>') + diag;
+  render();
 }
 
-function renderMacroTable(){
-  let html = `<thead><tr><th>Währung</th><th>Preis-Mom. 30T</th><th>Leitzins</th><th>Δ 12M</th><th>CPI YoY</th><th>Arb.-quote</th><th>Δ 6M</th></tr></thead><tbody>`;
-  const notes = [];
-  for(const ccy in CUR){
-    const f = curFactors(ccy);
-    const m = macro[ccy] || {};
-    const st = (p,age)=> p ? `<div class="small ${age>STALE_DAYS?'status-warn':''}">${p}${age>STALE_DAYS?' ⚠ alt':''}</div>` : "";
-    const px = ccy==="USD" ? null : (fxMom && fxMom[ccy]!=null ? fxMom[ccy] : null);
-    html += `<tr>
-      <td>${ccy} <span class="tag">${CUR[ccy].name}</span></td>
-      <td class="${cls(px)}">${ccy==="USD"?"–":(px!=null?fmt(px)+" %":'<span class="err">n/a</span>')}</td>
-      <td>${f.level!=null ? fmt1(f.level)+" %" : '<span class="err">n/a</span>'}${st(f.polPeriod,f.polAge)}</td>
-      <td class="${cls(f.mom)}">${f.mom!=null?fmt(f.mom)+" pp":"–"}</td>
-      <td>${f.cpi!=null ? fmt1(f.cpi)+" %" : '<span class="err">n/a</span>'}${st(f.cpiPeriod,f.cpiAge)}</td>
-      <td>${f.unemp!=null ? fmt1(f.unemp)+" %" : '<span class="err">n/a</span>'}${st(f.unePeriod,f.uneAge)}</td>
-      <td class="${cls(f.unempTrend==null?null:-f.unempTrend)}">${f.unempTrend!=null?fmt(f.unempTrend)+" pp":"–"}</td>
-    </tr>`;
-    if(m.policy) notes.push(m.policy.key);
-    if(m.cpi) notes.push(m.cpi.key);
-    if(m.unemp) notes.push(m.unemp.key);
-  }
-  html += "</tbody>";
-  document.getElementById("macroTable").innerHTML = html;
-  let noteTxt = notes.length ? "Geladene Serien: " + notes.join(" · ") : "";
-  if(fxMom && !fxMom.error) noteTxt += ` · FX: EZB-Referenzkurse ${fxMom.from} → ${fxMom.date}`;
-  document.getElementById("macroNotes").textContent = noteTxt;
+function render(){
+  const age = (Date.now() - new Date(B.generatedAt).getTime()) / 3600e3;
+  document.getElementById("loadMeta").innerHTML =
+    `Stand: ${dt(B.generatedAt)} <span class="${age>12?"status-warn":"small"}">(${age<1 ? Math.round(age*60)+" min" : age.toFixed(1)+" h"} alt)</span>`;
+  renderFutures(); renderDivergence(); renderEvents(); renderRecent(); renderMacro(); renderCot();
 }
 
-function renderCot(){
-  const el = document.getElementById("cotCard");
-  if(!cotData || cotData.error){
-    el.innerHTML = `<span class="err">COT nicht ladbar${cotData&&cotData.error?" ("+cotData.error+")":""}. <a href="https://www.barchart.com/futures/commitment-of-traders" target="_blank">Barchart COT</a></span>`;
-    return;
-  }
-  let html = "";
-  const idxCls = i => i>60?'pos':(i<40?'neg':'neu');
-  FUTURES.forEach(f=>{
-    const d = cotData[f.cot]; if(!d) return;
-    const extreme = d.index>=90 || d.index<=10;
-    html += `<div style="border-bottom:1px solid var(--border); padding:6px 0">
-      <div class="contrib">
-        <span style="min-width:120px"><b>${f.sym} ${f.label}</b></span>
-        <span><b>Large Specs</b>: <b class="${d.net>0?'pos':'neg'}">${d.net.toLocaleString("de-DE")}</b> (${d.netPct.toFixed(1).replace(".",",")} % OI) · Δ6W ${d.chg6w>0?"+":""}${d.chg6w.toLocaleString("de-DE")} · Index <b class="${idxCls(d.index)}">${d.index}</b>${extreme?' <span class="warn">⚠</span>':''}</span>
-      </div>
-      <div class="contrib small">
-        <span style="min-width:120px"></span>
-        <span>Commercials (Smart Money): <b class="${d.commNet>0?'pos':'neg'}">${d.commNet!=null?d.commNet.toLocaleString("de-DE"):"n/a"}</b> · Index <b class="${idxCls(d.commIdx)}">${d.commIdx!=null?d.commIdx:"–"}</b>
-        &nbsp;·&nbsp; Small Traders (Crowd): <b class="${d.smallNet>0?'pos':'neg'}">${d.smallNet!=null?d.smallNet.toLocaleString("de-DE"):"n/a"}</b> · Index <b class="${idxCls(d.smallIdx)}">${d.smallIdx!=null?d.smallIdx:"–"}</b></span>
-      </div>
-    </div>`;
-  });
-  const anyDate = FUTURES.map(f=>cotData[f.cot]).find(Boolean);
-  html += `<div class="small" style="margin-top:6px">Report-Datenstand (Dienstag): ${anyDate?anyDate.date:"-"}</div>`;
-  el.innerHTML = html;
-}
-
-function renderEvents(){
-  const el = document.getElementById("evCard");
-  const diag = `<div class="small" style="margin-top:6px">Quellen-Status: ${evDiag.join(" · ")||"–"}</div>`;
-  if(!Array.isArray(events)){
-    el.innerHTML = `<span class="err">Wochenkalender nicht ladbar. <a href="https://www.forexfactory.com/calendar" target="_blank">ForexFactory direkt öffnen</a>.</span>` + diag;
-    return;
-  }
-  const now = Date.now();
-  const sorted = [...events].sort((a,b)=>new Date(a.date)-new Date(b.date));
-  let html = "";
-  sorted.forEach(ev=>{
-    const t = new Date(ev.date);
-    const isPast = t.getTime() < now;
-    const impCls = ev.impact==="High"?"imp-high":"imp-med";
-    html += `<div class="ev ${isPast?'past':''}">
-      <span class="t">${t.toLocaleString("de-DE",{weekday:"short", day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit"})}</span>
-      <span class="c">${ev.c}</span>
-      <span class="${impCls}">${ev.impact==="High"?"●●●":"●●"}</span>
-      <span>${ev.title}</span>
-      <span class="small">${ev.fc?("Fc: "+ev.fc):""} ${ev.prev?("Prev: "+ev.prev):""} ${isPast?"→ Ergebnis prüfen":""}</span>
-    </div>`;
-  });
-  el.innerHTML = (html || '<span class="spinner">Keine relevanten Events diese Woche.</span>') + diag;
+function srcLine(){
+  const s = B.sources || {};
+  const names = {macro:"Makro", cot:"COT", fx:"FX", retail:"Retail", calendar:"Kalender", recent:"News"};
+  return `<div class="srcline">` + Object.entries(names).map(([k,label]) => {
+    const v = s[k];
+    if(!v) return `<span class="src">${label}: –</span>`;
+    return `<span class="src ${v.ok?"":"bad"}" title="${esc(v.error||"")}">${label}: ${v.ok?"ok":"Fehler"}</span>`;
+  }).join("") + `</div>`;
 }
 
 function renderFutures(){
   const g = document.getElementById("futGrid");
   g.innerHTML = "";
-  FUTURES.forEach(f=>{
-    const r = pairScore(f);
-    const total = r.total;
-    let sig, sigCls, hint;
-    if(total==null){ sig="DATEN FEHLEN"; sigCls="sig-none"; hint="Keine Daten ladbar."; }
-    else if (total >= TH_SIGNAL){ sig="LONG "+f.sym; sigCls="sig-long"; hint="Nur Long-Setups: Breakout-Retest über Volumenzonen, Value Area Low, Absorption am Support."; }
-    else if (total <= -TH_SIGNAL){ sig="SHORT "+f.sym; sigCls="sig-short"; hint="Nur Short-Setups: Breakdown-Retest, Value Area High, Absorption am Widerstand."; }
-    else if (Math.abs(total) >= TH_WEAK){ sig=(total>0?"Tendenz Long":"Tendenz Short"); sigCls="sig-weak"; hint="Schwaches Signal — nur A+-Setups, reduzierte Größe."; }
-    else { sig="KEIN TRADE"; sigCls="sig-none"; hint="Keine ausreichende Divergenz — Future auslassen."; }
+  B.futures.forEach(f => {
+    const total = f.total;
+    const sigCls = {long:"sig-long", short:"sig-short", weak:"sig-weak", none:"sig-none"}[f.signal.key];
+    const label = f.signal.key==="long" || f.signal.key==="short" ? `${f.signal.label} ${f.sym}` : f.signal.label;
+    const pct = total==null ? 0 : clamp(total/2, -1, 1);
 
-    const pct = total==null?0:clamp(total/2, -1, 1);
-    let contrib = r.parts.map(p=>
-      `<div class="contrib"><span>${p.name} <span class="small">(${Math.round(p.w*100)} %${p.stale?" ⚠":""})</span></span>
-       <span class="${cls(p.s)}"><b>${fmt(p.s)}</b> <span class="small">${p.note}</span></span></div>`).join("");
-    if(r.cot!=null){
-      const cp = r.cotParts;
-      const detailTxt = cp ? `Specs ${fmt(cp.sSpec)}${cp.sComm!=null?" · Comm "+fmt(cp.sComm):""}${cp.sSmall!=null?" · Small "+fmt(cp.sSmall):""}` : "";
-      contrib += `<div class="contrib"><span>COT 3-Gruppen <span class="small">(30 % gesamt${r.cotSqueeze?", Squeeze ↩":(r.cotExtreme?", Extrem ⚠":"")})</span></span>
-       <span class="${cls(r.cot)}"><b>${fmt(r.cot)}</b> <span class="small">${detailTxt}</span></span></div>`;
+    let contrib = f.parts.map(p =>
+      `<div class="contrib"><span>${esc(p.name)} <span class="small">(${Math.round(p.w*100)} %${p.stale?" ⚠":""})</span></span>
+       <span class="${cls(p.s)}"><b>${fmt(p.s)}</b> <span class="small">${esc(p.note)}</span></span></div>`).join("");
+
+    if(f.cot!=null){
+      const cp = f.cotParts || {};
+      const det = `Specs ${fmt(cp.sSpec)}${cp.sComm!=null?" · Comm "+fmt(cp.sComm):""}${cp.sSmall!=null?" · Small "+fmt(cp.sSmall):""}`;
+      contrib += `<div class="contrib"><span>COT 3-Gruppen <span class="small">(30 % gesamt${f.cotSqueeze?", Squeeze ↩":(f.cotExtreme?", Extrem ⚠":"")})</span></span>
+       <span class="${cls(f.cot)}"><b>${fmt(f.cot)}</b> <span class="small">${det}</span></span></div>`;
     }
 
-    const evHtml = r.evWarns.length
-      ? `<div class="evwarn">⚠ High-Impact ±48 h: ${r.evWarns.join(" · ")}</div>` : "";
+    const d = f.divergence;
+    const divHtml = d && d.fires
+      ? `<div class="contrib"><span>⇄ Divergenz Specs/Retail <span class="small">(nicht im Score)</span></span>
+         <span class="${cls(d.score)}"><b>${fmt(d.score)}</b> <span class="small">${d.strength}</span></span></div>`
+      : "";
+
+    const evHtml = f.evWarns.length
+      ? `<div class="evwarn">⚠ High-Impact ±48 h: ${f.evWarns.map(e=>`${esc(e.c)}: ${esc(e.title)} (${dt(e.date,{weekday:"short",hour:"2-digit",minute:"2-digit"})})`).join(" · ")}</div>`
+      : "";
 
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <h3>${f.sym} <span class="tag">${f.label} vs. USD</span></h3>
-      <div class="signal ${sigCls}">${sig}</div>
+      <h3>${f.sym} <span class="tag">${esc(f.label)} vs. USD</span></h3>
+      <div class="signal ${sigCls}">${esc(label)}</div>
       <div class="bar-wrap"><div class="bar-mid"></div>
         <div class="bar" style="${pct>=0
           ? `left:50%; width:${pct*50}%; background:var(--green);`
           : `right:50%; width:${-pct*50}%; background:var(--red);`}"></div>
       </div>
       <div class="detail">Gesamtscore: <b class="${cls(total)}">${fmt(total)}</b>
-        ${r.fund!=null?` · Makro/Markt: <b class="${cls(r.fund)}">${fmt(r.fund)}</b>`:""}</div>
-      ${contrib}
-      ${r.cotSqueeze ? '<div class="warn">↩ Squeeze-Setup: COT extrem einseitig, aber Preis dreht bereits dagegen — COT zählt kontrár. Eindeckungs-Rallys möglich.</div>' : (r.cotExtreme ? '<div class="warn">⚠ COT extrem einseitig — Reversal-Gefahr, Beitrag halbiert.</div>' : '')}
-      ${r.fund==null ? '<div class="warn">⚠ Makro/Markt-Daten fehlen — Signal beruht nur auf COT.</div>' : ''}
+        ${f.fund!=null?` · Makro/Markt: <b class="${cls(f.fund)}">${fmt(f.fund)}</b>`:""}</div>
+      ${contrib}${divHtml}
+      ${f.cotSqueeze ? '<div class="warn">↩ Squeeze-Setup: COT extrem einseitig, aber Preis dreht bereits dagegen — COT zählt kontrár.</div>'
+        : (f.cotExtreme ? '<div class="warn">⚠ COT extrem einseitig — Reversal-Gefahr, Beitrag halbiert.</div>' : '')}
+      ${f.fund==null ? '<div class="warn">⚠ Makro/Markt-Daten fehlen — Signal beruht nur auf COT.</div>' : ''}
       ${evHtml}
-      <div class="detail" style="margin-top:6px">${hint}</div>
-    `;
+      <div class="detail" style="margin-top:6px">${esc(f.signal.hint)}</div>`;
     g.appendChild(card);
   });
 }
 
-// ================= Init =================
-loadAll(false);
+function renderDivergence(){
+  const el = document.getElementById("divCard");
+  const rows = B.futures.filter(f => f.divergence);
+  if(!rows.length){
+    el.innerHTML = `<span class="err">Keine Divergenz berechenbar — COT oder Retail-Sentiment fehlt.</span>` + srcLine();
+    return;
+  }
+  // Auffälligste Divergenzen zuerst
+  const sorted = [...rows].sort((a,b) => Math.abs(b.divergence.score) - Math.abs(a.divergence.score));
+
+  el.innerHTML = sorted.map(f => {
+    const d = f.divergence;
+    const specPct = Math.round((d.specPos + 1) * 50);   // 0–100 für die Balkendarstellung
+    const specCol = d.specPos >= 0 ? "var(--green)" : "var(--red)";
+    return `<div class="divrow ${d.fires?"fires":""}">
+      <div>
+        <b>${f.sym}</b> <span class="small">${esc(f.label)}</span><br>
+        <span class="small">${esc(d.pair)}${d.inverted?" ↔":""}</span>
+      </div>
+      <div class="side">
+        <div class="lbl"><span>Large Specs</span><span>Index ${d.specIdx}</span></div>
+        <div class="dbar">
+          <span class="mid"></span>
+          <span style="${d.specPos>=0 ? `left:50%; width:${d.specPos*50}%` : `right:50%; width:${-d.specPos*50}%`}; background:${specCol}"></span>
+        </div>
+        <div class="small">${d.specPos>=0?"netto long":"netto short"} · Stand ${esc(d.cotDate||"–")}</div>
+      </div>
+      <div class="side">
+        <div class="lbl"><span>Retail-Crowd</span><span>${d.retailLongPct} L / ${d.retailShortPct} S</span></div>
+        <div class="dbar">
+          <span style="left:0; width:${d.retailShortPct}%; background:var(--red)"></span>
+          <span style="right:0; width:${d.retailLongPct}%; background:var(--green)"></span>
+          <span class="mid"></span>
+        </div>
+        <div class="small">${Math.max(d.retailLongPct,d.retailShortPct)} % auf einer Seite</div>
+      </div>
+      <div class="verdict">
+        ${d.fires
+          ? `<b class="${cls(d.score)}">${fmt(d.score)}</b><span class="badge ${d.strength}">${d.strength}</span>`
+          : `<b class="neu">–</b><span class="badge">kein Signal</span>`}
+        <div class="small" style="margin-top:3px">${esc(d.reason)}</div>
+      </div>
+    </div>`;
+  }).join("") + srcLine();
+}
+
+function renderEvents(){
+  const el = document.getElementById("evCard");
+  if(!Array.isArray(B.events)){
+    el.innerHTML = `<span class="err">Wochenkalender nicht ladbar. <a href="https://www.forexfactory.com/calendar" target="_blank">ForexFactory direkt öffnen</a>.</span>`;
+    return;
+  }
+  const now = Date.now();
+  const html = [...B.events].sort((a,b) => new Date(a.date) - new Date(b.date)).map(ev => {
+    const t = new Date(ev.date);
+    return `<div class="ev ${t.getTime()<now?"past":""}">
+      <span class="t">${dt(ev.date,{weekday:"short",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"})}</span>
+      <span class="c">${esc(ev.c)}</span>
+      <span class="${ev.impact==="High"?"imp-high":"imp-med"}">${ev.impact==="High"?"●●●":"●●"}</span>
+      <span>${esc(ev.title)}</span>
+      <span class="small">${ev.fc?"Fc: "+esc(ev.fc):""} ${ev.prev?"Prev: "+esc(ev.prev):""}</span>
+    </div>`;
+  }).join("");
+  el.innerHTML = html || '<span class="spinner">Keine relevanten Events diese Woche.</span>';
+}
+
+function renderRecent(){
+  const el = document.getElementById("recCard");
+  if(!Array.isArray(B.recent)){
+    el.innerHTML = `<span class="err">News-Feed nicht ladbar.</span>`;
+    return;
+  }
+  const dots = i => i==="high" ? '<span class="imp-high">●●●</span>' : (i==="medium" ? '<span class="imp-med">●●</span>' : '<span class="small">●</span>');
+  const html = B.recent.filter(r => r.impact==="high" || r.impact==="medium").map(r => {
+    let surp = "";
+    if(r.surprise != null){
+      surp = Math.abs(r.surprise) > 1e-9
+        ? ` <b class="${r.surprise>0?"pos":"neg"}">Überraschung: ${fmt(r.surprise)}</b>`
+        : ' <span class="small">wie erwartet</span>';
+    }
+    return `<div class="ev">
+      <span class="t">${dt(r.date,{weekday:"short",hour:"2-digit",minute:"2-digit"})}</span>
+      <span class="c">${esc(r.ccy)}</span>${dots(r.impact)}
+      <span>${esc(r.title)}</span>
+      <span class="small">Act: <b>${esc(r.act)||"–"}</b> · Cons: ${esc(r.cons)||"–"} · Prev: ${esc(r.prev)||"–"}${surp}</span>
+    </div>`;
+  }).join("");
+  el.innerHTML = html || '<span class="spinner">Aktuell keine High/Medium-Impact-Veröffentlichungen unserer Währungen im Feed.</span>';
+}
+
+function renderMacro(){
+  let html = `<thead><tr><th>Währung</th><th>Preis-Mom. 30T</th><th>Leitzins</th><th>Δ 12M</th><th>CPI YoY</th><th>Arb.-quote</th><th>Δ 6M</th></tr></thead><tbody>`;
+  for(const [ccy, f] of Object.entries(B.macroTable || {})){
+    const st = (p, age) => p ? `<div class="small ${age>240?"status-warn":""}">${esc(p)}${age>240?" ⚠ alt":""}</div>` : "";
+    html += `<tr>
+      <td>${ccy} <span class="tag">${esc(f.name)}</span></td>
+      <td class="${cls(f.px)}">${ccy==="USD" ? "–" : (f.px!=null ? fmt(f.px)+" %" : '<span class="err">n/a</span>')}</td>
+      <td>${f.level!=null ? fmt1(f.level)+" %" : '<span class="err">n/a</span>'}${st(f.polPeriod, f.polAge)}</td>
+      <td class="${cls(f.mom)}">${f.mom!=null ? fmt(f.mom)+" pp" : "–"}</td>
+      <td>${f.cpi!=null ? fmt1(f.cpi)+" %" : '<span class="err">n/a</span>'}${st(f.cpiPeriod, f.cpiAge)}</td>
+      <td>${f.unemp!=null ? fmt1(f.unemp)+" %" : '<span class="err">n/a</span>'}${st(f.unePeriod, f.uneAge)}</td>
+      <td class="${cls(f.unempTrend==null?null:-f.unempTrend)}">${f.unempTrend!=null ? fmt(f.unempTrend)+" pp" : "–"}</td>
+    </tr>`;
+  }
+  document.getElementById("macroTable").innerHTML = html + "</tbody>";
+  document.getElementById("macroNotes").innerHTML =
+    (B.fx ? `FX: EZB-Referenzkurse ${esc(B.fx.from)} → ${esc(B.fx.date)}` : "") + srcLine();
+}
+
+function renderCot(){
+  const el = document.getElementById("cotCard");
+  if(!B.cot){
+    el.innerHTML = `<span class="err">COT nicht ladbar. <a href="https://www.barchart.com/futures/commitment-of-traders" target="_blank">Barchart COT</a></span>`;
+    return;
+  }
+  const idxCls = i => i>60 ? "pos" : (i<40 ? "neg" : "neu");
+  let html = B.futures.map(f => {
+    const d = B.cot[f.cot];
+    if(!d) return "";
+    const extreme = d.index>=90 || d.index<=10;
+    return `<div style="border-bottom:1px solid var(--border); padding:6px 0">
+      <div class="contrib">
+        <span style="min-width:120px"><b>${f.sym} ${esc(f.label)}</b></span>
+        <span><b>Large Specs</b>: <b class="${d.net>0?"pos":"neg"}">${nf(d.net)}</b> (${fmt1(d.netPct)} % OI) · Δ6W ${d.chg6w>0?"+":""}${nf(d.chg6w)} · Index <b class="${idxCls(d.index)}">${d.index}</b>${extreme?' <span class="warn">⚠</span>':""}</span>
+      </div>
+      <div class="contrib small">
+        <span style="min-width:120px"></span>
+        <span>Commercials (Smart Money): <b class="${d.commNet>0?"pos":"neg"}">${nf(d.commNet)}</b> · Index <b class="${idxCls(d.commIdx)}">${d.commIdx ?? "–"}</b>
+        &nbsp;·&nbsp; Small Traders (Crowd): <b class="${d.smallNet>0?"pos":"neg"}">${nf(d.smallNet)}</b> · Index <b class="${idxCls(d.smallIdx)}">${d.smallIdx ?? "–"}</b></span>
+      </div>
+    </div>`;
+  }).join("");
+  const any = B.futures.map(f => B.cot[f.cot]).find(Boolean);
+  el.innerHTML = html + `<div class="small" style="margin-top:6px">Report-Datenstand (Dienstag): ${esc(any?.date || "–")}</div>`;
+}
+
+load();
 </script>
 </body>
 </html>

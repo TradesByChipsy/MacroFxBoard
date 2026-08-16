@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Vollautomatisches Makro-Scoring für CME-Währungsfutures (6E, 6J, 6A, 6C)",
   "scripts": {
+    "build": "node server/build.js",
     "start": "node server/index.js",
     "dev": "node --watch server/index.js"
   },
