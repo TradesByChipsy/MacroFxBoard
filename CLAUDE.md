@@ -22,14 +22,28 @@ heute überhaupt handelbar ist. Drei Zustände pro Future: `LONG` / `SHORT` / `T
 
 ## Aktueller Stand
 
-Single-File-HTML (`web/index.html`), lauffähig, alle Datenquellen verifiziert.
-**Offenes Hauptproblem:** Die beiden Event-Feeds brauchen einen serverseitigen Proxy (CORS).
-Der PowerShell-Workaround in `legacy/` funktioniert, ist aber der Grund für den Umzug nach Claude Code.
+Scoring liegt im Backend (`server/scoring.js`), das Frontend zeigt nur noch `data/board.json` an.
+**GitHub Actions ist das Backend**: Es holt die Feeds (im Runner existiert das CORS-Problem nicht),
+rechnet, committet `data/board.json` plus einen Snapshot nach `data/history/`; Pages liefert statisch aus.
+Damit ist CORS gelöst und die Signal-Historie fällt nebenbei ab.
+
+Neu im Modell: **Divergenz Large Specs gegen Retail-Crowd** (CFTC vs. Myfxbook Community Outlook).
+Multiplikativ statt additiv — Richtung von den Specs, Stärke aus dem Retail-Extrem. Wird vorerst
+nur angezeigt und fließt **nicht** in den Gesamtscore.
 
 ## Nächster Schritt
 
-Überführung in eine echte App mit Node-Backend (siehe `HANDOVER.md`, Abschnitt "Zielarchitektur").
-Das Backend löst CORS, cached serverseitig und ermöglicht Historie/Backtest.
+1. Erste Actions-Läufe beobachten und Pages aktivieren.
+2. Datenqualität retten: Leitzinsen/CPI direkt von BIS/EZB/FRED/BoC statt DBnomics (Priorität 1 —
+   ohne das ist knapp die Hälfte des Makro-Scores wertlos).
+3. Nach ein paar Wochen Historie: Divergenz-Gewichtung festlegen und Backtest rechnen.
+
+## Arbeitsregeln
+
+- **Node ist auf dem Entwicklungsrechner nicht installiert.** `server/scoring.js` ist deshalb
+  bewusst pures JavaScript ohne Node-APIs und über `test/scoring.test.html` im Browser testbar.
+  Diese Eigenschaft nicht aufgeben.
+- Änderungen am Rechenmodell immer gegen `test/scoring.test.html` prüfen (28 Tests).
 
 ## Wichtige Dokumente
 

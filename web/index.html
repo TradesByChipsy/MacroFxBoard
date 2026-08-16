@@ -275,7 +275,7 @@ function renderDivergence(){
           <span class="mid"></span>
           <span style="${d.specPos>=0 ? `left:50%; width:${d.specPos*50}%` : `right:50%; width:${-d.specPos*50}%`}; background:${specCol}"></span>
         </div>
-        <div class="small">${d.specPos>=0?"netto long":"netto short"} · Stand ${esc(d.cotDate||"–")}</div>
+        <div class="small">${d.specPos>0?"netto long":(d.specPos<0?"netto short":"neutral")} · Stand ${esc(d.cotDate||"–")}</div>
       </div>
       <div class="side">
         <div class="lbl"><span>Retail-Crowd</span><span>${d.retailLongPct} L / ${d.retailShortPct} S</span></div>
@@ -367,7 +367,7 @@ function renderCot(){
   }
   const idxCls = i => i>60 ? "pos" : (i<40 ? "neg" : "neu");
   let html = B.futures.map(f => {
-    const d = B.cot[f.cot];
+    const d = B.cot[f.cotCode];
     if(!d) return "";
     const extreme = d.index>=90 || d.index<=10;
     return `<div style="border-bottom:1px solid var(--border); padding:6px 0">
@@ -382,7 +382,7 @@ function renderCot(){
       </div>
     </div>`;
   }).join("");
-  const any = B.futures.map(f => B.cot[f.cot]).find(Boolean);
+  const any = B.futures.map(f => B.cot[f.cotCode]).find(Boolean);
   el.innerHTML = html + `<div class="small" style="margin-top:6px">Report-Datenstand (Dienstag): ${esc(any?.date || "–")}</div>`;
 }
 

@@ -38,6 +38,9 @@ export const RETAIL_EXTREME = 0.4;
 
 export const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 
+/** Dezimalkomma für die Notiztexte — die Oberfläche ist durchgängig deutsch. */
+const de = (n, digits = 2) => n.toFixed(digits).replace(".", ",");
+
 // ------------------------------------------------------------- Datenalter
 
 function periodDate(p) {
@@ -146,24 +149,24 @@ export function pairScore(fut, data, now = Date.now()) {
 
   // Preis-Momentum — der einzige tagesfrische Faktor
   if (fx && fx[fut.base] != null) {
-    add("Preis-Momentum 30T", W.px, fx[fut.base] * (2 / 3), `${fx[fut.base].toFixed(2)} % vs USD`, false);
+    add("Preis-Momentum 30T", W.px, fx[fut.base] * (2 / 3), `${de(fx[fut.base])} % vs USD`, false);
   }
   if (b.mom != null && u.mom != null) {
     const aw = Math.min(ageW(b.polAge), ageW(u.polAge));
-    if (aw > 0) add("Zins-Momentum Δ12M", W.mom * aw, (b.mom - u.mom) * 2, `${b.mom.toFixed(2)} vs ${u.mom.toFixed(2)} pp`, aw < 1);
+    if (aw > 0) add("Zins-Momentum Δ12M", W.mom * aw, (b.mom - u.mom) * 2, `${de(b.mom)} vs ${de(u.mom)} pp`, aw < 1);
   }
   if (b.level != null && u.level != null) {
     const aw = Math.min(ageW(b.polAge), ageW(u.polAge));
-    if (aw > 0) add("Zinsniveau / Carry", W.carry * aw, (b.level - u.level) / 1.5, `${b.level.toFixed(1)} % vs ${u.level.toFixed(1)} %`, aw < 1);
+    if (aw > 0) add("Zinsniveau / Carry", W.carry * aw, (b.level - u.level) / 1.5, `${de(b.level, 1)} % vs ${de(u.level, 1)} %`, aw < 1);
   }
   if (b.cpi != null && u.cpi != null) {
     const aw = Math.min(ageW(b.cpiAge), ageW(u.cpiAge));
-    if (aw > 0) add("Inflationsdruck", W.infl * aw, b.cpi - u.cpi, `CPI ${b.cpi.toFixed(1)} vs ${u.cpi.toFixed(1)} %`, aw < 1);
+    if (aw > 0) add("Inflationsdruck", W.infl * aw, b.cpi - u.cpi, `CPI ${de(b.cpi, 1)} vs ${de(u.cpi, 1)} %`, aw < 1);
   }
   if (b.unempTrend != null && u.unempTrend != null) {
     const aw = Math.min(ageW(b.uneAge), ageW(u.uneAge));
     // Minus: sinkende Arbeitslosigkeit = Stärke
-    if (aw > 0) add("Arbeitsmarkt-Trend", W.lab * aw, -(b.unempTrend - u.unempTrend) * 4, `Δ6M ${b.unempTrend.toFixed(2)} vs ${u.unempTrend.toFixed(2)} pp`, aw < 1);
+    if (aw > 0) add("Arbeitsmarkt-Trend", W.lab * aw, -(b.unempTrend - u.unempTrend) * 4, `Δ6M ${de(b.unempTrend)} vs ${de(u.unempTrend)} pp`, aw < 1);
   }
 
   const wSum = parts.reduce((a, p) => a + p.w, 0);
@@ -211,7 +214,9 @@ export function pairScore(fut, data, now = Date.now()) {
       .map((ev) => ({ c: ev.c, title: ev.title, date: ev.date }));
   }
 
-  return { ...fut, parts, fund, cot, cotExtreme, cotSqueeze, cotParts, divergence: div, total, evWarns, signal: signalFor(total) };
+  // `cotCode` statt `fut.cot`: Der Spread würde die Kontraktnummer sonst mit dem
+  // gleichnamigen COT-*Score* überschreiben — und damit den Zugriff B.cot[code] zerstören.
+  return { ...fut, cotCode: fut.cot, parts, fund, cot, cotExtreme, cotSqueeze, cotParts, divergence: div, total, evWarns, signal: signalFor(total) };
 }
 
 /** Vier Zustände. "KEIN TRADE" ist ein gewolltes Ergebnis, kein Mangel. */

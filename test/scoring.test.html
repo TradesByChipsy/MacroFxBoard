@@ -1,0 +1,89 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Scoring-Tests</title>
+<style>body{background:#0e1117;color:#e6e9f0;font:13px/1.6 Consolas,monospace;padding:20px}
+pre{white-space:pre-wrap} .f{color:#e74c3c} .p{color:#2ecc71}</style></head><body>
+<pre id="out">läuft…</pre>
+<script type="module">
+/*
+ * Tests für das Rechenmodell.
+ *
+ *   npm start           →  http://localhost:8371/../test/scoring.test.html
+ *   oder:  python -m http.server 8899   →  http://127.0.0.1:8899/test/scoring.test.html
+ *
+ * Läuft bewusst im Browser statt unter einem Node-Testrunner: scoring.js ist pures
+ * JavaScript ohne Node-APIs, damit braucht es keine Abhängigkeiten und keine
+ * Toolchain. Fixtures nutzen die echten Myfxbook-Retail-Stände vom 16.08.2026 —
+ * die Divergenz wird gegen reale Zahlen geprüft, nicht gegen Wunschdaten.
+ */
+import { buildBoard, divergence, ageW, signalFor, curFactors } from "../server/scoring.js";
+import * as FIX from "./fixtures.mjs";
+
+const log = [];
+let pass = 0, fail = 0;
+const ok = (name, cond, got) => { cond ? pass++ : fail++; log.push(`${cond?"  ok  ":"FAIL  "}${name}${cond?"":`   → ${JSON.stringify(got)}`}`); };
+
+const { macro, cot, retail, fx } = FIX;
+
+// --- Divergenz ------------------------------------------------------------
+const dAud = divergence(cot["232741"], retail["232741"]);   // Specs +0.7 vs Crowd -0.6
+ok("6A Divergenz feuert (Specs long 85, Crowd 80 % short)", dAud.fires === true, dAud);
+ok("6A Score = specPos * |retailPos| * 2 = 0.84", Math.abs(dAud.score - 0.84) < 1e-9, dAud.score);
+ok("6A Stärke 'moderat'", dAud.strength === "moderat", dAud.strength);
+
+const dEur = divergence(cot["099741"], retail["099741"]);   // Specs -0.6 vs Crowd -0.3 → gleiche Seite
+ok("6E feuert NICHT (beide short)", dEur.fires === false, dEur);
+ok("6E Score exakt 0", dEur.score === 0, dEur.score);
+
+const dCad = divergence(cot["090741"], retail["090741"]);   // Specs +0.9 vs Crowd -0.28 → Gate greift
+ok("6C feuert NICHT (Crowd 64/36 unter der 70/30-Schwelle)", dCad.fires === false, dCad);
+ok("6C Begründung nennt die Crowd-Schwelle", /nicht einseitig genug/.test(dCad.reason), dCad.reason);
+
+const dMax = divergence({index:100, date:"x"}, {longPct:0, shortPct:100, retailPos:-1, pair:"X", inverted:false});
+ok("Extremfall gedeckelt bei +2", dMax.score === 2 && dMax.strength === "stark", dMax);
+ok("Fehlende Retail-Daten → null statt Absturz", divergence(cot["099741"], null) === null);
+
+// --- Datenalter -----------------------------------------------------------
+ok("ageW frisch = 1", ageW(100) === 1);
+ok("ageW alt = 0.5", ageW(300) === 0.5);
+ok("ageW tot = 0", ageW(1000) === 0);
+ok("ageW ohne Datum = 0", ageW(null) === 0);
+
+// --- Schwellen ------------------------------------------------------------
+ok("1.2 → LONG",        signalFor(1.2).key === "long");
+ok("-1.2 → SHORT",      signalFor(-1.2).key === "short");
+ok("0.8 → Tendenz",     signalFor(0.8).key === "weak");
+ok("0.3 → KEIN TRADE",  signalFor(0.3).label === "KEIN TRADE");
+ok("null → DATEN FEHLEN", signalFor(null).label === "DATEN FEHLEN");
+
+// --- Board ----------------------------------------------------------------
+const board = buildBoard({ macro, cot, fx, retail, events: FIX.events, recent: FIX.recent, sources: FIX.sources }, Date.UTC(2026,7,16,9));
+ok("Board hat 4 Futures", board.futures.length === 4, board.futures.length);
+ok("Jeder Future hat einen Gesamtscore", board.futures.every(f => f.total !== null));
+ok("Divergenz steckt NICHT im Gesamtscore",
+   Math.abs(board.futures.find(f=>f.sym==="6A").total - (0.7*board.futures.find(f=>f.sym==="6A").fund + 0.3*board.futures.find(f=>f.sym==="6A").cot)) < 1e-9);
+ok("6C: COT-Extrem 95 wird gedämpft, nicht verstärkt",
+   Math.abs(board.futures.find(f=>f.sym==="6C").cotParts.sSpec) < Math.abs((95-50)/25), board.futures.find(f=>f.sym==="6C").cotParts.sSpec);
+ok("6E: Squeeze erkannt (Index 20? nein) — Extrem-Flag korrekt aus",
+   board.futures.find(f=>f.sym==="6E").cotExtreme === false);
+ok("Board ist JSON-serialisierbar", typeof JSON.stringify(board) === "string");
+// Regression: der Spread {...fut} überschrieb die Kontraktnummer mit dem COT-Score,
+// wodurch B.cot[code] im Frontend ins Leere lief und das COT-Panel leer blieb.
+ok("cotCode bleibt die Kontraktnummer", board.futures.every(f => typeof f.cotCode === "string" && /^\d{6}$/.test(f.cotCode)),
+   board.futures.map(f => f.cotCode));
+ok("jeder Future findet seinen COT-Datensatz", board.futures.every(f => board.cot[f.cotCode] != null));
+ok("macroTable enthält alle 5 Währungen", Object.keys(board.macroTable).length === 5);
+
+// EUR-Leitzins steigt um 0.02/Monat → Δ12M ≈ +0.24 pp
+const fEur = curFactors(macro, "EUR", Date.UTC(2026,7,16));
+ok("curFactors Δ12M korrekt (~0.24)", Math.abs(fEur.mom - 0.24) < 0.001, fEur.mom);
+
+log.push("", `${pass} bestanden, ${fail} fehlgeschlagen`);
+log.push("", "--- Board-Auszug ---");
+for (const f of board.futures) {
+  const d = f.divergence;
+  log.push(`${f.sym}  total ${f.total.toFixed(3).padStart(7)}  ${f.signal.label.padEnd(14)}` +
+           `  fund ${f.fund.toFixed(2).padStart(6)}  cot ${f.cot.toFixed(2).padStart(6)}` +
+           `  div ${d ? d.score.toFixed(2).padStart(5) + " " + d.strength : "–"}`);
+}
+document.getElementById("out").textContent = log.join("\n");
+window.__done = true;
+</script></body></html>
