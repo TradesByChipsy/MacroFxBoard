@@ -12,7 +12,40 @@
  * Kein CORS-Header → nur serverseitig abrufbar, wie ForexFactory und Myfxbook-RSS.
  */
 
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+
+const execFileAsync = promisify(execFile);
+
 const URL_OUTLOOK = "https://www.myfxbook.com/community/outlook";
+const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)";
+
+/**
+ * Abruf bewusst über curl statt fetch.
+ *
+ * Cloudflare beantwortet genau diese Route für Node mit 403 — unabhängig von den
+ * gesendeten Headern, geprüft mit vollem Browser-Header-Satz. Es ist der TLS-Fingerabdruck
+ * von Nodes undici, nicht der Inhalt der Anfrage: derselbe Request per curl liefert 200,
+ * von derselben IP. Der Myfxbook-RSS-Feed ist nicht betroffen und läuft weiter über fetch.
+ *
+ * curl ist auf ubuntu-latest (Actions) und Windows 10+ vorinstalliert.
+ */
+async function fetchOutlookHtml() {
+  try {
+    const { stdout } = await execFileAsync(
+      "curl",
+      ["-sS", "--fail", "--compressed", "--max-time", "25",
+       "-H", `user-agent: ${UA}`,
+       "-H", "accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+       URL_OUTLOOK],
+      { maxBuffer: 32 * 1024 * 1024, encoding: "utf8" }
+    );
+    return stdout;
+  } catch (err) {
+    // curl --fail liefert bei HTTP-Fehlern Exit 22; stderr trägt den Grund.
+    throw new Error(`Myfxbook-Abruf fehlgeschlagen: ${(err.stderr || err.message).trim()}`);
+  }
+}
 
 /**
  * Zuordnung Future → Myfxbook-Paar.
@@ -60,15 +93,9 @@ function parseRow(block) {
   };
 }
 
-/** Rohabzug aller Symbole. `fetchImpl` nur für Tests injizierbar. */
-export async function fetchOutlook(fetchImpl = fetch) {
-  const res = await fetchImpl(URL_OUTLOOK, {
-    headers: { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", accept: "text/html" },
-    signal: AbortSignal.timeout(20_000),
-  });
-  if (!res.ok) throw new Error(`Myfxbook HTTP ${res.status}`);
-
-  const html = await res.text();
+/** Rohabzug aller Symbole. `getHtml` nur für Tests injizierbar. */
+export async function fetchOutlook(getHtml = fetchOutlookHtml) {
+  const html = await getHtml();
   const blocks = html.split(/(?=<tr class="outlook-symbol-row")/).slice(1);
   if (!blocks.length) throw new Error("Outlook-Tabelle nicht gefunden — Layout geändert?");
 
@@ -86,8 +113,8 @@ export async function fetchOutlook(fetchImpl = fetch) {
  * `longPct` = Anteil der Retail-Trader, die auf eine *stärkere Basiswährung* setzen.
  * `retailPos` = (longPct − 50) / 50, also −1 (alle short) … +1 (alle long).
  */
-export async function loadRetail(fetchImpl = fetch) {
-  const raw = await fetchOutlook(fetchImpl);
+export async function loadRetail(getHtml = fetchOutlookHtml) {
+  const raw = await fetchOutlook(getHtml);
   const ts = new Date().toISOString();
   const result = {};
 
