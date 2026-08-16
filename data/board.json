@@ -1,0 +1,598 @@
+{
+  "generatedAt": "2026-08-16T07:53:03.836Z",
+  "futures": [
+    {
+      "sym": "6E",
+      "base": "EUR",
+      "label": "Euro FX",
+      "cot": 1.072,
+      "cotCode": "099741",
+      "parts": [
+        {
+          "name": "Preis-Momentum 30T",
+          "w": 0.3,
+          "s": 0.927689634589135,
+          "note": "1,39 % vs USD",
+          "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,25 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.5833333333333333,
+          "note": "2,0 % vs 4,4 %",
+          "stale": true
+        }
+      ],
+      "fund": -0.2476694151554149,
+      "cotExtreme": true,
+      "cotSqueeze": true,
+      "cotParts": {
+        "sSpec": 1,
+        "sComm": 1.64,
+        "sSmall": 0.4
+      },
+      "divergence": null,
+      "total": 0.14823140939120957,
+      "evWarns": [],
+      "signal": {
+        "key": "none",
+        "label": "KEIN TRADE",
+        "hint": "Keine ausreichende Divergenz — Future auslassen."
+      }
+    },
+    {
+      "sym": "6J",
+      "base": "JPY",
+      "label": "Japanese Yen",
+      "cot": 0.21599999999999997,
+      "cotCode": "097741",
+      "parts": [
+        {
+          "name": "Preis-Momentum 30T",
+          "w": 0.3,
+          "s": 1.3876059691688702,
+          "note": "2,08 % vs USD",
+          "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 2,
+          "note": "0,45 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -2,
+          "note": "0,5 % vs 4,4 %",
+          "stale": true
+        },
+        {
+          "name": "Inflationsdruck",
+          "w": 0.075,
+          "s": 0.5298480649558401,
+          "note": "CPI 3,2 vs 2,7 %",
+          "stale": true
+        },
+        {
+          "name": "Arbeitsmarkt-Trend",
+          "w": 0.05,
+          "s": -1.200000000000001,
+          "note": "Δ6M 0,30 vs 0,00 pp",
+          "stale": true
+        }
+      ],
+      "fund": 0.686185224034383,
+      "cotExtreme": false,
+      "cotSqueeze": false,
+      "cotParts": {
+        "sSpec": -0.44,
+        "sComm": 0.52,
+        "sSmall": 1.4
+      },
+      "divergence": null,
+      "total": 0.545129656824068,
+      "evWarns": [],
+      "signal": {
+        "key": "none",
+        "label": "KEIN TRADE",
+        "hint": "Keine ausreichende Divergenz — Future auslassen."
+      }
+    },
+    {
+      "sym": "6A",
+      "base": "AUD",
+      "label": "Australian Dollar",
+      "cot": -0.5680000000000001,
+      "cotCode": "232741",
+      "parts": [
+        {
+          "name": "Preis-Momentum 30T",
+          "w": 0.3,
+          "s": 0.9356888485440991,
+          "note": "1,40 % vs USD",
+          "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 1.0000000000000009,
+          "note": "-0,50 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -0.3499999999999999,
+          "note": "3,9 % vs 4,4 %",
+          "stale": true
+        },
+        {
+          "name": "Arbeitsmarkt-Trend",
+          "w": 0.05,
+          "s": -1,
+          "note": "Δ6M 0,25 vs 0,00 pp",
+          "stale": true
+        }
+      ],
+      "fund": 0.5577507035882258,
+      "cotExtreme": false,
+      "cotSqueeze": false,
+      "cotParts": {
+        "sSpec": -0.6,
+        "sComm": 0.2,
+        "sSmall": -1.64
+      },
+      "divergence": null,
+      "total": 0.220025492511758,
+      "evWarns": [],
+      "signal": {
+        "key": "none",
+        "label": "KEIN TRADE",
+        "hint": "Keine ausreichende Divergenz — Future auslassen."
+      }
+    },
+    {
+      "sym": "6C",
+      "base": "CAD",
+      "label": "Canadian Dollar",
+      "cot": 1.108,
+      "cotCode": "090741",
+      "parts": [
+        {
+          "name": "Preis-Momentum 30T",
+          "w": 0.3,
+          "s": 0.9426365401923171,
+          "note": "1,41 % vs USD",
+          "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,00 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.0833333333333333,
+          "note": "2,8 % vs 4,4 %",
+          "stale": true
+        },
+        {
+          "name": "Inflationsdruck",
+          "w": 0.075,
+          "s": -0.84616633767183,
+          "note": "CPI 1,9 vs 2,7 %",
+          "stale": true
+        },
+        {
+          "name": "Arbeitsmarkt-Trend",
+          "w": 0.05,
+          "s": -2,
+          "note": "Δ6M 1,08 vs 0,00 pp",
+          "stale": true
+        }
+      ],
+      "fund": -0.3676997640015776,
+      "cotExtreme": true,
+      "cotSqueeze": true,
+      "cotParts": {
+        "sSpec": 1,
+        "sComm": 1.6,
+        "sSmall": 0.64
+      },
+      "divergence": null,
+      "total": 0.0750101651988957,
+      "evWarns": [
+        {
+          "c": "CAD",
+          "title": "CPI m/m",
+          "date": "2026-08-17T08:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Median CPI y/y",
+          "date": "2026-08-17T08:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Trimmed CPI y/y",
+          "date": "2026-08-17T08:30:00-04:00"
+        }
+      ],
+      "signal": {
+        "key": "none",
+        "label": "KEIN TRADE",
+        "hint": "Keine ausreichende Divergenz — Future auslassen."
+      }
+    }
+  ],
+  "macroTable": {
+    "USD": {
+      "name": "US-Dollar",
+      "bis": "US",
+      "imf": "US",
+      "level": 4.375,
+      "mom": -1,
+      "polPeriod": "2025-06",
+      "polAge": 427.32851662037035,
+      "cpi": 2.70490239715136,
+      "cpiPeriod": "2025-07",
+      "cpiAge": 397.32851662037035,
+      "unemp": 4.1,
+      "unempTrend": 0,
+      "unePeriod": "2024-12",
+      "uneAge": 609.3285166203704,
+      "px": null
+    },
+    "EUR": {
+      "name": "Euro",
+      "bis": "XM",
+      "imf": "U2",
+      "level": 2,
+      "mom": -2.25,
+      "polPeriod": "2025-06",
+      "polAge": 427.32851662037035,
+      "px": 1.3915344518837025
+    },
+    "JPY": {
+      "name": "Yen",
+      "bis": "JP",
+      "imf": "JP",
+      "level": 0.5,
+      "mom": 0.45,
+      "polPeriod": "2025-06",
+      "polAge": 427.32851662037035,
+      "cpi": 3.2347504621072,
+      "cpiPeriod": "2025-06",
+      "cpiAge": 427.32851662037035,
+      "unemp": 2.7,
+      "unempTrend": 0.30000000000000027,
+      "unePeriod": "2025-04",
+      "uneAge": 488.32851662037035,
+      "px": 2.0814089537533054
+    },
+    "AUD": {
+      "name": "Aussie",
+      "bis": "AU",
+      "imf": "AU",
+      "level": 3.85,
+      "mom": -0.49999999999999956,
+      "polPeriod": "2025-05",
+      "polAge": 458.32851662037035,
+      "unemp": 4.395,
+      "unempTrend": 0.25,
+      "unePeriod": "2025-02",
+      "uneAge": 547.3285166203704,
+      "px": 1.4035332728161487
+    },
+    "CAD": {
+      "name": "CAD",
+      "bis": "CA",
+      "imf": "CA",
+      "level": 2.75,
+      "mom": -2,
+      "polPeriod": "2025-06",
+      "polAge": 427.32851662037035,
+      "cpi": 1.85873605947953,
+      "cpiPeriod": "2025-06",
+      "cpiAge": 427.32851662037035,
+      "unemp": 7.094,
+      "unempTrend": 1.0760000000000005,
+      "unePeriod": "2025-03",
+      "uneAge": 519.3285166203704,
+      "px": 1.4139548102884758
+    }
+  },
+  "cot": {
+    "232741": {
+      "index": 35,
+      "net": -39223,
+      "netPct": -14.67805794433093,
+      "chg6w": -21523,
+      "commIdx": 55,
+      "commNet": 14861,
+      "smallIdx": 91,
+      "smallNet": 24362,
+      "openInterest": 267222,
+      "weeks": 156,
+      "date": "2026-08-11"
+    },
+    "099741": {
+      "index": 6,
+      "net": -60010,
+      "netPct": -7.4836260606272225,
+      "chg6w": -61109,
+      "commIdx": 91,
+      "commNet": 29203,
+      "smallIdx": 40,
+      "smallNet": 30807,
+      "openInterest": 801884,
+      "weeks": 156,
+      "date": "2026-08-11"
+    },
+    "097741": {
+      "index": 39,
+      "net": -42085,
+      "netPct": -10.739421344615872,
+      "chg6w": 113007,
+      "commIdx": 63,
+      "commNet": 48769,
+      "smallIdx": 15,
+      "smallNet": -6684,
+      "openInterest": 391874,
+      "weeks": 156,
+      "date": "2026-08-11"
+    },
+    "090741": {
+      "index": 10,
+      "net": -173362,
+      "netPct": -47.613319271416955,
+      "chg6w": -22556,
+      "commIdx": 90,
+      "commNet": 179686,
+      "smallIdx": 34,
+      "smallNet": -6324,
+      "openInterest": 364104,
+      "weeks": 156,
+      "date": "2026-08-11"
+    }
+  },
+  "retail": null,
+  "fx": {
+    "from": "2026-07-15",
+    "date": "2026-08-14",
+    "days": 23,
+    "EUR": 1.3915344518837025,
+    "JPY": 2.0814089537533054,
+    "AUD": 1.4035332728161487,
+    "CAD": 1.4139548102884758
+  },
+  "events": [
+    {
+      "title": "CPI m/m",
+      "c": "CAD",
+      "date": "2026-08-17T08:30:00-04:00",
+      "impact": "High",
+      "fc": "0.4%",
+      "prev": "-0.4%"
+    },
+    {
+      "title": "Median CPI y/y",
+      "c": "CAD",
+      "date": "2026-08-17T08:30:00-04:00",
+      "impact": "High",
+      "fc": "2.0%",
+      "prev": "1.9%"
+    },
+    {
+      "title": "Trimmed CPI y/y",
+      "c": "CAD",
+      "date": "2026-08-17T08:30:00-04:00",
+      "impact": "High",
+      "fc": "1.8%",
+      "prev": "1.8%"
+    },
+    {
+      "title": "Common CPI y/y",
+      "c": "CAD",
+      "date": "2026-08-17T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "2.5%",
+      "prev": "2.6%"
+    },
+    {
+      "title": "Wage Price Index q/q",
+      "c": "AUD",
+      "date": "2026-08-18T21:30:00-04:00",
+      "impact": "Medium",
+      "fc": "0.8%",
+      "prev": "0.8%"
+    },
+    {
+      "title": "ECB President Lagarde Speaks",
+      "c": "EUR",
+      "date": "2026-08-19T03:10:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "FOMC Meeting Minutes",
+      "c": "USD",
+      "date": "2026-08-19T14:00:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "Employment Change",
+      "c": "AUD",
+      "date": "2026-08-19T21:30:00-04:00",
+      "impact": "High",
+      "fc": "11.4K",
+      "prev": "76.3K"
+    },
+    {
+      "title": "Unemployment Rate",
+      "c": "AUD",
+      "date": "2026-08-19T21:30:00-04:00",
+      "impact": "High",
+      "fc": "4.4%",
+      "prev": "4.4%"
+    },
+    {
+      "title": "Philly Fed Manufacturing Index",
+      "c": "USD",
+      "date": "2026-08-20T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "24.3",
+      "prev": "41.4"
+    },
+    {
+      "title": "Unemployment Claims",
+      "c": "USD",
+      "date": "2026-08-20T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "210K",
+      "prev": "209K"
+    },
+    {
+      "title": "French Flash Manufacturing PMI",
+      "c": "EUR",
+      "date": "2026-08-21T03:15:00-04:00",
+      "impact": "Medium",
+      "fc": "50.1",
+      "prev": "50.0"
+    },
+    {
+      "title": "French Flash Services PMI",
+      "c": "EUR",
+      "date": "2026-08-21T03:15:00-04:00",
+      "impact": "Medium",
+      "fc": "49.4",
+      "prev": "49.8"
+    },
+    {
+      "title": "German Flash Manufacturing PMI",
+      "c": "EUR",
+      "date": "2026-08-21T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "52.0",
+      "prev": "52.2"
+    },
+    {
+      "title": "German Flash Services PMI",
+      "c": "EUR",
+      "date": "2026-08-21T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "50.2",
+      "prev": "49.6"
+    }
+  ],
+  "recent": [
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Growth Annualized",
+      "date": "Sun, 16 Aug 2026 23:50 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Growth Rate QoQ",
+      "date": "Sun, 16 Aug 2026 23:50 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Private Consumption QoQ",
+      "date": "Sun, 16 Aug 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP External Demand QoQ",
+      "date": "Sun, 16 Aug 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Price Index YoY",
+      "date": "Sun, 16 Aug 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Capital Expenditure QoQ",
+      "date": "Sun, 16 Aug 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    }
+  ],
+  "sources": {
+    "retail": {
+      "ok": false,
+      "ms": 317,
+      "error": "Myfxbook HTTP 403",
+      "at": "2026-08-16T07:53:01.780Z"
+    },
+    "calendar": {
+      "ok": true,
+      "ms": 372,
+      "at": "2026-08-16T07:53:01.836Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 442,
+      "at": "2026-08-16T07:53:01.907Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 509,
+      "at": "2026-08-16T07:53:01.972Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1237,
+      "at": "2026-08-16T07:53:02.699Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 2405,
+      "at": "2026-08-16T07:53:03.835Z"
+    }
+  }
+}
