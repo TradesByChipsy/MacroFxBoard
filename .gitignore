@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Achtung: data/ wird BEWUSST versioniert.
+# Dort liegen die Snapshots jedes Scoring-Laufs — sie sind die Signal-Historie
+# und damit die Voraussetzung für den Backtest. Nicht ignorieren.
