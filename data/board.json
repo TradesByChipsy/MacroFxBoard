@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:19:59.111Z",
+  "generatedAt": "2026-08-21T18:18:12.202Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.455667276051183,
-          "note": "2,18 % vs USD",
+          "s": 1.5562157221206574,
+          "note": "2,33 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": 0.05403209425146964,
+      "fund": 0.11148834914831217,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -39,14 +39,8 @@
         "sSmall": 0.4
       },
       "divergence": null,
-      "total": 0.3594224659760287,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "FOMC Meeting Minutes",
-          "date": "2026-08-19T14:00:00-04:00"
-        }
-      ],
+      "total": 0.3996418444038185,
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -63,8 +57,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.486225725664081,
-          "note": "2,23 % vs USD",
+          "s": 1.5108593012275775,
+          "note": "2,27 % vs USD",
           "stale": false
         },
         {
@@ -96,7 +90,7 @@
           "stale": true
         }
       ],
-      "fund": 0.7317020347244803,
+      "fund": 0.7430713772922481,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -105,14 +99,8 @@
         "sSmall": 1.4
       },
       "divergence": null,
-      "total": 0.5769914243071361,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "FOMC Meeting Minutes",
-          "date": "2026-08-19T14:00:00-04:00"
-        }
-      ],
+      "total": 0.5849499641045737,
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -129,8 +117,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.9342301943198775,
-          "note": "1,40 % vs USD",
+          "s": 1.499439461883408,
+          "note": "2,25 % vs USD",
           "stale": false
         },
         {
@@ -155,7 +143,7 @@
           "stale": true
         }
       ],
-      "fund": 0.5569896666016755,
+      "fund": 0.8518814583739519,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -164,13 +152,8 @@
         "sSmall": -1.64
       },
       "divergence": null,
-      "total": 0.2194927666211728,
+      "total": 0.4259170208617663,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "FOMC Meeting Minutes",
-          "date": "2026-08-19T14:00:00-04:00"
-        },
         {
           "c": "AUD",
           "title": "Employment Change",
@@ -198,8 +181,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.240111182381868,
-          "note": "1,86 % vs USD",
+          "s": 1.3826526975981708,
+          "note": "2,07 % vs USD",
           "stale": false
         },
         {
@@ -231,7 +214,7 @@
           "stale": true
         }
       ],
-      "fund": -0.230403775298708,
+      "fund": -0.16461538366041445,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -240,14 +223,8 @@
         "sSmall": 0.64
       },
       "divergence": null,
-      "total": 0.17111735729090444,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "FOMC Meeting Minutes",
-          "date": "2026-08-19T14:00:00-04:00"
-        }
-      ],
+      "total": 0.21716923143770994,
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -263,14 +240,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 432.51387859953707,
+      "polAge": 432.7626412268518,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 402.51387859953707,
+      "cpiAge": 402.7626412268518,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 614.5138785995371,
+      "uneAge": 614.7626412268519,
       "px": null
     },
     "EUR": {
@@ -280,8 +257,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 432.51387859953707,
-      "px": 2.1835009140767747
+      "polAge": 432.7626412268518,
+      "px": 2.334323583180986
     },
     "JPY": {
       "name": "Yen",
@@ -290,15 +267,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 432.51387859953707,
+      "polAge": 432.7626412268518,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 432.51387859953707,
+      "cpiAge": 432.7626412268518,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 493.51387859953707,
-      "px": 2.2293385884961214
+      "uneAge": 493.7626412268518,
+      "px": 2.2662889518413665
     },
     "AUD": {
       "name": "Aussie",
@@ -307,12 +284,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 463.51387859953707,
+      "polAge": 463.7626412268518,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 552.5138785995371,
-      "px": 1.4013452914798163
+      "uneAge": 552.7626412268519,
+      "px": 2.249159192825112
     },
     "CAD": {
       "name": "CAD",
@@ -321,15 +298,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 432.51387859953707,
+      "polAge": 432.7626412268518,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 432.51387859953707,
+      "cpiAge": 432.7626412268518,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 524.5138785995371,
-      "px": 1.8601667735728022
+      "uneAge": 524.7626412268519,
+      "px": 2.0739790463972563
     }
   },
   "cot": {
@@ -389,12 +366,12 @@
   "retail": null,
   "fx": {
     "from": "2026-07-20",
-    "date": "2026-08-20",
-    "days": 24,
-    "EUR": 2.1835009140767747,
-    "JPY": 2.2293385884961214,
-    "AUD": 1.4013452914798163,
-    "CAD": 1.8601667735728022
+    "date": "2026-08-21",
+    "days": 25,
+    "EUR": 2.334323583180986,
+    "JPY": 2.2662889518413665,
+    "AUD": 2.249159192825112,
+    "CAD": 2.0739790463972563
   },
   "events": [
     {
@@ -665,7 +642,7 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Baker Hughes Oil Rig Count",
+      "title": "United States Baker Hughes Total Rigs Count",
       "date": "Fri, 21 Aug 2026 17:00 GMT",
       "impact": "low",
       "prev": "",
@@ -675,8 +652,8 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Baker Hughes Total Rigs Count",
-      "date": "Fri, 21 Aug 2026 17:00 GMT",
+      "title": "United States Baker Hughes Oil Rig Count",
+      "date": "Fri, 21 Aug 2026 17:20 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -687,34 +664,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 240,
+      "ms": 200,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-21T12:19:57.463Z"
+      "at": "2026-08-21T18:18:10.467Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 540,
-      "at": "2026-08-21T12:19:57.767Z"
+      "ms": 518,
+      "at": "2026-08-21T18:18:10.790Z"
     },
     "recent": {
       "ok": true,
-      "ms": 706,
-      "at": "2026-08-21T12:19:57.934Z"
+      "ms": 601,
+      "at": "2026-08-21T18:18:10.874Z"
     },
     "fx": {
       "ok": true,
-      "ms": 822,
-      "at": "2026-08-21T12:19:58.044Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1669,
-      "at": "2026-08-21T12:19:58.890Z"
+      "ms": 766,
+      "at": "2026-08-21T18:18:11.032Z"
     },
     "macro": {
       "ok": true,
-      "ms": 2063,
-      "at": "2026-08-21T12:19:59.111Z"
+      "ms": 1542,
+      "at": "2026-08-21T18:18:11.752Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1937,
+      "at": "2026-08-21T18:18:12.202Z"
     }
   }
 }
