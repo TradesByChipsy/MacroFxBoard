@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T00:30:44.756Z",
+  "generatedAt": "2026-08-23T06:18:49.432Z",
   "futures": [
     {
       "sym": "6E",
@@ -229,14 +229,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 434.0213513425926,
+      "polAge": 434.2630721296296,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 404.0213513425926,
+      "cpiAge": 404.2630721296296,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 616.0213513425925,
+      "uneAge": 616.2630721296297,
       "px": null
     },
     "EUR": {
@@ -246,7 +246,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 434.0213513425926,
+      "polAge": 434.2630721296296,
       "px": 2.488078669374161
     },
     "JPY": {
@@ -256,14 +256,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 434.0213513425926,
+      "polAge": 434.2630721296296,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 434.0213513425926,
+      "cpiAge": 434.2630721296296,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 495.0213513425926,
+      "uneAge": 495.2630721296296,
       "px": 2.6798307475317418
     },
     "AUD": {
@@ -273,11 +273,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 465.0213513425926,
+      "polAge": 465.2630721296296,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 554.0213513425925,
+      "uneAge": 554.2630721296297,
       "px": 2.433736624938798
     },
     "CAD": {
@@ -287,14 +287,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 434.0213513425926,
+      "polAge": 434.2630721296296,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 434.0213513425926,
+      "cpiAge": 434.2630721296296,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 526.0213513425925,
+      "uneAge": 526.2630721296297,
       "px": 2.4632640022715924
     }
   },
@@ -364,182 +364,158 @@
   },
   "events": [
     {
+      "title": "Treasury Sec Bessent Speaks",
+      "c": "USD",
+      "date": "2026-08-24T14:00:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "CB Consumer Confidence",
+      "c": "USD",
+      "date": "2026-08-25T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "90.3",
+      "prev": "90.8"
+    },
+    {
       "title": "CPI m/m",
-      "c": "CAD",
-      "date": "2026-08-17T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.4%",
-      "prev": "-0.4%"
-    },
-    {
-      "title": "Median CPI y/y",
-      "c": "CAD",
-      "date": "2026-08-17T08:30:00-04:00",
-      "impact": "High",
-      "fc": "2.0%",
-      "prev": "1.9%"
-    },
-    {
-      "title": "Trimmed CPI y/y",
-      "c": "CAD",
-      "date": "2026-08-17T08:30:00-04:00",
-      "impact": "High",
-      "fc": "1.8%",
-      "prev": "1.8%"
-    },
-    {
-      "title": "Common CPI y/y",
-      "c": "CAD",
-      "date": "2026-08-17T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "2.5%",
-      "prev": "2.6%"
-    },
-    {
-      "title": "Wage Price Index q/q",
       "c": "AUD",
-      "date": "2026-08-18T21:30:00-04:00",
-      "impact": "Medium",
-      "fc": "0.8%",
-      "prev": "0.8%"
-    },
-    {
-      "title": "ECB President Lagarde Speaks",
-      "c": "EUR",
-      "date": "2026-08-19T03:10:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "ECB President Lagarde Speaks",
-      "c": "EUR",
-      "date": "2026-08-19T06:15:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "FOMC Meeting Minutes",
-      "c": "USD",
-      "date": "2026-08-19T14:00:00-04:00",
+      "date": "2026-08-25T21:30:00-04:00",
       "impact": "High",
-      "fc": "",
-      "prev": ""
+      "fc": "0.9%",
+      "prev": "-0.1%"
     },
     {
-      "title": "President Trump Speaks",
-      "c": "USD",
-      "date": "2026-08-19T14:30:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "Employment Change",
+      "title": "CPI y/y",
       "c": "AUD",
-      "date": "2026-08-19T21:30:00-04:00",
+      "date": "2026-08-25T21:30:00-04:00",
       "impact": "High",
-      "fc": "11.7K",
-      "prev": "76.3K"
+      "fc": "3.3%",
+      "prev": "3.8%"
     },
     {
-      "title": "Unemployment Rate",
+      "title": "Trimmed Mean CPI m/m",
       "c": "AUD",
-      "date": "2026-08-19T21:30:00-04:00",
+      "date": "2026-08-25T21:30:00-04:00",
       "impact": "High",
-      "fc": "4.4%",
-      "prev": "4.4%"
+      "fc": "0.3%",
+      "prev": "0.3%"
     },
     {
-      "title": "Philly Fed Manufacturing Index",
+      "title": "Core PCE Price Index m/m",
       "c": "USD",
-      "date": "2026-08-20T08:30:00-04:00",
+      "date": "2026-08-26T08:30:00-04:00",
+      "impact": "High",
+      "fc": "0.2%",
+      "prev": "0.1%"
+    },
+    {
+      "title": "Prelim GDP q/q",
+      "c": "USD",
+      "date": "2026-08-26T08:30:00-04:00",
+      "impact": "High",
+      "fc": "1.5%",
+      "prev": "1.5%"
+    },
+    {
+      "title": "Prelim GDP Price Index q/q",
+      "c": "USD",
+      "date": "2026-08-26T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "24.1",
-      "prev": "41.4"
+      "fc": "6.2%",
+      "prev": "6.2%"
     },
     {
       "title": "Unemployment Claims",
       "c": "USD",
-      "date": "2026-08-20T08:30:00-04:00",
+      "date": "2026-08-27T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "210K",
-      "prev": "209K"
+      "fc": "208K",
+      "prev": "206K"
     },
     {
-      "title": "French Flash Manufacturing PMI",
-      "c": "EUR",
-      "date": "2026-08-21T03:15:00-04:00",
+      "title": "Tokyo Core CPI y/y",
+      "c": "JPY",
+      "date": "2026-08-27T19:30:00-04:00",
       "impact": "Medium",
-      "fc": "50.1",
-      "prev": "50.0"
+      "fc": "1.8%",
+      "prev": "1.9%"
     },
     {
-      "title": "French Flash Services PMI",
-      "c": "EUR",
-      "date": "2026-08-21T03:15:00-04:00",
-      "impact": "Medium",
-      "fc": "49.4",
-      "prev": "49.8"
+      "title": "GDP m/m",
+      "c": "CAD",
+      "date": "2026-08-28T08:30:00-04:00",
+      "impact": "High",
+      "fc": "0.2%",
+      "prev": "0.3%"
     },
     {
-      "title": "German Flash Manufacturing PMI",
-      "c": "EUR",
-      "date": "2026-08-21T03:30:00-04:00",
-      "impact": "Medium",
-      "fc": "52.1",
-      "prev": "52.2"
-    },
-    {
-      "title": "German Flash Services PMI",
-      "c": "EUR",
-      "date": "2026-08-21T03:30:00-04:00",
-      "impact": "Medium",
-      "fc": "50.1",
-      "prev": "49.6"
-    },
-    {
-      "title": "President Trump Speaks",
+      "title": "Fed Chairman Warsh Speaks",
       "c": "USD",
-      "date": "2026-08-21T19:00:00-04:00",
-      "impact": "Medium",
+      "date": "2026-08-28T10:00:00-04:00",
+      "impact": "High",
       "fc": "",
       "prev": ""
+    },
+    {
+      "title": "Prelim Benchmark Payrolls Revision",
+      "c": "USD",
+      "date": "2026-08-28T10:00:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": "-911K"
+    },
+    {
+      "title": "Revised UoM Consumer Sentiment",
+      "c": "USD",
+      "date": "2026-08-28T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "51.0",
+      "prev": "51.0"
+    },
+    {
+      "title": "Revised UoM Inflation Expectations",
+      "c": "USD",
+      "date": "2026-08-28T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": "4.3%"
     }
   ],
   "recent": [],
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 103,
+      "ms": 111,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-23T00:30:43.274Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 460,
-      "at": "2026-08-23T00:30:43.637Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 541,
-      "at": "2026-08-23T00:30:43.711Z"
+      "at": "2026-08-23T06:18:46.548Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 544,
-      "at": "2026-08-23T00:30:43.720Z"
+      "ms": 423,
+      "at": "2026-08-23T06:18:46.865Z"
     },
-    "macro": {
+    "recent": {
       "ok": true,
-      "ms": 1662,
-      "at": "2026-08-23T00:30:44.681Z"
+      "ms": 480,
+      "at": "2026-08-23T06:18:46.923Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 798,
+      "at": "2026-08-23T06:18:47.234Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1586,
-      "at": "2026-08-23T00:30:44.755Z"
+      "ms": 1462,
+      "at": "2026-08-23T06:18:47.897Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 3055,
+      "at": "2026-08-23T06:18:49.432Z"
     }
   }
 }
