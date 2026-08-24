@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:10:23.679Z",
+  "generatedAt": "2026-08-24T00:29:51.405Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.6587191129161072,
-          "note": "2,49 % vs USD",
+          "s": 1.7498091842198156,
+          "note": "2,62 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": 0.17006171531714062,
+      "fund": 0.22211318463354546,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.08
       },
       "divergence": null,
-      "total": 0.4142432007219984,
+      "total": 0.4506792292434818,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -57,8 +57,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.7865538316878278,
-          "note": "2,68 % vs USD",
+          "s": 1.9453110662506952,
+          "note": "2,92 % vs USD",
           "stale": false
         },
         {
@@ -90,7 +90,7 @@
           "stale": true
         }
       ],
-      "fund": 0.8703150067354405,
+      "fund": 0.943587576533687,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -99,7 +99,7 @@
         "sSmall": 1.56
       },
       "divergence": null,
-      "total": 0.6764205047148083,
+      "total": 0.7277113035735808,
       "evWarns": [],
       "signal": {
         "key": "weak",
@@ -117,8 +117,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.622491083292532,
-          "note": "2,43 % vs USD",
+          "s": 1.6270396270396206,
+          "note": "2,44 % vs USD",
           "stale": false
         },
         {
@@ -143,7 +143,7 @@
           "stale": true
         }
       ],
-      "fund": 0.9160823043265385,
+      "fund": 0.9184554575858889,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -152,7 +152,7 @@
         "sSmall": -1.52
       },
       "divergence": null,
-      "total": 0.4768576130285769,
+      "total": 0.47851882031012216,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -170,8 +170,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.642176001514395,
-          "note": "2,46 % vs USD",
+          "s": 1.5867377146240313,
+          "note": "2,38 % vs USD",
           "stale": false
         },
         {
@@ -203,7 +203,7 @@
           "stale": true
         }
       ],
-      "fund": -0.04483539723754172,
+      "fund": -0.07042229887924797,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -212,7 +212,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -0.10458477806627921,
+      "total": -0.12249560921547359,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -229,14 +229,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 434.75721850694447,
+      "polAge": 435.0207338541667,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 404.75721850694447,
+      "cpiAge": 405.0207338541667,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 616.7572185069445,
+      "uneAge": 617.0207338541667,
       "px": null
     },
     "EUR": {
@@ -246,8 +246,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 434.75721850694447,
-      "px": 2.488078669374161
+      "polAge": 435.0207338541667,
+      "px": 2.6247137763297235
     },
     "JPY": {
       "name": "Yen",
@@ -256,15 +256,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 434.75721850694447,
+      "polAge": 435.0207338541667,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 434.75721850694447,
+      "cpiAge": 435.0207338541667,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 495.75721850694447,
-      "px": 2.6798307475317418
+      "uneAge": 496.0207338541667,
+      "px": 2.917966599376043
     },
     "AUD": {
       "name": "Aussie",
@@ -273,12 +273,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 465.75721850694447,
+      "polAge": 466.0207338541667,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 554.7572185069445,
-      "px": 2.433736624938798
+      "uneAge": 555.0207338541667,
+      "px": 2.440559440559431
     },
     "CAD": {
       "name": "CAD",
@@ -287,15 +287,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 434.75721850694447,
+      "polAge": 435.0207338541667,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 434.75721850694447,
+      "cpiAge": 435.0207338541667,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 526.7572185069445,
-      "px": 2.4632640022715924
+      "uneAge": 527.0207338541667,
+      "px": 2.380106571936047
     }
   },
   "cot": {
@@ -354,13 +354,13 @@
   },
   "retail": null,
   "fx": {
-    "from": "2026-07-22",
+    "from": "2026-07-23",
     "date": "2026-08-21",
-    "days": 23,
-    "EUR": 2.488078669374161,
-    "JPY": 2.6798307475317418,
-    "AUD": 2.433736624938798,
-    "CAD": 2.4632640022715924
+    "days": 22,
+    "EUR": 2.6247137763297235,
+    "JPY": 2.917966599376043,
+    "AUD": 2.440559440559431,
+    "CAD": 2.380106571936047
   },
   "events": [
     {
@@ -484,38 +484,179 @@
       "prev": "4.3%"
     }
   ],
-  "recent": [],
+  "recent": [
+    {
+      "ccy": "JPY",
+      "title": "Japan 10-Year Climate Transition JGB Auction",
+      "date": "Mon, 24 Aug 2026 03:35 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Myfxbook AUDUSD Sentiment",
+      "date": "Mon, 24 Aug 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Myfxbook USDJPY Sentiment",
+      "date": "Mon, 24 Aug 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union Myfxbook EURUSD Sentiment",
+      "date": "Mon, 24 Aug 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Myfxbook USDCAD Sentiment",
+      "date": "Mon, 24 Aug 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 11-Month Bubill Auction",
+      "date": "Mon, 24 Aug 2026 09:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 5-Month Bubill Auction",
+      "date": "Mon, 24 Aug 2026 09:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Chicago Fed National Activity Index",
+      "date": "Mon, 24 Aug 2026 12:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Manufacturing Sales MoM",
+      "date": "Mon, 24 Aug 2026 12:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 3-Month BTF Auction",
+      "date": "Mon, 24 Aug 2026 13:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 12-Month BTF Auction",
+      "date": "Mon, 24 Aug 2026 13:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 6-Month BTF Auction",
+      "date": "Mon, 24 Aug 2026 13:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 6-Month Bill Auction",
+      "date": "Mon, 24 Aug 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 3-Month Bill Auction",
+      "date": "Mon, 24 Aug 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    }
+  ],
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 64,
+      "ms": 89,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-23T18:10:21.956Z"
-    },
-    "calendar": {
-      "ok": true,
-      "ms": 261,
-      "at": "2026-08-23T18:10:22.157Z"
+      "at": "2026-08-24T00:29:49.242Z"
     },
     "recent": {
       "ok": true,
-      "ms": 330,
-      "at": "2026-08-23T18:10:22.227Z"
+      "ms": 272,
+      "at": "2026-08-24T00:29:49.431Z"
     },
     "fx": {
       "ok": true,
-      "ms": 643,
-      "at": "2026-08-23T18:10:22.534Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1483,
-      "at": "2026-08-23T18:10:23.319Z"
+      "ms": 445,
+      "at": "2026-08-24T00:29:49.597Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1788,
-      "at": "2026-08-23T18:10:23.678Z"
+      "ms": 985,
+      "at": "2026-08-24T00:29:50.136Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 1114,
+      "at": "2026-08-24T00:29:50.212Z"
+    },
+    "calendar": {
+      "ok": true,
+      "ms": 2248,
+      "at": "2026-08-24T00:29:51.405Z"
     }
   }
 }
