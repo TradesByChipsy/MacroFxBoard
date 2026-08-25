@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:20:47.669Z",
+  "generatedAt": "2026-08-25T18:20:14.917Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.640556560519705,
-          "note": "2,46 % vs USD",
+          "s": 1.6291796079502152,
+          "note": "2,44 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": 0.15968311394776794,
+      "fund": 0.1531819981937738,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.08
       },
       "divergence": null,
-      "total": 0.40697817976343753,
+      "total": 0.4024273987356416,
       "evWarns": [
         {
           "c": "USD",
@@ -68,8 +68,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.9126683758596754,
-          "note": "2,87 % vs USD",
+          "s": 1.8638342896675133,
+          "note": "2,80 % vs USD",
           "stale": false
         },
         {
@@ -101,7 +101,7 @@
           "stale": true
         }
       ],
-      "fund": 0.9285217194301392,
+      "fund": 0.905982910418372,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +110,7 @@
         "sSmall": 1.56
       },
       "divergence": null,
-      "total": 0.7171652036010974,
+      "total": 0.7013880372928604,
       "evWarns": [
         {
           "c": "USD",
@@ -139,8 +139,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.6165851385977184,
-          "note": "2,42 % vs USD",
+          "s": 1.537386443046825,
+          "note": "2,31 % vs USD",
           "stale": false
         },
         {
@@ -165,7 +165,7 @@
           "stale": true
         }
       ],
-      "fund": 0.9130009418770703,
+      "fund": 0.871679883328778,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -174,7 +174,7 @@
         "sSmall": -1.52
       },
       "divergence": null,
-      "total": 0.4747006593139491,
+      "total": 0.4457759183301445,
       "evWarns": [
         {
           "c": "AUD",
@@ -218,8 +218,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.1216811018032105,
-          "note": "1,68 % vs USD",
+          "s": 1.0696199536182578,
+          "note": "1,60 % vs USD",
           "stale": false
         },
         {
@@ -251,7 +251,7 @@
           "stale": true
         }
       ],
-      "fund": -0.28506381248885765,
+      "fund": -0.3090920347280666,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -260,7 +260,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -0.2727446687422003,
+      "total": -0.28956442430964663,
       "evWarns": [
         {
           "c": "USD",
@@ -288,14 +288,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 436.5144406134259,
+      "polAge": 436.76406153935187,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 406.5144406134259,
+      "cpiAge": 406.76406153935187,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 618.5144406134259,
+      "uneAge": 618.7640615393518,
       "px": null
     },
     "EUR": {
@@ -305,8 +305,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 436.5144406134259,
-      "px": 2.4608348407795577
+      "polAge": 436.76406153935187,
+      "px": 2.443769411925323
     },
     "JPY": {
       "name": "Yen",
@@ -315,15 +315,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 436.5144406134259,
+      "polAge": 436.76406153935187,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 436.5144406134259,
+      "cpiAge": 436.76406153935187,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 497.5144406134259,
-      "px": 2.8690025637895133
+      "uneAge": 497.76406153935187,
+      "px": 2.79575143450127
     },
     "AUD": {
       "name": "Aussie",
@@ -332,12 +332,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 467.5144406134259,
+      "polAge": 467.76406153935187,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 556.5144406134259,
-      "px": 2.4248777078965777
+      "uneAge": 556.7640615393518,
+      "px": 2.3060796645702375
     },
     "CAD": {
       "name": "CAD",
@@ -346,15 +346,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 436.5144406134259,
+      "polAge": 436.76406153935187,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 436.5144406134259,
+      "cpiAge": 436.76406153935187,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 528.5144406134259,
-      "px": 1.682521652704816
+      "uneAge": 528.7640615393518,
+      "px": 1.6044299304273868
     }
   },
   "cot": {
@@ -414,12 +414,12 @@
   "retail": null,
   "fx": {
     "from": "2026-07-24",
-    "date": "2026-08-24",
-    "days": 22,
-    "EUR": 2.4608348407795577,
-    "JPY": 2.8690025637895133,
-    "AUD": 2.4248777078965777,
-    "CAD": 1.682521652704816
+    "date": "2026-08-25",
+    "days": 23,
+    "EUR": 2.443769411925323,
+    "JPY": 2.79575143450127,
+    "AUD": 2.3060796645702375,
+    "CAD": 1.6044299304273868
   },
   "events": [
     {
@@ -666,26 +666,6 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Building Permits",
-      "date": "Tue, 25 Aug 2026 12:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Building Permits MoM",
-      "date": "Tue, 25 Aug 2026 12:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
       "title": "United States Fed Barkin Speech",
       "date": "Tue, 25 Aug 2026 12:00 GMT",
       "impact": "medium",
@@ -699,6 +679,26 @@
       "title": "United States ADP Employment Change Weekly",
       "date": "Tue, 25 Aug 2026 12:15 GMT",
       "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Building Permits",
+      "date": "Tue, 25 Aug 2026 12:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Building Permits MoM",
+      "date": "Tue, 25 Aug 2026 12:30 GMT",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -888,34 +888,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 85,
+      "ms": 303,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-25T12:20:45.801Z"
+      "at": "2026-08-25T18:20:13.565Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 296,
-      "at": "2026-08-25T12:20:46.017Z"
+      "ms": 695,
+      "at": "2026-08-25T18:20:13.962Z"
     },
     "recent": {
       "ok": true,
-      "ms": 306,
-      "at": "2026-08-25T12:20:46.028Z"
+      "ms": 698,
+      "at": "2026-08-25T18:20:13.966Z"
     },
     "fx": {
       "ok": true,
-      "ms": 497,
-      "at": "2026-08-25T12:20:46.212Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1118,
-      "at": "2026-08-25T12:20:46.833Z"
+      "ms": 846,
+      "at": "2026-08-25T18:20:14.108Z"
     },
     "macro": {
       "ok": true,
-      "ms": 2004,
-      "at": "2026-08-25T12:20:47.668Z"
+      "ms": 1775,
+      "at": "2026-08-25T18:20:14.894Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1655,
+      "at": "2026-08-25T18:20:14.916Z"
     }
   }
 }
