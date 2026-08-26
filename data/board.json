@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:22:45.024Z",
+  "generatedAt": "2026-08-26T19:27:38.796Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.6291796079502152,
-          "note": "2,44 % vs USD",
+          "s": 1.6686197101910993,
+          "note": "2,50 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": 0.1531819981937738,
+      "fund": 0.175719199474279,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.08
       },
       "divergence": null,
-      "total": 0.4024273987356416,
+      "total": 0.41820343963199524,
       "evWarns": [
         {
           "c": "USD",
@@ -50,6 +50,16 @@
           "c": "USD",
           "title": "Prelim GDP q/q",
           "date": "2026-08-26T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Fed Chairman Warsh Speaks",
+          "date": "2026-08-28T10:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim Benchmark Payrolls Revision",
+          "date": "2026-08-28T10:00:00-04:00"
         }
       ],
       "signal": {
@@ -68,8 +78,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.8638342896675133,
-          "note": "2,80 % vs USD",
+          "s": 1.9330159117730839,
+          "note": "2,90 % vs USD",
           "stale": false
         },
         {
@@ -101,7 +111,7 @@
           "stale": true
         }
       ],
-      "fund": 0.905982910418372,
+      "fund": 0.9379128898517125,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +120,7 @@
         "sSmall": 1.56
       },
       "divergence": null,
-      "total": 0.7013880372928604,
+      "total": 0.7237390228961987,
       "evWarns": [
         {
           "c": "USD",
@@ -121,6 +131,16 @@
           "c": "USD",
           "title": "Prelim GDP q/q",
           "date": "2026-08-26T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Fed Chairman Warsh Speaks",
+          "date": "2026-08-28T10:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim Benchmark Payrolls Revision",
+          "date": "2026-08-28T10:00:00-04:00"
         }
       ],
       "signal": {
@@ -139,8 +159,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.537386443046825,
-          "note": "2,31 % vs USD",
+          "s": 1.8262287444677467,
+          "note": "2,74 % vs USD",
           "stale": false
         },
         {
@@ -165,7 +185,7 @@
           "stale": true
         }
       ],
-      "fund": 0.871679883328778,
+      "fund": 1.0223802145049112,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -174,7 +194,7 @@
         "sSmall": -1.52
       },
       "divergence": null,
-      "total": 0.4457759183301445,
+      "total": 0.5512661501534378,
       "evWarns": [
         {
           "c": "AUD",
@@ -200,6 +220,16 @@
           "c": "USD",
           "title": "Prelim GDP q/q",
           "date": "2026-08-26T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Fed Chairman Warsh Speaks",
+          "date": "2026-08-28T10:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim Benchmark Payrolls Revision",
+          "date": "2026-08-28T10:00:00-04:00"
         }
       ],
       "signal": {
@@ -218,8 +248,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.0696199536182578,
-          "note": "1,60 % vs USD",
+          "s": 1.0601542903118912,
+          "note": "1,59 % vs USD",
           "stale": false
         },
         {
@@ -251,7 +281,7 @@
           "stale": true
         }
       ],
-      "fund": -0.3090920347280666,
+      "fund": -0.31346080240792806,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -260,7 +290,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -0.28956442430964663,
+      "total": -0.2926225616855496,
       "evWarns": [
         {
           "c": "USD",
@@ -271,6 +301,21 @@
           "c": "USD",
           "title": "Prelim GDP q/q",
           "date": "2026-08-26T08:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "GDP m/m",
+          "date": "2026-08-28T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Fed Chairman Warsh Speaks",
+          "date": "2026-08-28T10:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim Benchmark Payrolls Revision",
+          "date": "2026-08-28T10:00:00-04:00"
         }
       ],
       "signal": {
@@ -288,14 +333,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 437.51579888888887,
+      "polAge": 437.81086569444443,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 407.51579888888887,
+      "cpiAge": 407.81086569444443,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 619.5157988888889,
+      "uneAge": 619.8108656944445,
       "px": null
     },
     "EUR": {
@@ -305,8 +350,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 437.51579888888887,
-      "px": 2.443769411925323
+      "polAge": 437.81086569444443,
+      "px": 2.502929565286649
     },
     "JPY": {
       "name": "Yen",
@@ -315,15 +360,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 437.51579888888887,
+      "polAge": 437.81086569444443,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 437.51579888888887,
+      "cpiAge": 437.81086569444443,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 498.51579888888887,
-      "px": 2.79575143450127
+      "uneAge": 498.81086569444443,
+      "px": 2.8995238676596258
     },
     "AUD": {
       "name": "Aussie",
@@ -332,12 +377,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 468.51579888888887,
+      "polAge": 468.81086569444443,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 557.5157988888889,
-      "px": 2.3060796645702375
+      "uneAge": 557.8108656944445,
+      "px": 2.7393431167016202
     },
     "CAD": {
       "name": "CAD",
@@ -346,15 +391,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 437.51579888888887,
+      "polAge": 437.81086569444443,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 437.51579888888887,
+      "cpiAge": 437.81086569444443,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 529.5157988888889,
-      "px": 1.6044299304273868
+      "uneAge": 529.8108656944445,
+      "px": 1.590231435467837
     }
   },
   "cot": {
@@ -414,12 +459,12 @@
   "retail": null,
   "fx": {
     "from": "2026-07-24",
-    "date": "2026-08-25",
-    "days": 23,
-    "EUR": 2.443769411925323,
-    "JPY": 2.79575143450127,
-    "AUD": 2.3060796645702375,
-    "CAD": 1.6044299304273868
+    "date": "2026-08-26",
+    "days": 24,
+    "EUR": 2.502929565286649,
+    "JPY": 2.8995238676596258,
+    "AUD": 2.7393431167016202,
+    "CAD": 1.590231435467837
   },
   "events": [
     {
@@ -1006,6 +1051,16 @@
     },
     {
       "ccy": "USD",
+      "title": "United States 2-Year FRN Auction",
+      "date": "Wed, 26 Aug 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
       "title": "United States Fed Barkin Speech",
       "date": "Wed, 26 Aug 2026 15:45 GMT",
       "impact": "medium",
@@ -1027,16 +1082,6 @@
     {
       "ccy": "USD",
       "title": "United States 5-Year Note Auction",
-      "date": "Wed, 26 Aug 2026 17:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 2-Year FRN Auction",
       "date": "Wed, 26 Aug 2026 17:00 GMT",
       "impact": "low",
       "prev": "",
@@ -1068,34 +1113,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 152,
+      "ms": 76,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-26T12:22:43.716Z"
+      "at": "2026-08-26T19:27:37.833Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 465,
-      "at": "2026-08-26T12:22:44.033Z"
+      "ms": 305,
+      "at": "2026-08-26T19:27:38.068Z"
     },
     "recent": {
       "ok": true,
-      "ms": 526,
-      "at": "2026-08-26T12:22:44.095Z"
+      "ms": 316,
+      "at": "2026-08-26T19:27:38.080Z"
     },
     "fx": {
       "ok": true,
-      "ms": 785,
-      "at": "2026-08-26T12:22:44.348Z"
+      "ms": 522,
+      "at": "2026-08-26T19:27:38.278Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1424,
-      "at": "2026-08-26T12:22:44.986Z"
+      "ms": 964,
+      "at": "2026-08-26T19:27:38.719Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1511,
-      "at": "2026-08-26T12:22:45.024Z"
+      "ms": 1199,
+      "at": "2026-08-26T19:27:38.796Z"
     }
   }
 }
