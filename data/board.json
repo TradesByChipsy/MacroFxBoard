@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T16:55:30.370Z",
+  "generatedAt": "2026-08-28T01:49:13.397Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.5343716698711818,
-          "note": "2,30 % vs USD",
+          "s": 1.4653850242206223,
+          "note": "2,20 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": 0.09900603357718325,
+      "fund": 0.059585093205434994,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.08
       },
       "divergence": null,
-      "total": 0.3645042235040282,
+      "total": 0.33690956524380444,
       "evWarns": [
         {
           "c": "USD",
@@ -78,8 +78,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.8027916819273182,
-          "note": "2,70 % vs USD",
+          "s": 1.7314430049702567,
+          "note": "2,60 % vs USD",
           "stale": false
         },
         {
@@ -111,7 +111,7 @@
           "stale": true
         }
       ],
-      "fund": 0.8778093991536668,
+      "fund": 0.8448792405581,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -120,7 +120,7 @@
         "sSmall": 1.56
       },
       "divergence": null,
-      "total": 0.6816665794075668,
+      "total": 0.65861546839067,
       "evWarns": [
         {
           "c": "USD",
@@ -159,8 +159,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.872816212438851,
-          "note": "2,81 % vs USD",
+          "s": 1.7685075009915785,
+          "note": "2,65 % vs USD",
           "stale": false
         },
         {
@@ -185,7 +185,7 @@
           "stale": true
         }
       ],
-      "fund": 1.0466867195333136,
+      "fund": 0.9922647831260409,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -194,23 +194,8 @@
         "sSmall": -1.52
       },
       "divergence": null,
-      "total": 0.5682807036733195,
+      "total": 0.5301853481882286,
       "evWarns": [
-        {
-          "c": "AUD",
-          "title": "CPI m/m",
-          "date": "2026-08-25T21:30:00-04:00"
-        },
-        {
-          "c": "AUD",
-          "title": "CPI y/y",
-          "date": "2026-08-25T21:30:00-04:00"
-        },
-        {
-          "c": "AUD",
-          "title": "Trimmed Mean CPI m/m",
-          "date": "2026-08-25T21:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Core PCE Price Index m/m",
@@ -248,8 +233,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.0270244687396493,
-          "note": "1,54 % vs USD",
+          "s": 1.1154436960888616,
+          "note": "1,67 % vs USD",
           "stale": false
         },
         {
@@ -281,7 +266,7 @@
           "stale": true
         }
       ],
-      "fund": -0.32875148928742437,
+      "fund": -0.2879426151262494,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -290,7 +275,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -0.30332604250119705,
+      "total": -0.27475983058837455,
       "evWarns": [
         {
           "c": "USD",
@@ -333,14 +318,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 438.7052126157407,
+      "polAge": 439.07584950231484,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 408.7052126157407,
+      "cpiAge": 409.07584950231484,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 620.7052126157407,
+      "uneAge": 621.0758495023148,
       "px": null
     },
     "EUR": {
@@ -350,8 +335,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 438.7052126157407,
-      "px": 2.3015575048067727
+      "polAge": 439.07584950231484,
+      "px": 2.1980775363309335
     },
     "JPY": {
       "name": "Yen",
@@ -360,15 +345,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 438.7052126157407,
+      "polAge": 439.07584950231484,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 438.7052126157407,
+      "cpiAge": 439.07584950231484,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 499.7052126157407,
-      "px": 2.7041875228909773
+      "uneAge": 500.07584950231484,
+      "px": 2.597164507455385
     },
     "AUD": {
       "name": "Aussie",
@@ -377,12 +362,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 469.7052126157407,
+      "polAge": 470.07584950231484,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 558.7052126157407,
-      "px": 2.8092243186582766
+      "uneAge": 559.0758495023148,
+      "px": 2.6527612514873677
     },
     "CAD": {
       "name": "CAD",
@@ -391,15 +376,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 438.7052126157407,
+      "polAge": 439.07584950231484,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 438.7052126157407,
+      "cpiAge": 439.07584950231484,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 530.7052126157407,
-      "px": 1.540536703109474
+      "uneAge": 531.0758495023148,
+      "px": 1.6731655441332927
     }
   },
   "cot": {
@@ -458,13 +443,13 @@
   },
   "retail": null,
   "fx": {
-    "from": "2026-07-24",
+    "from": "2026-07-27",
     "date": "2026-08-27",
-    "days": 25,
-    "EUR": 2.3015575048067727,
-    "JPY": 2.7041875228909773,
-    "AUD": 2.8092243186582766,
-    "CAD": 1.540536703109474
+    "days": 24,
+    "EUR": 2.1980775363309335,
+    "JPY": 2.597164507455385,
+    "AUD": 2.6527612514873677,
+    "CAD": 1.6731655441332927
   },
   "events": [
     {
@@ -590,19 +575,9 @@
   ],
   "recent": [
     {
-      "ccy": "AUD",
-      "title": "Australia RBA Payments System Board Meeting",
-      "date": "Thu, 27 Aug 2026 00:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
       "ccy": "USD",
       "title": "United States Jackson Hole Symposium",
-      "date": "Thu, 27 Aug 2026 00:00 GMT",
+      "date": "Fri, 28 Aug 2026 00:00 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -610,60 +585,10 @@
       "surprise": null
     },
     {
-      "ccy": "AUD",
-      "title": "Australia Private Capital Expenditure QoQ",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
+      "ccy": "JPY",
+      "title": "Japan 2-Year JGB Auction",
+      "date": "Fri, 28 Aug 2026 03:35 GMT",
       "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "AUD",
-      "title": "Australia Plant Machinery Capital Expenditure QoQ",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "AUD",
-      "title": "Australia Household Spending MoM",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "AUD",
-      "title": "Australia Household Spending YoY",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "AUD",
-      "title": "Australia Building Capital Expenditure QoQ",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "AUD",
-      "title": "Australia RBA Bulletin",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
-      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -671,9 +596,9 @@
     },
     {
       "ccy": "JPY",
-      "title": "Japan BoJ Himino Speech",
-      "date": "Thu, 27 Aug 2026 01:30 GMT",
-      "impact": "medium",
+      "title": "Japan 3-Month Bill Auction",
+      "date": "Fri, 28 Aug 2026 03:35 GMT",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -681,8 +606,38 @@
     },
     {
       "ccy": "JPY",
-      "title": "Japan BoJ JGB Purchase",
-      "date": "Thu, 27 Aug 2026 03:35 GMT",
+      "title": "Japan Construction Orders YoY",
+      "date": "Fri, 28 Aug 2026 05:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Consumer Confidence",
+      "date": "Fri, 28 Aug 2026 05:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Housing Starts YoY",
+      "date": "Fri, 28 Aug 2026 05:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany Import Prices MoM",
+      "date": "Fri, 28 Aug 2026 06:00 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -691,8 +646,58 @@
     },
     {
       "ccy": "EUR",
-      "title": "Germany GfK Consumer Confidence",
-      "date": "Thu, 27 Aug 2026 06:00 GMT",
+      "title": "Germany Import Prices YoY",
+      "date": "Fri, 28 Aug 2026 06:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Harmonised Inflation Rate YoY",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Harmonised Inflation Rate MoM",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Inflation Rate MoM",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Household Consumption MoM",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Inflation Rate YoY",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -701,8 +706,8 @@
     },
     {
       "ccy": "EUR",
-      "title": "France PPI YoY",
-      "date": "Thu, 27 Aug 2026 06:45 GMT",
+      "title": "France GDP Growth Rate QoQ",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -711,8 +716,8 @@
     },
     {
       "ccy": "EUR",
-      "title": "France PPI MoM",
-      "date": "Thu, 27 Aug 2026 06:45 GMT",
+      "title": "France GDP Growth Rate YoY",
+      "date": "Fri, 28 Aug 2026 06:45 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -721,48 +726,8 @@
     },
     {
       "ccy": "EUR",
-      "title": "Euro Area M3 Money Supply YoY",
-      "date": "Thu, 27 Aug 2026 08:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Euro Area Loans to Companies YoY",
-      "date": "Thu, 27 Aug 2026 08:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Euro Area Loans to Households YoY",
-      "date": "Thu, 27 Aug 2026 08:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Italy 6-Month BOT Auction",
-      "date": "Thu, 27 Aug 2026 09:10 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "France Unemployment Benefit Claims",
-      "date": "Thu, 27 Aug 2026 10:00 GMT",
+      "title": "Spain Inflation Rate YoY",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -771,8 +736,28 @@
     },
     {
       "ccy": "EUR",
-      "title": "France Jobseekers Total",
-      "date": "Thu, 27 Aug 2026 10:00 GMT",
+      "title": "Spain Inflation Rate MoM",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Retail Sales MoM",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Harmonised Inflation Rate YoY",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -781,8 +766,188 @@
     },
     {
       "ccy": "EUR",
-      "title": "Euro Area ECB Monetary Policy Meeting Accounts",
-      "date": "Thu, 27 Aug 2026 11:30 GMT",
+      "title": "Spain Retail Sales YoY",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Harmonised Inflation Rate MoM",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Core Inflation Rate YoY",
+      "date": "Fri, 28 Aug 2026 07:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany Unemployment Rate",
+      "date": "Fri, 28 Aug 2026 07:55 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany Unemployed Persons",
+      "date": "Fri, 28 Aug 2026 07:55 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany Unemployment Change",
+      "date": "Fri, 28 Aug 2026 07:55 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Industrial Sales MoM",
+      "date": "Fri, 28 Aug 2026 08:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Industrial Sales YoY",
+      "date": "Fri, 28 Aug 2026 08:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area Services Sentiment",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area Economic Sentiment",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area Industrial Sentiment",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area Selling Price Expectations",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area Consumer Inflation Expectations",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area Consumer Confidence",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Business Confidence",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Consumer Confidence",
+      "date": "Fri, 28 Aug 2026 09:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy 5-Year BTP Auction",
+      "date": "Fri, 28 Aug 2026 09:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy 10-Year BTP Auction",
+      "date": "Fri, 28 Aug 2026 09:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Business Confidence",
+      "date": "Fri, 28 Aug 2026 10:00 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -791,8 +956,8 @@
     },
     {
       "ccy": "CAD",
-      "title": "Canada Average Weekly Earnings YoY",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
+      "title": "Canada GDP Implicit Price QoQ",
+      "date": "Fri, 28 Aug 2026 12:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -801,8 +966,38 @@
     },
     {
       "ccy": "CAD",
-      "title": "Canada Current Account",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
+      "title": "Canada GDP Growth Rate Annualized",
+      "date": "Fri, 28 Aug 2026 12:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada GDP Growth Rate QoQ",
+      "date": "Fri, 28 Aug 2026 12:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada GDP MoM",
+      "date": "Fri, 28 Aug 2026 12:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada GDP MoM",
+      "date": "Fri, 28 Aug 2026 12:30 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -811,18 +1006,8 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Goods Trade Balance",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Wholesale Inventories MoM",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
+      "title": "United States Chicago PMI",
+      "date": "Fri, 28 Aug 2026 13:45 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -831,8 +1016,28 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Jobless Claims 4-week Average",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
+      "title": "United States Michigan Consumer Expectations",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Michigan Current Conditions",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Michigan Consumer Sentiment",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -841,8 +1046,28 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Continuing Jobless Claims",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
+      "title": "United States Michigan Inflation Expectations",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Michigan 5 Year Inflation Expectations",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Non Farm Payrolls Annual Revision",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -851,8 +1076,8 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Initial Jobless Claims",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
+      "title": "United States Fed Chair Warsh Speech",
+      "date": "Fri, 28 Aug 2026 14:00 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -860,19 +1085,19 @@
       "surprise": null
     },
     {
-      "ccy": "USD",
-      "title": "United States Retail Inventories Ex Autos MoM",
-      "date": "Thu, 27 Aug 2026 12:30 GMT",
-      "impact": "medium",
+      "ccy": "CAD",
+      "title": "Canada Budget Balance",
+      "date": "Fri, 28 Aug 2026 15:00 GMT",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
       "surprise": null
     },
     {
-      "ccy": "USD",
-      "title": "United States EIA Natural Gas Stocks Change",
-      "date": "Thu, 27 Aug 2026 14:30 GMT",
+      "ccy": "EUR",
+      "title": "Euro Area ECB Schnabel Speech",
+      "date": "Fri, 28 Aug 2026 15:55 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -881,8 +1106,8 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Kansas Fed Composite Index",
-      "date": "Thu, 27 Aug 2026 15:00 GMT",
+      "title": "United States Baker Hughes Total Rigs Count",
+      "date": "Fri, 28 Aug 2026 17:00 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -891,119 +1116,9 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Kansas Fed Manufacturing Index",
-      "date": "Thu, 27 Aug 2026 15:00 GMT",
+      "title": "United States Baker Hughes Oil Rig Count",
+      "date": "Fri, 28 Aug 2026 17:00 GMT",
       "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 8-Week Bill Auction",
-      "date": "Thu, 27 Aug 2026 15:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 4-Week Bill Auction",
-      "date": "Thu, 27 Aug 2026 15:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 15-Year Mortgage Rate",
-      "date": "Thu, 27 Aug 2026 16:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 30-Year Mortgage Rate",
-      "date": "Thu, 27 Aug 2026 16:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 7-Year Note Auction",
-      "date": "Thu, 27 Aug 2026 17:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Fed Balance Sheet",
-      "date": "Thu, 27 Aug 2026 20:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Tokyo CPI Ex Food and Energy YoY",
-      "date": "Thu, 27 Aug 2026 23:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Tokyo Core CPI YoY",
-      "date": "Thu, 27 Aug 2026 23:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Jobs/applications ratio",
-      "date": "Thu, 27 Aug 2026 23:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Tokyo CPI YoY",
-      "date": "Thu, 27 Aug 2026 23:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Unemployment Rate",
-      "date": "Thu, 27 Aug 2026 23:30 GMT",
-      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -1013,34 +1128,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 143,
+      "ms": 128,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-27T16:55:29.277Z"
+      "at": "2026-08-28T01:49:12.212Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 378,
-      "at": "2026-08-27T16:55:29.516Z"
+      "ms": 316,
+      "at": "2026-08-28T01:49:12.405Z"
     },
     "recent": {
       "ok": true,
-      "ms": 397,
-      "at": "2026-08-27T16:55:29.537Z"
+      "ms": 480,
+      "at": "2026-08-28T01:49:12.570Z"
     },
     "fx": {
       "ok": true,
-      "ms": 717,
-      "at": "2026-08-27T16:55:29.850Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1217,
-      "at": "2026-08-27T16:55:30.298Z"
+      "ms": 642,
+      "at": "2026-08-28T01:49:12.726Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1238,
-      "at": "2026-08-27T16:55:30.370Z"
+      "ms": 1252,
+      "at": "2026-08-28T01:49:13.335Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 1358,
+      "at": "2026-08-28T01:49:13.397Z"
     }
   }
 }
