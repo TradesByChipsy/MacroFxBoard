@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T01:49:13.397Z",
+  "generatedAt": "2026-08-28T17:45:57.798Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.4653850242206223,
-          "note": "2,20 % vs USD",
+          "s": 1.4539960214416947,
+          "note": "2,18 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": 0.059585093205434994,
+      "fund": 0.053077091617476355,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -39,18 +39,8 @@
         "sSmall": 0.08
       },
       "divergence": null,
-      "total": 0.33690956524380444,
+      "total": 0.3323539641322334,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim GDP q/q",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
@@ -78,8 +68,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.7314430049702567,
-          "note": "2,60 % vs USD",
+          "s": 1.6132974822781643,
+          "note": "2,42 % vs USD",
           "stale": false
         },
         {
@@ -111,7 +101,7 @@
           "stale": true
         }
       ],
-      "fund": 0.8448792405581,
+      "fund": 0.7903505377771343,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -120,18 +110,8 @@
         "sSmall": 1.56
       },
       "divergence": null,
-      "total": 0.65861546839067,
+      "total": 0.620445376443994,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim GDP q/q",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
@@ -159,8 +139,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.7685075009915785,
-          "note": "2,65 % vs USD",
+          "s": 1.8105037213317576,
+          "note": "2,72 % vs USD",
           "stale": false
         },
         {
@@ -185,7 +165,7 @@
           "stale": true
         }
       ],
-      "fund": 0.9922647831260409,
+      "fund": 1.0141758546078734,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -194,18 +174,8 @@
         "sSmall": -1.52
       },
       "divergence": null,
-      "total": 0.5301853481882286,
+      "total": 0.5455230982255114,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim GDP q/q",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
@@ -233,8 +203,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.1154436960888616,
-          "note": "1,67 % vs USD",
+          "s": 1.1863405411792538,
+          "note": "1,78 % vs USD",
           "stale": false
         },
         {
@@ -266,7 +236,7 @@
           "stale": true
         }
       ],
-      "fund": -0.2879426151262494,
+      "fund": -0.25522099431529915,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -275,18 +245,8 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -0.27475983058837455,
+      "total": -0.2518546960207094,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim GDP q/q",
-          "date": "2026-08-26T08:30:00-04:00"
-        },
         {
           "c": "CAD",
           "title": "GDP m/m",
@@ -318,14 +278,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 439.07584950231484,
+      "polAge": 439.74025229166665,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 409.07584950231484,
+      "cpiAge": 409.74025229166665,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 621.0758495023148,
+      "uneAge": 621.7402522916667,
       "px": null
     },
     "EUR": {
@@ -335,8 +295,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 439.07584950231484,
-      "px": 2.1980775363309335
+      "polAge": 439.74025229166665,
+      "px": 2.180994032162542
     },
     "JPY": {
       "name": "Yen",
@@ -345,15 +305,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 439.07584950231484,
+      "polAge": 439.74025229166665,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 439.07584950231484,
+      "cpiAge": 439.74025229166665,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 500.07584950231484,
-      "px": 2.597164507455385
+      "uneAge": 500.74025229166665,
+      "px": 2.4199462234172464
     },
     "AUD": {
       "name": "Aussie",
@@ -362,12 +322,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 470.07584950231484,
+      "polAge": 470.74025229166665,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 559.0758495023148,
-      "px": 2.6527612514873677
+      "uneAge": 559.7402522916667,
+      "px": 2.7157555819976364
     },
     "CAD": {
       "name": "CAD",
@@ -376,15 +336,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 439.07584950231484,
+      "polAge": 439.74025229166665,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 439.07584950231484,
+      "cpiAge": 439.74025229166665,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 531.0758495023148,
-      "px": 1.6731655441332927
+      "uneAge": 531.7402522916667,
+      "px": 1.7795108117688807
     }
   },
   "cot": {
@@ -444,12 +404,12 @@
   "retail": null,
   "fx": {
     "from": "2026-07-27",
-    "date": "2026-08-27",
-    "days": 24,
-    "EUR": 2.1980775363309335,
-    "JPY": 2.597164507455385,
-    "AUD": 2.6527612514873677,
-    "CAD": 1.6731655441332927
+    "date": "2026-08-28",
+    "days": 25,
+    "EUR": 2.180994032162542,
+    "JPY": 2.4199462234172464,
+    "AUD": 2.7157555819976364,
+    "CAD": 1.7795108117688807
   },
   "events": [
     {
@@ -599,36 +559,6 @@
       "title": "Japan 3-Month Bill Auction",
       "date": "Fri, 28 Aug 2026 03:35 GMT",
       "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Construction Orders YoY",
-      "date": "Fri, 28 Aug 2026 05:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Consumer Confidence",
-      "date": "Fri, 28 Aug 2026 05:00 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Housing Starts YoY",
-      "date": "Fri, 28 Aug 2026 05:00 GMT",
-      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -947,7 +877,7 @@
     {
       "ccy": "EUR",
       "title": "Spain Business Confidence",
-      "date": "Fri, 28 Aug 2026 10:00 GMT",
+      "date": "Fri, 28 Aug 2026 11:15 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -1106,6 +1036,16 @@
     },
     {
       "ccy": "USD",
+      "title": "United States Fed Goolsbee Speech",
+      "date": "Fri, 28 Aug 2026 16:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
       "title": "United States Baker Hughes Total Rigs Count",
       "date": "Fri, 28 Aug 2026 17:00 GMT",
       "impact": "low",
@@ -1128,34 +1068,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 128,
+      "ms": 154,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-28T01:49:12.212Z"
-    },
-    "calendar": {
-      "ok": true,
-      "ms": 316,
-      "at": "2026-08-28T01:49:12.405Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 480,
-      "at": "2026-08-28T01:49:12.570Z"
+      "at": "2026-08-28T17:45:56.987Z"
     },
     "fx": {
       "ok": true,
-      "ms": 642,
-      "at": "2026-08-28T01:49:12.726Z"
+      "ms": 414,
+      "at": "2026-08-28T17:45:57.246Z"
     },
-    "cot": {
+    "recent": {
       "ok": true,
-      "ms": 1252,
-      "at": "2026-08-28T01:49:13.335Z"
+      "ms": 443,
+      "at": "2026-08-28T17:45:57.281Z"
+    },
+    "calendar": {
+      "ok": true,
+      "ms": 494,
+      "at": "2026-08-28T17:45:57.331Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1358,
-      "at": "2026-08-28T01:49:13.397Z"
+      "ms": 1013,
+      "at": "2026-08-28T17:45:57.788Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 967,
+      "at": "2026-08-28T17:45:57.798Z"
     }
   }
 }
