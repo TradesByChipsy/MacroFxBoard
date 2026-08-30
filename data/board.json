@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T01:55:04.642Z",
+  "generatedAt": "2026-08-30T10:47:10.977Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,18 +40,7 @@
       },
       "divergence": null,
       "total": -0.04076341083154291,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-08-28T10:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim Benchmark Payrolls Revision",
-          "date": "2026-08-28T10:00:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -111,18 +100,7 @@
       },
       "divergence": null,
       "total": 0.5931815549268598,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-08-28T10:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim Benchmark Payrolls Revision",
-          "date": "2026-08-28T10:00:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -175,18 +153,7 @@
       },
       "divergence": null,
       "total": 0.5967304347826085,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-08-28T10:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim Benchmark Payrolls Revision",
-          "date": "2026-08-28T10:00:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -246,23 +213,7 @@
       },
       "divergence": null,
       "total": -0.2218546960207094,
-      "evWarns": [
-        {
-          "c": "CAD",
-          "title": "GDP m/m",
-          "date": "2026-08-28T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-08-28T10:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Prelim Benchmark Payrolls Revision",
-          "date": "2026-08-28T10:00:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -278,14 +229,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 441.079914837963,
+      "polAge": 441.44943260416665,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 411.079914837963,
+      "cpiAge": 411.44943260416665,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 623.079914837963,
+      "uneAge": 623.4494326041666,
       "px": null
     },
     "EUR": {
@@ -295,7 +246,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 441.079914837963,
+      "polAge": 441.44943260416665,
       "px": 2.257803876048381
     },
     "JPY": {
@@ -305,14 +256,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 441.079914837963,
+      "polAge": 441.44943260416665,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 441.079914837963,
+      "cpiAge": 441.44943260416665,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 502.079914837963,
+      "uneAge": 502.44943260416665,
       "px": 2.4437927663734094
     },
     "AUD": {
@@ -322,11 +273,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 472.079914837963,
+      "polAge": 472.44943260416665,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 561.079914837963,
+      "uneAge": 561.4494326041666,
       "px": 3.5394545075994266
     },
     "CAD": {
@@ -336,14 +287,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 441.079914837963,
+      "polAge": 441.44943260416665,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 441.079914837963,
+      "cpiAge": 441.44943260416665,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 533.079914837963,
+      "uneAge": 533.4494326041666,
       "px": 1.7795108117688807
     }
   },
@@ -413,124 +364,156 @@
   },
   "events": [
     {
-      "title": "Treasury Sec Bessent Speaks",
-      "c": "USD",
-      "date": "2026-08-24T13:00:00-04:00",
+      "title": "German Prelim CPI m/m",
+      "c": "EUR",
+      "date": "2026-08-31T02:29:00-04:00",
       "impact": "Medium",
+      "fc": "0.3%",
+      "prev": "0.8%"
+    },
+    {
+      "title": "Core CPI Flash Estimate y/y",
+      "c": "EUR",
+      "date": "2026-09-01T05:00:00-04:00",
+      "impact": "Medium",
+      "fc": "2.5%",
+      "prev": "2.5%"
+    },
+    {
+      "title": "CPI Flash Estimate y/y",
+      "c": "EUR",
+      "date": "2026-09-01T05:00:00-04:00",
+      "impact": "Medium",
+      "fc": "3.3%",
+      "prev": "2.9%"
+    },
+    {
+      "title": "ISM Manufacturing PMI",
+      "c": "USD",
+      "date": "2026-09-01T10:00:00-04:00",
+      "impact": "High",
+      "fc": "55.2",
+      "prev": "55.6"
+    },
+    {
+      "title": "ISM Manufacturing Prices",
+      "c": "USD",
+      "date": "2026-09-01T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "71.2",
+      "prev": "71.1"
+    },
+    {
+      "title": "JOLTS Job Openings",
+      "c": "USD",
+      "date": "2026-09-01T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "7.33M",
+      "prev": "7.36M"
+    },
+    {
+      "title": "GDP q/q",
+      "c": "AUD",
+      "date": "2026-09-01T21:30:00-04:00",
+      "impact": "High",
+      "fc": "0.3%",
+      "prev": "0.3%"
+    },
+    {
+      "title": "ADP Non-Farm Employment Change",
+      "c": "USD",
+      "date": "2026-09-02T08:15:00-04:00",
+      "impact": "Medium",
+      "fc": "47K",
+      "prev": "44K"
+    },
+    {
+      "title": "BOC Rate Statement",
+      "c": "CAD",
+      "date": "2026-09-02T09:45:00-04:00",
+      "impact": "High",
       "fc": "",
       "prev": ""
     },
     {
-      "title": "CB Consumer Confidence",
-      "c": "USD",
-      "date": "2026-08-25T10:00:00-04:00",
-      "impact": "Medium",
-      "fc": "90.3",
-      "prev": "90.8"
-    },
-    {
-      "title": "CPI m/m",
-      "c": "AUD",
-      "date": "2026-08-25T21:30:00-04:00",
+      "title": "Overnight Rate",
+      "c": "CAD",
+      "date": "2026-09-02T09:45:00-04:00",
       "impact": "High",
-      "fc": "0.9%",
-      "prev": "-0.1%"
+      "fc": "2.25%",
+      "prev": "2.25%"
     },
     {
-      "title": "CPI y/y",
-      "c": "AUD",
-      "date": "2026-08-25T21:30:00-04:00",
+      "title": "BOC Press Conference",
+      "c": "CAD",
+      "date": "2026-09-02T10:30:00-04:00",
       "impact": "High",
-      "fc": "3.3%",
-      "prev": "3.8%"
-    },
-    {
-      "title": "Trimmed Mean CPI m/m",
-      "c": "AUD",
-      "date": "2026-08-25T21:30:00-04:00",
-      "impact": "High",
-      "fc": "0.4%",
-      "prev": "0.3%"
-    },
-    {
-      "title": "Core PCE Price Index m/m",
-      "c": "USD",
-      "date": "2026-08-26T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.2%",
-      "prev": "0.1%"
-    },
-    {
-      "title": "Prelim GDP q/q",
-      "c": "USD",
-      "date": "2026-08-26T08:30:00-04:00",
-      "impact": "High",
-      "fc": "1.5%",
-      "prev": "1.5%"
-    },
-    {
-      "title": "Prelim GDP Price Index q/q",
-      "c": "USD",
-      "date": "2026-08-26T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "6.2%",
-      "prev": "6.2%"
+      "fc": "",
+      "prev": ""
     },
     {
       "title": "Unemployment Claims",
       "c": "USD",
-      "date": "2026-08-27T08:30:00-04:00",
+      "date": "2026-09-03T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "208K",
-      "prev": "206K"
+      "fc": "205K",
+      "prev": "203K"
     },
     {
-      "title": "Tokyo Core CPI y/y",
-      "c": "JPY",
-      "date": "2026-08-27T19:30:00-04:00",
+      "title": "ISM Services PMI",
+      "c": "USD",
+      "date": "2026-09-03T10:00:00-04:00",
       "impact": "Medium",
-      "fc": "1.8%",
-      "prev": "1.9%"
+      "fc": "54.1",
+      "prev": "54.1"
     },
     {
-      "title": "GDP m/m",
+      "title": "Employment Change",
       "c": "CAD",
-      "date": "2026-08-28T08:30:00-04:00",
+      "date": "2026-09-04T08:30:00-04:00",
       "impact": "High",
-      "fc": "0.2%",
-      "prev": "0.3%"
+      "fc": "15.8K",
+      "prev": "75.1K"
     },
     {
-      "title": "Fed Chairman Warsh Speaks",
-      "c": "USD",
-      "date": "2026-08-28T10:00:00-04:00",
+      "title": "Unemployment Rate",
+      "c": "CAD",
+      "date": "2026-09-04T08:30:00-04:00",
       "impact": "High",
-      "fc": "",
-      "prev": ""
+      "fc": "6.4%",
+      "prev": "6.4%"
     },
     {
-      "title": "Prelim Benchmark Payrolls Revision",
+      "title": "Average Hourly Earnings m/m",
       "c": "USD",
-      "date": "2026-08-28T10:00:00-04:00",
+      "date": "2026-09-04T08:30:00-04:00",
       "impact": "High",
-      "fc": "",
-      "prev": "-911K"
+      "fc": "0.3%",
+      "prev": "0.1%"
     },
     {
-      "title": "Revised UoM Consumer Sentiment",
+      "title": "Non-Farm Employment Change",
       "c": "USD",
-      "date": "2026-08-28T10:00:00-04:00",
+      "date": "2026-09-04T08:30:00-04:00",
+      "impact": "High",
+      "fc": "58K",
+      "prev": "-23K"
+    },
+    {
+      "title": "Unemployment Rate",
+      "c": "USD",
+      "date": "2026-09-04T08:30:00-04:00",
+      "impact": "High",
+      "fc": "4.1%",
+      "prev": "4.1%"
+    },
+    {
+      "title": "Ivey PMI",
+      "c": "CAD",
+      "date": "2026-09-04T10:00:00-04:00",
       "impact": "Medium",
-      "fc": "51.0",
-      "prev": "51.0"
-    },
-    {
-      "title": "Revised UoM Inflation Expectations",
-      "c": "USD",
-      "date": "2026-08-28T10:00:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": "4.3%"
+      "fc": "56.2",
+      "prev": "55.1"
     }
   ],
   "recent": [
@@ -578,34 +561,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 114,
+      "ms": 135,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-30T01:55:02.072Z"
+      "at": "2026-08-30T10:47:09.769Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 289,
-      "at": "2026-08-30T01:55:02.251Z"
+      "ms": 388,
+      "at": "2026-08-30T10:47:10.026Z"
     },
     "recent": {
       "ok": true,
-      "ms": 368,
-      "at": "2026-08-30T01:55:02.331Z"
+      "ms": 391,
+      "at": "2026-08-30T10:47:10.030Z"
     },
     "fx": {
       "ok": true,
-      "ms": 711,
-      "at": "2026-08-30T01:55:02.668Z"
+      "ms": 606,
+      "at": "2026-08-30T10:47:10.239Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1399,
-      "at": "2026-08-30T01:55:03.355Z"
+      "ms": 931,
+      "at": "2026-08-30T10:47:10.563Z"
     },
     "macro": {
       "ok": true,
-      "ms": 2741,
-      "at": "2026-08-30T01:55:04.641Z"
+      "ms": 1397,
+      "at": "2026-08-30T10:47:10.976Z"
     }
   }
 }
