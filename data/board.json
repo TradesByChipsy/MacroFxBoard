@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T10:47:10.977Z",
+  "generatedAt": "2026-08-30T15:33:35.771Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,7 +40,13 @@
       },
       "divergence": null,
       "total": -0.04076341083154291,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "ISM Manufacturing PMI",
+          "date": "2026-09-01T10:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -100,7 +106,13 @@
       },
       "divergence": null,
       "total": 0.5931815549268598,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "ISM Manufacturing PMI",
+          "date": "2026-09-01T10:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -153,7 +165,13 @@
       },
       "divergence": null,
       "total": 0.5967304347826085,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "ISM Manufacturing PMI",
+          "date": "2026-09-01T10:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -213,7 +231,13 @@
       },
       "divergence": null,
       "total": -0.2218546960207094,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "ISM Manufacturing PMI",
+          "date": "2026-09-01T10:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -229,14 +253,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 441.44943260416665,
+      "polAge": 441.6483306828704,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 411.44943260416665,
+      "cpiAge": 411.6483306828704,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 623.4494326041666,
+      "uneAge": 623.6483306828703,
       "px": null
     },
     "EUR": {
@@ -246,7 +270,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 441.44943260416665,
+      "polAge": 441.6483306828704,
       "px": 2.257803876048381
     },
     "JPY": {
@@ -256,14 +280,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 441.44943260416665,
+      "polAge": 441.6483306828704,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 441.44943260416665,
+      "cpiAge": 441.6483306828704,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 502.44943260416665,
+      "uneAge": 502.6483306828704,
       "px": 2.4437927663734094
     },
     "AUD": {
@@ -273,11 +297,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 472.44943260416665,
+      "polAge": 472.6483306828704,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 561.4494326041666,
+      "uneAge": 561.6483306828703,
       "px": 3.5394545075994266
     },
     "CAD": {
@@ -287,14 +311,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 441.44943260416665,
+      "polAge": 441.6483306828704,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 441.44943260416665,
+      "cpiAge": 441.6483306828704,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 533.4494326041666,
+      "uneAge": 533.6483306828703,
       "px": 1.7795108117688807
     }
   },
@@ -561,34 +585,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 135,
+      "ms": 205,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-30T10:47:09.769Z"
+      "at": "2026-08-30T15:33:34.579Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 388,
-      "at": "2026-08-30T10:47:10.026Z"
+      "ms": 573,
+      "at": "2026-08-30T15:33:34.950Z"
     },
     "recent": {
       "ok": true,
-      "ms": 391,
-      "at": "2026-08-30T10:47:10.030Z"
+      "ms": 590,
+      "at": "2026-08-30T15:33:34.969Z"
     },
     "fx": {
       "ok": true,
-      "ms": 606,
-      "at": "2026-08-30T10:47:10.239Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 931,
-      "at": "2026-08-30T10:47:10.563Z"
+      "ms": 737,
+      "at": "2026-08-30T15:33:35.111Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1397,
-      "at": "2026-08-30T10:47:10.976Z"
+      "ms": 1506,
+      "at": "2026-08-30T15:33:35.718Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1399,
+      "at": "2026-08-30T15:33:35.771Z"
     }
   }
 }
