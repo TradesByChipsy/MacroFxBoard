@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T01:50:50.371Z",
+  "generatedAt": "2026-08-31T11:56:26.794Z",
   "futures": [
     {
       "sym": "6E",
@@ -258,14 +258,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 442.0769718865741,
+      "polAge": 442.497532337963,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 412.0769718865741,
+      "cpiAge": 412.497532337963,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 624.076971886574,
+      "uneAge": 624.497532337963,
       "px": null
     },
     "EUR": {
@@ -275,7 +275,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 442.0769718865741,
+      "polAge": 442.497532337963,
       "px": 1.4333585806421967
     },
     "JPY": {
@@ -285,14 +285,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 442.0769718865741,
+      "polAge": 442.497532337963,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 442.0769718865741,
+      "cpiAge": 442.497532337963,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 503.0769718865741,
+      "uneAge": 503.497532337963,
       "px": 2.0007364674113126
     },
     "AUD": {
@@ -302,11 +302,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 473.0769718865741,
+      "polAge": 473.497532337963,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 562.076971886574,
+      "uneAge": 562.497532337963,
       "px": 2.973821989528813
     },
     "CAD": {
@@ -316,14 +316,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 442.0769718865741,
+      "polAge": 442.497532337963,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 442.0769718865741,
+      "cpiAge": 442.497532337963,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 534.076971886574,
+      "uneAge": 534.497532337963,
       "px": 1.3669372063220941
     }
   },
@@ -548,16 +548,6 @@
   "recent": [
     {
       "ccy": "AUD",
-      "title": "Australia TD-MI Inflation Gauge MoM",
-      "date": "Mon, 31 Aug 2026 01:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "AUD",
       "title": "Australia Private Sector Credit MoM",
       "date": "Mon, 31 Aug 2026 01:30 GMT",
       "impact": "low",
@@ -607,9 +597,9 @@
       "surprise": null
     },
     {
-      "ccy": "JPY",
-      "title": "Japan Construction Orders YoY",
-      "date": "Mon, 31 Aug 2026 05:00 GMT",
+      "ccy": "AUD",
+      "title": "Australia TD-MI Inflation Gauge MoM",
+      "date": "Mon, 31 Aug 2026 03:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -618,9 +608,9 @@
     },
     {
       "ccy": "JPY",
-      "title": "Japan Consumer Confidence",
+      "title": "Japan Construction Orders YoY",
       "date": "Mon, 31 Aug 2026 05:00 GMT",
-      "impact": "high",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -960,34 +950,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 150,
+      "ms": 147,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-08-31T01:50:49.286Z"
+      "at": "2026-08-31T11:56:25.968Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 385,
-      "at": "2026-08-31T01:50:49.525Z"
+      "ms": 228,
+      "at": "2026-08-31T11:56:26.053Z"
     },
     "recent": {
       "ok": true,
-      "ms": 424,
-      "at": "2026-08-31T01:50:49.565Z"
+      "ms": 285,
+      "at": "2026-08-31T11:56:26.112Z"
     },
     "fx": {
       "ok": true,
-      "ms": 615,
-      "at": "2026-08-31T01:50:49.750Z"
+      "ms": 456,
+      "at": "2026-08-31T11:56:26.277Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1123,
-      "at": "2026-08-31T01:50:50.257Z"
+      "ms": 970,
+      "at": "2026-08-31T11:56:26.790Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1291,
-      "at": "2026-08-31T01:50:50.371Z"
+      "ms": 1032,
+      "at": "2026-08-31T11:56:26.794Z"
     }
   }
 }
