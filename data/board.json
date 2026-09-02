@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T10:01:26.718Z",
+  "generatedAt": "2026-09-02T15:25:44.322Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.6041116343172244,
-          "note": "0,91 % vs USD",
+          "s": 0.5352015619616438,
+          "note": "0,80 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -0.4325711295965067,
+      "fund": -0.4719483137996956,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,12 +39,27 @@
         "sSmall": 0
       },
       "divergence": null,
-      "total": -0.4011997907175546,
+      "total": -0.4287638196597869,
       "evWarns": [
         {
           "c": "USD",
           "title": "ISM Manufacturing PMI",
           "date": "2026-09-01T10:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-09-04T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -63,8 +78,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.03328340822100391,
-          "note": "0,05 % vs USD",
+          "s": 0.2662672657680239,
+          "note": "0,40 % vs USD",
           "stale": false
         },
         {
@@ -96,7 +111,7 @@
           "stale": true
         }
       ],
-      "fund": 0.06111327282767557,
+      "fund": 0.16864428400322326,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -105,12 +120,27 @@
         "sSmall": 1.2
       },
       "divergence": null,
-      "total": 0.07757929097937288,
+      "total": 0.15285099880225628,
       "evWarns": [
         {
           "c": "USD",
           "title": "ISM Manufacturing PMI",
           "date": "2026-09-01T10:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-09-04T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -129,8 +159,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.1509579619622436,
-          "note": "1,73 % vs USD",
+          "s": 1.2071022527896749,
+          "note": "1,81 % vs USD",
           "stale": false
         },
         {
@@ -155,7 +185,7 @@
           "stale": true
         }
       ],
-      "fund": 0.6700650236324751,
+      "fund": 0.6993576971076566,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -164,7 +194,7 @@
         "sSmall": -1.76
       },
       "divergence": null,
-      "total": 0.2866455165427325,
+      "total": 0.30715038797535954,
       "evWarns": [
         {
           "c": "USD",
@@ -175,6 +205,21 @@
           "c": "AUD",
           "title": "GDP q/q",
           "date": "2026-09-01T21:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-09-04T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -193,8 +238,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.7264439854711109,
-          "note": "1,09 % vs USD",
+          "s": 0.5507679889846351,
+          "note": "0,83 % vs USD",
           "stale": false
         },
         {
@@ -226,7 +271,7 @@
           "stale": true
         }
       ],
-      "fund": -0.4674809431036729,
+      "fund": -0.5485621722512769,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -235,7 +280,7 @@
         "sSmall": 0
       },
       "divergence": null,
-      "total": -0.37043666017257104,
+      "total": -0.4271935205758938,
       "evWarns": [
         {
           "c": "USD",
@@ -256,6 +301,31 @@
           "c": "CAD",
           "title": "BOC Press Conference",
           "date": "2026-09-02T10:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Employment Change",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Unemployment Rate",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-09-04T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-09-04T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -273,14 +343,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 444.4176703472222,
+      "polAge": 444.6428740972222,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 414.4176703472222,
+      "cpiAge": 414.6428740972222,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 626.4176703472223,
+      "uneAge": 626.6428740972223,
       "px": null
     },
     "EUR": {
@@ -290,8 +360,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 444.4176703472222,
-      "px": 0.9061674514758367
+      "polAge": 444.6428740972222,
+      "px": 0.8028023429424658
     },
     "JPY": {
       "name": "Yen",
@@ -300,15 +370,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 444.4176703472222,
+      "polAge": 444.6428740972222,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 444.4176703472222,
+      "cpiAge": 444.6428740972222,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 505.4176703472222,
-      "px": 0.04992511233150587
+      "uneAge": 505.6428740972222,
+      "px": 0.3994008986520359
     },
     "AUD": {
       "name": "Aussie",
@@ -317,12 +387,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 475.4176703472222,
+      "polAge": 475.6428740972222,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 564.4176703472223,
-      "px": 1.7264369429433657
+      "uneAge": 564.6428740972223,
+      "px": 1.8106533791845125
     },
     "CAD": {
       "name": "CAD",
@@ -331,15 +401,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 444.4176703472222,
+      "polAge": 444.6428740972222,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 444.4176703472222,
+      "cpiAge": 444.6428740972222,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 536.4176703472223,
-      "px": 1.0896659782066664
+      "uneAge": 536.6428740972223,
+      "px": 0.8261519834769526
     }
   },
   "cot": {
@@ -399,12 +469,12 @@
   "retail": null,
   "fx": {
     "from": "2026-07-31",
-    "date": "2026-09-01",
-    "days": 23,
-    "EUR": 0.9061674514758367,
-    "JPY": 0.04992511233150587,
-    "AUD": 1.7264369429433657,
-    "CAD": 1.0896659782066664
+    "date": "2026-09-02",
+    "days": 24,
+    "EUR": 0.8028023429424658,
+    "JPY": 0.3994008986520359,
+    "AUD": 1.8106533791845125,
+    "CAD": 0.8261519834769526
   },
   "events": [
     {
@@ -902,9 +972,9 @@
       "surprise": null
     },
     {
-      "ccy": "USD",
-      "title": "United States 17-Week Bill Auction",
-      "date": "Wed, 2 Sep 2026 15:30 GMT",
+      "ccy": "EUR",
+      "title": "France New Car Registrations YoY",
+      "date": "Wed, 2 Sep 2026 15:00 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -912,9 +982,9 @@
       "surprise": null
     },
     {
-      "ccy": "EUR",
-      "title": "France New Car Registrations YoY",
-      "date": "Wed, 2 Sep 2026 16:00 GMT",
+      "ccy": "USD",
+      "title": "United States 17-Week Bill Auction",
+      "date": "Wed, 2 Sep 2026 15:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -955,34 +1025,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 102,
+      "ms": 124,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-02T10:01:25.168Z"
+      "at": "2026-09-02T15:25:43.467Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 171,
-      "at": "2026-09-02T10:01:25.241Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 290,
-      "at": "2026-09-02T10:01:25.361Z"
+      "ms": 229,
+      "at": "2026-09-02T15:25:43.577Z"
     },
     "fx": {
       "ok": true,
-      "ms": 576,
-      "at": "2026-09-02T10:01:25.641Z"
+      "ms": 451,
+      "at": "2026-09-02T15:25:43.793Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 534,
+      "at": "2026-09-02T15:25:43.883Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1202,
-      "at": "2026-09-02T10:01:26.266Z"
+      "ms": 913,
+      "at": "2026-09-02T15:25:44.254Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1707,
-      "at": "2026-09-02T10:01:26.717Z"
+      "ms": 1153,
+      "at": "2026-09-02T15:25:44.322Z"
     }
   }
 }
