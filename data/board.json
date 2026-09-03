@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T01:40:05.485Z",
+  "generatedAt": "2026-09-03T10:12:18.633Z",
   "futures": [
     {
       "sym": "6E",
@@ -14,23 +14,9 @@
           "s": 0.5352015619616438,
           "note": "0,80 % vs USD",
           "stale": false
-        },
-        {
-          "name": "Zins-Momentum Δ12M",
-          "w": 0.125,
-          "s": -2,
-          "note": "-2,25 vs -1,00 pp",
-          "stale": true
-        },
-        {
-          "name": "Zinsniveau / Carry",
-          "w": 0.1,
-          "s": -1.5833333333333333,
-          "note": "2,0 % vs 4,4 %",
-          "stale": true
         }
       ],
-      "fund": -0.4719483137996956,
+      "fund": 0.5352015619616438,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +25,7 @@
         "sSmall": 0
       },
       "divergence": null,
-      "total": -0.4287638196597869,
+      "total": 0.27624109337315067,
       "evWarns": [
         {
           "c": "USD",
@@ -83,35 +69,21 @@
           "stale": false
         },
         {
-          "name": "Zins-Momentum Δ12M",
-          "w": 0.125,
-          "s": 2,
-          "note": "0,45 vs -1,00 pp",
-          "stale": true
-        },
-        {
-          "name": "Zinsniveau / Carry",
-          "w": 0.1,
-          "s": -2,
-          "note": "0,5 % vs 4,4 %",
-          "stale": true
-        },
-        {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": 0.5298480649558401,
-          "note": "CPI 3,2 vs 2,7 %",
+          "s": 0.33377163599781,
+          "note": "CPI 3,0 vs 2,7 %",
           "stale": true
         },
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -1.200000000000001,
-          "note": "Δ6M 0,30 vs 0,00 pp",
+          "s": 1.0666666666666806,
+          "note": "Δ6M -0,13 vs 0,13 pp",
           "stale": true
         }
       ],
-      "fund": 0.16864428400322326,
+      "fund": 0.3723444370907693,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -120,7 +92,7 @@
         "sSmall": 1.2
       },
       "divergence": null,
-      "total": 0.15285099880225628,
+      "total": 0.2954411059635385,
       "evWarns": [
         {
           "c": "USD",
@@ -164,28 +136,14 @@
           "stale": false
         },
         {
-          "name": "Zins-Momentum Δ12M",
-          "w": 0.125,
-          "s": 1.0000000000000009,
-          "note": "-0,50 vs -1,00 pp",
-          "stale": true
-        },
-        {
-          "name": "Zinsniveau / Carry",
-          "w": 0.1,
-          "s": -0.3499999999999999,
-          "note": "3,9 % vs 4,4 %",
-          "stale": true
-        },
-        {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -1,
-          "note": "Δ6M 0,25 vs 0,00 pp",
+          "s": -0.8959999999999972,
+          "note": "Δ6M 0,36 vs 0,13 pp",
           "stale": true
         }
       ],
-      "fund": 0.6993576971076566,
+      "fund": 0.9066590738197217,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -194,7 +152,7 @@
         "sSmall": -1.76
       },
       "divergence": null,
-      "total": 0.30715038797535954,
+      "total": 0.4522613516738051,
       "evWarns": [
         {
           "c": "USD",
@@ -243,35 +201,21 @@
           "stale": false
         },
         {
-          "name": "Zins-Momentum Δ12M",
-          "w": 0.125,
-          "s": -2,
-          "note": "-2,00 vs -1,00 pp",
-          "stale": true
-        },
-        {
-          "name": "Zinsniveau / Carry",
-          "w": 0.1,
-          "s": -1.0833333333333333,
-          "note": "2,8 % vs 4,4 %",
-          "stale": true
-        },
-        {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": -0.84616633767183,
+          "s": -0.84616633767181,
           "note": "CPI 1,9 vs 2,7 %",
           "stale": true
         },
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -2,
-          "note": "Δ6M 1,08 vs 0,00 pp",
+          "s": -0.23999999999999844,
+          "note": "Δ6M 0,19 vs 0,13 pp",
           "stale": true
         }
       ],
-      "fund": -0.5485621722512769,
+      "fund": 0.21121863851765846,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -280,7 +224,7 @@
         "sSmall": 0
       },
       "divergence": null,
-      "total": -0.4271935205758938,
+      "total": 0.10465304696236091,
       "evWarns": [
         {
           "c": "USD",
@@ -340,75 +284,55 @@
       "name": "US-Dollar",
       "bis": "US",
       "imf": "US",
-      "level": 4.375,
-      "mom": -1,
-      "polPeriod": "2025-06",
-      "polAge": 445.06950792824074,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 415.06950792824074,
-      "unemp": 4.1,
-      "unempTrend": 0,
-      "unePeriod": "2024-12",
-      "uneAge": 627.0695079282408,
+      "cpiAge": 415.4252156597222,
+      "unemp": 4.13333333333333,
+      "unempTrend": 0.1333333333333302,
+      "unePeriod": "2024-Q4",
+      "uneAge": 657.4252156597222,
       "px": null
     },
     "EUR": {
       "name": "Euro",
       "bis": "XM",
       "imf": "U2",
-      "level": 2,
-      "mom": -2.25,
-      "polPeriod": "2025-06",
-      "polAge": 445.06950792824074,
       "px": 0.8028023429424658
     },
     "JPY": {
       "name": "Yen",
       "bis": "JP",
       "imf": "JP",
-      "level": 0.5,
-      "mom": 0.45,
-      "polPeriod": "2025-06",
-      "polAge": 445.06950792824074,
-      "cpi": 3.2347504621072,
-      "cpiPeriod": "2025-06",
-      "cpiAge": 445.06950792824074,
-      "unemp": 2.7,
-      "unempTrend": 0.30000000000000027,
-      "unePeriod": "2025-04",
-      "uneAge": 506.06950792824074,
+      "cpi": 3.03867403314917,
+      "cpiPeriod": "2025-07",
+      "cpiAge": 415.4252156597222,
+      "unemp": 2.43333333333333,
+      "unempTrend": -0.13333333333333997,
+      "unePeriod": "2025-Q1",
+      "uneAge": 565.4252156597222,
       "px": 0.3994008986520359
     },
     "AUD": {
       "name": "Aussie",
       "bis": "AU",
       "imf": "AU",
-      "level": 3.85,
-      "mom": -0.49999999999999956,
-      "polPeriod": "2025-05",
-      "polAge": 476.06950792824074,
-      "unemp": 4.395,
-      "unempTrend": 0.25,
-      "unePeriod": "2025-02",
-      "uneAge": 565.0695079282408,
+      "unemp": 4.411,
+      "unempTrend": 0.3573333333333295,
+      "unePeriod": "2025-Q1",
+      "uneAge": 565.4252156597222,
       "px": 1.8106533791845125
     },
     "CAD": {
       "name": "CAD",
       "bis": "CA",
       "imf": "CA",
-      "level": 2.75,
-      "mom": -2,
-      "polPeriod": "2025-06",
-      "polAge": 445.06950792824074,
-      "cpi": 1.85873605947953,
+      "cpi": 1.85873605947955,
       "cpiPeriod": "2025-06",
-      "cpiAge": 445.06950792824074,
-      "unemp": 7.094,
-      "unempTrend": 1.0760000000000005,
-      "unePeriod": "2025-03",
-      "uneAge": 537.0695079282408,
+      "cpiAge": 445.4252156597222,
+      "unemp": 6.94333333333333,
+      "unempTrend": 0.1933333333333298,
+      "unePeriod": "2025-Q1",
+      "uneAge": 565.4252156597222,
       "px": 0.8261519834769526
     }
   },
@@ -703,6 +627,16 @@
     },
     {
       "ccy": "EUR",
+      "title": "Germany New Car Registrations YoY",
+      "date": "Thu, 3 Sep 2026 08:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
       "title": "Spain Bonos y Obligaciones Auction",
       "date": "Thu, 3 Sep 2026 08:40 GMT",
       "impact": "low",
@@ -795,16 +729,6 @@
       "ccy": "USD",
       "title": "United States Challenger Job Cuts",
       "date": "Thu, 3 Sep 2026 09:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany New Car Registrations YoY",
-      "date": "Thu, 3 Sep 2026 10:00 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -1095,34 +1019,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 137,
+      "ms": 436,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-03T01:40:04.290Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 342,
-      "at": "2026-09-03T01:40:04.500Z"
+      "at": "2026-09-03T10:12:17.198Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 427,
-      "at": "2026-09-03T01:40:04.584Z"
+      "ms": 833,
+      "at": "2026-09-03T10:12:17.599Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 902,
+      "at": "2026-09-03T10:12:17.670Z"
     },
     "fx": {
       "ok": true,
-      "ms": 586,
-      "at": "2026-09-03T01:40:04.738Z"
+      "ms": 1064,
+      "at": "2026-09-03T10:12:17.825Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1409,
-      "at": "2026-09-03T01:40:05.454Z"
+      "ms": 1980,
+      "at": "2026-09-03T10:12:18.491Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1334,
-      "at": "2026-09-03T01:40:05.485Z"
+      "ms": 1873,
+      "at": "2026-09-03T10:12:18.633Z"
     }
   }
 }
