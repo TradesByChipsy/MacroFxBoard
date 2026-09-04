@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-04T15:14:12.700Z",
+  "generatedAt": "2026-09-04T19:57:03.235Z",
   "futures": [
     {
       "sym": "6E",
       "base": "EUR",
       "label": "Euro FX",
-      "cot": -0.32799999999999996,
+      "cot": -0.23199999999999996,
       "cotCode": "099741",
       "parts": [
         {
@@ -34,12 +34,12 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -1.4,
-        "sComm": 1.24,
-        "sSmall": 0
+        "sSpec": -1.2,
+        "sComm": 1.12,
+        "sSmall": 0.16
       },
       "divergence": null,
-      "total": -0.4432127940612925,
+      "total": -0.4144127940612925,
       "evWarns": [
         {
           "c": "USD",
@@ -67,7 +67,7 @@
       "sym": "6J",
       "base": "JPY",
       "label": "Japanese Yen",
-      "cot": 0.11599999999999996,
+      "cot": 0.068,
       "cotCode": "097741",
       "parts": [
         {
@@ -110,12 +110,12 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -0.68,
-        "sComm": 0.72,
-        "sSmall": 1.2
+        "sSpec": -1,
+        "sComm": 1.04,
+        "sSmall": 1.28
       },
       "divergence": null,
-      "total": 0.12593736206974798,
+      "total": 0.11153736206974799,
       "evWarns": [
         {
           "c": "USD",
@@ -143,7 +143,7 @@
       "sym": "6A",
       "base": "AUD",
       "label": "Australian Dollar",
-      "cot": -0.6080000000000001,
+      "cot": -0.48,
       "cotCode": "232741",
       "parts": [
         {
@@ -179,12 +179,12 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -0.68,
+        "sSpec": -0.6,
         "sComm": 0.28,
-        "sSmall": -1.76
+        "sSmall": -1.32
       },
       "divergence": null,
-      "total": 0.5316300253460687,
+      "total": 0.5700300253460687,
       "evWarns": [
         {
           "c": "USD",
@@ -212,7 +212,7 @@
       "sym": "6C",
       "base": "CAD",
       "label": "Canadian Dollar",
-      "cot": -0.144,
+      "cot": 0.08000000000000004,
       "cotCode": "090741",
       "parts": [
         {
@@ -255,12 +255,12 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -0.72,
-        "sComm": 0.72,
-        "sSmall": 0
+        "sSpec": -0.48,
+        "sComm": 0.56,
+        "sSmall": 0.76
       },
       "divergence": null,
-      "total": -0.2550648552022502,
+      "total": -0.18786485520225016,
       "evWarns": [
         {
           "c": "CAD",
@@ -303,14 +303,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 446.63486921296294,
+      "polAge": 446.8312874421296,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 416.63486921296294,
+      "cpiAge": 416.8312874421296,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 628.6348692129629,
+      "uneAge": 628.8312874421297,
       "px": null
     },
     "EUR": {
@@ -320,7 +320,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 446.63486921296294,
+      "polAge": 446.8312874421296,
       "px": 0.7486186889368196
     },
     "JPY": {
@@ -330,14 +330,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 446.63486921296294,
+      "polAge": 446.8312874421296,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 446.63486921296294,
+      "cpiAge": 446.8312874421296,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 507.63486921296294,
+      "uneAge": 507.8312874421296,
       "px": 0.2744447281082474
     },
     "AUD": {
@@ -347,11 +347,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 477.63486921296294,
+      "polAge": 477.8312874421296,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 566.6348692129629,
+      "uneAge": 566.8312874421297,
       "px": 2.7326233183856408
     },
     "CAD": {
@@ -361,69 +361,69 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 446.63486921296294,
+      "polAge": 446.8312874421296,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 446.63486921296294,
+      "cpiAge": 446.8312874421296,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 538.6348692129629,
+      "uneAge": 538.8312874421297,
       "px": 1.6253207869974418
     }
   },
   "cot": {
     "232741": {
-      "index": 33,
-      "net": -44455,
-      "netPct": -13.313627188490173,
-      "chg6w": -13745,
+      "index": 35,
+      "net": -39406,
+      "netPct": -10.060815261515836,
+      "chg6w": -1721,
       "commIdx": 57,
-      "commNet": 19074,
-      "smallIdx": 94,
-      "smallNet": 25381,
-      "openInterest": 333906,
-      "weeks": 156,
-      "date": "2026-08-25"
+      "commNet": 18810,
+      "smallIdx": 83,
+      "smallNet": 20596,
+      "openInterest": 391678,
+      "weeks": 157,
+      "date": "2026-09-01"
     },
     "099741": {
-      "index": 15,
-      "net": -36352,
-      "netPct": -4.441164828398434,
-      "chg6w": -23747,
-      "commIdx": 81,
-      "commNet": 440,
-      "smallIdx": 50,
-      "smallNet": 35912,
-      "openInterest": 818524,
-      "weeks": 156,
-      "date": "2026-08-25"
+      "index": 20,
+      "net": -24925,
+      "netPct": -2.880131082074203,
+      "chg6w": 16413,
+      "commIdx": 78,
+      "commNet": -8727,
+      "smallIdx": 46,
+      "smallNet": 33652,
+      "openInterest": 865412,
+      "weeks": 157,
+      "date": "2026-09-01"
     },
     "097741": {
-      "index": 33,
-      "net": -63298,
-      "netPct": -16.474587211360276,
-      "chg6w": 59365,
-      "commIdx": 68,
-      "commNet": 67837,
-      "smallIdx": 20,
-      "smallNet": -4539,
-      "openInterest": 384216,
-      "weeks": 156,
-      "date": "2026-08-25"
+      "index": 25,
+      "net": -92227,
+      "netPct": -22.391607305004833,
+      "chg6w": 59898,
+      "commIdx": 76,
+      "commNet": 97561,
+      "smallIdx": 18,
+      "smallNet": -5334,
+      "openInterest": 411882,
+      "weeks": 157,
+      "date": "2026-09-01"
     },
     "090741": {
-      "index": 32,
-      "net": -121522,
-      "netPct": -36.87580414148035,
-      "chg6w": 54757,
-      "commIdx": 68,
-      "commNet": 123231,
-      "smallIdx": 50,
-      "smallNet": -1709,
-      "openInterest": 329544,
-      "weeks": 156,
-      "date": "2026-08-25"
+      "index": 38,
+      "net": -108143,
+      "netPct": -32.30077658303465,
+      "chg6w": 66305,
+      "commIdx": 64,
+      "commNet": 115282,
+      "smallIdx": 31,
+      "smallNet": -7139,
+      "openInterest": 334800,
+      "weeks": 157,
+      "date": "2026-09-01"
     }
   },
   "retail": null,
@@ -594,35 +594,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 134,
+      "ms": 146,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-04T15:14:11.161Z"
+      "at": "2026-09-04T19:57:01.104Z"
     },
     "recent": {
       "ok": false,
-      "ms": 507,
+      "ms": 300,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-09-04T15:14:11.540Z"
-    },
-    "calendar": {
-      "ok": true,
-      "ms": 518,
-      "at": "2026-09-04T15:14:11.550Z"
+      "at": "2026-09-04T19:57:01.265Z"
     },
     "fx": {
       "ok": true,
-      "ms": 874,
-      "at": "2026-09-04T15:14:11.900Z"
+      "ms": 435,
+      "at": "2026-09-04T19:57:01.392Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1681,
-      "at": "2026-09-04T15:14:12.648Z"
+      "ms": 1370,
+      "at": "2026-09-04T19:57:02.272Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1675,
-      "at": "2026-09-04T15:14:12.700Z"
+      "ms": 1668,
+      "at": "2026-09-04T19:57:02.624Z"
+    },
+    "calendar": {
+      "ok": true,
+      "ms": 2272,
+      "at": "2026-09-04T19:57:03.235Z"
     }
   }
 }
