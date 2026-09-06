@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T01:29:37.840Z",
+  "generatedAt": "2026-09-06T09:45:41.007Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,23 +40,7 @@
       },
       "divergence": null,
       "total": -0.4581422684382796,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Average Hourly Earnings m/m",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Non-Farm Employment Change",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Unemployment Rate",
-          "date": "2026-09-04T08:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -116,23 +100,7 @@
       },
       "divergence": null,
       "total": 0.23556939984683192,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Average Hourly Earnings m/m",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Non-Farm Employment Change",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Unemployment Rate",
-          "date": "2026-09-04T08:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -185,23 +153,7 @@
       },
       "divergence": null,
       "total": 0.4180586026005365,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Average Hourly Earnings m/m",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Non-Farm Employment Change",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Unemployment Rate",
-          "date": "2026-09-04T08:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -261,33 +213,7 @@
       },
       "divergence": null,
       "total": -0.15920539364663902,
-      "evWarns": [
-        {
-          "c": "CAD",
-          "title": "Employment Change",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "CAD",
-          "title": "Unemployment Rate",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Average Hourly Earnings m/m",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Non-Farm Employment Change",
-          "date": "2026-09-04T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Unemployment Rate",
-          "date": "2026-09-04T08:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -303,14 +229,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 448.0622435185185,
+      "polAge": 448.40672461805553,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 418.0622435185185,
+      "cpiAge": 418.40672461805553,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 630.0622435185185,
+      "uneAge": 630.4067246180556,
       "px": null
     },
     "EUR": {
@@ -320,7 +246,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 448.0622435185185,
+      "polAge": 448.40672461805553,
       "px": 0.584633160023118
     },
     "JPY": {
@@ -330,14 +256,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 448.0622435185185,
+      "polAge": 448.40672461805553,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 448.0622435185185,
+      "cpiAge": 448.40672461805553,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 509.0622435185185,
+      "uneAge": 509.40672461805553,
       "px": 0.8503077606447085
     },
     "AUD": {
@@ -347,11 +273,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 479.0622435185185,
+      "polAge": 479.40672461805553,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 568.0622435185185,
+      "uneAge": 568.4067246180556,
       "px": 2.1084549749664894
     },
     "CAD": {
@@ -361,14 +287,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 448.0622435185185,
+      "polAge": 448.40672461805553,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 448.0622435185185,
+      "cpiAge": 448.40672461805553,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 540.0622435185185,
+      "uneAge": 540.4067246180556,
       "px": 1.7583825727913505
     }
   },
@@ -438,191 +364,143 @@
   },
   "events": [
     {
-      "title": "German Prelim CPI m/m",
+      "title": "Main Refinancing Rate",
       "c": "EUR",
-      "date": "2026-08-31T02:29:00-04:00",
-      "impact": "Medium",
-      "fc": "0.3%",
-      "prev": "0.8%"
-    },
-    {
-      "title": "Core CPI Flash Estimate y/y",
-      "c": "EUR",
-      "date": "2026-09-01T05:00:00-04:00",
-      "impact": "Medium",
-      "fc": "2.5%",
-      "prev": "2.5%"
-    },
-    {
-      "title": "CPI Flash Estimate y/y",
-      "c": "EUR",
-      "date": "2026-09-01T05:00:00-04:00",
-      "impact": "Medium",
-      "fc": "3.3%",
-      "prev": "2.9%"
-    },
-    {
-      "title": "ISM Manufacturing PMI",
-      "c": "USD",
-      "date": "2026-09-01T10:00:00-04:00",
+      "date": "2026-09-10T08:15:00-04:00",
       "impact": "High",
-      "fc": "55.2",
-      "prev": "55.6"
+      "fc": "2.65%",
+      "prev": "2.40%"
     },
     {
-      "title": "ISM Manufacturing Prices",
-      "c": "USD",
-      "date": "2026-09-01T10:00:00-04:00",
-      "impact": "Medium",
-      "fc": "70.5",
-      "prev": "71.1"
-    },
-    {
-      "title": "JOLTS Job Openings",
-      "c": "USD",
-      "date": "2026-09-01T10:00:00-04:00",
-      "impact": "Medium",
-      "fc": "7.33M",
-      "prev": "7.36M"
-    },
-    {
-      "title": "GDP q/q",
-      "c": "AUD",
-      "date": "2026-09-01T21:30:00-04:00",
-      "impact": "High",
-      "fc": "0.3%",
-      "prev": "0.3%"
-    },
-    {
-      "title": "ADP Non-Farm Employment Change",
-      "c": "USD",
-      "date": "2026-09-02T08:15:00-04:00",
-      "impact": "Medium",
-      "fc": "47K",
-      "prev": "44K"
-    },
-    {
-      "title": "BOC Rate Statement",
-      "c": "CAD",
-      "date": "2026-09-02T09:45:00-04:00",
+      "title": "Monetary Policy Statement",
+      "c": "EUR",
+      "date": "2026-09-10T08:15:00-04:00",
       "impact": "High",
       "fc": "",
       "prev": ""
     },
     {
-      "title": "Overnight Rate",
-      "c": "CAD",
-      "date": "2026-09-02T09:45:00-04:00",
+      "title": "Core PPI m/m",
+      "c": "USD",
+      "date": "2026-09-10T08:30:00-04:00",
       "impact": "High",
-      "fc": "2.25%",
-      "prev": "2.25%"
+      "fc": "0.3%",
+      "prev": "0.2%"
     },
     {
-      "title": "BOC Press Conference",
-      "c": "CAD",
-      "date": "2026-09-02T10:30:00-04:00",
+      "title": "PPI m/m",
+      "c": "USD",
+      "date": "2026-09-10T08:30:00-04:00",
       "impact": "High",
-      "fc": "",
-      "prev": ""
+      "fc": "0.4%",
+      "prev": "0.0%"
     },
     {
       "title": "Unemployment Claims",
       "c": "USD",
-      "date": "2026-09-03T08:30:00-04:00",
+      "date": "2026-09-10T08:30:00-04:00",
       "impact": "Medium",
       "fc": "205K",
-      "prev": "203K"
+      "prev": "206K"
     },
     {
-      "title": "ISM Services PMI",
+      "title": "ECB Press Conference",
+      "c": "EUR",
+      "date": "2026-09-10T08:45:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "Core CPI m/m",
       "c": "USD",
-      "date": "2026-09-03T10:00:00-04:00",
-      "impact": "Medium",
-      "fc": "54.2",
-      "prev": "54.1"
-    },
-    {
-      "title": "Employment Change",
-      "c": "CAD",
-      "date": "2026-09-04T08:30:00-04:00",
+      "date": "2026-09-11T08:30:00-04:00",
       "impact": "High",
-      "fc": "15.1K",
-      "prev": "75.1K"
+      "fc": "0.2%",
+      "prev": "0.2%"
     },
     {
-      "title": "Unemployment Rate",
-      "c": "CAD",
-      "date": "2026-09-04T08:30:00-04:00",
-      "impact": "High",
-      "fc": "6.4%",
-      "prev": "6.4%"
-    },
-    {
-      "title": "Average Hourly Earnings m/m",
+      "title": "Core CPI y/y",
       "c": "USD",
-      "date": "2026-09-04T08:30:00-04:00",
+      "date": "2026-09-11T08:30:00-04:00",
       "impact": "High",
-      "fc": "0.3%",
+      "fc": "2.4%",
+      "prev": "2.5%"
+    },
+    {
+      "title": "CPI m/m",
+      "c": "USD",
+      "date": "2026-09-11T08:30:00-04:00",
+      "impact": "High",
+      "fc": "0.4%",
       "prev": "0.1%"
     },
     {
-      "title": "Non-Farm Employment Change",
+      "title": "CPI y/y",
       "c": "USD",
-      "date": "2026-09-04T08:30:00-04:00",
+      "date": "2026-09-11T08:30:00-04:00",
       "impact": "High",
-      "fc": "55K",
-      "prev": "-23K"
+      "fc": "3.4%",
+      "prev": "3.4%"
     },
     {
-      "title": "Unemployment Rate",
+      "title": "Prelim UoM Consumer Sentiment",
       "c": "USD",
-      "date": "2026-09-04T08:30:00-04:00",
-      "impact": "High",
-      "fc": "4.1%",
-      "prev": "4.1%"
-    },
-    {
-      "title": "Ivey PMI",
-      "c": "CAD",
-      "date": "2026-09-04T10:00:00-04:00",
+      "date": "2026-09-11T10:00:00-04:00",
       "impact": "Medium",
-      "fc": "56.2",
-      "prev": "55.1"
+      "fc": "51.0",
+      "prev": "51.0"
+    },
+    {
+      "title": "Prelim UoM Inflation Expectations",
+      "c": "USD",
+      "date": "2026-09-11T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": "4.3%"
+    },
+    {
+      "title": "ECB President Lagarde Speaks",
+      "c": "EUR",
+      "date": "2026-09-12T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
     }
   ],
   "recent": null,
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 98,
+      "ms": 137,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-06T01:29:36.204Z"
+      "at": "2026-09-06T09:45:39.628Z"
     },
     "recent": {
       "ok": false,
-      "ms": 700,
+      "ms": 299,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-09-06T01:29:36.811Z"
+      "at": "2026-09-06T09:45:39.795Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 712,
-      "at": "2026-09-06T01:29:36.822Z"
+      "ms": 484,
+      "at": "2026-09-06T09:45:39.979Z"
     },
     "fx": {
       "ok": true,
-      "ms": 1078,
-      "at": "2026-09-06T01:29:37.183Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1728,
-      "at": "2026-09-06T01:29:37.782Z"
+      "ms": 671,
+      "at": "2026-09-06T09:45:40.161Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1736,
-      "at": "2026-09-06T01:29:37.840Z"
+      "ms": 1273,
+      "at": "2026-09-06T09:45:40.762Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 1683,
+      "at": "2026-09-06T09:45:41.007Z"
     }
   }
 }
