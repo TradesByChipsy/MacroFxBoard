@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T10:09:22.398Z",
+  "generatedAt": "2026-09-08T15:27:23.177Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.49907912595787973,
-          "note": "0,75 % vs USD",
+          "s": 0.45370829632534654,
+          "note": "0,68 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -0.49258970580184647,
+      "fund": -0.518515894163294,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,8 +39,34 @@
         "sSmall": 0.16
       },
       "divergence": null,
-      "total": -0.4144127940612925,
-      "evWarns": [],
+      "total": -0.4325611259143058,
+      "evWarns": [
+        {
+          "c": "EUR",
+          "title": "Main Refinancing Rate",
+          "date": "2026-09-10T08:15:00-04:00"
+        },
+        {
+          "c": "EUR",
+          "title": "Monetary Policy Statement",
+          "date": "2026-09-10T08:15:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        },
+        {
+          "c": "EUR",
+          "title": "ECB Press Conference",
+          "date": "2026-09-10T08:45:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -57,8 +83,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.5115153046187564,
-          "note": "2,27 % vs USD",
+          "s": 1.700981011325838,
+          "note": "2,55 % vs USD",
           "stale": false
         },
         {
@@ -90,7 +116,7 @@
           "stale": true
         }
       ],
-      "fund": 0.7433741480881768,
+      "fund": 0.8308198588760606,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -99,12 +125,23 @@
         "sSmall": 1.28
       },
       "divergence": null,
-      "total": 0.5407619036617237,
-      "evWarns": [],
+      "total": 0.6019739012132423,
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        }
+      ],
       "signal": {
-        "key": "none",
-        "label": "KEIN TRADE",
-        "hint": "Keine ausreichende Divergenz — Future auslassen."
+        "key": "weak",
+        "label": "Tendenz Long",
+        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
       }
     },
     {
@@ -153,7 +190,18 @@
       },
       "divergence": null,
       "total": 0.4926500557099661,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -170,8 +218,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.904116107542241,
-          "note": "1,36 % vs USD",
+          "s": 0.9754936949797713,
+          "note": "1,46 % vs USD",
           "stale": false
         },
         {
@@ -203,7 +251,7 @@
           "stale": true
         }
       ],
-      "fund": -0.3854784252246896,
+      "fund": -0.35253492333044484,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -212,8 +260,19 @@
         "sSmall": 0.76
       },
       "divergence": null,
-      "total": -0.24583489765728267,
-      "evWarns": [],
+      "total": -0.22277444633131135,
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-09-10T08:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -229,14 +288,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 450.42317590277776,
+      "polAge": 450.6440182523148,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 420.42317590277776,
+      "cpiAge": 420.6440182523148,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 632.4231759027778,
+      "uneAge": 632.6440182523148,
       "px": null
     },
     "EUR": {
@@ -246,8 +305,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 450.42317590277776,
-      "px": 0.7486186889368196
+      "polAge": 450.6440182523148,
+      "px": 0.6805624444880198
     },
     "JPY": {
       "name": "Yen",
@@ -256,15 +315,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 450.42317590277776,
+      "polAge": 450.6440182523148,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 450.42317590277776,
+      "cpiAge": 450.6440182523148,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 511.42317590277776,
-      "px": 2.2672729569281347
+      "uneAge": 511.6440182523148,
+      "px": 2.551471516988757
     },
     "AUD": {
       "name": "Aussie",
@@ -273,11 +332,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 481.42317590277776,
+      "polAge": 481.6440182523148,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 570.4231759027778,
+      "uneAge": 570.6440182523148,
       "px": 2.4148127288087906
     },
     "CAD": {
@@ -287,15 +346,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 450.42317590277776,
+      "polAge": 450.6440182523148,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 450.42317590277776,
+      "cpiAge": 450.6440182523148,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 542.4231759027778,
-      "px": 1.3561741613133615
+      "uneAge": 542.6440182523148,
+      "px": 1.463240542469657
     }
   },
   "cot": {
@@ -355,22 +414,14 @@
   "retail": null,
   "fx": {
     "from": "2026-08-07",
-    "date": "2026-09-07",
-    "days": 22,
-    "EUR": 0.7486186889368196,
-    "JPY": 2.2672729569281347,
+    "date": "2026-09-08",
+    "days": 23,
+    "EUR": 0.6805624444880198,
+    "JPY": 2.551471516988757,
     "AUD": 2.4148127288087906,
-    "CAD": 1.3561741613133615
+    "CAD": 1.463240542469657
   },
   "events": [
-    {
-      "title": "ECB President Lagarde Speaks",
-      "c": "EUR",
-      "date": "2026-09-09T13:00:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
     {
       "title": "Main Refinancing Rate",
       "c": "EUR",
@@ -488,35 +539,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 80,
+      "ms": 106,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-08T10:09:21.280Z"
+      "at": "2026-09-08T15:27:21.477Z"
     },
     "recent": {
       "ok": false,
-      "ms": 277,
+      "ms": 314,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-09-08T10:09:21.483Z"
+      "at": "2026-09-08T15:27:21.693Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 291,
-      "at": "2026-09-08T10:09:21.496Z"
+      "ms": 336,
+      "at": "2026-09-08T15:27:21.713Z"
     },
     "fx": {
       "ok": true,
-      "ms": 514,
-      "at": "2026-09-08T10:09:21.713Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1138,
-      "at": "2026-09-08T10:09:22.336Z"
+      "ms": 734,
+      "at": "2026-09-08T15:27:22.104Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1259,
-      "at": "2026-09-08T10:09:22.398Z"
+      "ms": 1614,
+      "at": "2026-09-08T15:27:22.818Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1808,
+      "at": "2026-09-08T15:27:23.177Z"
     }
   }
 }
