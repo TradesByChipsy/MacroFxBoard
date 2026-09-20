@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T01:52:48.987Z",
+  "generatedAt": "2026-09-20T10:10:36.345Z",
   "futures": [
     {
       "sym": "6E",
@@ -100,23 +100,7 @@
       },
       "divergence": null,
       "total": 0.2988886566803119,
-      "evWarns": [
-        {
-          "c": "JPY",
-          "title": "BOJ Policy Rate",
-          "date": "2026-09-17T22:54:00-04:00"
-        },
-        {
-          "c": "JPY",
-          "title": "Monetary Policy Statement",
-          "date": "2026-09-17T22:54:00-04:00"
-        },
-        {
-          "c": "JPY",
-          "title": "BOJ Press Conference",
-          "date": "2026-09-18T02:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -169,7 +153,13 @@
       },
       "divergence": null,
       "total": 0.06949889958438268,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "AUD",
+          "title": "RBA Gov Bullock Speaks",
+          "date": "2026-09-21T23:10:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -245,14 +235,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 462.07834475694443,
+      "polAge": 462.4240317708333,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 432.07834475694443,
+      "cpiAge": 432.4240317708333,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 644.0783447569445,
+      "uneAge": 644.4240317708334,
       "px": null
     },
     "EUR": {
@@ -262,7 +252,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 462.07834475694443,
+      "polAge": 462.4240317708333,
       "px": -1.2649413949170185
     },
     "JPY": {
@@ -272,14 +262,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 462.07834475694443,
+      "polAge": 462.4240317708333,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 462.07834475694443,
+      "cpiAge": 462.4240317708333,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 523.0783447569445,
+      "uneAge": 523.4240317708334,
       "px": 0.7542900245144368
     },
     "AUD": {
@@ -289,11 +279,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 493.07834475694443,
+      "polAge": 493.4240317708333,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 582.0783447569445,
+      "uneAge": 582.4240317708334,
       "px": 0.6226561947215714
     },
     "CAD": {
@@ -303,14 +293,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 462.07834475694443,
+      "polAge": 462.4240317708333,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 462.07834475694443,
+      "cpiAge": 462.4240317708333,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 554.0783447569445,
+      "uneAge": 554.4240317708334,
       "px": -0.9948096885813218
     }
   },
@@ -380,145 +370,25 @@
   },
   "events": [
     {
-      "title": "CPI m/m",
-      "c": "CAD",
-      "date": "2026-09-14T08:30:00-04:00",
-      "impact": "High",
-      "fc": "-0.1%",
-      "prev": "0.5%"
-    },
-    {
-      "title": "Median CPI y/y",
-      "c": "CAD",
-      "date": "2026-09-14T08:30:00-04:00",
-      "impact": "High",
-      "fc": "2.0%",
-      "prev": "2.0%"
-    },
-    {
-      "title": "Trimmed CPI y/y",
-      "c": "CAD",
-      "date": "2026-09-14T08:30:00-04:00",
-      "impact": "High",
-      "fc": "1.9%",
-      "prev": "1.9%"
-    },
-    {
-      "title": "Common CPI y/y",
-      "c": "CAD",
-      "date": "2026-09-14T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "2.7%",
-      "prev": "2.7%"
-    },
-    {
       "title": "ECB President Lagarde Speaks",
       "c": "EUR",
-      "date": "2026-09-14T11:15:00-04:00",
+      "date": "2026-09-21T11:00:00-04:00",
       "impact": "Medium",
       "fc": "",
       "prev": ""
     },
     {
-      "title": "Treasury Sec Bessent Speaks",
-      "c": "USD",
-      "date": "2026-09-15T10:00:00-04:00",
+      "title": "BOC Gov Macklem Speaks",
+      "c": "CAD",
+      "date": "2026-09-21T11:05:00-04:00",
       "impact": "Medium",
       "fc": "",
       "prev": ""
-    },
-    {
-      "title": "Core Retail Sales m/m",
-      "c": "USD",
-      "date": "2026-09-16T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "0.6%",
-      "prev": "-0.3%"
-    },
-    {
-      "title": "Retail Sales m/m",
-      "c": "USD",
-      "date": "2026-09-16T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "0.8%",
-      "prev": "-0.6%"
-    },
-    {
-      "title": "Federal Funds Rate",
-      "c": "USD",
-      "date": "2026-09-16T14:00:00-04:00",
-      "impact": "High",
-      "fc": "4.00%",
-      "prev": "3.75%"
-    },
-    {
-      "title": "FOMC Economic Projections",
-      "c": "USD",
-      "date": "2026-09-16T14:00:00-04:00",
-      "impact": "High",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "FOMC Statement",
-      "c": "USD",
-      "date": "2026-09-16T14:00:00-04:00",
-      "impact": "High",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "FOMC Press Conference",
-      "c": "USD",
-      "date": "2026-09-16T14:30:00-04:00",
-      "impact": "High",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "Philly Fed Manufacturing Index",
-      "c": "USD",
-      "date": "2026-09-17T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "31.3",
-      "prev": "47.4"
-    },
-    {
-      "title": "Unemployment Claims",
-      "c": "USD",
-      "date": "2026-09-17T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "207K",
-      "prev": "206K"
     },
     {
       "title": "RBA Gov Bullock Speaks",
       "c": "AUD",
-      "date": "2026-09-17T19:30:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "BOJ Policy Rate",
-      "c": "JPY",
-      "date": "2026-09-17T22:54:00-04:00",
-      "impact": "High",
-      "fc": "<1.25%",
-      "prev": "<1.00%"
-    },
-    {
-      "title": "Monetary Policy Statement",
-      "c": "JPY",
-      "date": "2026-09-17T22:54:00-04:00",
-      "impact": "High",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "BOJ Press Conference",
-      "c": "JPY",
-      "date": "2026-09-18T02:30:00-04:00",
+      "date": "2026-09-21T23:10:00-04:00",
       "impact": "High",
       "fc": "",
       "prev": ""
@@ -526,45 +396,133 @@
     {
       "title": "ECB President Lagarde Speaks",
       "c": "EUR",
-      "date": "2026-09-18T06:30:00-04:00",
+      "date": "2026-09-22T07:00:00-04:00",
       "impact": "Medium",
       "fc": "",
       "prev": ""
+    },
+    {
+      "title": "French Flash Manufacturing PMI",
+      "c": "EUR",
+      "date": "2026-09-23T03:15:00-04:00",
+      "impact": "Medium",
+      "fc": "50.9",
+      "prev": "51.5"
+    },
+    {
+      "title": "French Flash Services PMI",
+      "c": "EUR",
+      "date": "2026-09-23T03:15:00-04:00",
+      "impact": "Medium",
+      "fc": "48.4",
+      "prev": "48.4"
+    },
+    {
+      "title": "German Flash Manufacturing PMI",
+      "c": "EUR",
+      "date": "2026-09-23T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "54.0",
+      "prev": "54.1"
+    },
+    {
+      "title": "German Flash Services PMI",
+      "c": "EUR",
+      "date": "2026-09-23T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "49.9",
+      "prev": "48.5"
+    },
+    {
+      "title": "Employment Change",
+      "c": "AUD",
+      "date": "2026-09-23T21:30:00-04:00",
+      "impact": "High",
+      "fc": "20.9K",
+      "prev": "-15.8K"
+    },
+    {
+      "title": "Unemployment Rate",
+      "c": "AUD",
+      "date": "2026-09-23T21:30:00-04:00",
+      "impact": "High",
+      "fc": "4.5%",
+      "prev": "4.5%"
+    },
+    {
+      "title": "Core Retail Sales m/m",
+      "c": "CAD",
+      "date": "2026-09-24T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "-0.5%",
+      "prev": "0.5%"
+    },
+    {
+      "title": "Retail Sales m/m",
+      "c": "CAD",
+      "date": "2026-09-24T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "-0.8%",
+      "prev": "0.6%"
+    },
+    {
+      "title": "Unemployment Claims",
+      "c": "USD",
+      "date": "2026-09-24T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "201K",
+      "prev": "196K"
+    },
+    {
+      "title": "Revised UoM Consumer Sentiment",
+      "c": "USD",
+      "date": "2026-09-25T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "47.5",
+      "prev": "47.8"
+    },
+    {
+      "title": "Revised UoM Inflation Expectations",
+      "c": "USD",
+      "date": "2026-09-25T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": "4.6%"
     }
   ],
   "recent": null,
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 114,
+      "ms": 109,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-20T01:52:47.311Z"
+      "at": "2026-09-20T10:10:34.450Z"
     },
     "recent": {
       "ok": false,
-      "ms": 349,
+      "ms": 470,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-09-20T01:52:47.551Z"
+      "at": "2026-09-20T10:10:34.816Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 473,
-      "at": "2026-09-20T01:52:47.674Z"
+      "ms": 484,
+      "at": "2026-09-20T10:10:34.829Z"
     },
     "fx": {
       "ok": true,
-      "ms": 682,
-      "at": "2026-09-20T01:52:47.879Z"
+      "ms": 844,
+      "at": "2026-09-20T10:10:35.184Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1209,
-      "at": "2026-09-20T01:52:48.405Z"
+      "ms": 1363,
+      "at": "2026-09-20T10:10:35.702Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1834,
-      "at": "2026-09-20T01:52:48.987Z"
+      "ms": 2147,
+      "at": "2026-09-20T10:10:36.345Z"
     }
   }
 }
