@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T15:38:48.906Z",
+  "generatedAt": "2026-09-23T20:44:40.577Z",
   "futures": [
     {
       "sym": "6E",
@@ -14,9 +14,23 @@
           "s": -1.6831038368995945,
           "note": "-2,52 % vs USD",
           "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,25 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.5833333333333333,
+          "note": "2,0 % vs 4,4 %",
+          "stale": true
         }
       ],
-      "fund": -1.6831038368995943,
+      "fund": -1.73955139886326,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -25,7 +39,7 @@
         "sSmall": 0.76
       },
       "divergence": null,
-      "total": -1.2069726858297158,
+      "total": -1.246485979204282,
       "evWarns": [],
       "signal": {
         "key": "short",
@@ -48,21 +62,35 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 2,
+          "note": "0,45 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -2,
+          "note": "0,5 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": 0.33377163599781,
-          "note": "CPI 3,0 vs 2,7 %",
+          "s": 0.5298480649558401,
+          "note": "CPI 3,2 vs 2,7 %",
           "stale": true
         },
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": 1.0666666666666806,
-          "note": "Δ6M -0,13 vs 0,13 pp",
+          "s": -1.200000000000001,
+          "note": "Δ6M 0,30 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": 0.41568207713353533,
+      "fund": 0.19698043326195488,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -71,7 +99,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": 0.3953774539934747,
+      "total": 0.24228630328336842,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -94,14 +122,28 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 1.0000000000000009,
+          "note": "-0,50 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -0.3499999999999999,
+          "note": "3,9 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -0.8959999999999972,
-          "note": "Δ6M 0,36 vs 0,13 pp",
+          "s": -1,
+          "note": "Δ6M 0,25 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -0.9430977400493527,
+      "fund": -0.4265812330735191,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +152,7 @@
         "sSmall": -1.2
       },
       "divergence": null,
-      "total": -0.7909684180345469,
+      "total": -0.42940686315146337,
       "evWarns": [
         {
           "c": "AUD",
@@ -129,9 +171,9 @@
         }
       ],
       "signal": {
-        "key": "weak",
-        "label": "Tendenz Short",
-        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
+        "key": "none",
+        "label": "KEIN TRADE",
+        "hint": "Keine ausreichende Divergenz — Future auslassen."
       }
     },
     {
@@ -149,21 +191,35 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,00 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.0833333333333333,
+          "note": "2,8 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": -0.84616633767181,
+          "s": -0.84616633767183,
           "note": "CPI 1,9 vs 2,7 %",
           "stale": true
         },
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -0.23999999999999844,
-          "note": "Δ6M 0,19 vs 0,13 pp",
+          "s": -2,
+          "note": "Δ6M 1,08 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -1.372866582921618,
+      "fund": -1.584310201653881,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -172,7 +228,7 @@
         "sSmall": 1.04
       },
       "divergence": null,
-      "total": -0.8374066080451325,
+      "total": -0.9854171411577165,
       "evWarns": [],
       "signal": {
         "key": "weak",
@@ -186,55 +242,75 @@
       "name": "US-Dollar",
       "bis": "US",
       "imf": "US",
+      "level": 4.375,
+      "mom": -1,
+      "polPeriod": "2025-06",
+      "polAge": 465.8643585300926,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 435.6519549305556,
-      "unemp": 4.13333333333333,
-      "unempTrend": 0.1333333333333302,
-      "unePeriod": "2024-Q4",
-      "uneAge": 677.6519549305556,
+      "cpiAge": 435.8643585300926,
+      "unemp": 4.1,
+      "unempTrend": 0,
+      "unePeriod": "2024-12",
+      "uneAge": 647.8643585300925,
       "px": null
     },
     "EUR": {
       "name": "Euro",
       "bis": "XM",
       "imf": "U2",
+      "level": 2,
+      "mom": -2.25,
+      "polPeriod": "2025-06",
+      "polAge": 465.8643585300926,
       "px": -2.524655755349392
     },
     "JPY": {
       "name": "Yen",
       "bis": "JP",
       "imf": "JP",
-      "cpi": 3.03867403314917,
-      "cpiPeriod": "2025-07",
-      "cpiAge": 435.6519549305556,
-      "unemp": 2.43333333333333,
-      "unempTrend": -0.13333333333333997,
-      "unePeriod": "2025-Q1",
-      "uneAge": 585.6519549305556,
+      "level": 0.5,
+      "mom": 0.45,
+      "polPeriod": "2025-06",
+      "polAge": 465.8643585300926,
+      "cpi": 3.2347504621072,
+      "cpiPeriod": "2025-06",
+      "cpiAge": 465.8643585300926,
+      "unemp": 2.7,
+      "unempTrend": 0.30000000000000027,
+      "unePeriod": "2025-04",
+      "uneAge": 526.8643585300925,
       "px": 0.4914933837429136
     },
     "AUD": {
       "name": "Aussie",
       "bis": "AU",
       "imf": "AU",
-      "unemp": 4.411,
-      "unempTrend": 0.3573333333333295,
-      "unePeriod": "2025-Q1",
-      "uneAge": 585.6519549305556,
+      "level": 3.85,
+      "mom": -0.49999999999999956,
+      "polPeriod": "2025-05",
+      "polAge": 496.8643585300926,
+      "unemp": 4.395,
+      "unempTrend": 0.25,
+      "unePeriod": "2025-02",
+      "uneAge": 585.8643585300925,
       "px": -1.426421045086368
     },
     "CAD": {
       "name": "CAD",
       "bis": "CA",
       "imf": "CA",
-      "cpi": 1.85873605947955,
+      "level": 2.75,
+      "mom": -2,
+      "polPeriod": "2025-06",
+      "polAge": 465.8643585300926,
+      "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 465.6519549305556,
-      "unemp": 6.94333333333333,
-      "unempTrend": 0.1933333333333298,
-      "unePeriod": "2025-Q1",
-      "uneAge": 585.6519549305556,
+      "cpiAge": 465.8643585300926,
+      "unemp": 7.094,
+      "unempTrend": 1.0760000000000005,
+      "unePeriod": "2025-03",
+      "uneAge": 557.8643585300925,
       "px": -2.54002911208151
     }
   },
@@ -436,35 +512,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 87,
+      "ms": 129,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-23T15:38:47.206Z"
+      "at": "2026-09-23T20:44:37.927Z"
     },
     "recent": {
       "ok": false,
-      "ms": 567,
+      "ms": 151,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-09-23T15:38:47.693Z"
+      "at": "2026-09-23T20:44:37.956Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 659,
-      "at": "2026-09-23T15:38:47.784Z"
+      "ms": 166,
+      "at": "2026-09-23T20:44:37.969Z"
     },
     "fx": {
       "ok": true,
-      "ms": 919,
-      "at": "2026-09-23T15:38:48.037Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1501,
-      "at": "2026-09-23T15:38:48.618Z"
+      "ms": 405,
+      "at": "2026-09-23T20:44:38.202Z"
     },
     "macro": {
       "ok": true,
-      "ms": 2711,
-      "at": "2026-09-23T15:38:48.905Z"
+      "ms": 1031,
+      "at": "2026-09-23T20:44:38.770Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 2780,
+      "at": "2026-09-23T20:44:40.576Z"
     }
   }
 }
