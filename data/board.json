@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:26:49.218Z",
+  "generatedAt": "2026-09-30T17:04:52.632Z",
   "futures": [
     {
       "sym": "6E",
@@ -50,6 +50,21 @@
           "c": "USD",
           "title": "Final GDP q/q",
           "date": "2026-09-30T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-10-02T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -68,8 +83,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.0688042752171019,
-          "note": "1,60 % vs USD",
+          "s": 1.1189044756179025,
+          "note": "1,68 % vs USD",
           "stale": false
         },
         {
@@ -101,7 +116,7 @@
           "stale": true
         }
       ],
-      "fund": 0.5390459806720285,
+      "fund": 0.5621691500877827,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +125,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": 0.4445321864704199,
+      "total": 0.4607184050614479,
       "evWarns": [
         {
           "c": "USD",
@@ -121,6 +136,21 @@
           "c": "USD",
           "title": "Final GDP q/q",
           "date": "2026-09-30T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-10-02T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -139,8 +169,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.8130800777034364,
-          "note": "-2,72 % vs USD",
+          "s": -2,
+          "note": "-3,26 % vs USD",
           "stale": false
         },
         {
@@ -165,7 +195,7 @@
           "stale": true
         }
       ],
-      "fund": -0.8763896057583141,
+      "fund": -0.9739130434782607,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -174,7 +204,7 @@
         "sSmall": -1.24
       },
       "divergence": null,
-      "total": -0.7622727240308198,
+      "total": -0.8305391304347824,
       "evWarns": [
         {
           "c": "AUD",
@@ -210,6 +240,21 @@
           "c": "USD",
           "title": "Final GDP q/q",
           "date": "2026-09-30T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-10-02T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -228,8 +273,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.5687406765795644,
-          "note": "-2,35 % vs USD",
+          "s": -1.5831769404744733,
+          "note": "-2,37 % vs USD",
           "stale": false
         },
         {
@@ -261,7 +306,7 @@
           "stale": true
         }
       ],
-      "fund": -1.5267969409732154,
+      "fund": -1.5334598320016348,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -270,7 +315,7 @@
         "sSmall": 0.16
       },
       "divergence": null,
-      "total": -1.0231578586812506,
+      "total": -1.0278218824011442,
       "evWarns": [
         {
           "c": "USD",
@@ -281,6 +326,21 @@
           "c": "USD",
           "title": "Final GDP q/q",
           "date": "2026-09-30T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-10-02T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-10-02T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -298,14 +358,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 472.47695854166665,
+      "polAge": 472.7117202777778,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 442.47695854166665,
+      "cpiAge": 442.7117202777778,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 654.4769585416667,
+      "uneAge": 654.7117202777778,
       "px": null
     },
     "EUR": {
@@ -315,7 +375,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 472.47695854166665,
+      "polAge": 472.7117202777778,
       "px": -2.5358311308782078
     },
     "JPY": {
@@ -325,15 +385,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 472.47695854166665,
+      "polAge": 472.7117202777778,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 472.47695854166665,
+      "cpiAge": 472.7117202777778,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 533.4769585416667,
-      "px": 1.603206412825653
+      "uneAge": 533.7117202777778,
+      "px": 1.678356713426854
     },
     "AUD": {
       "name": "Aussie",
@@ -342,12 +402,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 503.47695854166665,
+      "polAge": 503.7117202777778,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 592.4769585416667,
-      "px": -2.719620116555155
+      "uneAge": 592.7117202777778,
+      "px": -3.259227282538313
     },
     "CAD": {
       "name": "CAD",
@@ -356,15 +416,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 472.47695854166665,
+      "polAge": 472.7117202777778,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 472.47695854166665,
+      "cpiAge": 472.7117202777778,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 564.4769585416667,
-      "px": -2.353111014869347
+      "uneAge": 564.7117202777778,
+      "px": -2.37476541071171
     }
   },
   "cot": {
@@ -424,12 +484,12 @@
   "retail": null,
   "fx": {
     "from": "2026-08-28",
-    "date": "2026-09-29",
-    "days": 23,
+    "date": "2026-09-30",
+    "days": 24,
     "EUR": -2.5358311308782078,
-    "JPY": 1.603206412825653,
-    "AUD": -2.719620116555155,
-    "CAD": -2.353111014869347
+    "JPY": 1.678356713426854,
+    "AUD": -3.259227282538313,
+    "CAD": -2.37476541071171
   },
   "events": [
     {
@@ -661,35 +721,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 116,
+      "ms": 125,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-09-30T11:26:47.772Z"
-    },
-    "recent": {
-      "ok": false,
-      "ms": 230,
-      "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-09-30T11:26:47.892Z"
+      "at": "2026-09-30T17:04:48.093Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 243,
-      "at": "2026-09-30T11:26:47.904Z"
+      "ms": 248,
+      "at": "2026-09-30T17:04:48.221Z"
+    },
+    "recent": {
+      "ok": false,
+      "ms": 253,
+      "error": "Myfxbook RSS: HTTP 403",
+      "at": "2026-09-30T17:04:48.228Z"
     },
     "fx": {
       "ok": true,
-      "ms": 635,
-      "at": "2026-09-30T11:26:48.290Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1251,
-      "at": "2026-09-30T11:26:48.905Z"
+      "ms": 996,
+      "at": "2026-09-30T17:04:48.964Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1622,
-      "at": "2026-09-30T11:26:49.217Z"
+      "ms": 1453,
+      "at": "2026-09-30T17:04:49.364Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 4664,
+      "at": "2026-09-30T17:04:52.631Z"
     }
   }
 }
