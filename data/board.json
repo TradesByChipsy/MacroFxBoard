@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:47:45.924Z",
+  "generatedAt": "2026-10-05T23:24:02.058Z",
   "futures": [
     {
       "sym": "6E",
@@ -12,7 +12,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-3,47 % vs USD",
+          "note": "-3,67 % vs USD",
           "stale": false
         },
         {
@@ -40,7 +40,13 @@
       },
       "divergence": null,
       "total": -1.2502444444444443,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-10-07T14:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "short",
         "label": "SHORT",
@@ -57,8 +63,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.7093562378480023,
-          "note": "-1,06 % vs USD",
+          "s": -0.9486571373629922,
+          "note": "-1,42 % vs USD",
           "stale": false
         },
         {
@@ -90,7 +96,7 @@
           "stale": true
         }
       ],
-      "fund": -0.2816434868964811,
+      "fund": -0.39209005590339946,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -99,12 +105,17 @@
         "sSmall": 0.64
       },
       "divergence": null,
-      "total": -0.10955044082753676,
+      "total": -0.18686303913237962,
       "evWarns": [
         {
           "c": "JPY",
           "title": "BOJ Gov Ueda Speaks",
           "date": "2026-10-06T02:35:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-10-07T14:00:00-04:00"
         }
       ],
       "signal": {
@@ -124,7 +135,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-3,66 % vs USD",
+          "note": "-3,34 % vs USD",
           "stale": false
         },
         {
@@ -159,7 +170,13 @@
       },
       "divergence": null,
       "total": -0.8377391304347824,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-10-07T14:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -177,7 +194,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-3,25 % vs USD",
+          "note": "-3,34 % vs USD",
           "stale": false
         },
         {
@@ -219,7 +236,13 @@
       },
       "divergence": null,
       "total": -1.1108877939401605,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-10-07T14:00:00-04:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -235,14 +258,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 477.5331704166667,
+      "polAge": 477.97502381944446,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 447.5331704166667,
+      "cpiAge": 447.97502381944446,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 659.5331704166666,
+      "uneAge": 659.9750238194445,
       "px": null
     },
     "EUR": {
@@ -252,8 +275,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 477.5331704166667,
-      "px": -3.474028990893907
+      "polAge": 477.97502381944446,
+      "px": -3.667998513287496
     },
     "JPY": {
       "name": "Yen",
@@ -262,15 +285,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 477.5331704166667,
+      "polAge": 477.97502381944446,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 477.5331704166667,
+      "cpiAge": 477.97502381944446,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 538.5331704166666,
-      "px": -1.0640343567720034
+      "uneAge": 538.9750238194445,
+      "px": -1.4229857060444884
     },
     "AUD": {
       "name": "Aussie",
@@ -279,12 +302,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 508.5331704166667,
+      "polAge": 508.97502381944446,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 597.5331704166666,
-      "px": -3.6613436915551745
+      "uneAge": 597.9750238194445,
+      "px": -3.3448424687095413
     },
     "CAD": {
       "name": "CAD",
@@ -293,15 +316,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 477.5331704166667,
+      "polAge": 477.97502381944446,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 477.5331704166667,
+      "cpiAge": 477.97502381944446,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 569.5331704166666,
-      "px": -3.248259860788849
+      "uneAge": 569.9750238194445,
+      "px": -3.342517401392109
     }
   },
   "cot": {
@@ -361,12 +384,12 @@
   "retail": null,
   "fx": {
     "from": "2026-09-03",
-    "date": "2026-10-02",
-    "days": 22,
-    "EUR": -3.474028990893907,
-    "JPY": -1.0640343567720034,
-    "AUD": -3.6613436915551745,
-    "CAD": -3.248259860788849
+    "date": "2026-10-05",
+    "days": 23,
+    "EUR": -3.667998513287496,
+    "JPY": -1.4229857060444884,
+    "AUD": -3.3448424687095413,
+    "CAD": -3.342517401392109
   },
   "events": [
     {
@@ -402,6 +425,14 @@
       "prev": ""
     },
     {
+      "title": "FOMC Member Waller Speaks",
+      "c": "USD",
+      "date": "2026-10-08T04:30:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
+    },
+    {
       "title": "Unemployment Claims",
       "c": "USD",
       "date": "2026-10-08T08:30:00-04:00",
@@ -414,7 +445,7 @@
       "c": "CAD",
       "date": "2026-10-09T08:30:00-04:00",
       "impact": "High",
-      "fc": "9.0K",
+      "fc": "6.2K",
       "prev": "-41.7K"
     },
     {
@@ -446,35 +477,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 91,
+      "ms": 109,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-05T12:47:45.031Z"
+      "at": "2026-10-05T23:23:52.858Z"
     },
     "recent": {
       "ok": false,
-      "ms": 217,
+      "ms": 196,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-05T12:47:45.163Z"
+      "at": "2026-10-05T23:23:52.957Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 220,
-      "at": "2026-10-05T12:47:45.165Z"
+      "ms": 230,
+      "at": "2026-10-05T23:23:52.989Z"
     },
     "fx": {
       "ok": true,
-      "ms": 349,
-      "at": "2026-10-05T12:47:45.288Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1035,
-      "at": "2026-10-05T12:47:45.918Z"
+      "ms": 603,
+      "at": "2026-10-05T23:23:53.351Z"
     },
     "cot": {
       "ok": true,
-      "ms": 985,
-      "at": "2026-10-05T12:47:45.923Z"
+      "ms": 1274,
+      "at": "2026-10-05T23:23:54.021Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 9478,
+      "at": "2026-10-05T23:24:02.057Z"
     }
   }
 }
