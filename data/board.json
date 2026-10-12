@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T02:50:09.888Z",
+  "generatedAt": "2026-10-12T13:38:59.867Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,7 +40,28 @@
       },
       "divergence": null,
       "total": -1.2712444444444444,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "short",
         "label": "SHORT",
@@ -100,7 +121,28 @@
       },
       "divergence": null,
       "total": -0.43694002145961397,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -153,7 +195,28 @@
       },
       "divergence": null,
       "total": -0.7101513223414124,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -213,7 +276,28 @@
       },
       "divergence": null,
       "total": -1.0931036952363204,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI m/m",
+          "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "CPI y/y",
+          "date": "2026-10-14T08:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -229,14 +313,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 484.11817,
+      "polAge": 484.5687484606481,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 454.11817,
+      "cpiAge": 454.5687484606481,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 666.11817,
+      "uneAge": 666.5687484606482,
       "px": null
     },
     "EUR": {
@@ -246,7 +330,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 484.11817,
+      "polAge": 484.5687484606481,
       "px": -3.659046557011436
     },
     "JPY": {
@@ -256,14 +340,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 484.11817,
+      "polAge": 484.5687484606481,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 484.11817,
+      "cpiAge": 484.5687484606481,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 545.11817,
+      "uneAge": 545.5687484606482,
       "px": -2.639771695420934
     },
     "AUD": {
@@ -273,11 +357,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 515.11817,
+      "polAge": 515.5687484606482,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 604.11817,
+      "uneAge": 604.5687484606482,
       "px": -2.9170857881879453
     },
     "CAD": {
@@ -287,14 +371,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 484.11817,
+      "polAge": 484.5687484606481,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 484.11817,
+      "cpiAge": 484.5687484606481,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 576.11817,
+      "uneAge": 576.5687484606482,
       "px": -2.967573827446457
     }
   },
@@ -504,35 +588,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 105,
+      "ms": 198,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-12T02:50:07.825Z"
+      "at": "2026-10-12T13:38:54.641Z"
     },
     "recent": {
       "ok": false,
-      "ms": 354,
+      "ms": 3268,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-12T02:50:08.079Z"
+      "at": "2026-10-12T13:38:57.716Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 500,
-      "at": "2026-10-12T02:50:08.224Z"
+      "ms": 3277,
+      "at": "2026-10-12T13:38:57.724Z"
     },
     "fx": {
       "ok": true,
-      "ms": 860,
-      "at": "2026-10-12T02:50:08.579Z"
+      "ms": 3567,
+      "at": "2026-10-12T13:38:58.009Z"
     },
     "macro": {
       "ok": true,
-      "ms": 2051,
-      "at": "2026-10-12T02:50:09.649Z"
+      "ms": 4238,
+      "at": "2026-10-12T13:38:58.625Z"
     },
     "cot": {
       "ok": true,
-      "ms": 2170,
-      "at": "2026-10-12T02:50:09.888Z"
+      "ms": 5425,
+      "at": "2026-10-12T13:38:59.866Z"
     }
   }
 }
