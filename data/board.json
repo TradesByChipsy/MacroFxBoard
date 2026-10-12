@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T21:07:26.875Z",
+  "generatedAt": "2026-10-12T02:50:09.888Z",
   "futures": [
     {
       "sym": "6E",
@@ -12,7 +12,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-3,98 % vs USD",
+          "note": "-3,66 % vs USD",
           "stale": false
         },
         {
@@ -57,8 +57,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -2,
-          "note": "-3,25 % vs USD",
+          "s": -1.7598477969472892,
+          "note": "-2,64 % vs USD",
           "stale": false
         },
         {
@@ -90,7 +90,7 @@
           "stale": true
         }
       ],
-      "fund": -0.8773252232743263,
+      "fund": -0.7664857449423058,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -99,7 +99,7 @@
         "sSmall": 0.76
       },
       "divergence": null,
-      "total": -0.5145276562920283,
+      "total": -0.43694002145961397,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -117,8 +117,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -2,
-          "note": "-3,49 % vs USD",
+          "s": -1.9447238587919635,
+          "note": "-2,92 % vs USD",
           "stale": false
         },
         {
@@ -143,7 +143,7 @@
           "stale": true
         }
       ],
-      "fund": -0.9739130434782607,
+      "fund": -0.9450733176305893,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -152,7 +152,7 @@
         "sSmall": -0.72
       },
       "divergence": null,
-      "total": -0.7303391304347824,
+      "total": -0.7101513223414124,
       "evWarns": [],
       "signal": {
         "key": "weak",
@@ -170,8 +170,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -2,
-          "note": "-3,33 % vs USD",
+          "s": -1.9783825516309712,
+          "note": "-2,97 % vs USD",
           "stale": false
         },
         {
@@ -203,7 +203,7 @@
           "stale": true
         }
       ],
-      "fund": -1.7258397056288008,
+      "fund": -1.7158624217661724,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -212,7 +212,7 @@
         "sSmall": 1.6
       },
       "divergence": null,
-      "total": -1.1000877939401603,
+      "total": -1.0931036952363204,
       "evWarns": [],
       "signal": {
         "key": "weak",
@@ -229,14 +229,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 483.88017216435185,
+      "polAge": 484.11817,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 453.88017216435185,
+      "cpiAge": 454.11817,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 665.8801721643518,
+      "uneAge": 666.11817,
       "px": null
     },
     "EUR": {
@@ -246,8 +246,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 483.88017216435185,
-      "px": -3.9803313835613308
+      "polAge": 484.11817,
+      "px": -3.659046557011436
     },
     "JPY": {
       "name": "Yen",
@@ -256,15 +256,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 483.88017216435185,
+      "polAge": 484.11817,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 483.88017216435185,
+      "cpiAge": 484.11817,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 544.8801721643518,
-      "px": -3.2491681346643153
+      "uneAge": 545.11817,
+      "px": -2.639771695420934
     },
     "AUD": {
       "name": "Aussie",
@@ -273,12 +273,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 514.8801721643518,
+      "polAge": 515.11817,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 603.8801721643518,
-      "px": -3.489632252004893
+      "uneAge": 604.11817,
+      "px": -2.9170857881879453
     },
     "CAD": {
       "name": "CAD",
@@ -287,15 +287,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 483.88017216435185,
+      "polAge": 484.11817,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 483.88017216435185,
+      "cpiAge": 484.11817,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 575.8801721643518,
-      "px": -3.3265543288785615
+      "uneAge": 576.11817,
+      "px": -2.967573827446457
     }
   },
   "cot": {
@@ -354,13 +354,13 @@
   },
   "retail": null,
   "fx": {
-    "from": "2026-09-09",
+    "from": "2026-09-10",
     "date": "2026-10-09",
-    "days": 23,
-    "EUR": -3.9803313835613308,
-    "JPY": -3.2491681346643153,
-    "AUD": -3.489632252004893,
-    "CAD": -3.3265543288785615
+    "days": 22,
+    "EUR": -3.659046557011436,
+    "JPY": -2.639771695420934,
+    "AUD": -2.9170857881879453,
+    "CAD": -2.967573827446457
   },
   "events": [
     {
@@ -504,35 +504,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 121,
+      "ms": 105,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-11T21:07:25.539Z"
+      "at": "2026-10-12T02:50:07.825Z"
     },
     "recent": {
       "ok": false,
-      "ms": 423,
+      "ms": 354,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-11T21:07:25.846Z"
+      "at": "2026-10-12T02:50:08.079Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 630,
-      "at": "2026-10-11T21:07:26.052Z"
+      "ms": 500,
+      "at": "2026-10-12T02:50:08.224Z"
     },
     "fx": {
       "ok": true,
-      "ms": 1087,
-      "at": "2026-10-11T21:07:26.504Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1435,
-      "at": "2026-10-11T21:07:26.851Z"
+      "ms": 860,
+      "at": "2026-10-12T02:50:08.579Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1500,
-      "at": "2026-10-11T21:07:26.874Z"
+      "ms": 2051,
+      "at": "2026-10-12T02:50:09.649Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 2170,
+      "at": "2026-10-12T02:50:09.888Z"
     }
   }
 }
