@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T04:06:32.920Z",
+  "generatedAt": "2026-10-13T13:01:24.069Z",
   "futures": [
     {
       "sym": "6E",
@@ -14,9 +14,23 @@
           "s": -2,
           "note": "-3,68 % vs USD",
           "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,25 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.5833333333333333,
+          "note": "2,0 % vs 4,4 %",
+          "stale": true
         }
       ],
-      "fund": -2,
+      "fund": -1.9206349206349205,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -25,7 +39,7 @@
         "sSmall": 0.72
       },
       "divergence": null,
-      "total": -1.3268,
+      "total": -1.2712444444444444,
       "evWarns": [
         {
           "c": "USD",
@@ -46,6 +60,26 @@
           "c": "USD",
           "title": "CPI y/y",
           "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -69,6 +103,20 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 2,
+          "note": "0,45 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -2,
+          "note": "0,5 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Inflationsdruck",
           "w": 0.075,
           "s": 0.5298480649558401,
@@ -78,12 +126,12 @@
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -0.6666666666666803,
-          "note": "Δ6M 0,30 vs 0,13 pp",
+          "s": -1.200000000000001,
+          "note": "Δ6M 0,30 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -1.3779970362508118,
+      "fund": -0.8651006262665555,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -92,7 +140,7 @@
         "sSmall": 0.76
       },
       "divergence": null,
-      "total": -0.8649979253755682,
+      "total": -0.5059704383865887,
       "evWarns": [
         {
           "c": "USD",
@@ -113,12 +161,32 @@
           "c": "USD",
           "title": "CPI y/y",
           "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
         }
       ],
       "signal": {
-        "key": "weak",
-        "label": "Tendenz Short",
-        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
+        "key": "none",
+        "label": "KEIN TRADE",
+        "hint": "Keine ausreichende Divergenz — Future auslassen."
       }
     },
     {
@@ -136,14 +204,28 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 1.0000000000000009,
+          "note": "-0,50 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -0.3499999999999999,
+          "note": "3,9 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -0.4666666666666792,
-          "note": "Δ6M 0,25 vs 0,13 pp",
+          "s": -1,
+          "note": "Δ6M 0,25 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -1.6938158766590754,
+      "fund": -0.9208734321692907,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -152,7 +234,7 @@
         "sSmall": -0.72
       },
       "divergence": null,
-      "total": -1.2342711136613527,
+      "total": -0.6932114025185034,
       "evWarns": [
         {
           "c": "USD",
@@ -183,12 +265,32 @@
           "c": "AUD",
           "title": "Unemployment Rate",
           "date": "2026-10-14T20:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
         }
       ],
       "signal": {
-        "key": "short",
-        "label": "SHORT",
-        "hint": "Nur Short-Setups: Breakdown-Retest, Value Area High, Absorption am Widerstand."
+        "key": "weak",
+        "label": "Tendenz Short",
+        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
       }
     },
     {
@@ -206,6 +308,20 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,00 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.0833333333333333,
+          "note": "2,8 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Inflationsdruck",
           "w": 0.075,
           "s": -0.84616633767183,
@@ -216,11 +332,11 @@
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
           "s": -2,
-          "note": "Δ6M 1,08 vs 0,13 pp",
+          "note": "Δ6M 1,08 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -1.7565157493330144,
+      "fund": -1.6997731181536373,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -229,7 +345,7 @@
         "sSmall": 1.6
       },
       "divergence": null,
-      "total": -1.1215610245331098,
+      "total": -1.081841182707546,
       "evWarns": [
         {
           "c": "USD",
@@ -250,6 +366,26 @@
           "c": "USD",
           "title": "CPI y/y",
           "date": "2026-10-14T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "PPI m/m",
+          "date": "2026-10-15T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Retail Sales m/m",
+          "date": "2026-10-15T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -264,13 +400,17 @@
       "name": "US-Dollar",
       "bis": "US",
       "imf": "US",
+      "level": 4.375,
+      "mom": -1,
+      "polPeriod": "2025-06",
+      "polAge": 485.5426396875,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 455.17121435185186,
-      "unemp": 4.13333333333333,
-      "unempTrend": 0.1333333333333302,
-      "unePeriod": "2024-Q4",
-      "uneAge": 697.1712143518519,
+      "cpiAge": 455.5426396875,
+      "unemp": 4.1,
+      "unempTrend": 0,
+      "unePeriod": "2024-12",
+      "uneAge": 667.5426396875,
       "px": null
     },
     "EUR": {
@@ -280,7 +420,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 485.17121435185186,
+      "polAge": 485.5426396875,
       "px": -3.6758398442028106
     },
     "JPY": {
@@ -290,14 +430,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 485.17121435185186,
+      "polAge": 485.5426396875,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 485.17121435185186,
+      "cpiAge": 485.5426396875,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 546.1712143518519,
+      "uneAge": 546.5426396875,
       "px": -2.9602700597247456
     },
     "AUD": {
@@ -307,11 +447,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 516.1712143518519,
+      "polAge": 516.5426396875,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 605.1712143518519,
+      "uneAge": 605.5426396875,
       "px": -2.847511117486712
     },
     "CAD": {
@@ -321,14 +461,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 485.17121435185186,
+      "polAge": 485.5426396875,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 485.17121435185186,
+      "cpiAge": 485.5426396875,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 577.1712143518519,
+      "uneAge": 577.5426396875,
       "px": -2.9152835907057195
     }
   },
@@ -422,6 +562,14 @@
       "prev": ""
     },
     {
+      "title": "EU Economic Summit",
+      "c": "EUR",
+      "date": "2026-10-14T06:15:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
+    },
+    {
       "title": "Core CPI m/m",
       "c": "USD",
       "date": "2026-10-14T08:30:00-04:00",
@@ -468,6 +616,14 @@
       "impact": "High",
       "fc": "4.6%",
       "prev": "4.6%"
+    },
+    {
+      "title": "EU Economic Summit",
+      "c": "EUR",
+      "date": "2026-10-15T06:15:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
     },
     {
       "title": "Core PPI m/m",
@@ -538,35 +694,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 114,
+      "ms": 113,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-13T04:06:00.249Z"
+      "at": "2026-10-13T13:01:20.388Z"
     },
     "recent": {
       "ok": false,
-      "ms": 185,
+      "ms": 632,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-13T04:06:00.327Z"
+      "at": "2026-10-13T13:01:20.911Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 728,
-      "at": "2026-10-13T04:06:00.868Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 1139,
-      "at": "2026-10-13T04:06:01.272Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 2169,
-      "at": "2026-10-13T04:06:02.301Z"
+      "ms": 915,
+      "at": "2026-10-13T13:01:21.193Z"
     },
     "macro": {
       "ok": true,
-      "ms": 32998,
-      "at": "2026-10-13T04:06:32.920Z"
+      "ms": 1571,
+      "at": "2026-10-13T13:01:21.804Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1865,
+      "at": "2026-10-13T13:01:22.139Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 3794,
+      "at": "2026-10-13T13:01:24.069Z"
     }
   }
 }
