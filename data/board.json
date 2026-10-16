@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-16T15:38:43.101Z",
+  "generatedAt": "2026-10-16T20:08:53.985Z",
   "futures": [
     {
       "sym": "6E",
       "base": "EUR",
       "label": "Euro FX",
-      "cot": 0.24399999999999997,
+      "cot": 0.26,
       "cotCode": "099741",
       "parts": [
         {
@@ -36,10 +36,10 @@
       "cotParts": {
         "sSpec": -1,
         "sComm": 2,
-        "sSmall": 0.72
+        "sSmall": 0.8
       },
       "divergence": null,
-      "total": -1.177238230035795,
+      "total": -1.172438230035795,
       "evWarns": [
         {
           "c": "USD",
@@ -77,7 +77,7 @@
       "sym": "6J",
       "base": "JPY",
       "label": "Japanese Yen",
-      "cot": 0.332,
+      "cot": 0.344,
       "cotCode": "097741",
       "parts": [
         {
@@ -120,12 +120,12 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 0.72,
-        "sComm": -0.6,
-        "sSmall": 0.76
+        "sSpec": 0.6,
+        "sComm": -0.44,
+        "sSmall": 0.88
       },
       "divergence": null,
-      "total": -0.3519613969286143,
+      "total": -0.34836139692861434,
       "evWarns": [
         {
           "c": "USD",
@@ -163,7 +163,7 @@
       "sym": "6A",
       "base": "AUD",
       "label": "Australian Dollar",
-      "cot": -0.162,
+      "cot": -0.06399999999999997,
       "cotCode": "232741",
       "parts": [
         {
@@ -199,12 +199,12 @@
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -0.9,
-        "sComm": 1.44,
-        "sSmall": -0.72
+        "sSpec": -1,
+        "sComm": 1.8,
+        "sSmall": -0.52
       },
       "divergence": null,
-      "total": -0.5970562210553075,
+      "total": -0.5676562210553076,
       "evWarns": [
         {
           "c": "AUD",
@@ -252,7 +252,7 @@
       "sym": "6C",
       "base": "CAD",
       "label": "Canadian Dollar",
-      "cot": 0.36000000000000004,
+      "cot": 0.248,
       "cotCode": "090741",
       "parts": [
         {
@@ -295,12 +295,12 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -0.16,
+        "sSpec": -0.24,
         "sComm": 0.4,
-        "sSmall": 1.6
+        "sSmall": 1.24
       },
       "divergence": null,
-      "total": -0.8789025127419174,
+      "total": -0.9125025127419174,
       "evWarns": [
         {
           "c": "USD",
@@ -343,14 +343,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 488.65188774305557,
+      "polAge": 488.8395137152778,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 458.65188774305557,
+      "cpiAge": 458.8395137152778,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 670.6518877430556,
+      "uneAge": 670.8395137152778,
       "px": null
     },
     "EUR": {
@@ -360,7 +360,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 488.65188774305557,
+      "polAge": 488.8395137152778,
       "px": -2.6474766959675655
     },
     "JPY": {
@@ -370,14 +370,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 488.65188774305557,
+      "polAge": 488.8395137152778,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 488.65188774305557,
+      "cpiAge": 488.8395137152778,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 549.6518877430556,
+      "uneAge": 549.8395137152778,
       "px": -2.2452280815270065
     },
     "AUD": {
@@ -387,11 +387,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 519.6518877430556,
+      "polAge": 519.8395137152778,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 608.6518877430556,
+      "uneAge": 608.8395137152778,
       "px": -2.4525880507628717
     },
     "CAD": {
@@ -401,69 +401,69 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 488.65188774305557,
+      "polAge": 488.8395137152778,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 488.65188774305557,
+      "cpiAge": 488.8395137152778,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 580.6518877430556,
+      "uneAge": 580.8395137152778,
       "px": -1.9730683372938707
     }
   },
   "cot": {
     "232741": {
-      "index": 5,
-      "net": -98588,
-      "netPct": -29.994949525681356,
-      "chg6w": -54133,
-      "commIdx": 86,
-      "commNet": 85092,
-      "smallIdx": 68,
-      "smallNet": 13496,
-      "openInterest": 328682,
-      "weeks": 156,
-      "date": "2026-10-06"
+      "index": 0,
+      "net": -117299,
+      "netPct": -34.55417953008272,
+      "chg6w": -77893,
+      "commIdx": 95,
+      "commNet": 106370,
+      "smallIdx": 63,
+      "smallNet": 10929,
+      "openInterest": 339464,
+      "weeks": 157,
+      "date": "2026-10-13"
     },
     "099741": {
       "index": 0,
-      "net": -99332,
-      "netPct": -11.413653594027744,
-      "chg6w": -62980,
+      "net": -137573,
+      "netPct": -15.730880541907126,
+      "chg6w": -112648,
       "commIdx": 100,
-      "commNet": 72024,
-      "smallIdx": 32,
-      "smallNet": 27308,
-      "openInterest": 870291,
-      "weeks": 156,
-      "date": "2026-10-06"
+      "commNet": 111225,
+      "smallIdx": 30,
+      "smallNet": 26348,
+      "openInterest": 874541,
+      "weeks": 157,
+      "date": "2026-10-13"
     },
     "097741": {
-      "index": 68,
-      "net": 62325,
-      "netPct": 16.929792632110786,
-      "chg6w": 125623,
-      "commIdx": 35,
-      "commNet": -61749,
-      "smallIdx": 31,
-      "smallNet": -576,
-      "openInterest": 368138,
-      "weeks": 156,
-      "date": "2026-10-06"
+      "index": 65,
+      "net": 50207,
+      "netPct": 13.44223056369176,
+      "chg6w": 142434,
+      "commIdx": 39,
+      "commNet": -48587,
+      "smallIdx": 28,
+      "smallNet": -1620,
+      "openInterest": 373502,
+      "weeks": 157,
+      "date": "2026-10-13"
     },
     "090741": {
-      "index": 46,
-      "net": -90163,
-      "netPct": -24.299551540501497,
-      "chg6w": 31359,
+      "index": 44,
+      "net": -94765,
+      "netPct": -25.056583219638078,
+      "chg6w": 13378,
       "commIdx": 60,
-      "commNet": 103502,
-      "smallIdx": 10,
-      "smallNet": -13339,
-      "openInterest": 371048,
-      "weeks": 156,
-      "date": "2026-10-06"
+      "commNet": 105613,
+      "smallIdx": 19,
+      "smallNet": -10848,
+      "openInterest": 378204,
+      "weeks": 157,
+      "date": "2026-10-13"
     }
   },
   "retail": null,
@@ -634,35 +634,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 110,
+      "ms": 132,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-16T15:38:41.979Z"
+      "at": "2026-10-16T20:08:52.487Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 296,
-      "at": "2026-10-16T15:38:42.169Z"
+      "ms": 343,
+      "at": "2026-10-16T20:08:52.701Z"
     },
     "recent": {
       "ok": false,
-      "ms": 298,
+      "ms": 372,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-16T15:38:42.172Z"
+      "at": "2026-10-16T20:08:52.731Z"
     },
     "fx": {
       "ok": true,
-      "ms": 522,
-      "at": "2026-10-16T15:38:42.390Z"
+      "ms": 811,
+      "at": "2026-10-16T20:08:53.165Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1164,
-      "at": "2026-10-16T15:38:42.973Z"
+      "ms": 1439,
+      "at": "2026-10-16T20:08:53.716Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1234,
-      "at": "2026-10-16T15:38:43.101Z"
+      "ms": 1632,
+      "at": "2026-10-16T20:08:53.985Z"
     }
   }
 }
