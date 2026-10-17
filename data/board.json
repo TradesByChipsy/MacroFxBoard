@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:46:52.530Z",
+  "generatedAt": "2026-10-17T14:30:22.901Z",
   "futures": [
     {
       "sym": "6E",
@@ -41,26 +41,6 @@
       "divergence": null,
       "total": -1.1440115722844675,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
@@ -129,26 +109,6 @@
       "evWarns": [
         {
           "c": "USD",
-          "title": "Core PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
           "date": "2026-10-15T23:30:00-04:00"
         }
@@ -206,26 +166,6 @@
       "divergence": null,
       "total": -0.5534364815881956,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
@@ -294,26 +234,6 @@
       "evWarns": [
         {
           "c": "USD",
-          "title": "Core PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "PPI m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-10-15T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
           "title": "Fed Chairman Warsh Speaks",
           "date": "2026-10-15T23:30:00-04:00"
         }
@@ -333,14 +253,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 489.40755243055554,
+      "polAge": 489.60443172453705,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 459.40755243055554,
+      "cpiAge": 459.60443172453705,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 671.4075524305556,
+      "uneAge": 671.604431724537,
       "px": null
     },
     "EUR": {
@@ -350,7 +270,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 489.40755243055554,
+      "polAge": 489.60443172453705,
       "px": -2.540876729400088
     },
     "JPY": {
@@ -360,14 +280,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 489.40755243055554,
+      "polAge": 489.60443172453705,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 489.40755243055554,
+      "cpiAge": 489.60443172453705,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 550.4075524305556,
+      "uneAge": 550.604431724537,
       "px": -1.9483870967742067
     },
     "AUD": {
@@ -377,11 +297,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 520.4075524305556,
+      "polAge": 520.604431724537,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 609.4075524305556,
+      "uneAge": 609.604431724537,
       "px": -2.39418554938009
     },
     "CAD": {
@@ -391,14 +311,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 489.40755243055554,
+      "polAge": 489.60443172453705,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 489.40755243055554,
+      "cpiAge": 489.60443172453705,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 581.4075524305556,
+      "uneAge": 581.604431724537,
       "px": -1.7313218390804685
     }
   },
@@ -624,35 +544,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 99,
+      "ms": 155,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-17T09:46:50.950Z"
+      "at": "2026-10-17T14:30:21.683Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 283,
-      "at": "2026-10-17T09:46:51.139Z"
+      "ms": 393,
+      "at": "2026-10-17T14:30:21.924Z"
     },
     "recent": {
       "ok": false,
-      "ms": 326,
+      "ms": 439,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-17T09:46:51.183Z"
+      "at": "2026-10-17T14:30:21.971Z"
     },
     "fx": {
       "ok": true,
-      "ms": 481,
-      "at": "2026-10-17T09:46:51.331Z"
+      "ms": 658,
+      "at": "2026-10-17T14:30:22.185Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1081,
-      "at": "2026-10-17T09:46:51.873Z"
+      "ms": 1305,
+      "at": "2026-10-17T14:30:22.783Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1679,
-      "at": "2026-10-17T09:46:52.529Z"
+      "ms": 1374,
+      "at": "2026-10-17T14:30:22.900Z"
     }
   }
 }
