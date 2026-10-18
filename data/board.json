@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T01:43:10.665Z",
+  "generatedAt": "2026-10-18T09:59:21.292Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,13 +40,7 @@
       },
       "divergence": null,
       "total": -1.1392795352402623,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-10-15T23:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -106,13 +100,7 @@
       },
       "divergence": null,
       "total": -0.27734543715676363,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-10-15T23:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -165,13 +153,7 @@
       },
       "divergence": null,
       "total": -0.5765517983893753,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-10-15T23:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -233,9 +215,19 @@
       "total": -0.8305670535714104,
       "evWarns": [
         {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-10-15T23:30:00-04:00"
+          "c": "CAD",
+          "title": "CPI m/m",
+          "date": "2026-10-19T08:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Median CPI y/y",
+          "date": "2026-10-19T08:30:00-04:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Trimmed CPI y/y",
+          "date": "2026-10-19T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -253,14 +245,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 490.07165121527777,
+      "polAge": 490.4162186574074,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 460.07165121527777,
+      "cpiAge": 460.4162186574074,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 672.0716512152778,
+      "uneAge": 672.4162186574074,
       "px": null
     },
     "EUR": {
@@ -270,7 +262,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 490.07165121527777,
+      "polAge": 490.4162186574074,
       "px": -2.5231315904843177
     },
     "JPY": {
@@ -280,14 +272,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 490.07165121527777,
+      "polAge": 490.4162186574074,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 490.07165121527777,
+      "cpiAge": 490.4162186574074,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 551.0716512152778,
+      "uneAge": 551.4162186574074,
       "px": -1.9155111254434143
     },
     "AUD": {
@@ -297,11 +289,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 521.0716512152778,
+      "polAge": 521.4162186574074,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 610.0716512152778,
+      "uneAge": 610.4162186574074,
       "px": -2.48912345767065
     },
     "CAD": {
@@ -311,14 +303,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 490.07165121527777,
+      "polAge": 490.4162186574074,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 490.07165121527777,
+      "cpiAge": 490.4162186574074,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 582.0716512152778,
+      "uneAge": 582.4162186574074,
       "px": -1.592653705430802
     }
   },
@@ -388,191 +380,143 @@
   },
   "events": [
     {
-      "title": "ECB President Lagarde Speaks",
-      "c": "EUR",
-      "date": "2026-10-13T22:10:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "BOC Gov Macklem Speaks",
+      "title": "CPI m/m",
       "c": "CAD",
-      "date": "2026-10-14T02:05:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "ECB President Lagarde Speaks",
-      "c": "EUR",
-      "date": "2026-10-14T04:30:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "EU Economic Summit",
-      "c": "EUR",
-      "date": "2026-10-14T06:15:00-04:00",
-      "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "Core CPI m/m",
-      "c": "USD",
-      "date": "2026-10-14T08:30:00-04:00",
+      "date": "2026-10-19T08:30:00-04:00",
       "impact": "High",
       "fc": "0.2%",
-      "prev": "0.3%"
+      "prev": "-0.1%"
     },
     {
-      "title": "Core CPI y/y",
-      "c": "USD",
-      "date": "2026-10-14T08:30:00-04:00",
+      "title": "Median CPI y/y",
+      "c": "CAD",
+      "date": "2026-10-19T08:30:00-04:00",
       "impact": "High",
-      "fc": "2.5%",
-      "prev": "2.4%"
+      "fc": "2.0%",
+      "prev": "2.0%"
     },
     {
-      "title": "CPI m/m",
-      "c": "USD",
-      "date": "2026-10-14T08:30:00-04:00",
+      "title": "Trimmed CPI y/y",
+      "c": "CAD",
+      "date": "2026-10-19T08:30:00-04:00",
       "impact": "High",
-      "fc": "0.6%",
-      "prev": "0.4%"
+      "fc": "1.9%",
+      "prev": "1.9%"
     },
     {
-      "title": "CPI y/y",
-      "c": "USD",
-      "date": "2026-10-14T08:30:00-04:00",
-      "impact": "High",
-      "fc": "3.6%",
-      "prev": "3.4%"
-    },
-    {
-      "title": "Employment Change",
-      "c": "AUD",
-      "date": "2026-10-14T20:30:00-04:00",
-      "impact": "High",
-      "fc": "19.6K",
-      "prev": "39.5K"
-    },
-    {
-      "title": "Unemployment Rate",
-      "c": "AUD",
-      "date": "2026-10-14T20:30:00-04:00",
-      "impact": "High",
-      "fc": "4.6%",
-      "prev": "4.6%"
-    },
-    {
-      "title": "EU Economic Summit",
-      "c": "EUR",
-      "date": "2026-10-15T06:15:00-04:00",
+      "title": "Common CPI y/y",
+      "c": "CAD",
+      "date": "2026-10-19T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "Core PPI m/m",
-      "c": "USD",
-      "date": "2026-10-15T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.3%",
-      "prev": "0.2%"
-    },
-    {
-      "title": "Core Retail Sales m/m",
-      "c": "USD",
-      "date": "2026-10-15T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.6%",
-      "prev": "1.4%"
-    },
-    {
-      "title": "PPI m/m",
-      "c": "USD",
-      "date": "2026-10-15T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.6%",
-      "prev": "0.4%"
-    },
-    {
-      "title": "Retail Sales m/m",
-      "c": "USD",
-      "date": "2026-10-15T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.3%",
-      "prev": "1.2%"
-    },
-    {
-      "title": "Philly Fed Manufacturing Index",
-      "c": "USD",
-      "date": "2026-10-15T08:30:00-04:00",
-      "impact": "Medium",
-      "fc": "28.2",
-      "prev": "37.8"
+      "fc": "2.6%",
+      "prev": "2.6%"
     },
     {
       "title": "Unemployment Claims",
       "c": "USD",
-      "date": "2026-10-15T08:30:00-04:00",
+      "date": "2026-10-22T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "199K",
-      "prev": "197K"
+      "fc": "200K",
+      "prev": "199K"
     },
     {
-      "title": "Fed Chairman Warsh Speaks",
+      "title": "French Flash Manufacturing PMI",
+      "c": "EUR",
+      "date": "2026-10-23T03:15:00-04:00",
+      "impact": "Medium",
+      "fc": "50.6",
+      "prev": "50.3"
+    },
+    {
+      "title": "French Flash Services PMI",
+      "c": "EUR",
+      "date": "2026-10-23T03:15:00-04:00",
+      "impact": "Medium",
+      "fc": "50.8",
+      "prev": "51.4"
+    },
+    {
+      "title": "German Flash Manufacturing PMI",
+      "c": "EUR",
+      "date": "2026-10-23T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "53.5",
+      "prev": "53.8"
+    },
+    {
+      "title": "German Flash Services PMI",
+      "c": "EUR",
+      "date": "2026-10-23T03:30:00-04:00",
+      "impact": "Medium",
+      "fc": "52.6",
+      "prev": "52.9"
+    },
+    {
+      "title": "Flash Manufacturing PMI",
       "c": "USD",
-      "date": "2026-10-15T23:30:00-04:00",
-      "impact": "High",
-      "fc": "",
-      "prev": ""
+      "date": "2026-10-23T09:45:00-04:00",
+      "impact": "Medium",
+      "fc": "55.5",
+      "prev": "57.0"
     },
     {
-      "title": "BOC Gov Macklem Speaks",
-      "c": "CAD",
-      "date": "2026-10-16T00:15:00-04:00",
+      "title": "Flash Services PMI",
+      "c": "USD",
+      "date": "2026-10-23T09:45:00-04:00",
+      "impact": "Medium",
+      "fc": "58.0",
+      "prev": "58.7"
+    },
+    {
+      "title": "Revised UoM Consumer Sentiment",
+      "c": "USD",
+      "date": "2026-10-23T10:00:00-04:00",
+      "impact": "Medium",
+      "fc": "46.3",
+      "prev": "46.3"
+    },
+    {
+      "title": "Revised UoM Inflation Expectations",
+      "c": "USD",
+      "date": "2026-10-23T10:00:00-04:00",
       "impact": "Medium",
       "fc": "",
-      "prev": ""
+      "prev": "4.7%"
     }
   ],
   "recent": null,
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 183,
+      "ms": 53,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-18T01:43:08.460Z"
+      "at": "2026-10-18T09:59:20.203Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 682,
-      "at": "2026-10-18T01:43:08.992Z"
+      "ms": 335,
+      "at": "2026-10-18T09:59:20.489Z"
     },
     "recent": {
       "ok": false,
-      "ms": 725,
+      "ms": 350,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-18T01:43:09.036Z"
+      "at": "2026-10-18T09:59:20.505Z"
     },
     "fx": {
       "ok": true,
-      "ms": 1044,
-      "at": "2026-10-18T01:43:09.321Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1932,
-      "at": "2026-10-18T01:43:10.153Z"
+      "ms": 557,
+      "at": "2026-10-18T09:59:20.706Z"
     },
     "cot": {
       "ok": true,
-      "ms": 2389,
-      "at": "2026-10-18T01:43:10.665Z"
+      "ms": 998,
+      "at": "2026-10-18T09:59:21.146Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 1198,
+      "at": "2026-10-18T09:59:21.291Z"
     }
   }
 }
