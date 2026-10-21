@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:56:42.168Z",
+  "generatedAt": "2026-10-21T02:10:56.007Z",
   "futures": [
     {
       "sym": "6E",
@@ -78,8 +78,8 @@
         {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": 0.33377163599781,
-          "note": "CPI 3,0 vs 2,7 %",
+          "s": 0.5298480649558401,
+          "note": "CPI 3,2 vs 2,7 %",
           "stale": true
         },
         {
@@ -90,7 +90,7 @@
           "stale": true
         }
       ],
-      "fund": -0.023643137426966727,
+      "fund": -0.0010189340856555564,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -99,7 +99,7 @@
         "sSmall": 0.88
       },
       "divergence": null,
-      "total": 0.08664980380112328,
+      "total": 0.1024867461400411,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -175,9 +175,23 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,00 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.0833333333333333,
+          "note": "2,8 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": -0.84616633767181,
+          "s": -0.84616633767183,
           "note": "CPI 1,9 vs 2,7 %",
           "stale": true
         },
@@ -189,7 +203,7 @@
           "stale": true
         }
       ],
-      "fund": -0.5223343459392336,
+      "fund": -0.8928083543961678,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -198,7 +212,7 @@
         "sSmall": 1.24
       },
       "divergence": null,
-      "total": -0.2912340421574635,
+      "total": -0.5505658480773173,
       "evWarns": [
         {
           "c": "CAD",
@@ -231,14 +245,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 492.8727102777778,
+      "polAge": 493.09092600694447,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 462.8727102777778,
+      "cpiAge": 463.09092600694447,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 674.8727102777777,
+      "uneAge": 675.0909260069444,
       "px": null
     },
     "EUR": {
@@ -248,7 +262,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 492.8727102777778,
+      "polAge": 493.09092600694447,
       "px": -2.1842768737107443
     },
     "JPY": {
@@ -258,14 +272,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 492.8727102777778,
-      "cpi": 3.03867403314917,
-      "cpiPeriod": "2025-07",
-      "cpiAge": 462.8727102777778,
+      "polAge": 493.09092600694447,
+      "cpi": 3.2347504621072,
+      "cpiPeriod": "2025-06",
+      "cpiAge": 493.09092600694447,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 553.8727102777777,
+      "uneAge": 554.0909260069444,
       "px": -0.1520045601368203
     },
     "AUD": {
@@ -275,24 +289,28 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 523.8727102777777,
+      "polAge": 524.0909260069444,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 612.8727102777777,
+      "uneAge": 613.0909260069444,
       "px": -1.9366322534709823
     },
     "CAD": {
       "name": "CAD",
       "bis": "CA",
       "imf": "CA",
-      "cpi": 1.85873605947955,
+      "level": 2.75,
+      "mom": -2,
+      "polPeriod": "2025-06",
+      "polAge": 493.09092600694447,
+      "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 492.8727102777778,
+      "cpiAge": 493.09092600694447,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 584.8727102777777,
+      "uneAge": 585.0909260069444,
       "px": -0.2926481084939425
     }
   },
@@ -470,35 +488,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 136,
+      "ms": 147,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-20T20:56:21.560Z"
-    },
-    "recent": {
-      "ok": false,
-      "ms": 721,
-      "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-20T20:56:22.151Z"
+      "at": "2026-10-21T02:10:54.342Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 811,
-      "at": "2026-10-20T20:56:22.240Z"
+      "ms": 422,
+      "at": "2026-10-21T02:10:54.624Z"
+    },
+    "recent": {
+      "ok": false,
+      "ms": 440,
+      "error": "Myfxbook RSS: HTTP 403",
+      "at": "2026-10-21T02:10:54.643Z"
     },
     "fx": {
       "ok": true,
-      "ms": 968,
-      "at": "2026-10-20T20:56:22.392Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 4693,
-      "at": "2026-10-20T20:56:26.116Z"
+      "ms": 751,
+      "at": "2026-10-21T02:10:54.945Z"
     },
     "macro": {
       "ok": true,
-      "ms": 20800,
-      "at": "2026-10-20T20:56:42.168Z"
+      "ms": 1692,
+      "at": "2026-10-21T02:10:55.738Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1814,
+      "at": "2026-10-21T02:10:56.007Z"
     }
   }
 }
