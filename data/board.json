@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T01:55:14.684Z",
+  "generatedAt": "2026-10-25T10:14:49.815Z",
   "futures": [
     {
       "sym": "6E",
@@ -229,14 +229,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 497.0800310648148,
+      "polAge": 497.42696545138887,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 467.0800310648148,
+      "cpiAge": 467.42696545138887,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 679.0800310648148,
+      "uneAge": 679.4269654513889,
       "px": null
     },
     "EUR": {
@@ -246,7 +246,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 497.0800310648148,
+      "polAge": 497.42696545138887,
       "px": -1.947851885662133
     },
     "JPY": {
@@ -256,14 +256,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 497.0800310648148,
+      "polAge": 497.42696545138887,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 497.0800310648148,
+      "cpiAge": 497.42696545138887,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 558.0800310648148,
+      "uneAge": 558.4269654513889,
       "px": 0.7092198581560183
     },
     "AUD": {
@@ -273,11 +273,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 528.0800310648148,
+      "polAge": 528.4269654513889,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 617.0800310648148,
+      "uneAge": 617.4269654513889,
       "px": -0.6360424028268419
     },
     "CAD": {
@@ -287,14 +287,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 497.0800310648148,
+      "polAge": 497.42696545138887,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 497.0800310648148,
+      "cpiAge": 497.42696545138887,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 589.0800310648148,
+      "uneAge": 589.4269654513889,
       "px": 0.6671871672936369
     }
   },
@@ -364,143 +364,263 @@
   },
   "events": [
     {
-      "title": "CPI m/m",
-      "c": "CAD",
-      "date": "2026-10-19T08:30:00-04:00",
-      "impact": "High",
-      "fc": "0.2%",
-      "prev": "-0.1%"
-    },
-    {
-      "title": "Median CPI y/y",
-      "c": "CAD",
-      "date": "2026-10-19T08:30:00-04:00",
-      "impact": "High",
-      "fc": "2.0%",
-      "prev": "2.0%"
-    },
-    {
-      "title": "Trimmed CPI y/y",
-      "c": "CAD",
-      "date": "2026-10-19T08:30:00-04:00",
-      "impact": "High",
-      "fc": "1.9%",
-      "prev": "1.9%"
-    },
-    {
-      "title": "Common CPI y/y",
-      "c": "CAD",
-      "date": "2026-10-19T08:30:00-04:00",
+      "title": "CB Consumer Confidence",
+      "c": "USD",
+      "date": "2026-10-27T10:00:00-04:00",
       "impact": "Medium",
-      "fc": "2.6%",
-      "prev": "2.6%"
+      "fc": "80.5",
+      "prev": "81.9"
+    },
+    {
+      "title": "RBA Gov Bullock Speaks",
+      "c": "AUD",
+      "date": "2026-10-27T20:15:00-04:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "CPI m/m",
+      "c": "AUD",
+      "date": "2026-10-27T20:30:00-04:00",
+      "impact": "High",
+      "fc": "0.7%",
+      "prev": "0.4%"
+    },
+    {
+      "title": "CPI y/y",
+      "c": "AUD",
+      "date": "2026-10-27T20:30:00-04:00",
+      "impact": "High",
+      "fc": "4.2%",
+      "prev": "4.0%"
+    },
+    {
+      "title": "Trimmed Mean CPI m/m",
+      "c": "AUD",
+      "date": "2026-10-27T20:30:00-04:00",
+      "impact": "High",
+      "fc": "0.3%",
+      "prev": "0.2%"
+    },
+    {
+      "title": "BOC Monetary Policy Report",
+      "c": "CAD",
+      "date": "2026-10-28T09:45:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "BOC Rate Statement",
+      "c": "CAD",
+      "date": "2026-10-28T09:45:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "Overnight Rate",
+      "c": "CAD",
+      "date": "2026-10-28T09:45:00-04:00",
+      "impact": "High",
+      "fc": "2.50%",
+      "prev": "2.25%"
+    },
+    {
+      "title": "BOC Press Conference",
+      "c": "CAD",
+      "date": "2026-10-28T10:30:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "Federal Funds Rate",
+      "c": "USD",
+      "date": "2026-10-28T14:00:00-04:00",
+      "impact": "High",
+      "fc": "4.00%",
+      "prev": "4.00%"
+    },
+    {
+      "title": "FOMC Statement",
+      "c": "USD",
+      "date": "2026-10-28T14:00:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "FOMC Press Conference",
+      "c": "USD",
+      "date": "2026-10-28T14:30:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "Advance GDP q/q",
+      "c": "USD",
+      "date": "2026-10-29T08:30:00-04:00",
+      "impact": "High",
+      "fc": "3.2%",
+      "prev": "1.5%"
+    },
+    {
+      "title": "Core PCE Price Index m/m",
+      "c": "USD",
+      "date": "2026-10-29T08:30:00-04:00",
+      "impact": "High",
+      "fc": "0.3%",
+      "prev": "0.2%"
+    },
+    {
+      "title": "Advance GDP Price Index q/q",
+      "c": "USD",
+      "date": "2026-10-29T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "3.5%",
+      "prev": "6.2%"
     },
     {
       "title": "Unemployment Claims",
       "c": "USD",
-      "date": "2026-10-22T08:30:00-04:00",
+      "date": "2026-10-29T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "200K",
-      "prev": "199K"
+      "fc": "198K",
+      "prev": "194K"
     },
     {
-      "title": "French Flash Manufacturing PMI",
+      "title": "Main Refinancing Rate",
       "c": "EUR",
-      "date": "2026-10-23T03:15:00-04:00",
-      "impact": "Medium",
-      "fc": "50.5",
-      "prev": "50.3"
+      "date": "2026-10-29T09:15:00-04:00",
+      "impact": "High",
+      "fc": "2.65%",
+      "prev": "2.65%"
     },
     {
-      "title": "French Flash Services PMI",
+      "title": "Monetary Policy Statement",
       "c": "EUR",
-      "date": "2026-10-23T03:15:00-04:00",
-      "impact": "Medium",
-      "fc": "50.7",
-      "prev": "51.4"
-    },
-    {
-      "title": "German Flash Manufacturing PMI",
-      "c": "EUR",
-      "date": "2026-10-23T03:30:00-04:00",
-      "impact": "Medium",
-      "fc": "53.5",
-      "prev": "53.8"
-    },
-    {
-      "title": "German Flash Services PMI",
-      "c": "EUR",
-      "date": "2026-10-23T03:30:00-04:00",
-      "impact": "Medium",
-      "fc": "52.5",
-      "prev": "52.9"
-    },
-    {
-      "title": "Flash Manufacturing PMI",
-      "c": "USD",
-      "date": "2026-10-23T09:45:00-04:00",
-      "impact": "Medium",
-      "fc": "55.4",
-      "prev": "57.0"
-    },
-    {
-      "title": "Flash Services PMI",
-      "c": "USD",
-      "date": "2026-10-23T09:45:00-04:00",
-      "impact": "Medium",
-      "fc": "57.9",
-      "prev": "58.7"
-    },
-    {
-      "title": "Revised UoM Consumer Sentiment",
-      "c": "USD",
-      "date": "2026-10-23T10:00:00-04:00",
-      "impact": "Medium",
-      "fc": "46.3",
-      "prev": "46.3"
-    },
-    {
-      "title": "Revised UoM Inflation Expectations",
-      "c": "USD",
-      "date": "2026-10-23T10:00:00-04:00",
-      "impact": "Medium",
+      "date": "2026-10-29T09:15:00-04:00",
+      "impact": "High",
       "fc": "",
-      "prev": "4.7%"
+      "prev": ""
+    },
+    {
+      "title": "ECB Press Conference",
+      "c": "EUR",
+      "date": "2026-10-29T09:45:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "Tokyo Core CPI y/y",
+      "c": "JPY",
+      "date": "2026-10-29T19:30:00-04:00",
+      "impact": "Medium",
+      "fc": "2.6%",
+      "prev": "2.7%"
+    },
+    {
+      "title": "BOJ Policy Rate",
+      "c": "JPY",
+      "date": "2026-10-29T22:30:00-04:00",
+      "impact": "High",
+      "fc": "<1.25%",
+      "prev": "<1.25%"
+    },
+    {
+      "title": "Monetary Policy Statement",
+      "c": "JPY",
+      "date": "2026-10-29T22:30:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "BOJ Outlook Report",
+      "c": "JPY",
+      "date": "2026-10-29T22:31:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "BOJ Press Conference",
+      "c": "JPY",
+      "date": "2026-10-30T01:30:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
+      "title": "German Prelim CPI m/m",
+      "c": "EUR",
+      "date": "2026-10-30T02:29:00-04:00",
+      "impact": "Medium",
+      "fc": "0.1%",
+      "prev": "0.6%"
+    },
+    {
+      "title": "German Prelim GDP q/q",
+      "c": "EUR",
+      "date": "2026-10-30T05:00:00-04:00",
+      "impact": "Medium",
+      "fc": "0.1%",
+      "prev": "0.2%"
+    },
+    {
+      "title": "GDP m/m",
+      "c": "CAD",
+      "date": "2026-10-30T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "0.2%",
+      "prev": "0.0%"
+    },
+    {
+      "title": "Employment Cost Index q/q",
+      "c": "USD",
+      "date": "2026-10-30T08:30:00-04:00",
+      "impact": "Medium",
+      "fc": "0.8%",
+      "prev": "0.9%"
     }
   ],
   "recent": null,
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 82,
+      "ms": 117,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-25T01:55:13.794Z"
+      "at": "2026-10-25T10:14:48.908Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 214,
-      "at": "2026-10-25T01:55:13.930Z"
+      "ms": 156,
+      "at": "2026-10-25T10:14:48.952Z"
     },
     "recent": {
       "ok": false,
-      "ms": 230,
+      "ms": 184,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-25T01:55:13.948Z"
+      "at": "2026-10-25T10:14:48.981Z"
     },
     "fx": {
       "ok": true,
-      "ms": 415,
-      "at": "2026-10-25T01:55:14.126Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 887,
-      "at": "2026-10-25T01:55:14.597Z"
+      "ms": 340,
+      "at": "2026-10-25T10:14:49.130Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1031,
-      "at": "2026-10-25T01:55:14.684Z"
+      "ms": 1039,
+      "at": "2026-10-25T10:14:49.772Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1026,
+      "at": "2026-10-25T10:14:49.815Z"
     }
   }
 }
