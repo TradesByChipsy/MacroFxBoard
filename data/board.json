@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:43:34.278Z",
+  "generatedAt": "2026-10-26T21:58:09.566Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,7 +40,23 @@
       },
       "divergence": null,
       "total": -0.9139340891121852,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Federal Funds Rate",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Statement",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Press Conference",
+          "date": "2026-10-28T14:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -100,7 +116,23 @@
       },
       "divergence": null,
       "total": 0.3142521020673341,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Federal Funds Rate",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Statement",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Press Conference",
+          "date": "2026-10-28T14:30:00-04:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -168,6 +200,21 @@
           "c": "AUD",
           "title": "Trimmed Mean CPI m/m",
           "date": "2026-10-27T20:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Federal Funds Rate",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Statement",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Press Conference",
+          "date": "2026-10-28T14:30:00-04:00"
         }
       ],
       "signal": {
@@ -249,6 +296,21 @@
           "c": "CAD",
           "title": "BOC Press Conference",
           "date": "2026-10-28T10:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Federal Funds Rate",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Statement",
+          "date": "2026-10-28T14:00:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Press Conference",
+          "date": "2026-10-28T14:30:00-04:00"
         }
       ],
       "signal": {
@@ -266,14 +328,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 498.73859118055555,
+      "polAge": 498.9153884953704,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 468.73859118055555,
+      "cpiAge": 468.9153884953704,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 680.7385911805555,
+      "uneAge": 680.9153884953704,
       "px": null
     },
     "EUR": {
@@ -283,7 +345,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 498.73859118055555,
+      "polAge": 498.9153884953704,
       "px": -1.5993361675040285
     },
     "JPY": {
@@ -293,14 +355,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 498.73859118055555,
+      "polAge": 498.9153884953704,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 498.73859118055555,
+      "cpiAge": 498.9153884953704,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 559.7385911805555,
+      "uneAge": 559.9153884953704,
       "px": 0.8813345923827542
     },
     "AUD": {
@@ -310,11 +372,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 529.7385911805555,
+      "polAge": 529.9153884953704,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 618.7385911805555,
+      "uneAge": 618.9153884953704,
       "px": -0.028105677346812463
     },
     "CAD": {
@@ -324,14 +386,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 498.73859118055555,
+      "polAge": 498.9153884953704,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 498.73859118055555,
+      "cpiAge": 498.9153884953704,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 590.7385911805555,
+      "uneAge": 590.9153884953704,
       "px": 0.6304455620882554
     }
   },
@@ -405,7 +467,7 @@
       "c": "USD",
       "date": "2026-10-27T10:00:00-04:00",
       "impact": "Medium",
-      "fc": "80.7",
+      "fc": "81.2",
       "prev": "81.9"
     },
     {
@@ -517,7 +579,7 @@
       "c": "USD",
       "date": "2026-10-29T08:30:00-04:00",
       "impact": "Medium",
-      "fc": "3.5%",
+      "fc": "3.3%",
       "prev": "6.2%"
     },
     {
@@ -595,7 +657,7 @@
     {
       "title": "German Prelim CPI m/m",
       "c": "EUR",
-      "date": "2026-10-30T02:29:00-04:00",
+      "date": "2026-10-30T03:29:00-04:00",
       "impact": "Medium",
       "fc": "0.1%",
       "prev": "0.6%"
@@ -629,35 +691,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 130,
+      "ms": 94,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-26T17:43:32.047Z"
-    },
-    "calendar": {
-      "ok": true,
-      "ms": 303,
-      "at": "2026-10-26T17:43:32.224Z"
+      "at": "2026-10-26T21:58:08.404Z"
     },
     "recent": {
       "ok": false,
-      "ms": 334,
+      "ms": 452,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-26T17:43:32.256Z"
+      "at": "2026-10-26T21:58:08.766Z"
+    },
+    "calendar": {
+      "ok": true,
+      "ms": 694,
+      "at": "2026-10-26T21:58:09.007Z"
     },
     "fx": {
       "ok": true,
-      "ms": 755,
-      "at": "2026-10-26T17:43:32.671Z"
+      "ms": 699,
+      "at": "2026-10-26T21:58:09.008Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1445,
-      "at": "2026-10-26T17:43:33.306Z"
+      "ms": 1286,
+      "at": "2026-10-26T21:58:09.552Z"
     },
     "cot": {
       "ok": true,
-      "ms": 2362,
-      "at": "2026-10-26T17:43:34.277Z"
+      "ms": 1257,
+      "at": "2026-10-26T21:58:09.565Z"
     }
   }
 }
