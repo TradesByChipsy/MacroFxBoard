@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T11:08:17.718Z",
+  "generatedAt": "2026-10-27T16:55:06.105Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.2809402177218339,
-          "note": "-1,92 % vs USD",
+          "s": -1.5128018001581218,
+          "note": "-2,27 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.5097436164759686,
+      "fund": -1.6422359492967045,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.52
       },
       "divergence": null,
-      "total": -0.9998205315331781,
+      "total": -1.092565164507693,
       "evWarns": [
         {
           "c": "USD",
@@ -55,6 +55,31 @@
           "c": "USD",
           "title": "FOMC Press Conference",
           "date": "2026-10-28T14:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Advance GDP q/q",
+          "date": "2026-10-29T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-10-29T08:30:00-04:00"
+        },
+        {
+          "c": "EUR",
+          "title": "Main Refinancing Rate",
+          "date": "2026-10-29T09:15:00-04:00"
+        },
+        {
+          "c": "EUR",
+          "title": "Monetary Policy Statement",
+          "date": "2026-10-29T09:15:00-04:00"
+        },
+        {
+          "c": "EUR",
+          "title": "ECB Press Conference",
+          "date": "2026-10-29T09:45:00-04:00"
         }
       ],
       "signal": {
@@ -73,8 +98,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.059225416164313906,
-          "note": "0,09 % vs USD",
+          "s": -0.09729889798421412,
+          "note": "-0,15 % vs USD",
           "stale": false
         },
         {
@@ -106,7 +131,7 @@
           "stale": true
         }
       ],
-      "fund": 0.07308650726304941,
+      "fund": 0.000844516117574933,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -115,7 +140,7 @@
         "sSmall": 0.56
       },
       "divergence": null,
-      "total": 0.1435605550841346,
+      "total": 0.09299116128230246,
       "evWarns": [
         {
           "c": "USD",
@@ -131,6 +156,16 @@
           "c": "USD",
           "title": "FOMC Press Conference",
           "date": "2026-10-28T14:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Advance GDP q/q",
+          "date": "2026-10-29T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-10-29T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -149,8 +184,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.05624296962878361,
-          "note": "-0,08 % vs USD",
+          "s": 0.014060742407210705,
+          "note": "0,02 % vs USD",
           "stale": false
         },
         {
@@ -175,7 +210,7 @@
           "stale": true
         }
       ],
-      "fund": 0.04022105932411307,
+      "fund": 0.0769012569081101,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -184,7 +219,7 @@
         "sSmall": -0.64
       },
       "divergence": null,
-      "total": 0.016154741526879138,
+      "total": 0.04183087983567706,
       "evWarns": [
         {
           "c": "AUD",
@@ -215,6 +250,16 @@
           "c": "USD",
           "title": "FOMC Press Conference",
           "date": "2026-10-28T14:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Advance GDP q/q",
+          "date": "2026-10-29T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-10-29T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -233,8 +278,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.5420820665111032,
-          "note": "0,81 % vs USD",
+          "s": 0.5656508520115825,
+          "note": "0,85 % vs USD",
           "stale": false
         },
         {
@@ -266,7 +311,7 @@
           "stale": true
         }
       ],
-      "fund": -0.5525710595467533,
+      "fund": -0.5416931585465321,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -275,7 +320,7 @@
         "sSmall": 1.44
       },
       "divergence": null,
-      "total": -0.2775997416827273,
+      "total": -0.26998521098257244,
       "evWarns": [
         {
           "c": "CAD",
@@ -311,6 +356,16 @@
           "c": "USD",
           "title": "FOMC Press Conference",
           "date": "2026-10-28T14:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Advance GDP q/q",
+          "date": "2026-10-29T08:30:00-04:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-10-29T08:30:00-04:00"
         }
       ],
       "signal": {
@@ -328,14 +383,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 499.4640939583333,
+      "polAge": 499.70493177083335,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 469.4640939583333,
+      "cpiAge": 469.70493177083335,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 681.4640939583334,
+      "uneAge": 681.7049317708334,
       "px": null
     },
     "EUR": {
@@ -345,8 +400,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 499.4640939583333,
-      "px": -1.921410326582751
+      "polAge": 499.70493177083335,
+      "px": -2.269202700237183
     },
     "JPY": {
       "name": "Yen",
@@ -355,15 +410,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 499.4640939583333,
+      "polAge": 499.70493177083335,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 499.4640939583333,
+      "cpiAge": 499.70493177083335,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 560.4640939583334,
-      "px": 0.08883812424647086
+      "uneAge": 560.7049317708334,
+      "px": -0.1459483469763212
     },
     "AUD": {
       "name": "Aussie",
@@ -372,12 +427,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 530.4640939583334,
+      "polAge": 530.7049317708334,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 619.4640939583334,
-      "px": -0.08436445444317542
+      "uneAge": 619.7049317708334,
+      "px": 0.02109111361081606
     },
     "CAD": {
       "name": "CAD",
@@ -386,15 +441,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 499.4640939583333,
+      "polAge": 499.70493177083335,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 499.4640939583333,
+      "cpiAge": 499.70493177083335,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 591.4640939583334,
-      "px": 0.813123099766655
+      "uneAge": 591.7049317708334,
+      "px": 0.8484762780173738
     }
   },
   "cot": {
@@ -454,12 +509,12 @@
   "retail": null,
   "fx": {
     "from": "2026-09-25",
-    "date": "2026-10-26",
-    "days": 22,
-    "EUR": -1.921410326582751,
-    "JPY": 0.08883812424647086,
-    "AUD": -0.08436445444317542,
-    "CAD": 0.813123099766655
+    "date": "2026-10-27",
+    "days": 23,
+    "EUR": -2.269202700237183,
+    "JPY": -0.1459483469763212,
+    "AUD": 0.02109111361081606,
+    "CAD": 0.8484762780173738
   },
   "events": [
     {
@@ -691,35 +746,35 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 121,
+      "ms": 124,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-27T11:08:16.203Z"
+      "at": "2026-10-27T16:54:56.931Z"
     },
     "recent": {
       "ok": false,
-      "ms": 252,
+      "ms": 139,
       "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-27T11:08:16.353Z"
+      "at": "2026-10-27T16:54:56.951Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 284,
-      "at": "2026-10-27T11:08:16.384Z"
+      "ms": 145,
+      "at": "2026-10-27T16:54:56.956Z"
     },
     "fx": {
       "ok": true,
-      "ms": 493,
-      "at": "2026-10-27T11:08:16.575Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1359,
-      "at": "2026-10-27T11:08:17.087Z"
+      "ms": 522,
+      "at": "2026-10-27T16:54:57.328Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1637,
-      "at": "2026-10-27T11:08:17.718Z"
+      "ms": 6233,
+      "at": "2026-10-27T16:55:03.039Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 9342,
+      "at": "2026-10-27T16:55:06.105Z"
     }
   }
 }
