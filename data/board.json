@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T02:43:34.549Z",
+  "generatedAt": "2026-10-28T11:43:34.337Z",
   "futures": [
     {
       "sym": "6E",
@@ -181,6 +181,11 @@
           "c": "JPY",
           "title": "BOJ Outlook Report",
           "date": "2026-10-29T22:31:00-04:00"
+        },
+        {
+          "c": "JPY",
+          "title": "BOJ Press Conference",
+          "date": "2026-10-30T01:30:00-04:00"
         }
       ],
       "signal": {
@@ -398,14 +403,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 500.11359431712964,
+      "polAge": 500.48859186342594,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 470.11359431712964,
+      "cpiAge": 470.48859186342594,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 682.1135943171296,
+      "uneAge": 682.4885918634259,
       "px": null
     },
     "EUR": {
@@ -415,7 +420,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 500.11359431712964,
+      "polAge": 500.48859186342594,
       "px": -2.269202700237183
     },
     "JPY": {
@@ -425,14 +430,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 500.11359431712964,
+      "polAge": 500.48859186342594,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 500.11359431712964,
+      "cpiAge": 500.48859186342594,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 561.1135943171296,
+      "uneAge": 561.4885918634259,
       "px": -0.1459483469763212
     },
     "AUD": {
@@ -442,11 +447,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 531.1135943171296,
+      "polAge": 531.4885918634259,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 620.1135943171296,
+      "uneAge": 620.4885918634259,
       "px": 0.02109111361081606
     },
     "CAD": {
@@ -456,14 +461,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 500.11359431712964,
+      "polAge": 500.48859186342594,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 500.11359431712964,
+      "cpiAge": 500.48859186342594,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 592.1135943171296,
+      "uneAge": 592.4885918634259,
       "px": 0.8484762780173738
     }
   },
@@ -757,39 +762,549 @@
       "prev": "0.9%"
     }
   ],
-  "recent": null,
+  "recent": [
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Senate Appearance",
+      "date": "Wed, 28 Oct 2026 00:15 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia CPI",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Inflation Rate MoM",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Inflation Rate YoY",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Quarterly Inflation Rate QoQ",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Quarterly Inflation Rate YoY",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Quarterly RBA Trimmed Mean CPI QoQ",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Quarterly RBA Trimmed Mean CPI YoY",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Trimmed Mean CPI MoM",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Trimmed Mean CPI YoY",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Weighted Median CPI MoM",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Weighted Median CPI YoY",
+      "date": "Wed, 28 Oct 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan BoJ JGB Purchase",
+      "date": "Wed, 28 Oct 2026 03:35 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany GfK Consumer Confidence",
+      "date": "Wed, 28 Oct 2026 07:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Industrial Sales MoM",
+      "date": "Wed, 28 Oct 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Industrial Sales YoY",
+      "date": "Wed, 28 Oct 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy PPI YoY",
+      "date": "Wed, 28 Oct 2026 10:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy PPI MoM",
+      "date": "Wed, 28 Oct 2026 10:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy 6-Month BOT Auction",
+      "date": "Wed, 28 Oct 2026 10:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 10-Year Bund Auction",
+      "date": "Wed, 28 Oct 2026 10:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Unemployment Benefit Claims",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Jobseekers Total",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Purchase Index",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Mortgage Market Index",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Mortgage Applications",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Mortgage Refinance Index",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA 30-Year Mortgage Rate",
+      "date": "Wed, 28 Oct 2026 11:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Goods Trade Balance",
+      "date": "Wed, 28 Oct 2026 12:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Wholesale Inventories MoM",
+      "date": "Wed, 28 Oct 2026 12:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Retail Inventories Ex Autos MoM",
+      "date": "Wed, 28 Oct 2026 12:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada BoC Interest Rate Decision",
+      "date": "Wed, 28 Oct 2026 13:45 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada BoC Monetary Policy Report",
+      "date": "Wed, 28 Oct 2026 13:45 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada BoC Rate Statement",
+      "date": "Wed, 28 Oct 2026 13:45 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada BoC Press Conference",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Cushing Crude Oil Stocks Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Crude Oil Stocks Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Refinery Crude Runs Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Distillate Fuel Production Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Crude Oil Imports Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Gasoline Stocks Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Heating Oil Stocks Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Distillate Stocks Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Gasoline Production Change",
+      "date": "Wed, 28 Oct 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Atlanta Fed GDPNow",
+      "date": "Wed, 28 Oct 2026 15:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 17-Week Bill Auction",
+      "date": "Wed, 28 Oct 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 2-Year FRN Auction",
+      "date": "Wed, 28 Oct 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Interest Rate Decision",
+      "date": "Wed, 28 Oct 2026 18:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States FOMC Statement",
+      "date": "Wed, 28 Oct 2026 18:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Press Conference",
+      "date": "Wed, 28 Oct 2026 18:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Foreign Bond Investment",
+      "date": "Wed, 28 Oct 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Stock Investment by Foreigners",
+      "date": "Wed, 28 Oct 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    }
+  ],
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 84,
+      "ms": 94,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-28T02:43:33.619Z"
-    },
-    "recent": {
-      "ok": false,
-      "ms": 255,
-      "error": "Myfxbook RSS: HTTP 403",
-      "at": "2026-10-28T02:43:33.795Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 364,
-      "at": "2026-10-28T02:43:33.898Z"
+      "at": "2026-10-28T11:43:32.950Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 425,
-      "at": "2026-10-28T02:43:33.964Z"
+      "ms": 295,
+      "at": "2026-10-28T11:43:33.158Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 484,
+      "at": "2026-10-28T11:43:33.349Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 556,
+      "at": "2026-10-28T11:43:33.412Z"
     },
     "cot": {
       "ok": true,
-      "ms": 899,
-      "at": "2026-10-28T02:43:34.432Z"
+      "ms": 1175,
+      "at": "2026-10-28T11:43:34.030Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1068,
-      "at": "2026-10-28T02:43:34.549Z"
+      "ms": 1604,
+      "at": "2026-10-28T11:43:34.337Z"
     }
   }
 }
