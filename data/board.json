@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T03:03:15.356Z",
+  "generatedAt": "2026-10-29T11:51:06.647Z",
   "futures": [
     {
       "sym": "6E",
@@ -403,14 +403,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 501.12726106481483,
+      "polAge": 501.4938269328704,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 471.12726106481483,
+      "cpiAge": 471.4938269328704,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 683.1272610648148,
+      "uneAge": 683.4938269328703,
       "px": null
     },
     "EUR": {
@@ -420,7 +420,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 501.12726106481483,
+      "polAge": 501.4938269328704,
       "px": -2.4254241926655817
     },
     "JPY": {
@@ -430,14 +430,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 501.12726106481483,
+      "polAge": 501.4938269328704,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 501.12726106481483,
+      "cpiAge": 501.4938269328704,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 562.1272610648148,
+      "uneAge": 562.4938269328703,
       "px": -0.23478647122279206
     },
     "AUD": {
@@ -447,11 +447,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 532.1272610648148,
+      "polAge": 532.4938269328703,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 621.1272610648148,
+      "uneAge": 621.4938269328703,
       "px": 0.03515185601801196
     },
     "CAD": {
@@ -461,14 +461,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 501.12726106481483,
+      "polAge": 501.4938269328704,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 501.12726106481483,
+      "cpiAge": 501.4938269328704,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 593.1272610648148,
+      "uneAge": 593.4938269328703,
       "px": 0.678781022413899
     }
   },
@@ -838,16 +838,6 @@
       "title": "Italy Unemployment Rate",
       "date": "Thu, 29 Oct 2026 09:00 GMT",
       "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Thu, 29 Oct 2026 10:00 GMT",
-      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -1395,36 +1385,36 @@
     }
   ],
   "sources": {
-    "retail": {
-      "ok": false,
-      "ms": 86,
-      "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-29T03:03:14.215Z"
-    },
     "calendar": {
       "ok": true,
-      "ms": 240,
-      "at": "2026-10-29T03:03:14.373Z"
+      "ms": 182,
+      "at": "2026-10-29T11:51:05.801Z"
+    },
+    "retail": {
+      "ok": false,
+      "ms": 234,
+      "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
+      "at": "2026-10-29T11:51:05.827Z"
     },
     "recent": {
       "ok": true,
-      "ms": 301,
-      "at": "2026-10-29T03:03:14.435Z"
+      "ms": 238,
+      "at": "2026-10-29T11:51:05.859Z"
     },
     "fx": {
       "ok": true,
-      "ms": 501,
-      "at": "2026-10-29T03:03:14.629Z"
+      "ms": 421,
+      "at": "2026-10-29T11:51:06.013Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1184,
-      "at": "2026-10-29T03:03:15.311Z"
+      "ms": 980,
+      "at": "2026-10-29T11:51:06.571Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1283,
-      "at": "2026-10-29T03:03:15.356Z"
+      "ms": 1113,
+      "at": "2026-10-29T11:51:06.647Z"
     }
   }
 }
