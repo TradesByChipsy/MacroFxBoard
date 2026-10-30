@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T17:18:20.085Z",
+  "generatedAt": "2026-10-30T21:43:24.435Z",
   "futures": [
     {
       "sym": "6E",
       "base": "EUR",
       "label": "Euro FX",
-      "cot": 0.18999999999999997,
+      "cot": 0.204,
       "cotCode": "099741",
       "parts": [
         {
@@ -34,28 +34,13 @@
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -0.98,
-        "sComm": 1.92,
+        "sSpec": -1,
+        "sComm": 2,
         "sSmall": 0.52
       },
       "divergence": null,
-      "total": -0.978973532271137,
+      "total": -0.9747735322711369,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Federal Funds Rate",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Statement",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Press Conference",
-          "date": "2026-10-28T14:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Advance GDP q/q",
@@ -92,7 +77,7 @@
       "sym": "6J",
       "base": "JPY",
       "label": "Japanese Yen",
-      "cot": 0.30800000000000005,
+      "cot": 0.32399999999999995,
       "cotCode": "097741",
       "parts": [
         {
@@ -135,28 +120,13 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 0.8,
-        "sComm": -0.68,
-        "sSmall": 0.56
+        "sSpec": 1.16,
+        "sComm": -1.04,
+        "sSmall": 0.28
       },
       "divergence": null,
-      "total": 0.07362793151638666,
+      "total": 0.07842793151638663,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Federal Funds Rate",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Statement",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Press Conference",
-          "date": "2026-10-28T14:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Advance GDP q/q",
@@ -198,7 +168,7 @@
       "sym": "6A",
       "base": "AUD",
       "label": "Australian Dollar",
-      "cot": -0.040000000000000036,
+      "cot": -0.14400000000000007,
       "cotCode": "232741",
       "parts": [
         {
@@ -235,27 +205,12 @@
       "cotSqueeze": false,
       "cotParts": {
         "sSpec": -1,
-        "sComm": 1.96,
-        "sSmall": -0.64
+        "sComm": 1.88,
+        "sSmall": -1.04
       },
       "divergence": null,
-      "total": 0.03840583171222547,
+      "total": 0.007205831712225455,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Federal Funds Rate",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Statement",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Press Conference",
-          "date": "2026-10-28T14:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Advance GDP q/q",
@@ -277,7 +232,7 @@
       "sym": "6C",
       "base": "CAD",
       "label": "Canadian Dollar",
-      "cot": 0.364,
+      "cot": 0.264,
       "cotCode": "090741",
       "parts": [
         {
@@ -320,28 +275,13 @@
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 0.08,
-        "sComm": 0.12,
-        "sSmall": 1.44
+        "sSpec": 0.24,
+        "sComm": -0.08,
+        "sSmall": 0.84
       },
       "divergence": null,
-      "total": -0.1532085402558224,
+      "total": -0.1832085402558224,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Federal Funds Rate",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Statement",
-          "date": "2026-10-28T14:00:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "FOMC Press Conference",
-          "date": "2026-10-28T14:30:00-04:00"
-        },
         {
           "c": "USD",
           "title": "Advance GDP q/q",
@@ -368,14 +308,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 502.7210657986111,
+      "polAge": 502.9051439236111,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 472.7210657986111,
+      "cpiAge": 472.9051439236111,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 684.7210657986111,
+      "uneAge": 684.9051439236111,
       "px": null
     },
     "EUR": {
@@ -385,7 +325,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 502.7210657986111,
+      "polAge": 502.9051439236111,
       "px": -1.8432340793500979
     },
     "JPY": {
@@ -395,14 +335,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 502.7210657986111,
+      "polAge": 502.9051439236111,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 502.7210657986111,
+      "cpiAge": 502.9051439236111,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 563.7210657986111,
+      "uneAge": 563.9051439236111,
       "px": -0.2358490566037874
     },
     "AUD": {
@@ -412,11 +352,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 533.7210657986111,
+      "polAge": 533.9051439236111,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 622.7210657986111,
+      "uneAge": 622.9051439236111,
       "px": 0.007023951675211304
     },
     "CAD": {
@@ -426,69 +366,69 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 502.7210657986111,
+      "polAge": 502.9051439236111,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 502.7210657986111,
+      "cpiAge": 502.9051439236111,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 594.7210657986111,
+      "uneAge": 594.9051439236111,
       "px": 1.3906536778201417
     }
   },
   "cot": {
     "232741": {
       "index": 0,
-      "net": -127292,
-      "netPct": -38.22467793759947,
-      "chg6w": -92422,
-      "commIdx": 99,
-      "commNet": 114925,
-      "smallIdx": 66,
-      "smallNet": 12367,
-      "openInterest": 333010,
-      "weeks": 156,
-      "date": "2026-10-20"
+      "net": -128315,
+      "netPct": -39.48056663220598,
+      "chg6w": -89409,
+      "commIdx": 97,
+      "commNet": 111235,
+      "smallIdx": 76,
+      "smallNet": 17080,
+      "openInterest": 325008,
+      "weeks": 157,
+      "date": "2026-10-27"
     },
     "099741": {
-      "index": 1,
-      "net": -134524,
-      "netPct": -15.322687199580837,
-      "chg6w": -91908,
-      "commIdx": 98,
-      "commNet": 104895,
+      "index": 0,
+      "net": -143894,
+      "netPct": -16.574059996222015,
+      "chg6w": -116901,
+      "commIdx": 100,
+      "commNet": 114484,
       "smallIdx": 37,
-      "smallNet": 29629,
-      "openInterest": 877940,
-      "weeks": 156,
-      "date": "2026-10-20"
+      "smallNet": 29410,
+      "openInterest": 868188,
+      "weeks": 157,
+      "date": "2026-10-27"
     },
     "097741": {
-      "index": 70,
-      "net": 69878,
-      "netPct": 18.430610247902496,
-      "chg6w": 59082,
-      "commIdx": 33,
-      "commNet": -71087,
-      "smallIdx": 36,
-      "smallNet": 1209,
-      "openInterest": 379141,
-      "weeks": 156,
-      "date": "2026-10-20"
+      "index": 79,
+      "net": 101591,
+      "netPct": 27.161480752674947,
+      "chg6w": -18768,
+      "commIdx": 24,
+      "commNet": -105090,
+      "smallIdx": 43,
+      "smallNet": 3499,
+      "openInterest": 374026,
+      "weeks": 157,
+      "date": "2026-10-27"
     },
     "090741": {
-      "index": 52,
-      "net": -74709,
-      "netPct": -19.47397917291175,
-      "chg6w": -4210,
-      "commIdx": 53,
-      "commNet": 86848,
-      "smallIdx": 14,
-      "smallNet": -12139,
-      "openInterest": 383635,
-      "weeks": 156,
-      "date": "2026-10-20"
+      "index": 56,
+      "net": -66424,
+      "netPct": -18.403007693778207,
+      "chg6w": -28847,
+      "commIdx": 48,
+      "commNet": 74260,
+      "smallIdx": 29,
+      "smallNet": -7836,
+      "openInterest": 360941,
+      "weeks": 157,
+      "date": "2026-10-27"
     }
   },
   "retail": null,
@@ -1472,34 +1412,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 100,
+      "ms": 127,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-30T17:18:19.094Z"
+      "at": "2026-10-30T21:43:23.156Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 326,
-      "at": "2026-10-30T17:18:19.325Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 422,
-      "at": "2026-10-30T17:18:19.422Z"
+      "ms": 539,
+      "at": "2026-10-30T21:43:23.573Z"
     },
     "fx": {
       "ok": true,
-      "ms": 508,
-      "at": "2026-10-30T17:18:19.501Z"
+      "ms": 655,
+      "at": "2026-10-30T21:43:23.683Z"
     },
-    "macro": {
+    "recent": {
       "ok": true,
-      "ms": 988,
-      "at": "2026-10-30T17:18:19.925Z"
+      "ms": 816,
+      "at": "2026-10-30T21:43:23.851Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1093,
-      "at": "2026-10-30T17:18:20.085Z"
+      "ms": 1377,
+      "at": "2026-10-30T21:43:24.404Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 1462,
+      "at": "2026-10-30T21:43:24.435Z"
     }
   }
 }
