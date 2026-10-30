@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T03:08:07.930Z",
+  "generatedAt": "2026-10-30T11:44:09.226Z",
   "futures": [
     {
       "sym": "6E",
@@ -169,23 +169,23 @@
         },
         {
           "c": "JPY",
+          "title": "BOJ Outlook Report",
+          "date": "2026-10-29T23:02:00-04:00"
+        },
+        {
+          "c": "JPY",
           "title": "BOJ Policy Rate",
-          "date": "2026-10-29T22:30:00-04:00"
+          "date": "2026-10-29T23:02:00-04:00"
         },
         {
           "c": "JPY",
           "title": "Monetary Policy Statement",
-          "date": "2026-10-29T22:30:00-04:00"
-        },
-        {
-          "c": "JPY",
-          "title": "BOJ Outlook Report",
-          "date": "2026-10-29T22:31:00-04:00"
+          "date": "2026-10-29T23:02:00-04:00"
         },
         {
           "c": "JPY",
           "title": "BOJ Press Conference",
-          "date": "2026-10-30T01:30:00-04:00"
+          "date": "2026-10-30T02:30:00-04:00"
         }
       ],
       "signal": {
@@ -388,14 +388,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 502.13064733796296,
+      "polAge": 502.4889956712963,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 472.13064733796296,
+      "cpiAge": 472.4889956712963,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 684.130647337963,
+      "uneAge": 684.4889956712963,
       "px": null
     },
     "EUR": {
@@ -405,7 +405,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 502.13064733796296,
+      "polAge": 502.4889956712963,
       "px": -2.2278100786218946
     },
     "JPY": {
@@ -415,14 +415,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 502.13064733796296,
+      "polAge": 502.4889956712963,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 502.13064733796296,
+      "cpiAge": 502.4889956712963,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 563.130647337963,
+      "uneAge": 563.4889956712963,
       "px": -0.7521672616012332
     },
     "AUD": {
@@ -432,11 +432,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 533.130647337963,
+      "polAge": 533.4889956712963,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 622.130647337963,
+      "uneAge": 622.4889956712963,
       "px": 0.021071855025633912
     },
     "CAD": {
@@ -446,14 +446,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 502.13064733796296,
+      "polAge": 502.4889956712963,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 502.13064733796296,
+      "cpiAge": 502.4889956712963,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 594.130647337963,
+      "uneAge": 594.4889956712963,
       "px": 1.200056473245814
     }
   },
@@ -683,9 +683,17 @@
       "prev": "2.7%"
     },
     {
+      "title": "BOJ Outlook Report",
+      "c": "JPY",
+      "date": "2026-10-29T23:02:00-04:00",
+      "impact": "High",
+      "fc": "",
+      "prev": ""
+    },
+    {
       "title": "BOJ Policy Rate",
       "c": "JPY",
-      "date": "2026-10-29T22:30:00-04:00",
+      "date": "2026-10-29T23:02:00-04:00",
       "impact": "High",
       "fc": "<1.25%",
       "prev": "<1.25%"
@@ -693,15 +701,7 @@
     {
       "title": "Monetary Policy Statement",
       "c": "JPY",
-      "date": "2026-10-29T22:30:00-04:00",
-      "impact": "High",
-      "fc": "",
-      "prev": ""
-    },
-    {
-      "title": "BOJ Outlook Report",
-      "c": "JPY",
-      "date": "2026-10-29T22:31:00-04:00",
+      "date": "2026-10-29T23:02:00-04:00",
       "impact": "High",
       "fc": "",
       "prev": ""
@@ -709,7 +709,7 @@
     {
       "title": "BOJ Press Conference",
       "c": "JPY",
-      "date": "2026-10-30T01:30:00-04:00",
+      "date": "2026-10-30T02:30:00-04:00",
       "impact": "High",
       "fc": "",
       "prev": ""
@@ -1050,6 +1050,26 @@
     },
     {
       "ccy": "EUR",
+      "title": "Germany Saxony CPI MoM",
+      "date": "Fri, 30 Oct 2026 08:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany Saxony CPI YoY",
+      "date": "Fri, 30 Oct 2026 08:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
       "title": "Germany Unemployed Persons",
       "date": "Fri, 30 Oct 2026 08:55 GMT",
       "impact": "medium",
@@ -1081,16 +1101,6 @@
     {
       "ccy": "EUR",
       "title": "Germany Brandenburg CPI YoY",
-      "date": "Fri, 30 Oct 2026 09:00 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany Saxony CPI MoM",
       "date": "Fri, 30 Oct 2026 09:00 GMT",
       "impact": "high",
       "prev": "",
@@ -1151,16 +1161,6 @@
     {
       "ccy": "EUR",
       "title": "Germany Brandenburg CPI MoM",
-      "date": "Fri, 30 Oct 2026 09:00 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany Saxony CPI YoY",
       "date": "Fri, 30 Oct 2026 09:00 GMT",
       "impact": "high",
       "prev": "",
@@ -1243,16 +1243,6 @@
       "title": "Spain Current Account",
       "date": "Fri, 30 Oct 2026 09:00 GMT",
       "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Fri, 30 Oct 2026 10:00 GMT",
-      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -1482,34 +1472,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 128,
+      "ms": 80,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-30T03:08:00.138Z"
+      "at": "2026-10-30T11:44:08.180Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 279,
-      "at": "2026-10-30T03:08:00.293Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 618,
-      "at": "2026-10-30T03:08:00.627Z"
+      "ms": 333,
+      "at": "2026-10-30T11:44:08.438Z"
     },
     "recent": {
       "ok": true,
-      "ms": 1061,
-      "at": "2026-10-30T03:08:01.076Z"
+      "ms": 414,
+      "at": "2026-10-30T11:44:08.520Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 563,
+      "at": "2026-10-30T11:44:08.663Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1449,
-      "at": "2026-10-30T03:08:01.416Z"
+      "ms": 1105,
+      "at": "2026-10-30T11:44:09.146Z"
     },
     "cot": {
       "ok": true,
-      "ms": 7922,
-      "at": "2026-10-30T03:08:07.930Z"
+      "ms": 1126,
+      "at": "2026-10-30T11:44:09.225Z"
     }
   }
 }
