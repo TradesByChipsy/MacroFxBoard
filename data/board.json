@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T11:18:00.010Z",
+  "generatedAt": "2026-10-31T16:23:20.307Z",
   "futures": [
     {
       "sym": "6E",
@@ -40,33 +40,7 @@
       },
       "divergence": null,
       "total": -0.9198817016842001,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Advance GDP q/q",
-          "date": "2026-10-29T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-10-29T08:30:00-04:00"
-        },
-        {
-          "c": "EUR",
-          "title": "Main Refinancing Rate",
-          "date": "2026-10-29T09:15:00-04:00"
-        },
-        {
-          "c": "EUR",
-          "title": "Monetary Policy Statement",
-          "date": "2026-10-29T09:15:00-04:00"
-        },
-        {
-          "c": "EUR",
-          "title": "ECB Press Conference",
-          "date": "2026-10-29T09:45:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -127,16 +101,6 @@
       "divergence": null,
       "total": 0.1114054159310646,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Advance GDP q/q",
-          "date": "2026-10-29T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-10-29T08:30:00-04:00"
-        },
         {
           "c": "JPY",
           "title": "BOJ Outlook Report",
@@ -210,18 +174,7 @@
       },
       "divergence": null,
       "total": 0.0754165648001793,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Advance GDP q/q",
-          "date": "2026-10-29T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-10-29T08:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -281,18 +234,7 @@
       },
       "divergence": null,
       "total": -0.1622392098021555,
-      "evWarns": [
-        {
-          "c": "USD",
-          "title": "Advance GDP q/q",
-          "date": "2026-10-29T08:30:00-04:00"
-        },
-        {
-          "c": "USD",
-          "title": "Core PCE Price Index m/m",
-          "date": "2026-10-29T08:30:00-04:00"
-        }
-      ],
+      "evWarns": [],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -308,14 +250,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 503.47083344907406,
+      "polAge": 503.6828739236111,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 473.47083344907406,
+      "cpiAge": 473.6828739236111,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 685.4708334490741,
+      "uneAge": 685.682873923611,
       "px": null
     },
     "EUR": {
@@ -325,7 +267,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 503.47083344907406,
+      "polAge": 503.6828739236111,
       "px": -1.6373897146490846
     },
     "JPY": {
@@ -335,14 +277,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 503.47083344907406,
+      "polAge": 503.6828739236111,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 503.47083344907406,
+      "cpiAge": 503.6828739236111,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 564.4708334490741,
+      "uneAge": 564.682873923611,
       "px": -0.08273930753563974
     },
     "AUD": {
@@ -352,11 +294,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 534.4708334490741,
+      "polAge": 534.682873923611,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 623.4708334490741,
+      "uneAge": 623.682873923611,
       "px": 0.28717517685787897
     },
     "CAD": {
@@ -366,14 +308,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 503.47083344907406,
+      "polAge": 503.6828739236111,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 503.47083344907406,
+      "cpiAge": 503.6828739236111,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 595.4708334490741,
+      "uneAge": 595.682873923611,
       "px": 1.488011283497881
     }
   },
@@ -667,38 +609,49 @@
       "prev": "0.9%"
     }
   ],
-  "recent": [],
+  "recent": [
+    {
+      "ccy": "USD",
+      "title": "United States Atlanta Fed GDPNow",
+      "date": "Sat, 31 Oct 2026 15:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    }
+  ],
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 103,
+      "ms": 101,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-10-31T11:17:58.934Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 519,
-      "at": "2026-10-31T11:17:59.362Z"
+      "at": "2026-10-31T16:23:18.924Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 533,
-      "at": "2026-10-31T11:17:59.375Z"
+      "ms": 484,
+      "at": "2026-10-31T16:23:19.312Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 544,
+      "at": "2026-10-31T16:23:19.373Z"
     },
     "fx": {
       "ok": true,
-      "ms": 579,
-      "at": "2026-10-31T11:17:59.409Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1290,
-      "at": "2026-10-31T11:17:59.949Z"
+      "ms": 724,
+      "at": "2026-10-31T16:23:19.546Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1181,
-      "at": "2026-10-31T11:18:00.010Z"
+      "ms": 1371,
+      "at": "2026-10-31T16:23:20.192Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 1542,
+      "at": "2026-10-31T16:23:20.307Z"
     }
   }
 }
