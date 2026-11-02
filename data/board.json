@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T21:24:27.121Z",
+  "generatedAt": "2026-11-02T02:55:27.610Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.0915931430993897,
-          "note": "-1,64 % vs USD",
+          "s": -0.7516956461155614,
+          "note": "-1,13 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.4015452881202861,
+      "fund": -1.20731814698667,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.52
       },
       "divergence": null,
-      "total": -0.9198817016842001,
+      "total": -0.783922702890669,
       "evWarns": [
         {
           "c": "USD",
@@ -63,8 +63,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.10615711252654295,
-          "note": "-0,16 % vs USD",
+          "s": 0.3080558720513086,
+          "note": "0,46 % vs USD",
           "stale": false
         },
         {
@@ -96,7 +96,7 @@
           "stale": true
         }
       ],
-      "fund": -0.0032438905942691397,
+      "fund": 0.18793133305704696,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -105,7 +105,7 @@
         "sSmall": 0.28
       },
       "divergence": null,
-      "total": 0.09492927658401158,
+      "total": 0.22875193313993283,
       "evWarns": [
         {
           "c": "USD",
@@ -129,8 +129,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.5388331475288055,
-          "note": "0,81 % vs USD",
+          "s": 0.7042906125475016,
+          "note": "1,06 % vs USD",
           "stale": false
         },
         {
@@ -155,7 +155,7 @@
           "stale": true
         }
       ],
-      "fund": 0.35069555523242046,
+      "fund": 0.4370211891552184,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -164,7 +164,7 @@
         "sSmall": -1.04
       },
       "divergence": null,
-      "total": 0.5022868886626943,
+      "total": 0.5627148324086528,
       "evWarns": [
         {
           "c": "AUD",
@@ -208,8 +208,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.0058990810594803,
-          "note": "1,51 % vs USD",
+          "s": 1.2962702980953735,
+          "note": "1,94 % vs USD",
           "stale": false
         },
         {
@@ -241,7 +241,7 @@
           "stale": true
         }
       ],
-      "fund": -0.33850166821673305,
+      "fund": -0.20448418343093624,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -250,7 +250,7 @@
         "sSmall": 0.84
       },
       "divergence": null,
-      "total": -0.1577511677517131,
+      "total": -0.06393892840165537,
       "evWarns": [
         {
           "c": "USD",
@@ -273,14 +273,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 504.8919805671296,
+      "polAge": 505.12184733796295,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 474.8919805671296,
+      "cpiAge": 475.12184733796295,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 686.8919805671296,
+      "uneAge": 687.121847337963,
       "px": null
     },
     "EUR": {
@@ -290,8 +290,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 504.8919805671296,
-      "px": -1.6373897146490846
+      "polAge": 505.12184733796295,
+      "px": -1.1275434691733421
     },
     "JPY": {
       "name": "Yen",
@@ -300,15 +300,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 504.8919805671296,
+      "polAge": 505.12184733796295,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 504.8919805671296,
+      "cpiAge": 505.12184733796295,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 565.8919805671296,
-      "px": -0.15923566878981443
+      "uneAge": 566.121847337963,
+      "px": 0.4620838080769629
     },
     "AUD": {
       "name": "Aussie",
@@ -317,12 +317,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 535.8919805671296,
+      "polAge": 536.121847337963,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 624.8919805671296,
-      "px": 0.8082497212932083
+      "uneAge": 625.121847337963,
+      "px": 1.0564359188212524
     },
     "CAD": {
       "name": "CAD",
@@ -331,15 +331,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 504.8919805671296,
+      "polAge": 505.12184733796295,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 504.8919805671296,
+      "cpiAge": 505.12184733796295,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 596.8919805671296,
-      "px": 1.5088486215892205
+      "uneAge": 597.121847337963,
+      "px": 1.9444054471430605
     }
   },
   "cot": {
@@ -398,13 +398,13 @@
   },
   "retail": null,
   "fx": {
-    "from": "2026-09-30",
+    "from": "2026-10-01",
     "date": "2026-10-30",
-    "days": 23,
-    "EUR": -1.6373897146490846,
-    "JPY": -0.15923566878981443,
-    "AUD": 0.8082497212932083,
-    "CAD": 1.5088486215892205
+    "days": 22,
+    "EUR": -1.1275434691733421,
+    "JPY": 0.4620838080769629,
+    "AUD": 1.0564359188212524,
+    "CAD": 1.9444054471430605
   },
   "events": [
     {
@@ -412,7 +412,7 @@
       "c": "USD",
       "date": "2026-11-02T10:00:00-05:00",
       "impact": "Medium",
-      "fc": "54.7",
+      "fc": "54.5",
       "prev": "54.5"
     },
     {
@@ -602,10 +602,60 @@
   ],
   "recent": [
     {
-      "ccy": "EUR",
-      "title": "France All Saints' day",
-      "date": "Sun, 1 Nov 2026 00:00 GMT",
-      "impact": "no",
+      "ccy": "AUD",
+      "title": "Australia TD-MI Inflation Gauge MoM",
+      "date": "Mon, 2 Nov 2026 00:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Building Permits MoM",
+      "date": "Mon, 2 Nov 2026 00:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Building Permits YoY",
+      "date": "Mon, 2 Nov 2026 00:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Private House Approvals MoM",
+      "date": "Mon, 2 Nov 2026 00:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan 5-Year Climate Transition JGB Auction",
+      "date": "Mon, 2 Nov 2026 03:35 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Commodity Prices YoY",
+      "date": "Mon, 2 Nov 2026 05:30 GMT",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -613,9 +663,9 @@
     },
     {
       "ccy": "EUR",
-      "title": "Italy All Saints' Day",
-      "date": "Sun, 1 Nov 2026 00:00 GMT",
-      "impact": "no",
+      "title": "Germany Retail Sales MoM",
+      "date": "Mon, 2 Nov 2026 07:00 GMT",
+      "impact": "high",
       "prev": "",
       "cons": "",
       "act": "",
@@ -623,9 +673,219 @@
     },
     {
       "ccy": "EUR",
-      "title": "Spain All Saints' Day",
-      "date": "Sun, 1 Nov 2026 00:00 GMT",
-      "impact": "no",
+      "title": "Germany Retail Sales YoY",
+      "date": "Mon, 2 Nov 2026 07:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Myfxbook AUDUSD Sentiment",
+      "date": "Mon, 2 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Myfxbook USDJPY Sentiment",
+      "date": "Mon, 2 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union Myfxbook EURUSD Sentiment",
+      "date": "Mon, 2 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Myfxbook USDCAD Sentiment",
+      "date": "Mon, 2 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 9-Month Bubill Auction",
+      "date": "Mon, 2 Nov 2026 10:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 3-Month Bubill Auction",
+      "date": "Mon, 2 Nov 2026 10:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain New Car Sales YoY",
+      "date": "Mon, 2 Nov 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Cotality Dwelling Prices MoM",
+      "date": "Mon, 2 Nov 2026 13:01 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 6-Month BTF Auction",
+      "date": "Mon, 2 Nov 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 3-Month BTF Auction",
+      "date": "Mon, 2 Nov 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 12-Month BTF Auction",
+      "date": "Mon, 2 Nov 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States ISM Manufacturing PMI",
+      "date": "Mon, 2 Nov 2026 15:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States ISM Manufacturing Prices",
+      "date": "Mon, 2 Nov 2026 15:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States ISM Manufacturing Employment",
+      "date": "Mon, 2 Nov 2026 15:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States ISM Manufacturing New Orders",
+      "date": "Mon, 2 Nov 2026 15:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Construction Spending MoM",
+      "date": "Mon, 2 Nov 2026 15:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Goolsbee Speech",
+      "date": "Mon, 2 Nov 2026 16:15 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 6-Month Bill Auction",
+      "date": "Mon, 2 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 3-Month Bill Auction",
+      "date": "Mon, 2 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Loan Officer Survey",
+      "date": "Mon, 2 Nov 2026 19:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Treasury Refunding Financing Estimates",
+      "date": "Mon, 2 Nov 2026 20:00 GMT",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -635,34 +895,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 111,
+      "ms": 76,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-01T21:24:26.058Z"
+      "at": "2026-11-02T02:55:26.300Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 161,
-      "at": "2026-11-01T21:24:26.112Z"
+      "ms": 243,
+      "at": "2026-11-02T02:55:26.472Z"
     },
     "recent": {
       "ok": true,
-      "ms": 399,
-      "at": "2026-11-01T21:24:26.351Z"
+      "ms": 542,
+      "at": "2026-11-02T02:55:26.772Z"
     },
     "fx": {
       "ok": true,
-      "ms": 494,
-      "at": "2026-11-01T21:24:26.441Z"
+      "ms": 610,
+      "at": "2026-11-02T02:55:26.833Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1152,
-      "at": "2026-11-01T21:24:27.098Z"
+      "ms": 1354,
+      "at": "2026-11-02T02:55:27.576Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1222,
-      "at": "2026-11-01T21:24:27.120Z"
+      "ms": 1448,
+      "at": "2026-11-02T02:55:27.610Z"
     }
   }
 }
