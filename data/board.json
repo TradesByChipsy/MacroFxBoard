@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:06:23.103Z",
+  "generatedAt": "2026-11-03T13:06:02.500Z",
   "futures": [
     {
       "sym": "6E",
@@ -273,14 +273,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 506.0044340625,
+      "polAge": 506.54586226851853,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 476.0044340625,
+      "cpiAge": 476.54586226851853,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 688.0044340625,
+      "uneAge": 688.5458622685185,
       "px": null
     },
     "EUR": {
@@ -290,7 +290,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 506.0044340625,
+      "polAge": 506.54586226851853,
       "px": -0.07969737447663938
     },
     "JPY": {
@@ -300,14 +300,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 506.0044340625,
+      "polAge": 506.54586226851853,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 506.0044340625,
+      "cpiAge": 506.54586226851853,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 567.0044340625,
+      "uneAge": 567.5458622685185,
       "px": -0.14587429441239586
     },
     "AUD": {
@@ -317,11 +317,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 537.0044340625,
+      "polAge": 537.5458622685185,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 626.0044340625,
+      "uneAge": 626.5458622685185,
       "px": 0.9853584067726073
     },
     "CAD": {
@@ -331,14 +331,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 506.0044340625,
+      "polAge": 506.54586226851853,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 506.0044340625,
+      "cpiAge": 506.54586226851853,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 598.0044340625,
+      "uneAge": 598.5458622685185,
       "px": 1.8679775280898814
     }
   },
@@ -723,6 +723,16 @@
     },
     {
       "ccy": "USD",
+      "title": "United States RCM/TIPP Economic Optimism Index",
+      "date": "Tue, 3 Nov 2026 11:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
       "title": "United States Redbook YoY",
       "date": "Tue, 3 Nov 2026 13:55 GMT",
       "impact": "low",
@@ -754,16 +764,6 @@
     {
       "ccy": "USD",
       "title": "United States JOLTs Job Quits",
-      "date": "Tue, 3 Nov 2026 15:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States RCM/TIPP Economic Optimism Index",
       "date": "Tue, 3 Nov 2026 15:00 GMT",
       "impact": "low",
       "prev": "",
@@ -885,34 +885,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 52,
+      "ms": 89,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-03T00:06:21.672Z"
+      "at": "2026-11-03T13:05:56.809Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 216,
-      "at": "2026-11-03T00:06:21.839Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 496,
-      "at": "2026-11-03T00:06:22.120Z"
+      "ms": 271,
+      "at": "2026-11-03T13:05:57.001Z"
     },
     "fx": {
       "ok": true,
-      "ms": 615,
-      "at": "2026-11-03T00:06:22.234Z"
+      "ms": 435,
+      "at": "2026-11-03T13:05:57.154Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 518,
+      "at": "2026-11-03T13:05:57.250Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1297,
-      "at": "2026-11-03T00:06:22.915Z"
+      "ms": 1744,
+      "at": "2026-11-03T13:05:58.462Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1575,
-      "at": "2026-11-03T00:06:23.103Z"
+      "ms": 6013,
+      "at": "2026-11-03T13:06:02.499Z"
     }
   }
 }
