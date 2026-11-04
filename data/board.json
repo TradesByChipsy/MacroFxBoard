@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:21:01.761Z",
+  "generatedAt": "2026-11-04T22:56:33.918Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.27388956862393066,
-          "note": "-0,41 % vs USD",
+          "s": 0.24844627536379318,
+          "note": "0,37 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -0.9342861027057381,
+      "fund": -0.6358084775698959,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,12 +39,27 @@
         "sSmall": 0.52
       },
       "divergence": null,
-      "total": -0.5928002718940166,
+      "total": -0.3838659342989271,
       "evWarns": [
         {
           "c": "USD",
           "title": "Congressional Elections",
           "date": "2026-11-03T10:16:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-11-06T08:30:00-05:00"
         }
       ],
       "signal": {
@@ -63,8 +78,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.2621509059005156,
-          "note": "-0,39 % vs USD",
+          "s": -0.24523794422951123,
+          "note": "-0,37 % vs USD",
           "stale": false
         },
         {
@@ -96,7 +111,7 @@
           "stale": true
         }
       ],
-      "fund": -0.07524102599764113,
+      "fund": -0.06743504368794681,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -105,12 +120,32 @@
         "sSmall": 0.28
       },
       "divergence": null,
-      "total": 0.044531281801651196,
+      "total": 0.049995469418437216,
       "evWarns": [
         {
           "c": "USD",
           "title": "Congressional Elections",
           "date": "2026-11-03T10:16:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "JPY",
+          "title": "BOJ Gov Ueda Speaks",
+          "date": "2026-11-06T11:00:00-05:00"
         }
       ],
       "signal": {
@@ -129,8 +164,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.425600814192865,
-          "note": "0,64 % vs USD",
+          "s": 0.7216709458052935,
+          "note": "1,08 % vs USD",
           "stale": false
         },
         {
@@ -155,7 +190,7 @@
           "stale": true
         }
       ],
-      "fund": 0.29161781610062537,
+      "fund": 0.44608918911580553,
       "cotExtreme": true,
       "cotSqueeze": true,
       "cotParts": {
@@ -164,7 +199,7 @@
         "sSmall": -1.04
       },
       "divergence": null,
-      "total": 0.4609324712704378,
+      "total": 0.5690624323810638,
       "evWarns": [
         {
           "c": "AUD",
@@ -190,6 +225,21 @@
           "c": "USD",
           "title": "Congressional Elections",
           "date": "2026-11-03T10:16:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-11-06T08:30:00-05:00"
         }
       ],
       "signal": {
@@ -208,8 +258,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.2406367041198463,
-          "note": "1,86 % vs USD",
+          "s": 1.4279026217228465,
+          "note": "2,14 % vs USD",
           "stale": false
         },
         {
@@ -241,7 +291,7 @@
           "stale": true
         }
       ],
-      "fund": -0.2301612268042565,
+      "fund": -0.14373080329517945,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -250,12 +300,37 @@
         "sSmall": 0.84
       },
       "divergence": null,
-      "total": -0.08191285876297953,
+      "total": -0.02141156230662561,
       "evWarns": [
         {
           "c": "USD",
           "title": "Congressional Elections",
           "date": "2026-11-03T10:16:00-05:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Employment Change",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "CAD",
+          "title": "Unemployment Rate",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Average Hourly Earnings m/m",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Non-Farm Employment Change",
+          "date": "2026-11-06T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Unemployment Rate",
+          "date": "2026-11-06T08:30:00-05:00"
         }
       ],
       "signal": {
@@ -273,14 +348,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 507.55627038194444,
+      "polAge": 507.955948125,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 477.55627038194444,
+      "cpiAge": 477.955948125,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 689.5562703819445,
+      "uneAge": 689.955948125,
       "px": null
     },
     "EUR": {
@@ -290,8 +365,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 507.55627038194444,
-      "px": -0.410834352935896
+      "polAge": 507.955948125,
+      "px": 0.3726694130456898
     },
     "JPY": {
       "name": "Yen",
@@ -300,15 +375,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 507.55627038194444,
+      "polAge": 507.955948125,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 507.55627038194444,
+      "cpiAge": 507.955948125,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 568.5562703819445,
-      "px": -0.3932263588507734
+      "uneAge": 568.955948125,
+      "px": -0.36785691634426687
     },
     "AUD": {
       "name": "Aussie",
@@ -317,12 +392,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 538.5562703819445,
+      "polAge": 538.955948125,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 627.5562703819445,
-      "px": 0.6384012212892975
+      "uneAge": 627.955948125,
+      "px": 1.0825064187079403
     },
     "CAD": {
       "name": "CAD",
@@ -331,15 +406,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 507.55627038194444,
+      "polAge": 507.955948125,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 507.55627038194444,
+      "cpiAge": 507.955948125,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 599.5562703819445,
-      "px": 1.8609550561797694
+      "uneAge": 599.955948125,
+      "px": 2.14185393258427
     }
   },
   "cot": {
@@ -399,12 +474,12 @@
   "retail": null,
   "fx": {
     "from": "2026-10-02",
-    "date": "2026-11-03",
-    "days": 23,
-    "EUR": -0.410834352935896,
-    "JPY": -0.3932263588507734,
-    "AUD": 0.6384012212892975,
-    "CAD": 1.8609550561797694
+    "date": "2026-11-04",
+    "days": 24,
+    "EUR": 0.3726694130456898,
+    "JPY": -0.36785691634426687,
+    "AUD": 1.0825064187079403,
+    "CAD": 2.14185393258427
   },
   "events": [
     {
@@ -1033,16 +1108,6 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Atlanta Fed GDPNow",
-      "date": "Wed, 4 Nov 2026 16:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
       "title": "United States 17-Week Bill Auction",
       "date": "Wed, 4 Nov 2026 16:30 GMT",
       "impact": "low",
@@ -1056,6 +1121,16 @@
       "title": "Canada 5-Year Bond Auction",
       "date": "Wed, 4 Nov 2026 17:00 GMT",
       "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Atlanta Fed GDPNow",
+      "date": "Wed, 4 Nov 2026 17:00 GMT",
+      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -1085,34 +1160,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 132,
+      "ms": 117,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-04T13:21:00.300Z"
+      "at": "2026-11-04T22:56:32.252Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 234,
-      "at": "2026-11-04T13:21:00.407Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 399,
-      "at": "2026-11-04T13:21:00.567Z"
+      "ms": 314,
+      "at": "2026-11-04T22:56:32.453Z"
     },
     "recent": {
       "ok": true,
-      "ms": 437,
-      "at": "2026-11-04T13:21:00.611Z"
+      "ms": 618,
+      "at": "2026-11-04T22:56:32.758Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 667,
+      "at": "2026-11-04T22:56:32.802Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1211,
-      "at": "2026-11-04T13:21:01.325Z"
+      "ms": 1452,
+      "at": "2026-11-04T22:56:33.545Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1593,
-      "at": "2026-11-04T13:21:01.760Z"
+      "ms": 1784,
+      "at": "2026-11-04T22:56:33.918Z"
     }
   }
 }
