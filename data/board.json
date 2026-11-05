@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T03:52:46.042Z",
+  "generatedAt": "2026-11-05T13:34:41.901Z",
   "futures": [
     {
       "sym": "6E",
@@ -202,11 +202,6 @@
       "total": 0.5690624323810638,
       "evWarns": [
         {
-          "c": "AUD",
-          "title": "RBA Press Conference",
-          "date": "2026-11-02T23:30:00-05:00"
-        },
-        {
           "c": "USD",
           "title": "Congressional Elections",
           "date": "2026-11-03T10:16:00-05:00"
@@ -333,14 +328,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 508.16164400462964,
+      "polAge": 508.56576274305553,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 478.16164400462964,
+      "cpiAge": 478.56576274305553,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 690.1616440046296,
+      "uneAge": 690.5657627430555,
       "px": null
     },
     "EUR": {
@@ -350,7 +345,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 508.16164400462964,
+      "polAge": 508.56576274305553,
       "px": 0.3726694130456898
     },
     "JPY": {
@@ -360,14 +355,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 508.16164400462964,
+      "polAge": 508.56576274305553,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 508.16164400462964,
+      "cpiAge": 508.56576274305553,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 569.1616440046296,
+      "uneAge": 569.5657627430555,
       "px": -0.36785691634426687
     },
     "AUD": {
@@ -377,11 +372,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 539.1616440046296,
+      "polAge": 539.5657627430555,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 628.1616440046296,
+      "uneAge": 628.5657627430555,
       "px": 1.0825064187079403
     },
     "CAD": {
@@ -391,14 +386,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 508.16164400462964,
+      "polAge": 508.56576274305553,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 508.16164400462964,
+      "cpiAge": 508.56576274305553,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 600.1616440046296,
+      "uneAge": 600.5657627430555,
       "px": 2.14185393258427
     }
   },
@@ -793,16 +788,6 @@
     },
     {
       "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Thu, 5 Nov 2026 10:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
       "title": "Euro Area PPI YoY",
       "date": "Thu, 5 Nov 2026 10:00 GMT",
       "impact": "low",
@@ -862,9 +847,9 @@
       "surprise": null
     },
     {
-      "ccy": "USD",
-      "title": "United States Challenger Job Cuts",
-      "date": "Thu, 5 Nov 2026 10:30 GMT",
+      "ccy": "EUR",
+      "title": "Germany New Car Registrations YoY",
+      "date": "Thu, 5 Nov 2026 10:20 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -872,9 +857,9 @@
       "surprise": null
     },
     {
-      "ccy": "EUR",
-      "title": "Germany New Car Registrations YoY",
-      "date": "Thu, 5 Nov 2026 11:00 GMT",
+      "ccy": "USD",
+      "title": "United States Challenger Job Cuts",
+      "date": "Thu, 5 Nov 2026 10:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -1100,39 +1085,49 @@
       "cons": "",
       "act": "",
       "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Consumer Confidence",
+      "date": "Tue, 10 Nov 2026 10:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
     }
   ],
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 110,
+      "ms": 134,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-05T03:52:44.747Z"
+      "at": "2026-11-05T13:34:40.689Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 560,
-      "at": "2026-11-05T03:52:45.201Z"
+      "ms": 343,
+      "at": "2026-11-05T13:34:40.905Z"
     },
     "recent": {
       "ok": true,
-      "ms": 674,
-      "at": "2026-11-05T03:52:45.316Z"
+      "ms": 520,
+      "at": "2026-11-05T13:34:41.082Z"
     },
     "fx": {
       "ok": true,
-      "ms": 761,
-      "at": "2026-11-05T03:52:45.398Z"
+      "ms": 633,
+      "at": "2026-11-05T13:34:41.188Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1396,
-      "at": "2026-11-05T03:52:45.996Z"
+      "ms": 1312,
+      "at": "2026-11-05T13:34:41.819Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1406,
-      "at": "2026-11-05T03:52:46.042Z"
+      "ms": 1346,
+      "at": "2026-11-05T13:34:41.900Z"
     }
   }
 }
