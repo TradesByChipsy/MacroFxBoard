@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T03:51:01.429Z",
+  "generatedAt": "2026-11-06T13:19:06.949Z",
   "futures": [
     {
       "sym": "6E",
@@ -308,14 +308,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 509.1604332060185,
+      "polAge": 509.55494153935183,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 479.1604332060185,
+      "cpiAge": 479.55494153935183,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 691.1604332060185,
+      "uneAge": 691.5549415393518,
       "px": null
     },
     "EUR": {
@@ -325,7 +325,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 509.1604332060185,
+      "polAge": 509.55494153935183,
       "px": 0.1781432764918045
     },
     "JPY": {
@@ -335,14 +335,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 509.1604332060185,
+      "polAge": 509.55494153935183,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 509.1604332060185,
+      "cpiAge": 509.55494153935183,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 570.1604332060185,
+      "uneAge": 570.5549415393518,
       "px": -0.14535802313089263
     },
     "AUD": {
@@ -352,11 +352,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 540.1604332060185,
+      "polAge": 540.5549415393518,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 629.1604332060185,
+      "uneAge": 629.5549415393518,
       "px": 0.5707524187373858
     },
     "CAD": {
@@ -366,14 +366,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 509.1604332060185,
+      "polAge": 509.55494153935183,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 509.1604332060185,
+      "cpiAge": 509.55494153935183,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 601.1604332060185,
+      "uneAge": 601.5549415393518,
       "px": 2.013611169578333
     }
   },
@@ -748,6 +748,16 @@
     },
     {
       "ccy": "EUR",
+      "title": "Euro Area ECB Lane Speech",
+      "date": "Fri, 6 Nov 2026 09:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
       "title": "Euro Area Retail Sales MoM",
       "date": "Fri, 6 Nov 2026 10:00 GMT",
       "impact": "high",
@@ -1017,6 +1027,16 @@
       "surprise": null
     },
     {
+      "ccy": "JPY",
+      "title": "Japan BoJ Gov Ueda Speech",
+      "date": "Fri, 6 Nov 2026 16:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
       "ccy": "USD",
       "title": "United States Fed Bowman Speech",
       "date": "Fri, 6 Nov 2026 17:15 GMT",
@@ -1060,34 +1080,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 101,
+      "ms": 156,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-06T03:50:59.949Z"
+      "at": "2026-11-06T13:19:05.664Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 361,
-      "at": "2026-11-06T03:51:00.213Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 617,
-      "at": "2026-11-06T03:51:00.470Z"
+      "ms": 483,
+      "at": "2026-11-06T13:19:05.996Z"
     },
     "fx": {
       "ok": true,
-      "ms": 745,
-      "at": "2026-11-06T03:51:00.593Z"
+      "ms": 703,
+      "at": "2026-11-06T13:19:06.210Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 754,
+      "at": "2026-11-06T13:19:06.268Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1516,
-      "at": "2026-11-06T03:51:01.317Z"
+      "ms": 1359,
+      "at": "2026-11-06T13:19:06.806Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1582,
-      "at": "2026-11-06T03:51:01.429Z"
+      "ms": 1443,
+      "at": "2026-11-06T13:19:06.949Z"
     }
   }
 }
