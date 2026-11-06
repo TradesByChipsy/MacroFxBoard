@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-06T13:19:06.949Z",
+  "generatedAt": "2026-11-06T22:27:28.873Z",
   "futures": [
     {
       "sym": "6E",
       "base": "EUR",
       "label": "Euro FX",
-      "cot": 0.204,
+      "cot": 0.14799999999999996,
       "cotCode": "099741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.11876218432786967,
-          "note": "0,18 % vs USD",
+          "s": -0.23304277679431587,
+          "note": "-0,35 % vs USD",
           "stale": false
         },
         {
@@ -30,16 +30,16 @@
           "stale": true
         }
       ],
-      "fund": -0.7099136724475665,
+      "fund": -0.910945078803101,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
         "sSpec": -1,
         "sComm": 2,
-        "sSmall": 0.52
+        "sSmall": 0.24
       },
       "divergence": null,
-      "total": -0.43573957071329655,
+      "total": -0.5932615551621707,
       "evWarns": [
         {
           "c": "USD",
@@ -67,14 +67,14 @@
       "sym": "6J",
       "base": "JPY",
       "label": "Japanese Yen",
-      "cot": 0.32399999999999995,
+      "cot": 0.39999999999999997,
       "cotCode": "097741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.09690534875392842,
-          "note": "-0,15 % vs USD",
+          "s": -0.04213276032780655,
+          "note": "-0,06 % vs USD",
           "stale": false
         },
         {
@@ -106,16 +106,16 @@
           "stale": true
         }
       ],
-      "fund": 0.001026154223860645,
+      "fund": 0.026305810420532278,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
         "sSpec": 1.16,
-        "sComm": -1.04,
-        "sSmall": 0.28
+        "sComm": -1,
+        "sSmall": 0.6
       },
       "divergence": null,
-      "total": 0.09791830795670244,
+      "total": 0.13841406729437258,
       "evWarns": [
         {
           "c": "USD",
@@ -148,14 +148,14 @@
       "sym": "6A",
       "base": "AUD",
       "label": "Australian Dollar",
-      "cot": 0.8560000000000001,
+      "cot": -0.12400000000000005,
       "cotCode": "232741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 0.38050161249159054,
-          "note": "0,57 % vs USD",
+          "s": -0.8677292870235072,
+          "note": "-1,30 % vs USD",
           "stale": false
         },
         {
@@ -180,16 +180,16 @@
           "stale": true
         }
       ],
-      "fund": 0.26808779782169956,
+      "fund": -0.38316310627313394,
       "cotExtreme": true,
-      "cotSqueeze": true,
+      "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 1,
-        "sComm": 1.88,
-        "sSmall": -1.04
+        "sSpec": -1,
+        "sComm": 1.92,
+        "sSmall": -1
       },
       "divergence": null,
-      "total": 0.4444614584751897,
+      "total": -0.3054141743911937,
       "evWarns": [
         {
           "c": "USD",
@@ -217,14 +217,14 @@
       "sym": "6C",
       "base": "CAD",
       "label": "Canadian Dollar",
-      "cot": 0.264,
+      "cot": 0.3360000000000001,
       "cotCode": "090741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": 1.3424074463855553,
-          "note": "2,01 % vs USD",
+          "s": 0.8746696601884985,
+          "note": "1,31 % vs USD",
           "stale": false
         },
         {
@@ -256,16 +256,16 @@
           "stale": true
         }
       ],
-      "fund": -0.18319011498931384,
+      "fund": -0.3990690932341092,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 0.24,
-        "sComm": -0.08,
-        "sSmall": 0.84
+        "sSpec": 0.64,
+        "sComm": -0.48,
+        "sSmall": 0.8
       },
       "divergence": null,
-      "total": -0.049033080492519684,
+      "total": -0.1785483652638764,
       "evWarns": [
         {
           "c": "CAD",
@@ -308,14 +308,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 509.55494153935183,
+      "polAge": 509.93575084490743,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 479.55494153935183,
+      "cpiAge": 479.93575084490743,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 691.5549415393518,
+      "uneAge": 691.9357508449074,
       "px": null
     },
     "EUR": {
@@ -325,8 +325,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 509.55494153935183,
-      "px": 0.1781432764918045
+      "polAge": 509.93575084490743,
+      "px": -0.3495641651914738
     },
     "JPY": {
       "name": "Yen",
@@ -335,15 +335,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 509.55494153935183,
+      "polAge": 509.93575084490743,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 509.55494153935183,
+      "cpiAge": 509.93575084490743,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 570.5549415393518,
-      "px": -0.14535802313089263
+      "uneAge": 570.9357508449074,
+      "px": -0.06319914049170983
     },
     "AUD": {
       "name": "Aussie",
@@ -352,12 +352,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 540.5549415393518,
+      "polAge": 540.9357508449074,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 629.5549415393518,
-      "px": 0.5707524187373858
+      "uneAge": 629.9357508449074,
+      "px": -1.3015939305352608
     },
     "CAD": {
       "name": "CAD",
@@ -366,80 +366,80 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 509.55494153935183,
+      "polAge": 509.93575084490743,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 509.55494153935183,
+      "cpiAge": 509.93575084490743,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 601.5549415393518,
-      "px": 2.013611169578333
+      "uneAge": 601.9357508449074,
+      "px": 1.3120044902827477
     }
   },
   "cot": {
     "232741": {
       "index": 0,
-      "net": -128315,
-      "netPct": -39.48056663220598,
-      "chg6w": -89409,
-      "commIdx": 97,
-      "commNet": 111235,
-      "smallIdx": 76,
-      "smallNet": 17080,
-      "openInterest": 325008,
-      "weeks": 156,
-      "date": "2026-10-27"
+      "net": -129457,
+      "netPct": -39.396650628882014,
+      "chg6w": -82643,
+      "commIdx": 98,
+      "commNet": 112683,
+      "smallIdx": 75,
+      "smallNet": 16774,
+      "openInterest": 328599,
+      "weeks": 157,
+      "date": "2026-11-03"
     },
     "099741": {
       "index": 0,
-      "net": -143894,
-      "netPct": -16.574059996222015,
-      "chg6w": -116901,
+      "net": -157791,
+      "netPct": -18.010162968171098,
+      "chg6w": -105457,
       "commIdx": 100,
-      "commNet": 114484,
-      "smallIdx": 37,
-      "smallNet": 29410,
-      "openInterest": 868188,
-      "weeks": 156,
-      "date": "2026-10-27"
+      "commNet": 124851,
+      "smallIdx": 44,
+      "smallNet": 32940,
+      "openInterest": 876122,
+      "weeks": 157,
+      "date": "2026-11-03"
     },
     "097741": {
       "index": 79,
-      "net": 101591,
-      "netPct": 27.161480752674947,
-      "chg6w": -18768,
-      "commIdx": 24,
-      "commNet": -105090,
-      "smallIdx": 43,
-      "smallNet": 3499,
-      "openInterest": 374026,
-      "weeks": 156,
-      "date": "2026-10-27"
+      "net": 102321,
+      "netPct": 26.881234549089562,
+      "chg6w": 30339,
+      "commIdx": 25,
+      "commNet": -103167,
+      "smallIdx": 35,
+      "smallNet": 846,
+      "openInterest": 380641,
+      "weeks": 157,
+      "date": "2026-11-03"
     },
     "090741": {
-      "index": 56,
-      "net": -66424,
-      "netPct": -18.403007693778207,
-      "chg6w": -28847,
-      "commIdx": 48,
-      "commNet": 74260,
-      "smallIdx": 29,
-      "smallNet": -7836,
-      "openInterest": 360941,
-      "weeks": 156,
-      "date": "2026-10-27"
+      "index": 66,
+      "net": -41775,
+      "netPct": -11.981586646016176,
+      "chg6w": 11435,
+      "commIdx": 38,
+      "commNet": 49384,
+      "smallIdx": 30,
+      "smallNet": -7609,
+      "openInterest": 348660,
+      "weeks": 157,
+      "date": "2026-11-03"
     }
   },
   "retail": null,
   "fx": {
     "from": "2026-10-05",
-    "date": "2026-11-05",
-    "days": 24,
-    "EUR": 0.1781432764918045,
-    "JPY": -0.14535802313089263,
-    "AUD": 0.5707524187373858,
-    "CAD": 2.013611169578333
+    "date": "2026-11-06",
+    "days": 25,
+    "EUR": -0.3495641651914738,
+    "JPY": -0.06319914049170983,
+    "AUD": -1.3015939305352608,
+    "CAD": 1.3120044902827477
   },
   "events": [
     {
@@ -1080,34 +1080,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 156,
+      "ms": 142,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-06T13:19:05.664Z"
+      "at": "2026-11-06T22:27:24.259Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 483,
-      "at": "2026-11-06T13:19:05.996Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 703,
-      "at": "2026-11-06T13:19:06.210Z"
+      "ms": 383,
+      "at": "2026-11-06T22:27:24.504Z"
     },
     "recent": {
       "ok": true,
-      "ms": 754,
-      "at": "2026-11-06T13:19:06.268Z"
+      "ms": 585,
+      "at": "2026-11-06T22:27:24.707Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 683,
+      "at": "2026-11-06T22:27:24.800Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1359,
-      "at": "2026-11-06T13:19:06.806Z"
+      "ms": 1260,
+      "at": "2026-11-06T22:27:25.341Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1443,
-      "at": "2026-11-06T13:19:06.949Z"
+      "ms": 4757,
+      "at": "2026-11-06T22:27:28.873Z"
     }
   }
 }
