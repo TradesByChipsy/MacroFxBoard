@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T14:03:53.063Z",
+  "generatedAt": "2026-11-12T22:55:18.086Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.4728927138662945,
-          "note": "-0,71 % vs USD",
+          "s": -0.7522953599737054,
+          "note": "-1,13 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.0480021857013746,
+      "fund": -1.2076608406198952,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.24
       },
       "divergence": null,
-      "total": -0.6892015299909622,
+      "total": -0.8009625884339266,
       "evWarns": [
         {
           "c": "USD",
@@ -68,8 +68,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.41284886782516256,
-          "note": "-0,62 % vs USD",
+          "s": -0.6108478146392777,
+          "note": "-0,92 % vs USD",
           "stale": false
         },
         {
@@ -101,7 +101,7 @@
           "stale": true
         }
       ],
-      "fund": -0.14479393150132436,
+      "fund": -0.23617806080014672,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +110,7 @@
         "sSmall": 0.6
       },
       "divergence": null,
-      "total": 0.018644247949072934,
+      "total": -0.045324642560102726,
       "evWarns": [
         {
           "c": "USD",
@@ -139,8 +139,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.1868193242111116,
-          "note": "-1,78 % vs USD",
+          "s": -1.568463185329986,
+          "note": "-2,35 % vs USD",
           "stale": false
         },
         {
@@ -165,7 +165,7 @@
           "stale": true
         }
       ],
-      "fund": -0.549644864805797,
+      "fund": -0.7487634010417314,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -174,7 +174,7 @@
         "sSmall": -1
       },
       "divergence": null,
-      "total": -0.4219514053640579,
+      "total": -0.561334380729212,
       "evWarns": [
         {
           "c": "USD",
@@ -203,8 +203,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.0421762969211296,
-          "note": "-0,06 % vs USD",
+          "s": -0.10778386990955013,
+          "note": "-0,16 % vs USD",
           "stale": false
         },
         {
@@ -236,7 +236,7 @@
           "stale": true
         }
       ],
-      "fund": -0.8222287657462453,
+      "fund": -0.8525091840485932,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -245,7 +245,7 @@
         "sSmall": 0.8
       },
       "divergence": null,
-      "total": -0.47476013602237166,
+      "total": -0.49595642883401525,
       "evWarns": [
         {
           "c": "USD",
@@ -273,14 +273,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 515.5860308217592,
+      "polAge": 515.9550704398148,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 485.58603082175927,
+      "cpiAge": 485.9550704398148,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 697.5860308217592,
+      "uneAge": 697.9550704398148,
       "px": null
     },
     "EUR": {
@@ -290,8 +290,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 515.5860308217592,
-      "px": -0.7093390707994418
+      "polAge": 515.9550704398148,
+      "px": -1.1284430399605583
     },
     "JPY": {
       "name": "Yen",
@@ -300,15 +300,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 515.5860308217592,
+      "polAge": 515.9550704398148,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 515.5860308217592,
+      "cpiAge": 515.9550704398148,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 576.5860308217592,
-      "px": -0.6192733017377439
+      "uneAge": 576.9550704398148,
+      "px": -0.9162717219589167
     },
     "AUD": {
       "name": "Aussie",
@@ -317,12 +317,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 546.5860308217592,
+      "polAge": 546.9550704398148,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 635.5860308217592,
-      "px": -1.7802289863166676
+      "uneAge": 635.9550704398148,
+      "px": -2.352694777994979
     },
     "CAD": {
       "name": "CAD",
@@ -331,15 +331,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 515.5860308217592,
+      "polAge": 515.9550704398148,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 515.5860308217592,
+      "cpiAge": 515.9550704398148,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 607.5860308217592,
-      "px": -0.0632644453816944
+      "uneAge": 607.9550704398148,
+      "px": -0.1616758048643252
     }
   },
   "cot": {
@@ -399,12 +399,12 @@
   "retail": null,
   "fx": {
     "from": "2026-10-09",
-    "date": "2026-11-11",
-    "days": 24,
-    "EUR": -0.7093390707994418,
-    "JPY": -0.6192733017377439,
-    "AUD": -1.7802289863166676,
-    "CAD": -0.0632644453816944
+    "date": "2026-11-12",
+    "days": 25,
+    "EUR": -1.1284430399605583,
+    "JPY": -0.9162717219589167,
+    "AUD": -2.352694777994979,
+    "CAD": -0.1616758048643252
   },
   "events": [
     {
@@ -665,16 +665,6 @@
     },
     {
       "ccy": "USD",
-      "title": "United States 17-Week Bill Auction",
-      "date": "Thu, 12 Nov 2026 16:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
       "title": "United States Fed Goolsbee Speech",
       "date": "Thu, 12 Nov 2026 16:30 GMT",
       "impact": "medium",
@@ -805,6 +795,16 @@
     },
     {
       "ccy": "USD",
+      "title": "United States 17-Week Bill Auction",
+      "date": "Thu, 12 Nov 2026 18:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
       "title": "United States 30-Year Bond Auction",
       "date": "Thu, 12 Nov 2026 18:00 GMT",
       "impact": "low",
@@ -877,34 +877,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 97,
+      "ms": 36,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-12T14:03:51.107Z"
+      "at": "2026-11-12T22:55:16.710Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 497,
-      "at": "2026-11-12T14:03:51.510Z"
-    },
-    "recent": {
-      "ok": true,
-      "ms": 657,
-      "at": "2026-11-12T14:03:51.671Z"
+      "ms": 111,
+      "at": "2026-11-12T22:55:16.789Z"
     },
     "fx": {
       "ok": true,
-      "ms": 729,
-      "at": "2026-11-12T14:03:51.738Z"
+      "ms": 349,
+      "at": "2026-11-12T22:55:17.022Z"
+    },
+    "recent": {
+      "ok": true,
+      "ms": 408,
+      "at": "2026-11-12T22:55:17.086Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1415,
-      "at": "2026-11-12T14:03:52.389Z"
+      "ms": 1058,
+      "at": "2026-11-12T22:55:17.674Z"
     },
     "cot": {
       "ok": true,
-      "ms": 2054,
-      "at": "2026-11-12T14:03:53.063Z"
+      "ms": 1414,
+      "at": "2026-11-12T22:55:18.086Z"
     }
   }
 }
