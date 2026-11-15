@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T21:43:48.263Z",
+  "generatedAt": "2026-11-15T03:22:38.271Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.820457740832318,
-          "note": "-1,23 % vs USD",
+          "s": -0.8620110606094429,
+          "note": "-1,29 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.2466107725391022,
+      "fund": -1.2703555266974593,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.24
       },
       "divergence": null,
-      "total": -0.8282275407773715,
+      "total": -0.8448488686882215,
       "evWarns": [
         {
           "c": "USD",
@@ -68,8 +68,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.7926469348174425,
-          "note": "-1,19 % vs USD",
+          "s": -0.6521510465972528,
+          "note": "-0,98 % vs USD",
           "stale": false
         },
         {
@@ -101,7 +101,7 @@
           "stale": true
         }
       ],
-      "fund": -0.32008534703622277,
+      "fund": -0.2552410909345967,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +110,7 @@
         "sSmall": 0.6
       },
       "divergence": null,
-      "total": -0.10405974292535593,
+      "total": -0.05866876365421768,
       "evWarns": [
         {
           "c": "USD",
@@ -139,8 +139,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.8933314725653034,
-          "note": "-2,84 % vs USD",
+          "s": -2,
+          "note": "-3,31 % vs USD",
           "stale": false
         },
         {
@@ -165,7 +165,7 @@
           "stale": true
         }
       ],
-      "fund": -0.9182598987297232,
+      "fund": -0.9739130434782607,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -174,7 +174,7 @@
         "sSmall": -1
       },
       "divergence": null,
-      "total": -0.6799819291108062,
+      "total": -0.7189391304347824,
       "evWarns": [
         {
           "c": "USD",
@@ -203,8 +203,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.07958242632774373,
-          "note": "-0,12 % vs USD",
+          "s": -0.18285392784302226,
+          "note": "-0,27 % vs USD",
           "stale": false
         },
         {
@@ -236,7 +236,7 @@
           "stale": true
         }
       ],
-      "fund": -0.8394931331646825,
+      "fund": -0.8871569030948111,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -245,7 +245,7 @@
         "sSmall": 0.8
       },
       "divergence": null,
-      "total": -0.48684519321527775,
+      "total": -0.5202098321663677,
       "evWarns": [
         {
           "c": "USD",
@@ -273,14 +273,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 517.9054197106482,
+      "polAge": 518.1407207291667,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 487.9054197106482,
+      "cpiAge": 488.1407207291667,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 699.9054197106482,
+      "uneAge": 700.1407207291667,
       "px": null
     },
     "EUR": {
@@ -290,8 +290,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 517.9054197106482,
-      "px": -1.2306866112484771
+      "polAge": 518.1407207291667,
+      "px": -1.2930165909141644
     },
     "JPY": {
       "name": "Yen",
@@ -300,15 +300,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 517.9054197106482,
+      "polAge": 518.1407207291667,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 517.9054197106482,
+      "cpiAge": 518.1407207291667,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 578.9054197106482,
-      "px": -1.1889704022261638
+      "uneAge": 579.1407207291667,
+      "px": -0.9782265698958792
     },
     "AUD": {
       "name": "Aussie",
@@ -317,12 +317,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 548.9054197106482,
+      "polAge": 549.1407207291667,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 637.9054197106482,
-      "px": -2.8399972088479553
+      "uneAge": 638.1407207291667,
+      "px": -3.308565820832743
     },
     "CAD": {
       "name": "CAD",
@@ -331,15 +331,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 517.9054197106482,
+      "polAge": 518.1407207291667,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 517.9054197106482,
+      "cpiAge": 518.1407207291667,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 609.9054197106482,
-      "px": -0.11937363949161561
+      "uneAge": 610.1407207291667,
+      "px": -0.2742808917645334
     }
   },
   "cot": {
@@ -398,13 +398,13 @@
   },
   "retail": null,
   "fx": {
-    "from": "2026-10-13",
+    "from": "2026-10-14",
     "date": "2026-11-13",
-    "days": 24,
-    "EUR": -1.2306866112484771,
-    "JPY": -1.1889704022261638,
-    "AUD": -2.8399972088479553,
-    "CAD": -0.11937363949161561
+    "days": 23,
+    "EUR": -1.2930165909141644,
+    "JPY": -0.9782265698958792,
+    "AUD": -3.308565820832743,
+    "CAD": -0.2742808917645334
   },
   "events": [
     {
@@ -474,10 +474,60 @@
   ],
   "recent": [
     {
-      "ccy": "USD",
-      "title": "United States Fed Jefferson Speech",
-      "date": "Sat, 14 Nov 2026 00:00 GMT",
+      "ccy": "JPY",
+      "title": "Japan GDP Growth Rate QoQ",
+      "date": "Sun, 15 Nov 2026 23:50 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Price Index YoY",
+      "date": "Sun, 15 Nov 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Growth Annualized",
+      "date": "Sun, 15 Nov 2026 23:50 GMT",
       "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP External Demand QoQ",
+      "date": "Sun, 15 Nov 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Capital Expenditure QoQ",
+      "date": "Sun, 15 Nov 2026 23:50 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan GDP Private Consumption QoQ",
+      "date": "Sun, 15 Nov 2026 23:50 GMT",
+      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -487,34 +537,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 130,
+      "ms": 64,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-14T21:43:47.205Z"
+      "at": "2026-11-15T03:22:36.168Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 214,
-      "at": "2026-11-14T21:43:47.293Z"
+      "ms": 349,
+      "at": "2026-11-15T03:22:36.458Z"
     },
     "recent": {
       "ok": true,
-      "ms": 310,
-      "at": "2026-11-14T21:43:47.390Z"
+      "ms": 475,
+      "at": "2026-11-15T03:22:36.585Z"
     },
     "fx": {
       "ok": true,
-      "ms": 475,
-      "at": "2026-11-14T21:43:47.549Z"
+      "ms": 733,
+      "at": "2026-11-15T03:22:36.837Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1125,
-      "at": "2026-11-14T21:43:48.198Z"
+      "ms": 1699,
+      "at": "2026-11-15T03:22:37.802Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1245,
-      "at": "2026-11-14T21:43:48.263Z"
+      "ms": 2224,
+      "at": "2026-11-15T03:22:38.271Z"
     }
   }
 }
