@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-16T14:05:31.789Z",
+  "generatedAt": "2026-11-17T01:10:09.412Z",
   "futures": [
     {
       "sym": "6E",
       "base": "EUR",
       "label": "Euro FX",
-      "cot": 0.14799999999999996,
+      "cot": 0.15200000000000002,
       "cotCode": "099741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.9407246344324586,
-          "note": "-1,41 % vs USD",
+          "s": -1.44713891858436,
+          "note": "-2,17 % vs USD",
           "stale": false
         },
         {
@@ -30,16 +30,16 @@
           "stale": true
         }
       ],
-      "fund": -1.3153347117391827,
+      "fund": -1.6047143026831263,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": -1,
-        "sComm": 2,
-        "sSmall": 0.24
+        "sSpec": -0.88,
+        "sComm": 1.76,
+        "sSmall": 0.32
       },
       "divergence": null,
-      "total": -0.8763342982174278,
+      "total": -1.0777000118781883,
       "evWarns": [
         {
           "c": "USD",
@@ -55,6 +55,11 @@
           "c": "USD",
           "title": "Retail Sales m/m",
           "date": "2026-11-17T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-11-18T14:00:00-05:00"
         }
       ],
       "signal": {
@@ -67,14 +72,14 @@
       "sym": "6J",
       "base": "JPY",
       "label": "Japanese Yen",
-      "cot": 0.39999999999999997,
+      "cot": 0.6679999999999999,
       "cotCode": "097741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.852428577457065,
-          "note": "-1,28 % vs USD",
+          "s": -0.666582289161699,
+          "note": "-1,00 % vs USD",
           "stale": false
         },
         {
@@ -106,16 +111,16 @@
           "stale": true
         }
       ],
-      "fund": -0.3476768744083562,
+      "fund": -0.26190166442587964,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 1.16,
-        "sComm": -1,
-        "sSmall": 0.6
+        "sSpec": 1.4,
+        "sComm": -1.12,
+        "sSmall": 1.52
       },
       "divergence": null,
-      "total": -0.12337381208584934,
+      "total": 0.01706883490188424,
       "evWarns": [
         {
           "c": "USD",
@@ -131,6 +136,11 @@
           "c": "USD",
           "title": "Retail Sales m/m",
           "date": "2026-11-17T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-11-18T14:00:00-05:00"
         }
       ],
       "signal": {
@@ -143,14 +153,14 @@
       "sym": "6A",
       "base": "AUD",
       "label": "Australian Dollar",
-      "cot": -0.12400000000000005,
+      "cot": -0.04400000000000001,
       "cotCode": "232741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.2347385395070187,
-          "note": "-1,85 % vs USD",
+          "s": -1.9948967756900988,
+          "note": "-2,99 % vs USD",
           "stale": false
         },
         {
@@ -175,16 +185,16 @@
           "stale": true
         }
       ],
-      "fund": -0.5746461945254008,
+      "fund": -0.9712504916643993,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
         "sSpec": -1,
-        "sComm": 1.92,
-        "sSmall": -1
+        "sComm": 2,
+        "sSmall": -0.72
       },
       "divergence": null,
-      "total": -0.4394523361677805,
+      "total": -0.6930753441650794,
       "evWarns": [
         {
           "c": "USD",
@@ -205,26 +215,41 @@
           "c": "USD",
           "title": "Retail Sales m/m",
           "date": "2026-11-17T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-11-18T14:00:00-05:00"
+        },
+        {
+          "c": "AUD",
+          "title": "Employment Change",
+          "date": "2026-11-18T19:30:00-05:00"
+        },
+        {
+          "c": "AUD",
+          "title": "Unemployment Rate",
+          "date": "2026-11-18T19:30:00-05:00"
         }
       ],
       "signal": {
-        "key": "none",
-        "label": "KEIN TRADE",
-        "hint": "Keine ausreichende Divergenz — Future auslassen."
+        "key": "weak",
+        "label": "Tendenz Short",
+        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
       }
     },
     {
       "sym": "6C",
       "base": "CAD",
       "label": "Canadian Dollar",
-      "cot": 0.3360000000000001,
+      "cot": 0.42800000000000005,
       "cotCode": "090741",
       "parts": [
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.23931864573801437,
-          "note": "-0,36 % vs USD",
+          "s": -0.5837629169314813,
+          "note": "-0,88 % vs USD",
           "stale": false
         },
         {
@@ -256,16 +281,16 @@
           "stale": true
         }
       ],
-      "fund": -0.913217542123269,
+      "fund": -1.0721918211356385,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
-        "sSpec": 0.64,
-        "sComm": -0.48,
-        "sSmall": 0.8
+        "sSpec": 0.8,
+        "sComm": -0.6,
+        "sSmall": 1.04
       },
       "divergence": null,
-      "total": -0.5384522794862883,
+      "total": -0.622134274794947,
       "evWarns": [
         {
           "c": "CAD",
@@ -296,12 +321,17 @@
           "c": "USD",
           "title": "Retail Sales m/m",
           "date": "2026-11-17T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "FOMC Meeting Minutes",
+          "date": "2026-11-18T14:00:00-05:00"
         }
       ],
       "signal": {
-        "key": "none",
-        "label": "KEIN TRADE",
-        "hint": "Keine ausreichende Divergenz — Future auslassen."
+        "key": "weak",
+        "label": "Tendenz Short",
+        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
       }
     }
   ],
@@ -313,14 +343,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 519.5871734837963,
+      "polAge": 520.0487200462964,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 489.5871734837963,
+      "cpiAge": 490.0487200462963,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 701.5871734837963,
+      "uneAge": 702.0487200462964,
       "px": null
     },
     "EUR": {
@@ -330,8 +360,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 519.5871734837963,
-      "px": -1.411086951648688
+      "polAge": 520.0487200462964,
+      "px": -2.17070837787654
     },
     "JPY": {
       "name": "Yen",
@@ -340,15 +370,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 519.5871734837963,
+      "polAge": 520.0487200462964,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 519.5871734837963,
+      "cpiAge": 520.0487200462964,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 580.5871734837963,
-      "px": -1.2786428661855975
+      "uneAge": 581.0487200462964,
+      "px": -0.9998734337425486
     },
     "AUD": {
       "name": "Aussie",
@@ -357,12 +387,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 550.5871734837963,
+      "polAge": 551.0487200462964,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 639.5871734837963,
-      "px": -1.852107809260528
+      "uneAge": 640.0487200462964,
+      "px": -2.9923451635351483
     },
     "CAD": {
       "name": "CAD",
@@ -371,80 +401,80 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 519.5871734837963,
+      "polAge": 520.0487200462964,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 519.5871734837963,
+      "cpiAge": 520.0487200462964,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 611.5871734837963,
-      "px": -0.3589779686070216
+      "uneAge": 612.0487200462964,
+      "px": -0.8756443753972221
     }
   },
   "cot": {
     "232741": {
       "index": 0,
-      "net": -129457,
-      "netPct": -39.396650628882014,
-      "chg6w": -82643,
-      "commIdx": 98,
-      "commNet": 112683,
-      "smallIdx": 75,
-      "smallNet": 16774,
-      "openInterest": 328599,
-      "weeks": 155,
-      "date": "2026-11-03"
+      "net": -151753,
+      "netPct": -43.00669672588768,
+      "chg6w": -88514,
+      "commIdx": 100,
+      "commNet": 138651,
+      "smallIdx": 68,
+      "smallNet": 13102,
+      "openInterest": 352859,
+      "weeks": 156,
+      "date": "2026-11-10"
     },
     "099741": {
-      "index": 0,
-      "net": -157791,
-      "netPct": -18.010162968171098,
-      "chg6w": -105457,
-      "commIdx": 100,
-      "commNet": 124851,
-      "smallIdx": 44,
-      "smallNet": 32940,
-      "openInterest": 876122,
-      "weeks": 155,
-      "date": "2026-11-03"
+      "index": 6,
+      "net": -136396,
+      "netPct": -15.958254602465178,
+      "chg6w": -73140,
+      "commIdx": 94,
+      "commNet": 104622,
+      "smallIdx": 42,
+      "smallNet": 31774,
+      "openInterest": 854705,
+      "weeks": 156,
+      "date": "2026-11-10"
     },
     "097741": {
-      "index": 79,
-      "net": 102321,
-      "netPct": 26.881234549089562,
-      "chg6w": 30339,
-      "commIdx": 25,
-      "commNet": -103167,
-      "smallIdx": 35,
-      "smallNet": 846,
-      "openInterest": 380641,
-      "weeks": 155,
-      "date": "2026-11-03"
+      "index": 85,
+      "net": 123113,
+      "netPct": 31.65875924140148,
+      "chg6w": 67673,
+      "commIdx": 22,
+      "commNet": -115536,
+      "smallIdx": 12,
+      "smallNet": -7577,
+      "openInterest": 388875,
+      "weeks": 156,
+      "date": "2026-11-10"
     },
     "090741": {
-      "index": 66,
-      "net": -41775,
-      "netPct": -11.981586646016176,
-      "chg6w": 11435,
-      "commIdx": 38,
-      "commNet": 49384,
-      "smallIdx": 30,
-      "smallNet": -7609,
-      "openInterest": 348660,
-      "weeks": 155,
-      "date": "2026-11-03"
+      "index": 70,
+      "net": -32592,
+      "netPct": -9.510997236464659,
+      "chg6w": 46079,
+      "commIdx": 35,
+      "commNet": 41861,
+      "smallIdx": 24,
+      "smallNet": -9269,
+      "openInterest": 342677,
+      "weeks": 156,
+      "date": "2026-11-10"
     }
   },
   "retail": null,
   "fx": {
-    "from": "2026-10-15",
-    "date": "2026-11-13",
+    "from": "2026-10-16",
+    "date": "2026-11-16",
     "days": 22,
-    "EUR": -1.411086951648688,
-    "JPY": -1.2786428661855975,
-    "AUD": -1.852107809260528,
-    "CAD": -0.3589779686070216
+    "EUR": -2.17070837787654,
+    "JPY": -0.9998734337425486,
+    "AUD": -2.9923451635351483,
+    "CAD": -0.8756443753972221
   },
   "events": [
     {
@@ -508,7 +538,7 @@
       "c": "USD",
       "date": "2026-11-17T08:30:00-05:00",
       "impact": "High",
-      "fc": "0.2%",
+      "fc": "0.1%",
       "prev": "0.8%"
     },
     {
@@ -516,7 +546,7 @@
       "c": "AUD",
       "date": "2026-11-17T19:30:00-05:00",
       "impact": "Medium",
-      "fc": "0.9%",
+      "fc": "1.0%",
       "prev": "0.8%"
     },
     {
@@ -548,7 +578,7 @@
       "c": "AUD",
       "date": "2026-11-18T19:30:00-05:00",
       "impact": "High",
-      "fc": "25.2K",
+      "fc": "25.5K",
       "prev": "-39.3K"
     },
     {
@@ -610,70 +640,10 @@
   ],
   "recent": [
     {
-      "ccy": "JPY",
-      "title": "Japan BoJ Tamura Speech",
-      "date": "Mon, 16 Nov 2026 01:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan 10-Year Index-Linked JGB Auction",
-      "date": "Mon, 16 Nov 2026 03:35 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan BoJ Takada Speech",
-      "date": "Mon, 16 Nov 2026 04:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Industrial Production MoM",
-      "date": "Mon, 16 Nov 2026 04:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Industrial Production YoY",
-      "date": "Mon, 16 Nov 2026 04:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Capacity Utilization MoM",
-      "date": "Mon, 16 Nov 2026 04:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
       "ccy": "AUD",
-      "title": "Australia Myfxbook AUDUSD Sentiment",
-      "date": "Mon, 16 Nov 2026 08:00 GMT",
-      "impact": "medium",
+      "title": "Australia RBA Meeting Minutes",
+      "date": "Tue, 17 Nov 2026 00:30 GMT",
+      "impact": "high",
       "prev": "",
       "cons": "",
       "act": "",
@@ -681,38 +651,8 @@
     },
     {
       "ccy": "JPY",
-      "title": "Japan Myfxbook USDJPY Sentiment",
-      "date": "Mon, 16 Nov 2026 08:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "European Union Myfxbook EURUSD Sentiment",
-      "date": "Mon, 16 Nov 2026 08:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada Myfxbook USDCAD Sentiment",
-      "date": "Mon, 16 Nov 2026 08:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Euro Area ECB Vujcic Speech",
-      "date": "Mon, 16 Nov 2026 08:15 GMT",
+      "title": "Japan Tertiary Industry Index MoM",
+      "date": "Tue, 17 Nov 2026 04:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -721,8 +661,48 @@
     },
     {
       "ccy": "EUR",
-      "title": "Euro Area Industrial Production MoM",
-      "date": "Mon, 16 Nov 2026 10:00 GMT",
+      "title": "Italy Inflation Rate YoY",
+      "date": "Tue, 17 Nov 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Harmonised Inflation Rate YoY",
+      "date": "Tue, 17 Nov 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Inflation Rate MoM",
+      "date": "Tue, 17 Nov 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy Harmonised Inflation Rate MoM",
+      "date": "Tue, 17 Nov 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Spain Balance of Trade",
+      "date": "Tue, 17 Nov 2026 09:00 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -731,8 +711,58 @@
     },
     {
       "ccy": "EUR",
-      "title": "Euro Area Industrial Production YoY",
-      "date": "Mon, 16 Nov 2026 10:00 GMT",
+      "title": "Euro Area ECB Cipollone Speech",
+      "date": "Tue, 17 Nov 2026 09:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area ZEW Economic Sentiment Index",
+      "date": "Tue, 17 Nov 2026 10:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany ZEW Economic Sentiment Index",
+      "date": "Tue, 17 Nov 2026 10:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany ZEW Current Conditions",
+      "date": "Tue, 17 Nov 2026 10:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union European Commission Autumn Forecasts",
+      "date": "Tue, 17 Nov 2026 10:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 2-Year Schatz Auction",
+      "date": "Tue, 17 Nov 2026 10:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -741,58 +771,8 @@
     },
     {
       "ccy": "USD",
-      "title": "United States Fed Barr Speech",
-      "date": "Mon, 16 Nov 2026 10:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany 6-Month Bubill Auction",
-      "date": "Mon, 16 Nov 2026 10:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany 12-Month Bubill Auction",
-      "date": "Mon, 16 Nov 2026 10:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada Core Inflation Rate MoM",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada CPI Trimmed-Mean YoY",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada Inflation Rate MoM",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
+      "title": "United States Fed Musalem Speech",
+      "date": "Tue, 17 Nov 2026 12:30 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -801,28 +781,8 @@
     },
     {
       "ccy": "CAD",
-      "title": "Canada Inflation Rate YoY",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada CPI Median YoY",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada Core Inflation Rate YoY",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
+      "title": "Canada Housing Starts",
+      "date": "Tue, 17 Nov 2026 13:15 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -830,9 +790,59 @@
       "surprise": null
     },
     {
+      "ccy": "USD",
+      "title": "United States ADP Employment Change Weekly",
+      "date": "Tue, 17 Nov 2026 13:15 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
       "ccy": "CAD",
-      "title": "Canada CPI Common YoY",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
+      "title": "Canada New Motor Vehicle Sales",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Foreign Securities Purchases",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Foreign Securities Purchases by Canadians",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Import Prices YoY",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Retail Sales Ex Gas/Autos MoM",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -841,8 +851,8 @@
     },
     {
       "ccy": "USD",
-      "title": "United States NY Empire State Manufacturing Index",
-      "date": "Mon, 16 Nov 2026 13:30 GMT",
+      "title": "United States Retail Sales Ex Autos MoM",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -850,9 +860,199 @@
       "surprise": null
     },
     {
-      "ccy": "EUR",
-      "title": "France 6-Month BTF Auction",
-      "date": "Mon, 16 Nov 2026 14:00 GMT",
+      "ccy": "USD",
+      "title": "United States Retail Sales YoY",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Import Prices MoM",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States NY Fed Services Activity Index",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Retail Sales MoM",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Export Prices MoM",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Export Prices YoY",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Retail Sales Control Group MoM",
+      "date": "Tue, 17 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Redbook YoY",
+      "date": "Tue, 17 Nov 2026 13:55 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Industrial Production MoM",
+      "date": "Tue, 17 Nov 2026 14:15 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Manufacturing Production YoY",
+      "date": "Tue, 17 Nov 2026 14:15 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Capacity Utilization",
+      "date": "Tue, 17 Nov 2026 14:15 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Manufacturing Production MoM",
+      "date": "Tue, 17 Nov 2026 14:15 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Industrial Production YoY",
+      "date": "Tue, 17 Nov 2026 14:15 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Waller Speech",
+      "date": "Tue, 17 Nov 2026 14:20 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Hammack Speech",
+      "date": "Tue, 17 Nov 2026 14:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Business Inventories MoM",
+      "date": "Tue, 17 Nov 2026 15:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Retail Inventories Ex Autos MoM",
+      "date": "Tue, 17 Nov 2026 15:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States NAHB Housing Market Index",
+      "date": "Tue, 17 Nov 2026 15:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Atlanta Fed GDPNow",
+      "date": "Tue, 17 Nov 2026 16:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 6-Week Bill Auction",
+      "date": "Tue, 17 Nov 2026 16:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -861,18 +1061,8 @@
     },
     {
       "ccy": "EUR",
-      "title": "France 3-Month BTF Auction",
-      "date": "Mon, 16 Nov 2026 14:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "France 12-Month BTF Auction",
-      "date": "Mon, 16 Nov 2026 14:00 GMT",
+      "title": "Euro Area ECB Lane Speech",
+      "date": "Tue, 17 Nov 2026 18:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -882,7 +1072,7 @@
     {
       "ccy": "USD",
       "title": "United States Fed Williams Speech",
-      "date": "Mon, 16 Nov 2026 14:05 GMT",
+      "date": "Tue, 17 Nov 2026 19:25 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -891,8 +1081,28 @@
     },
     {
       "ccy": "USD",
-      "title": "United States 6-Month Bill Auction",
-      "date": "Mon, 16 Nov 2026 16:30 GMT",
+      "title": "United States API Crude Oil Stock Change",
+      "date": "Tue, 17 Nov 2026 21:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Gov Bullock Speech",
+      "date": "Tue, 17 Nov 2026 23:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Imports YoY",
+      "date": "Tue, 17 Nov 2026 23:50 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -900,29 +1110,9 @@
       "surprise": null
     },
     {
-      "ccy": "USD",
-      "title": "United States 3-Month Bill Auction",
-      "date": "Mon, 16 Nov 2026 16:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States NOPA Crush Report",
-      "date": "Mon, 16 Nov 2026 17:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Fed Chair Warsh Speech",
-      "date": "Mon, 16 Nov 2026 17:00 GMT",
+      "ccy": "JPY",
+      "title": "Japan Balance of Trade",
+      "date": "Tue, 17 Nov 2026 23:50 GMT",
       "impact": "high",
       "prev": "",
       "cons": "",
@@ -930,9 +1120,9 @@
       "surprise": null
     },
     {
-      "ccy": "USD",
-      "title": "United States Fed Barkin Speech",
-      "date": "Mon, 16 Nov 2026 23:10 GMT",
+      "ccy": "JPY",
+      "title": "Japan Exports YoY",
+      "date": "Tue, 17 Nov 2026 23:50 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -943,34 +1133,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 44,
+      "ms": 90,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-16T14:05:24.993Z"
+      "at": "2026-11-17T01:10:08.323Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 340,
-      "at": "2026-11-16T14:05:25.294Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 423,
-      "at": "2026-11-16T14:05:25.371Z"
+      "ms": 298,
+      "at": "2026-11-17T01:10:08.535Z"
     },
     "recent": {
       "ok": true,
-      "ms": 588,
-      "at": "2026-11-16T14:05:25.543Z"
+      "ms": 357,
+      "at": "2026-11-17T01:10:08.595Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 530,
+      "at": "2026-11-17T01:10:08.763Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1629,
-      "at": "2026-11-16T14:05:26.516Z"
+      "ms": 1071,
+      "at": "2026-11-17T01:10:09.261Z"
     },
     "cot": {
       "ok": true,
-      "ms": 6842,
-      "at": "2026-11-16T14:05:31.789Z"
+      "ms": 1179,
+      "at": "2026-11-17T01:10:09.411Z"
     }
   }
 }
