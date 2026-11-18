@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:39:40.761Z",
+  "generatedAt": "2026-11-18T23:38:41.747Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.6016804516213679,
-          "note": "-2,40 % vs USD",
+          "s": -1.7322155329244637,
+          "note": "-2,60 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.6930237501328451,
+      "fund": -1.7676152251631856,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,13 +39,8 @@
         "sSmall": 0.32
       },
       "divergence": null,
-      "total": -1.1395166250929913,
+      "total": -1.1917306576142297,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-11-16T12:00:00-05:00"
-        },
         {
           "c": "USD",
           "title": "Core Retail Sales m/m",
@@ -78,8 +73,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.5400160317259465,
-          "note": "-0,81 % vs USD",
+          "s": -0.5906425347002326,
+          "note": "-0,89 % vs USD",
           "stale": false
         },
         {
@@ -111,7 +106,7 @@
           "stale": true
         }
       ],
-      "fund": -0.2034864686863015,
+      "fund": -0.2268525469821259,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -120,13 +115,8 @@
         "sSmall": 1.52
       },
       "divergence": null,
-      "total": 0.057959471919588945,
+      "total": 0.04160321711251186,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-11-16T12:00:00-05:00"
-        },
         {
           "c": "USD",
           "title": "Core Retail Sales m/m",
@@ -160,7 +150,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-3,33 % vs USD",
+          "note": "-3,38 % vs USD",
           "stale": false
         },
         {
@@ -196,16 +186,6 @@
       "divergence": null,
       "total": -0.6949391304347824,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-11-16T12:00:00-05:00"
-        },
-        {
-          "c": "AUD",
-          "title": "RBA Gov Bullock Speaks",
-          "date": "2026-11-16T17:50:00-05:00"
-        },
         {
           "c": "USD",
           "title": "Core Retail Sales m/m",
@@ -248,8 +228,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.6120095096862361,
-          "note": "-0,92 % vs USD",
+          "s": -0.6779182261139827,
+          "note": "-1,02 % vs USD",
           "stale": false
         },
         {
@@ -281,7 +261,7 @@
           "stale": true
         }
       ],
-      "fund": -1.0852287100993716,
+      "fund": -1.1156481176814084,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -290,13 +270,8 @@
         "sSmall": 1.04
       },
       "divergence": null,
-      "total": -0.6312600970695601,
+      "total": -0.6525536823769857,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Fed Chairman Warsh Speaks",
-          "date": "2026-11-16T12:00:00-05:00"
-        },
         {
           "c": "USD",
           "title": "Core Retail Sales m/m",
@@ -328,14 +303,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 521.6108884375,
+      "polAge": 521.9852054050926,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 491.6108884375,
+      "cpiAge": 491.9852054050926,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 703.6108884375,
+      "uneAge": 703.9852054050926,
       "px": null
     },
     "EUR": {
@@ -345,8 +320,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 521.6108884375,
-      "px": -2.4025206774320518
+      "polAge": 521.9852054050926,
+      "px": -2.5983232993866956
     },
     "JPY": {
       "name": "Yen",
@@ -355,15 +330,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 521.6108884375,
+      "polAge": 521.9852054050926,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 521.6108884375,
+      "cpiAge": 521.9852054050926,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 582.6108884375,
-      "px": -0.8100240475889198
+      "uneAge": 582.9852054050926,
+      "px": -0.8859638020503491
     },
     "AUD": {
       "name": "Aussie",
@@ -372,12 +347,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 552.6108884375,
+      "polAge": 552.9852054050926,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 641.6108884375,
-      "px": -3.3263743910925347
+      "uneAge": 641.9852054050926,
+      "px": -3.3820459290187843
     },
     "CAD": {
       "name": "CAD",
@@ -386,15 +361,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 521.6108884375,
+      "polAge": 521.9852054050926,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 521.6108884375,
+      "cpiAge": 521.9852054050926,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 613.6108884375,
-      "px": -0.9180142645293543
+      "uneAge": 613.9852054050926,
+      "px": -1.016877339170974
     }
   },
   "cot": {
@@ -454,12 +429,12 @@
   "retail": null,
   "fx": {
     "from": "2026-10-16",
-    "date": "2026-11-17",
-    "days": 23,
-    "EUR": -2.4025206774320518,
-    "JPY": -0.8100240475889198,
-    "AUD": -3.3263743910925347,
-    "CAD": -0.9180142645293543
+    "date": "2026-11-18",
+    "days": 24,
+    "EUR": -2.5983232993866956,
+    "JPY": -0.8859638020503491,
+    "AUD": -3.3820459290187843,
+    "CAD": -1.016877339170974
   },
   "events": [
     {
@@ -1128,34 +1103,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 117,
+      "ms": 100,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-18T14:39:39.806Z"
+      "at": "2026-11-18T23:38:38.096Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 177,
-      "at": "2026-11-18T14:39:39.871Z"
+      "ms": 301,
+      "at": "2026-11-18T23:38:38.301Z"
     },
     "recent": {
       "ok": true,
-      "ms": 220,
-      "at": "2026-11-18T14:39:39.915Z"
+      "ms": 564,
+      "at": "2026-11-18T23:38:38.565Z"
     },
     "fx": {
       "ok": true,
-      "ms": 438,
-      "at": "2026-11-18T14:39:40.126Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1065,
-      "at": "2026-11-18T14:39:40.752Z"
+      "ms": 695,
+      "at": "2026-11-18T23:38:38.690Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1129,
-      "at": "2026-11-18T14:39:40.760Z"
+      "ms": 1594,
+      "at": "2026-11-18T23:38:39.539Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 3753,
+      "at": "2026-11-18T23:38:41.747Z"
     }
   }
 }
