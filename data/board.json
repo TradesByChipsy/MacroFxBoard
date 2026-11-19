@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T04:41:43.622Z",
+  "generatedAt": "2026-11-19T14:46:26.380Z",
   "futures": [
     {
       "sym": "6E",
@@ -41,16 +41,6 @@
       "divergence": null,
       "total": -1.1917306576142297,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
         {
           "c": "USD",
           "title": "FOMC Meeting Minutes",
@@ -119,16 +109,6 @@
       "evWarns": [
         {
           "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
-        {
-          "c": "USD",
           "title": "FOMC Meeting Minutes",
           "date": "2026-11-18T14:00:00-05:00"
         }
@@ -186,16 +166,6 @@
       "divergence": null,
       "total": -0.6949391304347824,
       "evWarns": [
-        {
-          "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
         {
           "c": "USD",
           "title": "FOMC Meeting Minutes",
@@ -274,16 +244,6 @@
       "evWarns": [
         {
           "c": "USD",
-          "title": "Core Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
-        {
-          "c": "USD",
-          "title": "Retail Sales m/m",
-          "date": "2026-11-17T08:30:00-05:00"
-        },
-        {
-          "c": "USD",
           "title": "FOMC Meeting Minutes",
           "date": "2026-11-18T14:00:00-05:00"
         }
@@ -303,14 +263,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 522.1956437731482,
+      "polAge": 522.6155831018518,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 492.19564377314816,
+      "cpiAge": 492.6155831018518,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 704.1956437731482,
+      "uneAge": 704.6155831018518,
       "px": null
     },
     "EUR": {
@@ -320,7 +280,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 522.1956437731482,
+      "polAge": 522.6155831018518,
       "px": -2.5983232993866956
     },
     "JPY": {
@@ -330,14 +290,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 522.1956437731482,
+      "polAge": 522.6155831018518,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 522.1956437731482,
+      "cpiAge": 522.6155831018518,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 583.1956437731482,
+      "uneAge": 583.6155831018518,
       "px": -0.8859638020503491
     },
     "AUD": {
@@ -347,11 +307,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 553.1956437731482,
+      "polAge": 553.6155831018518,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 642.1956437731482,
+      "uneAge": 642.6155831018518,
       "px": -3.3820459290187843
     },
     "CAD": {
@@ -361,14 +321,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 522.1956437731482,
+      "polAge": 522.6155831018518,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 522.1956437731482,
+      "cpiAge": 522.6155831018518,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 614.1956437731482,
+      "uneAge": 614.6155831018518,
       "px": -1.016877339170974
     }
   },
@@ -731,16 +691,6 @@
     },
     {
       "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Thu, 19 Nov 2026 10:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
       "title": "Euro Area Labour Cost Index YoY",
       "date": "Thu, 19 Nov 2026 10:00 GMT",
       "impact": "low",
@@ -764,16 +714,6 @@
       "title": "France OAT Auction",
       "date": "Thu, 19 Nov 2026 10:00 GMT",
       "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Thu, 19 Nov 2026 10:00 GMT",
-      "impact": "medium",
       "prev": "",
       "cons": "",
       "act": "",
@@ -1223,34 +1163,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 80,
+      "ms": 108,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-19T04:41:35.556Z"
+      "at": "2026-11-19T14:46:19.302Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 312,
-      "at": "2026-11-19T04:41:35.793Z"
+      "ms": 326,
+      "at": "2026-11-19T14:46:19.527Z"
     },
     "recent": {
       "ok": true,
-      "ms": 443,
-      "at": "2026-11-19T04:41:35.926Z"
+      "ms": 568,
+      "at": "2026-11-19T14:46:19.771Z"
     },
     "fx": {
       "ok": true,
-      "ms": 557,
-      "at": "2026-11-19T04:41:36.032Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 4420,
-      "at": "2026-11-19T04:41:39.894Z"
+      "ms": 685,
+      "at": "2026-11-19T14:46:19.878Z"
     },
     "macro": {
       "ok": true,
-      "ms": 8203,
-      "at": "2026-11-19T04:41:43.621Z"
+      "ms": 1628,
+      "at": "2026-11-19T14:46:20.654Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 7187,
+      "at": "2026-11-19T14:46:26.379Z"
     }
   }
 }
