@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T05:08:05.957Z",
+  "generatedAt": "2026-11-20T14:27:38.780Z",
   "futures": [
     {
       "sym": "6E",
@@ -263,14 +263,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 523.2139578356481,
+      "polAge": 523.602532175926,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 493.21395783564816,
+      "cpiAge": 493.60253217592594,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 705.2139578356481,
+      "uneAge": 705.602532175926,
       "px": null
     },
     "EUR": {
@@ -280,7 +280,7 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 523.2139578356481,
+      "polAge": 523.602532175926,
       "px": -2.1192766621392467
     },
     "JPY": {
@@ -290,14 +290,14 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 523.2139578356481,
+      "polAge": 523.602532175926,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 523.2139578356481,
+      "cpiAge": 523.602532175926,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 584.2139578356481,
+      "uneAge": 584.602532175926,
       "px": -1.0932760364003924
     },
     "AUD": {
@@ -307,11 +307,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 554.2139578356481,
+      "polAge": 554.602532175926,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 643.2139578356481,
+      "uneAge": 643.602532175926,
       "px": -4.093894089702399
     },
     "CAD": {
@@ -321,14 +321,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 523.2139578356481,
+      "polAge": 523.602532175926,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 523.2139578356481,
+      "cpiAge": 523.602532175926,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 615.2139578356481,
+      "uneAge": 615.602532175926,
       "px": -1.6057979252522392
     }
   },
@@ -556,6 +556,14 @@
       "impact": "Medium",
       "fc": "",
       "prev": "4.3%"
+    },
+    {
+      "title": "President Trump Speaks",
+      "c": "USD",
+      "date": "2026-11-20T12:00:00-05:00",
+      "impact": "Medium",
+      "fc": "",
+      "prev": ""
     }
   ],
   "recent": [
@@ -672,7 +680,7 @@
     {
       "ccy": "CAD",
       "title": "Canada CFIB Business Barometer",
-      "date": "Fri, 20 Nov 2026 12:00 GMT",
+      "date": "Fri, 20 Nov 2026 11:05 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -724,16 +732,6 @@
       "title": "Canada Retail Sales MoM",
       "date": "Fri, 20 Nov 2026 13:30 GMT",
       "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada Manufacturing Sales MoM",
-      "date": "Fri, 20 Nov 2026 13:30 GMT",
-      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -833,34 +831,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 120,
+      "ms": 80,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-20T05:07:46.641Z"
+      "at": "2026-11-20T14:27:37.191Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 284,
-      "at": "2026-11-20T05:07:46.809Z"
+      "ms": 324,
+      "at": "2026-11-20T14:27:37.438Z"
     },
     "recent": {
       "ok": true,
-      "ms": 563,
-      "at": "2026-11-20T05:07:47.089Z"
+      "ms": 515,
+      "at": "2026-11-20T14:27:37.630Z"
     },
     "fx": {
       "ok": true,
-      "ms": 619,
-      "at": "2026-11-20T05:07:47.139Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 9547,
-      "at": "2026-11-20T05:07:56.065Z"
+      "ms": 623,
+      "at": "2026-11-20T14:27:37.733Z"
     },
     "macro": {
       "ok": true,
-      "ms": 19497,
-      "at": "2026-11-20T05:08:05.956Z"
+      "ms": 1237,
+      "at": "2026-11-20T14:27:38.313Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1670,
+      "at": "2026-11-20T14:27:38.780Z"
     }
   }
 }
