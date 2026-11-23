@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T22:53:29.481Z",
+  "generatedAt": "2026-11-23T04:17:14.114Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.480649328764816,
-          "note": "-2,22 % vs USD",
+          "s": -1.304260134908001,
+          "note": "-1,96 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.6238631085005297,
+      "fund": -1.5230692834394925,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -1.0971041759503706,
+      "total": -1.0265484984076447,
       "evWarns": [],
       "signal": {
         "key": "weak",
@@ -57,8 +57,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.320918841314081,
-          "note": "-0,48 % vs USD",
+          "s": -0.6749442852594563,
+          "note": "-1,01 % vs USD",
           "stale": false
         },
         {
@@ -76,13 +76,6 @@
           "stale": true
         },
         {
-          "name": "Inflationsdruck",
-          "w": 0.075,
-          "s": 0.5298480649558401,
-          "note": "CPI 3,2 vs 2,7 %",
-          "stale": true
-        },
-        {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
           "s": -1.200000000000001,
@@ -90,7 +83,7 @@
           "stale": true
         }
       ],
-      "fund": -0.10236468849620979,
+      "fund": -0.3695361488310207,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -99,7 +92,7 @@
         "sSmall": 1.2
       },
       "divergence": null,
-      "total": 0.10114471805265315,
+      "total": -0.08587530418171446,
       "evWarns": [],
       "signal": {
         "key": "none",
@@ -118,7 +111,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-5,52 % vs USD",
+          "note": "-5,20 % vs USD",
           "stale": false
         },
         {
@@ -153,7 +146,23 @@
       },
       "divergence": null,
       "total": -0.6661391304347825,
-      "evWarns": [],
+      "evWarns": [
+        {
+          "c": "AUD",
+          "title": "CPI m/m",
+          "date": "2026-11-24T19:30:00-05:00"
+        },
+        {
+          "c": "AUD",
+          "title": "CPI y/y",
+          "date": "2026-11-24T19:30:00-05:00"
+        },
+        {
+          "c": "AUD",
+          "title": "Trimmed Mean CPI m/m",
+          "date": "2026-11-24T19:30:00-05:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -170,8 +179,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.2387868432293854,
-          "note": "-1,86 % vs USD",
+          "s": -1.296850505914208,
+          "note": "-1,95 % vs USD",
           "stale": false
         },
         {
@@ -191,19 +200,19 @@
         {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": -0.84616633767183,
+          "s": -0.84616633767181,
           "note": "CPI 1,9 vs 2,7 %",
           "stale": true
         },
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -2,
-          "note": "Δ6M 1,08 vs 0,00 pp",
+          "s": -0.7733333333333192,
+          "note": "Δ6M 0,19 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -1.3745105563500557,
+      "fund": -1.3069501955379192,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -212,7 +221,7 @@
         "sSmall": 1.32
       },
       "divergence": null,
-      "total": -0.8253573894450389,
+      "total": -0.7780651368765433,
       "evWarns": [],
       "signal": {
         "key": "weak",
@@ -229,14 +238,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 525.9538134375,
+      "polAge": 526.1786355787037,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 495.9538134375,
+      "cpiAge": 496.1786355787037,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 707.9538134375,
+      "uneAge": 708.1786355787037,
       "px": null
     },
     "EUR": {
@@ -246,8 +255,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 525.9538134375,
-      "px": -2.220973993147224
+      "polAge": 526.1786355787037,
+      "px": -1.9563902023620017
     },
     "JPY": {
       "name": "Yen",
@@ -256,15 +265,12 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 525.9538134375,
-      "cpi": 3.2347504621072,
-      "cpiPeriod": "2025-06",
-      "cpiAge": 525.9538134375,
+      "polAge": 526.1786355787037,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 586.9538134375,
-      "px": -0.48137826197112155
+      "uneAge": 587.1786355787037,
+      "px": -1.0124164278891845
     },
     "AUD": {
       "name": "Aussie",
@@ -273,12 +279,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 556.9538134375,
+      "polAge": 557.1786355787037,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 645.9538134375,
-      "px": -5.521558697334172
+      "uneAge": 646.1786355787037,
+      "px": -5.1959890610756565
     },
     "CAD": {
       "name": "CAD",
@@ -287,15 +293,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 525.9538134375,
-      "cpi": 1.85873605947953,
+      "polAge": 526.1786355787037,
+      "cpi": 1.85873605947955,
       "cpiPeriod": "2025-06",
-      "cpiAge": 525.9538134375,
-      "unemp": 7.094,
-      "unempTrend": 1.0760000000000005,
-      "unePeriod": "2025-03",
-      "uneAge": 617.9538134375,
-      "px": -1.8581802648440782
+      "cpiAge": 526.1786355787037,
+      "unemp": 6.94333333333333,
+      "unempTrend": 0.1933333333333298,
+      "unePeriod": "2025-Q1",
+      "uneAge": 646.1786355787037,
+      "px": -1.945275758871312
     }
   },
   "cot": {
@@ -354,13 +360,13 @@
   },
   "retail": null,
   "fx": {
-    "from": "2026-10-21",
+    "from": "2026-10-22",
     "date": "2026-11-20",
-    "days": 23,
-    "EUR": -2.220973993147224,
-    "JPY": -0.48137826197112155,
-    "AUD": -5.521558697334172,
-    "CAD": -1.8581802648440782
+    "days": 22,
+    "EUR": -1.9563902023620017,
+    "JPY": -1.0124164278891845,
+    "AUD": -5.1959890610756565,
+    "CAD": -1.945275758871312
   },
   "events": [
     {
@@ -492,38 +498,249 @@
       "prev": "2.6%"
     }
   ],
-  "recent": [],
+  "recent": [
+    {
+      "ccy": "JPY",
+      "title": "Japan Labor Thanksgiving Day",
+      "date": "Mon, 23 Nov 2026 00:00 GMT",
+      "impact": "no",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Myfxbook AUDUSD Sentiment",
+      "date": "Mon, 23 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan Myfxbook USDJPY Sentiment",
+      "date": "Mon, 23 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union Myfxbook EURUSD Sentiment",
+      "date": "Mon, 23 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Myfxbook USDCAD Sentiment",
+      "date": "Mon, 23 Nov 2026 08:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 3-Month Bubill Auction",
+      "date": "Mon, 23 Nov 2026 09:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 9-Month Bubill Auction",
+      "date": "Mon, 23 Nov 2026 09:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union EU-Bonds Auction",
+      "date": "Mon, 23 Nov 2026 11:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union 2033 EU-Bonds Auction",
+      "date": "Mon, 23 Nov 2026 11:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "European Union 2042 EU-Bonds Auction",
+      "date": "Mon, 23 Nov 2026 11:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Manufacturing Sales MoM",
+      "date": "Mon, 23 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Chicago Fed National Activity Index",
+      "date": "Mon, 23 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 12-Month BTF Auction",
+      "date": "Mon, 23 Nov 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 3-Month BTF Auction",
+      "date": "Mon, 23 Nov 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France 6-Month BTF Auction",
+      "date": "Mon, 23 Nov 2026 14:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Euro Area ECB Lane Speech",
+      "date": "Mon, 23 Nov 2026 14:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 6-Month Bill Auction",
+      "date": "Mon, 23 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 3-Month Bill Auction",
+      "date": "Mon, 23 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada 10-Year Bond Auction",
+      "date": "Mon, 23 Nov 2026 17:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 2-Year Note Auction",
+      "date": "Mon, 23 Nov 2026 18:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Williams Speech",
+      "date": "Mon, 23 Nov 2026 21:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    }
+  ],
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 54,
+      "ms": 135,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-22T22:53:27.858Z"
+      "at": "2026-11-23T04:16:34.256Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 167,
-      "at": "2026-11-22T22:53:27.975Z"
+      "ms": 235,
+      "at": "2026-11-23T04:16:34.361Z"
     },
     "recent": {
       "ok": true,
-      "ms": 238,
-      "at": "2026-11-22T22:53:28.047Z"
+      "ms": 406,
+      "at": "2026-11-23T04:16:34.533Z"
     },
     "fx": {
       "ok": true,
-      "ms": 552,
-      "at": "2026-11-22T22:53:28.355Z"
-    },
-    "macro": {
-      "ok": true,
-      "ms": 1585,
-      "at": "2026-11-22T22:53:29.293Z"
+      "ms": 489,
+      "at": "2026-11-23T04:16:34.610Z"
     },
     "cot": {
       "ok": true,
-      "ms": 1678,
-      "at": "2026-11-22T22:53:29.481Z"
+      "ms": 1165,
+      "at": "2026-11-23T04:16:35.285Z"
+    },
+    "macro": {
+      "ok": true,
+      "ms": 40053,
+      "at": "2026-11-23T04:17:14.114Z"
     }
   }
 }
