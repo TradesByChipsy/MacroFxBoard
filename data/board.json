@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T04:17:14.114Z",
+  "generatedAt": "2026-11-23T16:37:38.595Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.304260134908001,
-          "note": "-1,96 % vs USD",
+          "s": -1.620987681987603,
+          "note": "-2,43 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.5230692834394925,
+      "fund": -1.7040564531992652,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,8 +39,19 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -1.0265484984076447,
-      "evWarns": [],
+      "total": -1.1532395172394856,
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-11-25T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim GDP q/q",
+          "date": "2026-11-25T08:30:00-05:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -57,8 +68,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -0.6749442852594563,
-          "note": "-1,01 % vs USD",
+          "s": -0.8574763875623355,
+          "note": "-1,29 % vs USD",
           "stale": false
         },
         {
@@ -76,6 +87,13 @@
           "stale": true
         },
         {
+          "name": "Inflationsdruck",
+          "w": 0.075,
+          "s": 0.5298480649558401,
+          "note": "CPI 3,2 vs 2,7 %",
+          "stale": true
+        },
+        {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
           "s": -1.200000000000001,
@@ -83,7 +101,7 @@
           "stale": true
         }
       ],
-      "fund": -0.3695361488310207,
+      "fund": -0.350006632918481,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -92,8 +110,19 @@
         "sSmall": 1.2
       },
       "divergence": null,
-      "total": -0.08587530418171446,
-      "evWarns": [],
+      "total": -0.07220464304293667,
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-11-25T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim GDP q/q",
+          "date": "2026-11-25T08:30:00-05:00"
+        }
+      ],
       "signal": {
         "key": "none",
         "label": "KEIN TRADE",
@@ -111,7 +140,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-5,20 % vs USD",
+          "note": "-5,97 % vs USD",
           "stale": false
         },
         {
@@ -161,6 +190,16 @@
           "c": "AUD",
           "title": "Trimmed Mean CPI m/m",
           "date": "2026-11-24T19:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-11-25T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim GDP q/q",
+          "date": "2026-11-25T08:30:00-05:00"
         }
       ],
       "signal": {
@@ -179,8 +218,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.296850505914208,
-          "note": "-1,95 % vs USD",
+          "s": -1.5581207543584608,
+          "note": "-2,34 % vs USD",
           "stale": false
         },
         {
@@ -200,19 +239,19 @@
         {
           "name": "Inflationsdruck",
           "w": 0.075,
-          "s": -0.84616633767181,
+          "s": -0.84616633767183,
           "note": "CPI 1,9 vs 2,7 %",
           "stale": true
         },
         {
           "name": "Arbeitsmarkt-Trend",
           "w": 0.05,
-          "s": -0.7733333333333192,
-          "note": "Δ6M 0,19 vs 0,00 pp",
+          "s": -2,
+          "note": "Δ6M 1,08 vs 0,00 pp",
           "stale": true
         }
       ],
-      "fund": -1.3069501955379192,
+      "fund": -1.521895438409629,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -221,8 +260,19 @@
         "sSmall": 1.32
       },
       "divergence": null,
-      "total": -0.7780651368765433,
-      "evWarns": [],
+      "total": -0.9285268068867403,
+      "evWarns": [
+        {
+          "c": "USD",
+          "title": "Core PCE Price Index m/m",
+          "date": "2026-11-25T08:30:00-05:00"
+        },
+        {
+          "c": "USD",
+          "title": "Prelim GDP q/q",
+          "date": "2026-11-25T08:30:00-05:00"
+        }
+      ],
       "signal": {
         "key": "weak",
         "label": "Tendenz Short",
@@ -238,14 +288,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 526.1786355787037,
+      "polAge": 526.6928078125,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 496.1786355787037,
+      "cpiAge": 496.6928078125,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 708.1786355787037,
+      "uneAge": 708.6928078125,
       "px": null
     },
     "EUR": {
@@ -255,8 +305,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 526.1786355787037,
-      "px": -1.9563902023620017
+      "polAge": 526.6928078125,
+      "px": -2.4314815229814046
     },
     "JPY": {
       "name": "Yen",
@@ -265,12 +315,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 526.1786355787037,
+      "polAge": 526.6928078125,
+      "cpi": 3.2347504621072,
+      "cpiPeriod": "2025-06",
+      "cpiAge": 526.6928078125,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 587.1786355787037,
-      "px": -1.0124164278891845
+      "uneAge": 587.6928078125,
+      "px": -1.2862145813435033
     },
     "AUD": {
       "name": "Aussie",
@@ -279,12 +332,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 557.1786355787037,
+      "polAge": 557.6928078125,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 646.1786355787037,
-      "px": -5.1959890610756565
+      "uneAge": 646.6928078125,
+      "px": -5.97433560058902
     },
     "CAD": {
       "name": "CAD",
@@ -293,15 +346,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 526.1786355787037,
-      "cpi": 1.85873605947955,
+      "polAge": 526.6928078125,
+      "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 526.1786355787037,
-      "unemp": 6.94333333333333,
-      "unempTrend": 0.1933333333333298,
-      "unePeriod": "2025-Q1",
-      "uneAge": 646.1786355787037,
-      "px": -1.945275758871312
+      "cpiAge": 526.6928078125,
+      "unemp": 7.094,
+      "unempTrend": 1.0760000000000005,
+      "unePeriod": "2025-03",
+      "uneAge": 618.6928078125,
+      "px": -2.337181131537691
     }
   },
   "cot": {
@@ -361,12 +414,12 @@
   "retail": null,
   "fx": {
     "from": "2026-10-22",
-    "date": "2026-11-20",
-    "days": 22,
-    "EUR": -1.9563902023620017,
-    "JPY": -1.0124164278891845,
-    "AUD": -5.1959890610756565,
-    "CAD": -1.945275758871312
+    "date": "2026-11-23",
+    "days": 23,
+    "EUR": -2.4314815229814046,
+    "JPY": -1.2862145813435033,
+    "AUD": -5.97433560058902,
+    "CAD": -2.337181131537691
   },
   "events": [
     {
@@ -552,7 +605,7 @@
     {
       "ccy": "EUR",
       "title": "Germany 3-Month Bubill Auction",
-      "date": "Mon, 23 Nov 2026 09:30 GMT",
+      "date": "Mon, 23 Nov 2026 10:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -562,7 +615,7 @@
     {
       "ccy": "EUR",
       "title": "Germany 9-Month Bubill Auction",
-      "date": "Mon, 23 Nov 2026 09:30 GMT",
+      "date": "Mon, 23 Nov 2026 10:30 GMT",
       "impact": "low",
       "prev": "",
       "cons": "",
@@ -713,34 +766,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 135,
+      "ms": 86,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-23T04:16:34.256Z"
+      "at": "2026-11-23T16:37:37.612Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 235,
-      "at": "2026-11-23T04:16:34.361Z"
+      "ms": 230,
+      "at": "2026-11-23T16:37:37.761Z"
     },
     "recent": {
       "ok": true,
-      "ms": 406,
-      "at": "2026-11-23T04:16:34.533Z"
+      "ms": 317,
+      "at": "2026-11-23T16:37:37.849Z"
     },
     "fx": {
       "ok": true,
-      "ms": 489,
-      "at": "2026-11-23T04:16:34.610Z"
-    },
-    "cot": {
-      "ok": true,
-      "ms": 1165,
-      "at": "2026-11-23T04:16:35.285Z"
+      "ms": 548,
+      "at": "2026-11-23T16:37:38.073Z"
     },
     "macro": {
       "ok": true,
-      "ms": 40053,
-      "at": "2026-11-23T04:17:14.114Z"
+      "ms": 1119,
+      "at": "2026-11-23T16:37:38.584Z"
+    },
+    "cot": {
+      "ok": true,
+      "ms": 1071,
+      "at": "2026-11-23T16:37:38.595Z"
     }
   }
 }
