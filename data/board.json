@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:35:00.794Z",
+  "generatedAt": "2026-11-25T01:40:21.524Z",
   "futures": [
     {
       "sym": "6E",
@@ -14,9 +14,23 @@
           "s": -1.398371799750775,
           "note": "-2,10 % vs USD",
           "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,25 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.5833333333333333,
+          "note": "2,0 % vs 4,4 %",
+          "stale": true
         }
       ],
-      "fund": -1.398371799750775,
+      "fund": -1.5768473776353633,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -25,7 +39,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -0.9392602598255424,
+      "total": -1.0641931643447542,
       "evWarns": [
         {
           "c": "USD",
@@ -57,9 +71,37 @@
           "s": -0.9651360544217594,
           "note": "-1,45 % vs USD",
           "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 2,
+          "note": "0,45 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -2,
+          "note": "0,5 % vs 4,4 %",
+          "stale": true
+        },
+        {
+          "name": "Inflationsdruck",
+          "w": 0.075,
+          "s": 0.5298480649558401,
+          "note": "CPI 3,2 vs 2,7 %",
+          "stale": true
+        },
+        {
+          "name": "Arbeitsmarkt-Trend",
+          "w": 0.05,
+          "s": -1.200000000000001,
+          "note": "Δ6M 0,30 vs 0,00 pp",
+          "stale": true
         }
       ],
-      "fund": -0.9651360544217595,
+      "fund": -0.3996957099305229,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -68,7 +110,7 @@
         "sSmall": 1.2
       },
       "divergence": null,
-      "total": -0.5027952380952316,
+      "total": -0.10698699695136599,
       "evWarns": [
         {
           "c": "USD",
@@ -100,9 +142,30 @@
           "s": -2,
           "note": "-5,74 % vs USD",
           "stale": false
+        },
+        {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": 1.0000000000000009,
+          "note": "-0,50 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -0.3499999999999999,
+          "note": "3,9 % vs 4,4 %",
+          "stale": true
+        },
+        {
+          "name": "Arbeitsmarkt-Trend",
+          "w": 0.05,
+          "s": -1,
+          "note": "Δ6M 0,25 vs 0,00 pp",
+          "stale": true
         }
       ],
-      "fund": -2,
+      "fund": -0.9739130434782607,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -111,7 +174,7 @@
         "sSmall": -0.24
       },
       "divergence": null,
-      "total": -1.3843999999999999,
+      "total": -0.6661391304347825,
       "evWarns": [
         {
           "c": "AUD",
@@ -140,9 +203,9 @@
         }
       ],
       "signal": {
-        "key": "short",
-        "label": "SHORT",
-        "hint": "Nur Short-Setups: Breakdown-Retest, Value Area High, Absorption am Widerstand."
+        "key": "weak",
+        "label": "Tendenz Short",
+        "hint": "Schwaches Signal — nur A+-Setups, reduzierte Größe."
       }
     },
     {
@@ -160,14 +223,35 @@
           "stale": false
         },
         {
+          "name": "Zins-Momentum Δ12M",
+          "w": 0.125,
+          "s": -2,
+          "note": "-2,00 vs -1,00 pp",
+          "stale": true
+        },
+        {
+          "name": "Zinsniveau / Carry",
+          "w": 0.1,
+          "s": -1.0833333333333333,
+          "note": "2,8 % vs 4,4 %",
+          "stale": true
+        },
+        {
           "name": "Inflationsdruck",
           "w": 0.075,
           "s": -0.84616633767183,
           "note": "CPI 1,9 vs 2,7 %",
           "stale": true
+        },
+        {
+          "name": "Arbeitsmarkt-Trend",
+          "w": 0.05,
+          "s": -2,
+          "note": "Δ6M 1,08 vs 0,00 pp",
+          "stale": true
         }
       ],
-      "fund": -1.4344470343558553,
+      "fund": -1.5326938018719678,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -176,7 +260,7 @@
         "sSmall": 1.32
       },
       "divergence": null,
-      "total": -0.8673129240490987,
+      "total": -0.9360856613103774,
       "evWarns": [
         {
           "c": "USD",
@@ -201,25 +285,44 @@
       "name": "US-Dollar",
       "bis": "US",
       "imf": "US",
+      "level": 4.375,
+      "mom": -1,
+      "polPeriod": "2025-06",
+      "polAge": 528.0696935648148,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 497.69098141203705,
+      "cpiAge": 498.0696935648148,
+      "unemp": 4.1,
+      "unempTrend": 0,
+      "unePeriod": "2024-12",
+      "uneAge": 710.0696935648148,
       "px": null
     },
     "EUR": {
       "name": "Euro",
       "bis": "XM",
       "imf": "U2",
+      "level": 2,
+      "mom": -2.25,
+      "polPeriod": "2025-06",
+      "polAge": 528.0696935648148,
       "px": -2.0975576996261625
     },
     "JPY": {
       "name": "Yen",
       "bis": "JP",
       "imf": "JP",
+      "level": 0.5,
+      "mom": 0.45,
+      "polPeriod": "2025-06",
+      "polAge": 528.0696935648148,
+      "cpi": 3.2347504621072,
+      "cpiPeriod": "2025-06",
+      "cpiAge": 528.0696935648148,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 588.690981412037,
+      "uneAge": 589.0696935648148,
       "px": -1.4477040816326392
     },
     "AUD": {
@@ -229,11 +332,11 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 558.690981412037,
-      "unemp": 4.411,
-      "unempTrend": 0.3573333333333295,
-      "unePeriod": "2025-Q1",
-      "uneAge": 647.690981412037,
+      "polAge": 559.0696935648148,
+      "unemp": 4.395,
+      "unempTrend": 0.25,
+      "unePeriod": "2025-02",
+      "uneAge": 648.0696935648148,
       "px": -5.737359550561805
     },
     "CAD": {
@@ -243,10 +346,14 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 527.690981412037,
+      "polAge": 528.0696935648148,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 527.690981412037,
+      "cpiAge": 528.0696935648148,
+      "unemp": 7.094,
+      "unempTrend": 1.0760000000000005,
+      "unePeriod": "2025-03",
+      "uneAge": 620.0696935648148,
       "px": -2.372275812790292
     }
   },
@@ -438,260 +545,10 @@
   ],
   "recent": [
     {
-      "ccy": "EUR",
-      "title": "European Union New Car Registrations YoY",
-      "date": "Tue, 24 Nov 2026 05:00 GMT",
+      "ccy": "AUD",
+      "title": "Australia Construction Work Done QoQ",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
       "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Spain PPI YoY",
-      "date": "Tue, 24 Nov 2026 08:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany Ifo Current Conditions",
-      "date": "Tue, 24 Nov 2026 09:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany Ifo Business Climate",
-      "date": "Tue, 24 Nov 2026 09:00 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Germany Ifo Expectations",
-      "date": "Tue, 24 Nov 2026 09:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Euro Area ECB Vujcic Speech",
-      "date": "Tue, 24 Nov 2026 11:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States ADP Employment Change Weekly",
-      "date": "Tue, 24 Nov 2026 13:15 GMT",
-      "impact": "high",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States House Price Index MoM",
-      "date": "Tue, 24 Nov 2026 14:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States S&#38;P/Case-Shiller Home Price MoM",
-      "date": "Tue, 24 Nov 2026 14:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States House Price Index YoY",
-      "date": "Tue, 24 Nov 2026 14:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States House Price Index",
-      "date": "Tue, 24 Nov 2026 14:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States S&#38;P/Case-Shiller Home Price YoY",
-      "date": "Tue, 24 Nov 2026 14:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States NY Fed Bill Purchases 1 to 4 months",
-      "date": "Tue, 24 Nov 2026 14:20 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Redbook YoY",
-      "date": "Tue, 24 Nov 2026 14:55 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Richmond Fed Services Revenues Index",
-      "date": "Tue, 24 Nov 2026 15:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Richmond Fed Manufacturing Index",
-      "date": "Tue, 24 Nov 2026 15:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Richmond Fed Manufacturing Shipments Index",
-      "date": "Tue, 24 Nov 2026 15:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States CB Consumer Confidence",
-      "date": "Tue, 24 Nov 2026 15:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 6-Week Bill Auction",
-      "date": "Tue, 24 Nov 2026 16:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 52-Week Bill Auction",
-      "date": "Tue, 24 Nov 2026 16:30 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States Money Supply",
-      "date": "Tue, 24 Nov 2026 18:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 2-Year FRN Auction",
-      "date": "Tue, 24 Nov 2026 18:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States 5-Year Note Auction",
-      "date": "Tue, 24 Nov 2026 18:00 GMT",
-      "impact": "low",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "USD",
-      "title": "United States API Crude Oil Stock Change",
-      "date": "Tue, 24 Nov 2026 21:30 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "CAD",
-      "title": "Canada BoC Gov Macklem Speech",
-      "date": "Tue, 24 Nov 2026 23:20 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "JPY",
-      "title": "Japan Services Producer Price Index YoY",
-      "date": "Tue, 24 Nov 2026 23:50 GMT",
-      "impact": "low",
       "prev": "",
       "cons": "",
       "act": "",
@@ -699,8 +556,668 @@
     },
     {
       "ccy": "AUD",
-      "title": "Australia RBA Jacobs Speech",
-      "date": "Tue, 24 Nov 2026 23:50 GMT",
+      "title": "Australia CPI",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Inflation Rate MoM",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia Inflation Rate YoY",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Trimmed Mean CPI MoM",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Trimmed Mean CPI YoY",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Weighted Median CPI MoM",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "AUD",
+      "title": "Australia RBA Weighted Median CPI YoY",
+      "date": "Wed, 25 Nov 2026 00:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "JPY",
+      "title": "Japan 40-Year JGB Auction",
+      "date": "Wed, 25 Nov 2026 03:35 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany GDP Growth Rate QoQ",
+      "date": "Wed, 25 Nov 2026 07:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany GDP Growth Rate YoY",
+      "date": "Wed, 25 Nov 2026 07:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "France Consumer Confidence",
+      "date": "Wed, 25 Nov 2026 07:45 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy 2-Year BTP Short Term Auction",
+      "date": "Wed, 25 Nov 2026 10:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy BTP&#8364;i Auction",
+      "date": "Wed, 25 Nov 2026 10:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Italy 15-Year BTP&#8364;i Auction",
+      "date": "Wed, 25 Nov 2026 10:10 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "EUR",
+      "title": "Germany 10-Year Bund Auction",
+      "date": "Wed, 25 Nov 2026 10:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Purchase Index",
+      "date": "Wed, 25 Nov 2026 12:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Mortgage Market Index",
+      "date": "Wed, 25 Nov 2026 12:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Mortgage Applications",
+      "date": "Wed, 25 Nov 2026 12:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA Mortgage Refinance Index",
+      "date": "Wed, 25 Nov 2026 12:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States MBA 30-Year Mortgage Rate",
+      "date": "Wed, 25 Nov 2026 12:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Building Permits MoM",
+      "date": "Wed, 25 Nov 2026 13:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Building Permits",
+      "date": "Wed, 25 Nov 2026 13:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada Wholesale Sales MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Core PCE Prices QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Durable Goods Orders ex Defense MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States GDP Growth Rate QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Personal Spending MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States GDP Price Index QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Core PCE Price Index YoY",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States GDP Sales QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Corporate Profits QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Personal Income MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States PCE Price Index MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States PCE Prices QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Real Consumer Spending QoQ",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Durable Goods Orders Ex Transp MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States PCE Price Index YoY",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Core PCE Price Index MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Non Defense Goods Orders Ex Air",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Durable Goods Orders MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Real Personal Spending MoM",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Continuing Jobless Claims",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Initial Jobless Claims",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Jobless Claims 4-week Average",
+      "date": "Wed, 25 Nov 2026 13:30 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States New Home Sales MoM",
+      "date": "Wed, 25 Nov 2026 15:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States New Home Sales",
+      "date": "Wed, 25 Nov 2026 15:00 GMT",
+      "impact": "high",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Distillate Fuel Production Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Gasoline Production Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Gasoline Stocks Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Crude Oil Stocks Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Distillate Stocks Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Cushing Crude Oil Stocks Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Crude Oil Imports Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Heating Oil Stocks Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Refinery Crude Runs Change",
+      "date": "Wed, 25 Nov 2026 15:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Atlanta Fed GDPNow",
+      "date": "Wed, 25 Nov 2026 16:00 GMT",
+      "impact": "medium",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 8-Week Bill Auction",
+      "date": "Wed, 25 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 4-Week Bill Auction",
+      "date": "Wed, 25 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 17-Week Bill Auction",
+      "date": "Wed, 25 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 7-Year Note Auction",
+      "date": "Wed, 25 Nov 2026 16:30 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "CAD",
+      "title": "Canada 2-Year Bond Auction",
+      "date": "Wed, 25 Nov 2026 17:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States EIA Natural Gas Stocks Change",
+      "date": "Wed, 25 Nov 2026 17:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 30-Year Mortgage Rate",
+      "date": "Wed, 25 Nov 2026 17:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States 15-Year Mortgage Rate",
+      "date": "Wed, 25 Nov 2026 17:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Baker Hughes Oil Rig Count",
+      "date": "Wed, 25 Nov 2026 18:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Baker Hughes Total Rigs Count",
+      "date": "Wed, 25 Nov 2026 18:00 GMT",
+      "impact": "low",
+      "prev": "",
+      "cons": "",
+      "act": "",
+      "surprise": null
+    },
+    {
+      "ccy": "USD",
+      "title": "United States Fed Beige Book",
+      "date": "Wed, 25 Nov 2026 19:00 GMT",
       "impact": "medium",
       "prev": "",
       "cons": "",
@@ -711,34 +1228,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 109,
+      "ms": 69,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-24T16:34:00.907Z"
+      "at": "2026-11-25T01:40:12.407Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 449,
-      "at": "2026-11-24T16:34:01.251Z"
+      "ms": 229,
+      "at": "2026-11-25T01:40:12.571Z"
     },
     "recent": {
       "ok": true,
-      "ms": 673,
-      "at": "2026-11-24T16:34:01.475Z"
+      "ms": 307,
+      "at": "2026-11-25T01:40:12.650Z"
     },
     "fx": {
       "ok": true,
-      "ms": 714,
-      "at": "2026-11-24T16:34:01.511Z"
+      "ms": 496,
+      "at": "2026-11-25T01:40:12.834Z"
     },
     "cot": {
       "ok": true,
-      "ms": 2879,
-      "at": "2026-11-24T16:34:03.676Z"
+      "ms": 1231,
+      "at": "2026-11-25T01:40:13.568Z"
     },
     "macro": {
       "ok": true,
-      "ms": 60033,
-      "at": "2026-11-24T16:35:00.794Z"
+      "ms": 9227,
+      "at": "2026-11-25T01:40:21.523Z"
     }
   }
 }
