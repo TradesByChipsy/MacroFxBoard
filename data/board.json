@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T01:13:25.417Z",
+  "generatedAt": "2026-11-26T15:53:02.416Z",
   "futures": [
     {
       "sym": "6E",
@@ -11,8 +11,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.5722355293889358,
-          "note": "-2,36 % vs USD",
+          "s": -1.323752173296618,
+          "note": "-1,99 % vs USD",
           "stale": false
         },
         {
@@ -30,7 +30,7 @@
           "stale": true
         }
       ],
-      "fund": -1.676198080285741,
+      "fund": -1.534207591090131,
       "cotExtreme": true,
       "cotSqueeze": false,
       "cotParts": {
@@ -39,7 +39,7 @@
         "sSmall": 0.2
       },
       "divergence": null,
-      "total": -1.1337386562000185,
+      "total": -1.0343453137630916,
       "evWarns": [
         {
           "c": "USD",
@@ -68,8 +68,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.0714285714285676,
-          "note": "-1,61 % vs USD",
+          "s": -1.0459183673469319,
+          "note": "-1,57 % vs USD",
           "stale": false
         },
         {
@@ -101,7 +101,7 @@
           "stale": true
         }
       ],
-      "fund": -0.4487537947028959,
+      "fund": -0.43697985435752557,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -110,7 +110,7 @@
         "sSmall": 1.2
       },
       "divergence": null,
-      "total": -0.1413276562920271,
+      "total": -0.13308589805026788,
       "evWarns": [
         {
           "c": "USD",
@@ -140,7 +140,7 @@
           "name": "Preis-Momentum 30T",
           "w": 0.3,
           "s": -2,
-          "note": "-6,89 % vs USD",
+          "note": "-5,84 % vs USD",
           "stale": false
         },
         {
@@ -218,8 +218,8 @@
         {
           "name": "Preis-Momentum 30T",
           "w": 0.3,
-          "s": -1.2528283910920497,
-          "note": "-1,88 % vs USD",
+          "s": -1.1194474216982275,
+          "note": "-1,68 % vs USD",
           "stale": false
         },
         {
@@ -251,7 +251,7 @@
           "stale": true
         }
       ],
-      "fund": -1.3809912707482086,
+      "fund": -1.3194308233356753,
       "cotExtreme": false,
       "cotSqueeze": false,
       "cotParts": {
@@ -260,7 +260,7 @@
         "sSmall": 1.32
       },
       "divergence": null,
-      "total": -0.8298938895237459,
+      "total": -0.7868015763349726,
       "evWarns": [
         {
           "c": "USD",
@@ -288,14 +288,14 @@
       "level": 4.375,
       "mom": -1,
       "polPeriod": "2025-06",
-      "polAge": 529.0509886226852,
+      "polAge": 529.6618335185185,
       "cpi": 2.70490239715136,
       "cpiPeriod": "2025-07",
-      "cpiAge": 499.05098862268517,
+      "cpiAge": 499.6618335185185,
       "unemp": 4.1,
       "unempTrend": 0,
       "unePeriod": "2024-12",
-      "uneAge": 711.0509886226852,
+      "uneAge": 711.6618335185185,
       "px": null
     },
     "EUR": {
@@ -305,8 +305,8 @@
       "level": 2,
       "mom": -2.25,
       "polPeriod": "2025-06",
-      "polAge": 529.0509886226852,
-      "px": -2.358353294083404
+      "polAge": 529.6618335185185,
+      "px": -1.985628259944927
     },
     "JPY": {
       "name": "Yen",
@@ -315,15 +315,15 @@
       "level": 0.5,
       "mom": 0.45,
       "polPeriod": "2025-06",
-      "polAge": 529.0509886226852,
+      "polAge": 529.6618335185185,
       "cpi": 3.2347504621072,
       "cpiPeriod": "2025-06",
-      "cpiAge": 529.0509886226852,
+      "cpiAge": 529.6618335185185,
       "unemp": 2.7,
       "unempTrend": 0.30000000000000027,
       "unePeriod": "2025-04",
-      "uneAge": 590.0509886226852,
-      "px": -1.6071428571428514
+      "uneAge": 590.6618335185185,
+      "px": -1.5688775510203978
     },
     "AUD": {
       "name": "Aussie",
@@ -332,12 +332,12 @@
       "level": 3.85,
       "mom": -0.49999999999999956,
       "polPeriod": "2025-05",
-      "polAge": 560.0509886226852,
+      "polAge": 560.6618335185185,
       "unemp": 4.395,
       "unempTrend": 0.25,
       "unePeriod": "2025-02",
-      "uneAge": 649.0509886226852,
-      "px": -6.889044943820233
+      "uneAge": 649.6618335185185,
+      "px": -5.835674157303394
     },
     "CAD": {
       "name": "CAD",
@@ -346,15 +346,15 @@
       "level": 2.75,
       "mom": -2,
       "polPeriod": "2025-06",
-      "polAge": 529.0509886226852,
+      "polAge": 529.6618335185185,
       "cpi": 1.85873605947953,
       "cpiPeriod": "2025-06",
-      "cpiAge": 529.0509886226852,
+      "cpiAge": 529.6618335185185,
       "unemp": 7.094,
       "unempTrend": 1.0760000000000005,
       "unePeriod": "2025-03",
-      "uneAge": 621.0509886226852,
-      "px": -1.8792425866380746
+      "uneAge": 621.6618335185185,
+      "px": -1.6791711325473413
     }
   },
   "cot": {
@@ -414,12 +414,12 @@
   "retail": null,
   "fx": {
     "from": "2026-10-23",
-    "date": "2026-11-25",
-    "days": 24,
-    "EUR": -2.358353294083404,
-    "JPY": -1.6071428571428514,
-    "AUD": -6.889044943820233,
-    "CAD": -1.8792425866380746
+    "date": "2026-11-26",
+    "days": 25,
+    "EUR": -1.985628259944927,
+    "JPY": -1.5688775510203978,
+    "AUD": -5.835674157303394,
+    "CAD": -1.6791711325473413
   },
   "events": [
     {
@@ -716,26 +716,6 @@
     },
     {
       "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Thu, 26 Nov 2026 10:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
-      "title": "Spain Consumer Confidence",
-      "date": "Thu, 26 Nov 2026 10:00 GMT",
-      "impact": "medium",
-      "prev": "",
-      "cons": "",
-      "act": "",
-      "surprise": null
-    },
-    {
-      "ccy": "EUR",
       "title": "Italy 6-Month BOT Auction",
       "date": "Thu, 26 Nov 2026 10:10 GMT",
       "impact": "low",
@@ -838,34 +818,34 @@
   "sources": {
     "retail": {
       "ok": false,
-      "ms": 134,
+      "ms": 252,
       "error": "Myfxbook-Abruf fehlgeschlagen: curl: (22) The requested URL returned error: 403",
-      "at": "2026-11-26T01:13:23.456Z"
+      "at": "2026-11-26T15:53:01.212Z"
     },
     "calendar": {
       "ok": true,
-      "ms": 540,
-      "at": "2026-11-26T01:13:23.865Z"
-    },
-    "fx": {
-      "ok": true,
-      "ms": 665,
-      "at": "2026-11-26T01:13:23.986Z"
+      "ms": 472,
+      "at": "2026-11-26T15:53:01.439Z"
     },
     "recent": {
       "ok": true,
-      "ms": 702,
-      "at": "2026-11-26T01:13:24.028Z"
+      "ms": 522,
+      "at": "2026-11-26T15:53:01.490Z"
+    },
+    "fx": {
+      "ok": true,
+      "ms": 694,
+      "at": "2026-11-26T15:53:01.654Z"
     },
     "macro": {
       "ok": true,
-      "ms": 1568,
-      "at": "2026-11-26T01:13:24.845Z"
+      "ms": 1449,
+      "at": "2026-11-26T15:53:02.230Z"
     },
     "cot": {
       "ok": true,
-      "ms": 2097,
-      "at": "2026-11-26T01:13:25.417Z"
+      "ms": 1457,
+      "at": "2026-11-26T15:53:02.416Z"
     }
   }
 }

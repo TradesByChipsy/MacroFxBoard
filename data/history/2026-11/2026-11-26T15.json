@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-11-26T15:53:02.416Z",
+  "futures": [
+    {
+      "sym": "6E",
+      "total": -1.0343,
+      "fund": -1.5342,
+      "cot": 0.132,
+      "signal": "weak",
+      "px30": -1.986,
+      "specIdx": 4,
+      "cotDate": "2026-11-17",
+      "divScore": null,
+      "divFires": null,
+      "retailLongPct": null
+    },
+    {
+      "sym": "6J",
+      "total": -0.1331,
+      "fund": -0.437,
+      "cot": 0.576,
+      "signal": "none",
+      "px30": -1.569,
+      "specIdx": 83,
+      "cotDate": "2026-11-17",
+      "divScore": null,
+      "divFires": null,
+      "retailLongPct": null
+    },
+    {
+      "sym": "6A",
+      "total": -0.6661,
+      "fund": -0.9739,
+      "cot": 0.052,
+      "signal": "weak",
+      "px30": -5.836,
+      "specIdx": 0,
+      "cotDate": "2026-11-17",
+      "divScore": null,
+      "divFires": null,
+      "retailLongPct": null
+    },
+    {
+      "sym": "6C",
+      "total": -0.7868,
+      "fund": -1.3194,
+      "cot": 0.456,
+      "signal": "weak",
+      "px30": -1.679,
+      "specIdx": 65,
+      "cotDate": "2026-11-17",
+      "divScore": null,
+      "divFires": null,
+      "retailLongPct": null
+    }
+  ]
+}
